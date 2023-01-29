@@ -1,0 +1,1 @@
+<? header("Location: 1main.php") ?>
