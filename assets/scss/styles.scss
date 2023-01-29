@@ -1,11 +1,18 @@
 @import './_header';
 @import './reset';
-@import '../fonts/GraphikLCG/stylesheet.css';
+@import url('./fonts.css');
 
 html {
   font-size: 20px;
   font-family: 'Graphik LCG', sans-serif;
   color: #000;
+}
+:root {
+  --dark-color: #2A3545;
+  --red-color: #F34235;
+  --aqua-color: #00BBD3;
+  --blue-color: #2095F2;
+  --yellow-color: #FFCC00;
 }
 
 a {
@@ -29,4 +36,15 @@ img {
   max-width: 1400px;
   margin: 0 auto;
   padding: 0 13px;
+}
+
+button,
+a.button {
+  background: var(--red-color);
+  border-radius: 10px;
+  padding: 20px 30px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 28px;
+  color: #fff;
 }
