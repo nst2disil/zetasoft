@@ -1,14 +1,13 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru" xmlns="http://www.w3.org/1999/xhtml" >
 <head>
-  <? include './partials/_header.php'; ?>
-  <title>Document</title>
+  <? include './partials/_head.php'; ?>
+  <title>Автоматизация онлайн-продаж и учёта в 1С | Компания "ЗетаСофт"</title>
 </head>
 <body>
   <div class="wrapper">
-    <header class="header">
-    
-    </header>
+    <? include './partials/_header.php'; ?>
   </div>
 </body>
 </html>
