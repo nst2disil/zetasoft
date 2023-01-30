@@ -1,6 +1,6 @@
 .section {
   //padding-right: 40%;
-  height: 630px;
+  min-height: 630px;
   margin: 120px 0 160px;
   &__info {
     width: 100%;
@@ -17,13 +17,29 @@
     color: #273140;
     margin-bottom: 50px;
   }
+  &__text {
+    max-width: 1234px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    line-height: 150%;
+  }
+  &__center {
+    text-align: center;
+  }
   &--dark {
-    padding: 0;
+    color: #fff;
+    padding: 110px 10px 110px 0;
     background: #273140;
     border-radius: 0px 365px 30px 30px;
   }
   &--ill1 {
-    background: url('/assets/img/1main/ill1.jpg') top 50px right no-repeat;
+    background: url('/assets/img/0main/ill1.jpg') top 50px right no-repeat;
+  }
+  .links-block {
+    margin-bottom: 70px;
+  }
+  .products {
+    margin-bottom: 70px;
   }
 }
 
@@ -66,4 +82,64 @@
   text-transform: uppercase;
   transform: rotate(-2.58deg);
   margin-left: 20px;
+}
+
+.links-block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.products {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  $this: &;
+  &__item {
+    height: 493px;
+    padding: 70px 50px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    &:nth-child(1) {
+      background: var(--aqua-color);
+      flex: 1 0 calc(62% - 7px);
+      #{$this}__title,
+      #{$this}__text {
+        max-width: 600px;
+      }
+    }
+    &:nth-child(2) {
+      color: #000;
+      background: var(--yellow-color);
+      flex: 1 0 calc(38% - 7px);
+    }
+    &:nth-child(3) {
+      background: var(--red-color);
+    }
+    &:nth-child(4) {
+      background: var(--blue-color);
+    }
+    &:nth-child(5) {
+      background: var(--red-color);
+    }
+    &:nth-child(3),
+    &:nth-child(4),
+    &:nth-child(5) {
+      flex: 1 0 calc(33% - 7px);
+    }
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 150%;
+  }
+  &__info {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    margin-top: auto;
+  }
 }

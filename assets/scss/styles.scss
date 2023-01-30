@@ -33,9 +33,9 @@ img {
 }
 
 .wrapper {
-  max-width: 1400px;
+  max-width: 1346px;
   margin: 0 auto;
-  padding: 0 13px;
+  padding: 0 40px;
 }
 
 button,
@@ -47,4 +47,14 @@ a.button {
   font-size: 28px;
   line-height: 28px;
   color: #fff;
+  white-space: nowrap;
+  &--transparent {
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    padding: 9px 17px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    background: none;
+  }
 }
