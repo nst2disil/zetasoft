@@ -4,8 +4,13 @@
   <? include './partials/_head.php'; ?>
 </head>
 <body>
-  <div class="wrapper">
-    <? include './partials/_header.php'; ?>
+  <? include './partials/_header.php'; ?>
+  <div class="main">
+    <div class="wrapper">
+      <h1>hello world</h1>
+    </div>
   </div>
+
+  <? include './partials/_footer.html'?>
 </body>
 </html>

@@ -1,58 +1,24 @@
 .section {
-  //padding-right: 40%;
-  min-height: 630px;
-  margin: 120px 0 160px;
-  &__info {
-    width: 100%;
-    max-width: 800px;
+  &--main1 {
+    background: url('/assets/img/0main/shapes-ring.jpg') top 50px right no-repeat;
   }
-  &__title {
-    font-size: 96px;
-    line-height: 96px;
-    margin-bottom: 30px;
+  &--main3 {
+    background: url('/assets/img/0main/triangle-dots.jpg') top 50px right -50px no-repeat;
   }
-  &__subtitle {
-    font-size: 46px;
-    line-height: 130%;
-    color: var(--dark-color);
-    margin-bottom: 50px;
-  }
-  &__text {
-    max-width: 1234px;
-    margin-bottom: 40px;
-    font-size: 20px;
-    line-height: 150%;
-  }
-  &__center {
-    text-align: center;
-  }
-  &__rotated-title {
-    display: inline-block;
-    font-style: italic;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 41px;
-    color: var(--red-color);
-    transform: rotate(-11.43deg);
-    margin-bottom: 20px;
-  }
-  &--dark {
-    color: #fff;
-    padding: 110px 10px 110px 0;
-    background-color: #273140;
-    border-radius: 0px 365px 30px 30px;
-  }
-  &--ill1 {
-    background: url('/assets/img/0main/ill1.jpg') top 50px right no-repeat;
-  }
-  &--ill2 {
-    background: url('/assets/img/0main/ill2.jpg') top 50px right -50px no-repeat;
-  }
-  &--ill3 {
-    background: url('/assets/img/0main/ill3.png') top 60px right 16% no-repeat #273140;
+  &--main4 {
+    background: url('/assets/img/0main/linear-graph.png') top 60px right 16% no-repeat #273140;
     .section__title {
-      max-width: 835px;
+      max-width: 795px;
     }
+  }
+  &--main5 {
+    min-height: 750px;
+    background: url('/assets/img/0main/man-laptop.jpg') top right no-repeat,
+                url('/assets/img/0main/woman-kitchen.jpg') top 380px right 80px no-repeat;
+  }
+  &--main7 {
+    background: url('/assets/img/0main/cursor-gears.jpg') top right no-repeat;
+    padding-right: 60px;
   }
   .links-block {
     margin-bottom: 70px;
@@ -65,6 +31,9 @@
   }
   .image-block {
     margin-bottom: 120px;
+  }
+  .big-list {
+    margin-top: 140px;
   }
 }
 
@@ -128,7 +97,7 @@
     display: flex;
     flex-direction: column;
     border-radius: 30px;
-    &:nth-child(1) {
+    &:nth-child(5n - 4) {
       background: var(--aqua-color);
       flex: 1 0 calc(62% - 7px);
       #{$this}__title,
@@ -136,23 +105,23 @@
         max-width: 600px;
       }
     }
-    &:nth-child(2) {
+    &:nth-child(5n - 3) {
       color: #000;
       background: var(--yellow-color);
       flex: 1 0 calc(38% - 7px);
     }
-    &:nth-child(3) {
+    &:nth-child(5n - 2) {
       background: var(--red-color);
     }
-    &:nth-child(4) {
+    &:nth-child(5n - 1) {
       background: var(--blue-color);
     }
-    &:nth-child(5) {
+    &:nth-child(5n) {
       background: var(--red-color);
     }
-    &:nth-child(3),
-    &:nth-child(4),
-    &:nth-child(5) {
+    &:nth-child(5n - 2),
+    &:nth-child(5n - 1),
+    &:nth-child(5n) {
       flex: 1 0 calc(33% - 7px);
     }
   }
@@ -204,5 +173,65 @@
   }
   &__red {
     color: var(--red-color);
+  }
+}
+
+.section__info + .button-block {
+  margin-top: 160px;
+}
+.button-block {
+  display: flex;
+  gap: 30px;
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 20px 40px 50px;
+    background: #F5F5F5;
+    border-radius: 30px;
+    color: #273140;
+    height: 384px;
+    flex: 0 0 calc(50% - 15px);
+  }
+  &__title {
+    font-size: 46px;
+    line-height: 46px;
+    margin-bottom: 30px;
+  }
+  &__text {
+    font-size: 20px;
+    line-height: 150%;
+    flex: 1;
+  }
+}
+
+.big-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 180px;
+  row-gap: 30px;
+  counter-reset: count;
+  &__item {
+    position: relative;
+    min-height: 300px;
+    flex: 0 0 calc(50% - 90px);
+    counter-increment: count;
+    &::before {
+      content: counter(count, decimal-leading-zero);
+      color: var(--red-color);
+      position: absolute;
+      left: -81px;
+      font-size: 50px;
+      line-height: 150%;
+    }
+  }
+  &__title {
+    font-size: 46px;
+    line-height: 46px;
+    margin-bottom: 30px;
+  }
+  &__text {
+    font-size: 20px;
+    line-height: 150%;
   }
 }

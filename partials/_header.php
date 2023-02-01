@@ -1,4 +1,5 @@
-<header class="header">
+<div class="wrapper">
+    <header class="header">
       <div class="header__logo">
         <img src="./assets/img/logo.svg" alt="Zetasoft logo">
       </div>
@@ -17,3 +18,4 @@
       <div class="breadcrumbs__item">/</div>
       <div class="breadcrumbs__item">Блог</div>
     </div>
+  </div>

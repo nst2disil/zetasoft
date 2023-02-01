@@ -6,7 +6,7 @@
 <body>
   <div class="wrapper">
     <? include './partials/_header.php'; ?>
-    <section class="section section--ill1">
+    <section class="section section--main1">
       <div class="section__info">
         <h1 class="section__title">Разработка на 1С</h1>
         <div class="section__subtitle">Строим информационную систему для Вашего бизнеса <div class="adult-label">"по-взрослому"</div></div>
@@ -19,7 +19,7 @@
       </div>
     </section>
   </div>
-  <section class="section section--dark">
+  <section class="section section--dark section--main2">
     <div class="wrapper">
       <div class="section__title">Решайте задачи "на результат"</div>
       <p class="section__text">
@@ -61,7 +61,7 @@
     </div>
   </section>
   <div class="wrapper">
-    <section class="section section--ill2">
+    <section class="section section--main3">
       <div class="section__info">
         <h1 class="section__title">Наши компетенции</h1>
         <p class="section__text">
@@ -75,9 +75,9 @@
       </div>
     </section>
   </div>
-  <section class="section section--dark section--ill3">
+  <section class="section section--dark section--main4">
     <div class="wrapper">
-      <div class="section__title">Что входит в наши услуги</div>
+      <div class="section__title">Что входит в&nbsp;наши услуги</div>
       <div class="section__rotated-title">Люди</div>
       <div class="bricks">
         <div class="bricks__item">Аналитики</div>
@@ -95,10 +95,10 @@
       </div>
       <div class="image-block">
         <div class="image-block__text">Опыт более <span class="image-block__red">17 лет</span> на рынке IT</div>
-        <div class="image-block__image"><img src="./assets/img/0main/ill4.png" alt="illustratin graph"></div>
+        <div class="image-block__image"><img src="./assets/img/0main/bar-graph.png" alt="illustratin graph"></div>
       </div>
       <div class="image-block">
-        <div class="image-block__image"><img src="./assets/img/0main/ill5.png" alt="illustratin graph"></div>
+        <div class="image-block__image"><img src="./assets/img/0main/donut-graph.png" alt="illustratin graph"></div>
         <div class="image-block__text">Широкий кругозор и обширные <span class="image-block__red">знания</span></div>
       </div>
       <div class="section__center">
@@ -106,5 +106,101 @@
       </div>
     </div>
   </section>
+  <div class="wrapper">
+    <section class="section section--main5">
+      <div class="section__info">
+        <div class="section__title">Для компаний с возможностью бюджета на IT от 0.9 млн. в месяц</div>
+        <div class="section__text">
+          Комплексное развитие информационной системы вашего бизнеса с выделенным ИТ-директором. Спроектируем модель развития вашей информационной системы вместе с вашим бизнесом. Накопление запросов пользователей и возможностей улучшений. База знания для бизнеса и бизнес-процессов. Построим профессиональную архитектуру доработок вашей 1С.
+        </div>
+        <div class="section__block">
+          <a href="#" class="button button--transparent">Подробнее</a>
+        </div>
+      </div>
+    </section>
+  </div>
+  <section class="section section--dark section--main6">
+    <div class="wrapper">
+      <div class="section__title-text">
+        <div class="section__title">
+          Крутые специалисты в&nbsp;вашей команде
+        </div>
+        <div class="section__text">
+          Аналитик с широким кругозором и проектными технологиями, классный архитектор для технической реализации. И это только "верхушка". <br>
+          Процесс + профессиональные программисты поставят решение ваших задача на поток, а уровень их выполнения - на новую высоту.
+        </div>
+      </div>
+      <div class="section__text">
+        Блок для фото
+      </div>
+      <div class="section__text">
+        Технологии профессиональной разработки.<br>
+        (аналитик, сценарии, канбан, Git, хранилища, контроль кода)
+      </div>
+      <div class="section__text">
+        Блок для фото
+      </div>
+      <div class="section__center">
+        <a href="#" class="button">Приглашаем в команду</a>
+      </div>
+    </div>
+  </section>
+  <div class="wrapper">
+    <section class="section section--7">
+      <div class="section__info">
+        <div class="section__title">Мы - франчайзи Программы 1С и собственные решения</div>
+        <div class="section__text">
+        Покажем, как использовать наши решения с пользой для вашего бизнеса. Установим "коробочные" продукты фирмы 1С, превратим их в удобный инструмент и обеспечим поддержку.
+        </div>
+      </div>
+      <div class="button-block">
+        <div class="button-block__item">
+          <div class="button-block__title">Наши решения</div>
+          <div class="button-block__text">Вы можете выбрать интересующий вас продукт, направление или посмотреть схему взаимодействия наших решений.</div>
+          <a href="#" class="button button--second">Выбрать решение</a>
+        </div>
+        <div class="button-block__item">
+          <div class="button-block__title">Продукты фирмы 1С</div>
+          <div class="button-block__text">Компания "ЗетаСофт" является официальным партнером фирмы 1С с 2006 года. Мы оказываем комплексные услуги по постановке учета, автоматизации предприятий и сопровождению наших клиентов на базе конфигураций 1С.</div>
+          <a href="#" class="button button--second">Выбрать продукт</a>
+        </div>
+      </div>
+    </section>
+  </div>
+  <section class="section section--dark section--main8">
+    <div class="wrapper">
+      <div class="section__title">
+        Что конкретно мы можем сделать, даже если у вас "нет&nbsp;задач":
+      </div>
+      <ul class="big-list">
+          <li class="big-list__item">
+            <div class="big-list__title">Анализ кода</div>
+            <div class="big-list__text">с точки зрения его технической реализации и оформления (для измененных конфигураций)</div>
+          </li>
+          <li class="big-list__item">
+            <div class="big-list__title">Мониторинг скорости 1С с методикой APDEX</div>
+            <div class="big-list__text">с точки зрения его технической реализации и оформления (для измененных конфигураций)</div>
+          </li>
+          <li class="big-list__item">
+            <div class="big-list__title">Показать подход и совместно описать ваши бизнес-процессы</div>
+            <div class="big-list__text">чтобы снизить зависимость от "сотрудников на местах"</div>
+          </li>
+          <li class="big-list__item">
+            <div class="big-list__title">Расставить метрики</div>
+            <div class="big-list__text">показывающие, сколько времени занимает каждая операция. Информационная система, как&nbsp;ресурс ускорения</div>
+          </li>
+          <li class="big-list__item">
+            <div class="big-list__title">Методы глубокой автоматизации</div>
+            <div class="big-list__text">на основе детальных бизнес-процессов</div>
+          </li>
+          <li class="big-list__item">
+            <div class="big-list__title">Обсудить и настроить основные управленческие отчеты</div>
+            <div class="big-list__text">кэш-фло, прибыли и убытки, баланс</div>
+          </li>
+        </ul>
+    </div>
+  </section>
+  <? include './partials/block_presentation.html'?>
+  <? include './partials/_footer.html'?>
 </body>
 </html>
