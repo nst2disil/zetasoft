@@ -1,6 +1,7 @@
+@import './reset';
+@import './_mixins';
 @import './_header';
 @import './_footer';
-@import './reset';
 @import url('./fonts.css');
 
 html {
@@ -39,6 +40,9 @@ img {
   max-width: 1520px;
   margin: 0 auto;
   padding: 0 40px;
+  @include media-down(600) {
+    padding: 0 20px;
+  }
 }
 
 .main {

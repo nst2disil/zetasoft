@@ -1,24 +1,48 @@
 .footer {
-  height: var(--footer-height);
+  min-height: var(--footer-height);
   background: #273140;
   color: #fff;
   padding: 100px 0 80px;
+  font-size: 20px;
+  line-height: 143%;
   &__cols {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     gap: 50px;
     & > * {
       flex: 1 1 calc(25% - 30px);
+      @include media-down(600) {
+        flex: 1 1 100%;
+      }
     }
   }
   &__nav {
     font-size: 20px;
     line-height: 143%;
+    min-width: 300px;
+    &-tab {
+      margin-bottom: 20px;
+    }
   }
   
   &__logo {
     flex: 1 0 300px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  &__contact-link {
+    font-size: 40px;
+    line-height: 40px;
+    white-space: nowrap;
+  }
+  &__copyrights {
+    text-align: right;
+  }
+  &__copyrights a {
+    color: #2095F2;
   }
 }

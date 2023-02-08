@@ -4,7 +4,7 @@
   <? include './partials/_head.php'; ?>
 </head>
 <body>
-  <? include './partials/_header.php'; ?>
+  <? # include './partials/_header.php'; ?>
   <div class="main">
     <div class="wrapper">
       <h1>hello world</h1>

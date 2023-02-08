@@ -1,24 +1,28 @@
+@import './_mixins';
+
 .section {
-  &--main1 {
-    background: url('/assets/img/0main/shapes-ring.jpg') top 50px right no-repeat;
-  }
-  &--main3 {
-    background: url('/assets/img/0main/triangle-dots.jpg') top 50px right -50px no-repeat;
-  }
-  &--main4 {
-    background: url('/assets/img/0main/linear-graph.png') top 60px right 16% no-repeat #273140;
-    .section__title {
-      max-width: 795px;
+  @include media-up(1200px) {
+    &--main1 {
+      background: url('../img/0main/shapes-ring.jpg') top 50px right no-repeat;
     }
-  }
-  &--main5 {
-    min-height: 750px;
-    background: url('/assets/img/0main/man-laptop.jpg') top right no-repeat,
-                url('/assets/img/0main/woman-kitchen.jpg') top 380px right 80px no-repeat;
-  }
-  &--main7 {
-    background: url('/assets/img/0main/cursor-gears.jpg') top right no-repeat;
-    padding-right: 60px;
+    &--main3 {
+      background: url('../img/0main/triangle-dots.jpg') top 50px right -50px no-repeat;
+    }
+    &--main4 {
+      background: url('../img/0main/linear-graph.png') top 60px right 16% no-repeat #273140;
+      .section__title {
+        max-width: 795px;
+      }
+    }
+    &--main5 {
+      min-height: 750px;
+      background: url('../img/0main/man-laptop.jpg') top right no-repeat,
+                  url('../img/0main/woman-kitchen.jpg') top 380px right 80px no-repeat;
+    }
+    &--main7 {
+      background: url('../img/0main/cursor-gears.jpg') top right no-repeat;
+      padding-right: 60px;
+    }
   }
   .links-block {
     margin-bottom: 70px;
