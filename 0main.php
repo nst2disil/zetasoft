@@ -4,11 +4,8 @@
   <? include './partials/_head.php'; ?>
 </head>
 <body>
-  <div class="wrapper">
-    <? include './partials/_header.php'; ?>
-  </div>
+  <? include './partials/_header.php'; ?>
 
-  <? include './partials/block_presentation.html'?>
   <? include './partials/_footer.html'?>
 </body>
 </html>

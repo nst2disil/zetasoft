@@ -1,5 +1,6 @@
 @import './reset';
 @import './_mixins';
+@import './_icons';
 @import './_header';
 @import './_footer';
 @import url('./fonts.css');
@@ -9,8 +10,21 @@ html {
   font-family: 'Graphik LCG', sans-serif;
   color: #000;
 }
+
+body {
+  min-width: $screen-sm;
+}
+
 :root {
-  --var: #fff;
+  --color-black: #231F20;
+  --color-blue-light: #00ABEA;
+  --color-blue: #008ECB;
+  --color-red: #E26655;
+  --color-yellow: #FCCB26;
+  --color-grey: #F2F2F2;
+  --color-green: #00B04C;
+  --color-orange: #EC6400;
+  --animation-duration: .2s;
 }
 
 a {
@@ -30,3 +44,59 @@ img {
   display: none;
 }
 
+.wrapper {
+  max-width: $screen-lg;
+  min-width: $screen-sm;
+  margin: 0 auto;
+  padding: 0 44px;
+  @include media-down($screen-lg) {
+    padding: 0 26px;
+  }
+  @include media-down($screen-md) {
+    padding: 0 16px;
+  }
+}
+
+.button {
+  display: flex;
+  align-self: center;
+  gap: 8px;
+  &--link {
+    border: none;
+    background: none;
+    color: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    cursor: pointer;
+  }
+}
+
+.hide-sm {
+  @include media-down($screen-sm) {
+    display: none;
+  }
+}
+
+.hide-md {
+  @include media-between($screen-sm, $screen-md) {
+    display: none;
+  }
+}
+
+.hide-bg {
+  @include media-between($screen-md, $screen-bg) {
+    display: none;
+  }
+}
+
+.show-sm {
+  @include media-up($screen-md) {
+    display: none;
+  }
+}
+
+.show-md {
+  @include media-up($screen-bg) {
+    display: none;
+  }
+}

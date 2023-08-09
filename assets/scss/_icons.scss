@@ -1,0 +1,19 @@
+.icon {
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background-color: #fff;
+  transition: background-color var(--animation-duration);
+  &--phone {
+    mask-image: url('/assets/img/icons/phone.svg');
+  }
+  &--login {
+    mask-image: url('/assets/img/icons/login.svg');
+  }
+}
+
+a:hover > .icon,
+.button--link:hover > .icon,
+.icon:hover {
+  background-color: var(--color-yellow);
+}
