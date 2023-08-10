@@ -1,0 +1,122 @@
+.footer-menu {
+  background-color: var(--color-black);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 56px 0;
+  &__link:hover {
+    color: var(--color-blue-light)
+  }
+  &__links {
+    flex: 1;
+    display: flex;
+    gap: 62px;
+    @include media-down($screen-bg) {
+      gap: 40px
+    }
+    @include media-down($screen-md) {
+      gap: 32px;
+      flex-direction: column;
+    }
+  }
+  &__contacts {
+    @include media-down($screen-md) {
+      order: -1;
+    }
+  }
+  &__phone {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 32px;
+    display: inline-block;
+    @include media-between($screen-md, $screen-bg) {
+      font-size: 24px;
+      margin-bottom: 16px;
+    }
+  }
+  &__logos {
+    flex: 1 0 100%;
+  }
+  .email {
+    &__label {
+      margin-bottom: 8px;
+    }
+    &__email {
+      text-decoration: underline;
+      font-size: 20px;
+    }
+  }
+  .links {
+    &__col {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      @include media-down($screen-md) {
+        gap: 12px;
+        line-height: normal;
+        &:first-child {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          column-gap: 40px;
+        }
+      }
+    }
+  }
+  .logos {
+    display: flex;
+    justify-content: flex-end;
+    gap: 24px;
+    @include media-down($screen-md) {
+      flex: 0;
+      gap: 16px;
+      height: 38px;
+      justify-content: flex-start;
+    }
+  }
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    @include media-down($screen-md) {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+}
+
+.credits {
+  border-top: 1px solid #fff;
+  background-color: var(--color-black);
+  color: var(--color-blue-light);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  &__link {
+    &:first-child {
+      flex: 1;
+    }
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  .wrapper {
+    min-height: 88px;
+    --vertical-padding: 16px;
+    padding-top: var(--vertical-padding);
+    padding-bottom: var(--vertical-padding);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    @include media-down($screen-bg) {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 8px;
+      --vertical-padding: 32px;
+    }
+  }
+}

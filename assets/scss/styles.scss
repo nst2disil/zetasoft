@@ -30,9 +30,7 @@ body {
 a {
 	text-decoration: none;
 	color: inherit;
-	&:hover {
-		text-decoration: underline;
-	}
+  transition: color var(--animation-duration);
 }
 
 img {
@@ -47,6 +45,7 @@ img {
 .wrapper {
   max-width: $screen-lg;
   min-width: $screen-sm;
+  width: 100%;
   margin: 0 auto;
   padding: 0 44px;
   @include media-down($screen-lg) {
@@ -61,6 +60,7 @@ img {
   display: flex;
   align-self: center;
   gap: 8px;
+  transition: color var(--animation-duration);
   &--link {
     border: none;
     background: none;
@@ -98,5 +98,14 @@ img {
 .show-md {
   @include media-up($screen-bg) {
     display: none;
+  }
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  &__content {
+    flex: 1;
   }
 }
