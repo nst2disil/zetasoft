@@ -9,7 +9,7 @@ body {
   min-width: $screen-sm;
   font-size: 20px;
   font-family: 'Mulish', sans-serif;
-  color: #000;
+  color: var(--color-black);
 }
 
 :root {
@@ -24,6 +24,7 @@ body {
   --animation-duration: .2s;
 
   --wrapper-h-padding: 44px;
+  --header-height: 72px;
 }
 
 a {
@@ -60,13 +61,41 @@ img {
   align-self: center;
   gap: 8px;
   transition: color var(--animation-duration);
+  background: none;
+  border: none;
+  color: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  cursor: pointer;
   &--link {
-    border: none;
-    background: none;
-    color: inherit;
-    font-size: inherit;
-    line-height: inherit;
-    cursor: pointer;
+
+  }
+  &--block {
+    padding: 12px 16px;
+    border: 1px solid var(--main-black-231-f-20, #231F20);
+    background: #fff;
+    box-shadow: 4px 4px 0px 0px #231F20;
+    transition: box-shadow var(--animation-duration);
+    &:focus {
+      box-shadow: 2px 2px 0px 0px #231F20;
+      outline: none;
+    }
+    &:hover,
+    &:active {
+      box-shadow: none;
+    }
+  }
+  &--blue-light {
+    background: var(--color-blue-light);
+  }
+  &--blue {
+    background: var(--color-blue);
+  }
+  &--red {
+    background: var(--color-red);
+  }
+  &--yellow {
+    background: var(--color-yellow);
   }
 }
 
@@ -107,4 +136,89 @@ img {
   &__content {
     flex: 1;
   }
+}
+
+.section {
+  padding: 56px 0;
+  color: var(--color-black);
+  display: flex;
+  align-items: stretch;
+  @include media-down($screen-bg) {
+    padding: 48px 0;
+  }
+  @include media-down($screen-md) {
+    padding: 40px 0 56px;
+  }
+  &--main {
+    min-height: calc(720px - var(--header-height));
+  }
+  &__title {
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 130%;
+    @include media-down($screen-bg) {
+      font-size: 40px;
+    }
+    @include media-down($screen-md) {
+      font-size: 28px;
+    }
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.panel {
+  border: 1px solid var(--color-black);
+  box-shadow: 4px 4px 0px 0px var(--color-black);
+  --head-height: 44px;
+  &--no-shadow {
+    box-shadow: none;
+  }
+  &__head {
+    height: var(--head-height);
+    position: relative;
+    @include media-down($screen-bg) {
+      --head-height: 40px;
+    }
+    @include media-down($screen-md) {
+      --head-height: 32px;
+    }
+    &::before,
+    &::after {
+      content: '';
+      display: block;
+      border-top: calc(var(--head-height) - 1px) solid #fff;
+      border-left: calc(var(--head-height)/2) solid transparent;
+      height: 0;
+    }
+    &::before {
+      margin-left: 125px;
+    }
+    &::after {
+      border-top: var(--head-height) solid var(--color-black);
+      position: absolute;
+      right: 0;
+      left: 124px;
+      top: 0;
+      z-index: -1;
+    }
+  }
+  &__content {
+    padding: 16px;
+  }
+  &__close {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    height: 16px;
+    width: 16px;
+    & > .icon {
+      height: 100%;
+      width: 100%;
+    }
+  }
+  &--black &__head::before { border-top-color: var(--color-black) }
+  &--sm &__head { --head-height: 32px; }
 }

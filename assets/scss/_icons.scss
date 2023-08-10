@@ -4,11 +4,16 @@
   width: 24px;
   background-color: #fff;
   transition: background-color var(--animation-duration);
+  mask-repeat: no-repeat;
+  mask-position: center;
   &--phone {
     mask-image: url('../img/icons/phone.svg');
   }
   &--login {
     mask-image: url('../img/icons/login.svg');
+  }
+  &--cross {
+    mask-image: url('../img/icons/cross.svg');
   }
 }
 
