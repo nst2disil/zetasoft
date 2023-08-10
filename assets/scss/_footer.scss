@@ -72,8 +72,11 @@
     @include media-down($screen-md) {
       flex: 0;
       gap: 16px;
-      height: 38px;
       justify-content: flex-start;
+      flex-wrap: wrap;
+      &__item {
+        height: 38px;
+      }
     }
   }
   .wrapper {
