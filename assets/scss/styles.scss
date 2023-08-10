@@ -3,16 +3,13 @@
 @import './_icons';
 @import './_header';
 @import './_footer';
-@import url('./fonts.css');
-
-html {
-  font-size: 20px;
-  font-family: 'Graphik LCG', sans-serif;
-  color: #000;
-}
+@import './fonts';
 
 body {
   min-width: $screen-sm;
+  font-size: 20px;
+  font-family: 'Mulish', sans-serif;
+  color: #000;
 }
 
 :root {

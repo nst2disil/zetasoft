@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Quantico';
+  src: local('Quantico'), url('../fonts/Quantico-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Mulish';
+  src: local('Mulish'),
+      url('../fonts/Mulish-VariableFont_wght.ttf') format('truetype');
+}
