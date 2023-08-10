@@ -9,15 +9,13 @@
   @include media-down($screen-bg) {
     height: 64px;
   }
-  &__logo {
-    width: 156px;
-    @include media-down($screen-bg) {
-      width: 130px;
-    }
-  }
   &__logo-container {
-    min-width: 130px;
-    margin-right: 72px;
+    flex: 0 0 150px;
+    margin-right: 94px;
+    @include media-down($screen-bg) {
+      flex: 0 0 130px;
+      margin-right: 32px;
+    }
     @include media-down($screen-md) {
       margin-right: 0;
     }
@@ -48,11 +46,14 @@
     --logo-width: 240px;
     background: url('../img/header-bg.svg') no-repeat var(--logo-width);
     @include media-down($screen-lg) {
-      --logo-width: 213px;
+      --logo-width: 213px
     }
     @include media-down($screen-bg) {
       --logo-width: 161px;
       height: 64px;
+    }
+    @include media-down($screen-md) {
+      --logo-width: 151px;
     }
   }
 }

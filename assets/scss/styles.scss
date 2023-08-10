@@ -22,6 +22,8 @@ body {
   --color-green: #00B04C;
   --color-orange: #EC6400;
   --animation-duration: .2s;
+
+  --wrapper-h-padding: 44px;
 }
 
 a {
@@ -44,12 +46,12 @@ img {
   min-width: $screen-sm;
   width: 100%;
   margin: 0 auto;
-  padding: 0 44px;
+  padding: 0 var(--wrapper-h-padding);
   @include media-down($screen-lg) {
-    padding: 0 26px;
+    --wrapper-h-padding: 26px;
   }
   @include media-down($screen-md) {
-    padding: 0 16px;
+    --wrapper-h-padding: 16px;
   }
 }
 
