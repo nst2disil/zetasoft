@@ -92,3 +92,65 @@
     }
   }
 }
+
+.steps {
+  column-count: 2;
+  gap: 24px;
+  margin: 48px 0 72px;
+  @include media-down($screen-bg) {
+    gap: 20px;
+  }
+  @include media-down($screen-md) {
+    gap: 12px;
+    column-count: 1;
+  }
+  &__item {
+    height: 112px;
+    background-color: #fff;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 24px;
+    padding-right: 20px;
+    @include media-down($screen-md) {
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+    &-number {
+      flex: 0 1 112px;
+      font-size: 72px;
+      line-height: 112px;
+      max-width: 112px;
+      text-align: center;
+      font-family: 'Quantico', sans-serif;
+      background-color: var(--color-yellow);
+      @include media-down($screen-md) {
+        font-size: 40px;
+        flex: 1 0 48px;
+      }
+    }
+    &-text {
+      display: flex;
+      align-items: center;
+      flex: 0 1 416px;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: normal;
+      @include media-down($screen-lg) {
+        font-size: 16px;
+      }
+    }
+    &-image {
+      --square: 80px;
+      height: var(--square);
+      width: var(--square);
+      margin-left: auto;
+      @include media-down($screen-bg) {
+        --square: 56px;
+      }
+      @include media-down($screen-md) {
+        --square: 48px;
+      }
+    }
+  }
+}

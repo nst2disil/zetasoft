@@ -49,6 +49,9 @@ table {
 button {
 	border: unset;
 }
+textarea {
+	resize: none;
+}
 *,*::after,*::before {
   margin: 0;
   padding: 0;
