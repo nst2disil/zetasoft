@@ -10,11 +10,11 @@
         <li class="menu__item hide-bg"><a href="#" class="header__link">Компетенции</a></li>
         <li class="menu__item"><a href="#" class="header__link">Кейсы</a></li>
         <li class="menu__item hide-bg"><a href="#" class="header__link">Блог</a></li>
-        <li class="menu__item"><a href="#" class="header__link">О компании</a></li>
+        <li class="menu__item"><a href="#" class="header__link">О&nbsp;компании</a></li>
       </ul>
     </nav>
-    <a href="tel:+7 812 490-67-89" class="header__phone header__link">
-      <span class="hide-sm hide-md">+7 812 490-67-89</span>
+    <a href="tel:+7812490-67-89" class="header__phone header__link">
+      <span class="hide-sm hide-md">+7&nbsp;812&nbsp;490-67-89</span>
       <span class="icon icon--phone show-sm"></span>
     </a>
     <div class="header__controls">

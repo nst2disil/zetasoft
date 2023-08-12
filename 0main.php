@@ -9,7 +9,7 @@
     <div class="container__content">
       <section class="section section--main">
         <div class="wrapper">
-          <h1 class="section__title">Автоматизируем бизнес-процессы с помощью собственных IT-решений и продуктов 1С</h1>
+          <h1 class="section__title">Автоматизируем бизнес-процессы с&nbsp;помощью собственных IT-решений и&nbsp;продуктов 1С</h1>
           <div class="tools">
             <div class="tools__item js-tool-item">
               <button class="button button--block js-tool-toggler">Kanban</button>
@@ -88,44 +88,44 @@
           <div class="steps">
             <div class="steps__item">
               <div class="steps__item-number">1</div>
-              <div class="steps__item-text">Принимаем задачу в виде бизнес-потребности</div>
+              <div class="steps__item-text">Принимаем задачу в&nbsp;виде бизнес-потребности</div>
               <img class="steps__item-image" alt="step illustration" src="./dist/img/icons/analytics-b/037-data analysis.svg">
             </div>
             <div class="steps__item">
               <div class="steps__item-number">2</div>
-              <div class="steps__item-text">Аналитик вместе с клиентом превращают потребность в сценарий действий по определённой методике</div>
+              <div class="steps__item-text">Аналитик вместе с&nbsp;клиентом превращают потребность в&nbsp;сценарий действий по&nbsp;определённой методике</div>
               <img class="steps__item-image" alt="step illustration" src="./dist/img/icons/analytics-b/022-iteration.svg">
             </div>
             <div class="steps__item">
               <div class="steps__item-number">3</div>
-              <div class="steps__item-text">Утверждаем сценарий и передаём его архитектору для выбора наилучшего варианта решения</div>
+              <div class="steps__item-text">Утверждаем сценарий и&nbsp;передаём его&nbsp;архитектору для&nbsp;выбора наилучшего варианта решения</div>
               <img class="steps__item-image" alt="step illustration" src="./dist/img/icons/analytics-b/006-confirmation.svg">
             </div>
             <div class="steps__item">
               <div class="steps__item-number">4</div>
-              <div class="steps__item-text">Формируем бюджет решения и передаём в разработку</div>
+              <div class="steps__item-text">Формируем бюджет решения и&nbsp;передаём в&nbsp;разработку</div>
               <img class="steps__item-image" alt="step illustration" src="./dist/img/icons/analytics-b/011-calculator.svg">
             </div>
             <div class="steps__item">
               <div class="steps__item-number">5</div>
-              <div class="steps__item-text">Наши разработчики пишут профессиональный код</div>
+              <div class="steps__item-text">Наши разработчики пишут профессиональный&nbsp;код</div>
               <img class="steps__item-image" alt="step illustration" src="./dist/img/icons/analytics-b/031-statistics.svg">
             </div>
             <div class="steps__item">
               <div class="steps__item-number">6</div>
-              <div class="steps__item-text">Внедряем результат совместно с клиентом и аналитиком</div>
+              <div class="steps__item-text">Внедряем результат совместно с&nbsp;клиентом и&nbsp;аналитиком</div>
               <img class="steps__item-image" alt="step illustration" src="./dist/img/icons/analytics-b/017-light bulb.svg">
             </div>
             <div class="steps__item">
               <div class="steps__item-number">7</div>
-              <div class="steps__item-text">Описываем бизнес-процесс и прикладные инструкции в базе знаний</div>
+              <div class="steps__item-text">Описываем бизнес-процесс и&nbsp;прикладные инструкции в&nbsp;базе знаний</div>
               <img class="steps__item-image" alt="step illustration" src="./dist/img/icons/analytics-b/042-data storage.svg">
             </div>
           </div>
 
           <div class="callback-panel panel panel--yellow">
             <div class="callback-panel__text">Протестируйте вашу бизнес-задачу бесплатно</div>
-            <button class="callback-panel__button button button--block" data-modal="contact-form">Поставить задачу</button>
+            <button class="callback-panel__button button button--block" data-modal="contact-form">Поставить&nbsp;задачу</button>
           </div>
           <div class="modal" id="contact-form">
             <div class="modal__bg js-modal-exit"></div>
