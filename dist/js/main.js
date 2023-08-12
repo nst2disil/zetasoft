@@ -49,7 +49,13 @@ function ininPopups() {
     trigger.addEventListener('click', function (event) {
       event.preventDefault();
       const modal = document.getElementById(trigger.dataset.modal);
-      modal.classList.add('open');
+      if (modal.classList.contains('open')) {
+        modal.classList.remove('open');
+        trigger.classList.remove('active');
+      } else {
+        modal.classList.add('open');
+        trigger.classList.add('active');
+      }
       const exits = modal.querySelectorAll('.js-modal-exit');
       exits.forEach(function (exit) {
         exit.addEventListener('click', function (event) {

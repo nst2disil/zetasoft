@@ -9,18 +9,6 @@
   &__link:hover {
     color: var(--color-blue-light)
   }
-  &__links {
-    flex: 1;
-    display: flex;
-    gap: 62px;
-    @include media-down($screen-bg) {
-      gap: 40px
-    }
-    @include media-down($screen-md) {
-      gap: 32px;
-      flex-direction: column;
-    }
-  }
   &__contacts {
     @include media-down($screen-md) {
       order: -1;
@@ -47,22 +35,6 @@
     &__email {
       text-decoration: underline;
       font-size: 20px;
-    }
-  }
-  .links {
-    &__col {
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-      @include media-down($screen-md) {
-        gap: 12px;
-        line-height: normal;
-        &:first-child {
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-          column-gap: 40px;
-        }
-      }
     }
   }
   .logos {

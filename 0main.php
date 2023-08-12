@@ -130,7 +130,6 @@
           <div class="modal" id="contact-form">
             <div class="modal__bg js-modal-exit"></div>
             <div class="modal__container">
-
               <button class="modal__close js-modal-exit"></button>
               <div class="modal__title">
                 Заполните данные для бесплатной консультации

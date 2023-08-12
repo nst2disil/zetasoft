@@ -25,6 +25,9 @@ body {
 
   --wrapper-h-padding: 44px;
   --header-height: 72px;
+  @include media-down($screen-bg) {
+    --header-height: 64px;
+  }
 }
 
 a {
@@ -155,6 +158,9 @@ img {
   }
   &--main {
     min-height: calc(720px - var(--header-height));
+    .section__title {
+      margin-bottom: auto;
+    }
   }
   &--black-head {
     background-color: var(--color-black);
@@ -280,6 +286,7 @@ img {
 
 .modal {
   position: fixed;
+  z-index: 100;
   width: 100vw;
   height: 100vh;
   opacity: 0;
@@ -385,3 +392,32 @@ img {
     }
   }
 }
+
+
+.links {
+  flex: 1;
+  display: flex;
+  gap: 62px;
+  @include media-down($screen-bg) {
+    gap: 40px
+  }
+  @include media-down($screen-md) {
+    gap: 32px;
+    flex-direction: column;
+  }
+  &__col {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    @include media-down($screen-md) {
+      gap: 12px;
+      line-height: normal;
+      &:first-child {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 40px;
+      }
+    }
+  }
+}
+
