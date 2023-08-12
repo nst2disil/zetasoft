@@ -14,8 +14,8 @@ body {
 
 :root {
   --color-black: #231F20;
-  --color-blue-light: #00ABEA;
-  --color-blue: #008ECB;
+  --color-blue: #00ABEA;
+  --color-blue-dark: #008ECB;
   --color-red: #E26655;
   --color-yellow: #FCCB26;
   --color-grey: #F2F2F2;
@@ -92,7 +92,7 @@ img {
     }
   }
   &--blue-light {
-    background: var(--color-blue-light);
+    background: var(--color-blue);
   }
   &--blue {
     background: var(--color-blue);
@@ -150,6 +150,7 @@ img {
   display: flex;
   align-items: stretch;
   flex-direction: column;
+  min-height: calc(720px - var(--header-height));
   @include media-down($screen-bg) {
     padding: 48px 0;
   }
@@ -157,7 +158,6 @@ img {
     padding: 40px 0 56px;
   }
   &--main {
-    min-height: calc(720px - var(--header-height));
     .section__title {
       margin-bottom: auto;
     }
@@ -202,10 +202,20 @@ img {
 }
 
 .panel {
+  display: flex;
+  flex-direction: column;
   border: 1px solid var(--color-black);
   box-shadow: 4px 4px 0px 0px var(--color-black);
   --head-height: 44px;
   color: var(--color-black);
+  min-height: 168px;
+  font-size: 20px;
+  line-height: normal;
+  position: relative;
+  --panel-content-padding: 32px;
+  @include media-down($screen-bg) { --panel-content-padding: 24px; }
+  @include media-down($screen-md) { --panel-content-padding: 20px; }
+  @include media-down($screen-md) { font-size: 16px; }
   &--no-shadow {
     box-shadow: none;
   }
@@ -239,7 +249,29 @@ img {
     }
   }
   &__content {
-    padding: 16px;
+    padding: var(--panel-content-padding);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex: 1;
+  }
+  &__link {
+    margin-top: auto;
+    text-decoration: underline;
+    text-transform: uppercase;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  &__image {
+    --square: 104px;
+    height: var(--square);
+    width: var(--square);
+    position: absolute;
+    right: var(--panel-content-padding);
+    bottom: var(--panel-content-padding);
+    @include media-down($screen-bg) { --square: 80px; }
+    @include media-down($screen-md) { --square: 64px; }
   }
   &__close {
     position: absolute;
@@ -254,7 +286,10 @@ img {
   }
   &--black-head &__head::before { border-top-color: var(--color-black) }
   &--yellow { background: var(--color-yellow) }
+  &--blue { background: var(--color-blue) }
+  &--black { background: var(--color-black); color: #fff; }
   &--sm &__head { --head-height: 32px; }
+  &--sm &__content { padding: 16px; }
 }
 
 .callback-panel {

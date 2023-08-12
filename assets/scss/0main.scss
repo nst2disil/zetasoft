@@ -62,7 +62,6 @@
     position: absolute;
     left: calc(100% + 40px);
     bottom: 30px;
-    // TODO: нормально повёрнутая стрелочка от дизайна
     mask: url('../img/tip-arrow.svg') center no-repeat;
     mask-size: contain;
     background-color: var(--color-yellow);
@@ -153,4 +152,61 @@
       }
     }
   }
+}
+
+.business-tip {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  margin: 48px 0 58px 50%;
+  position: relative;
+
+  @include media-down($screen-bg) { font-size: 24px; }
+  @include media-down($screen-md) {
+    font-size: 20px;
+    margin: 28px 0 5px;
+  }
+  &::after {
+    content: '';
+    --square: 136px;
+    height: var(--square);
+    width: var(--square);
+    transform: rotate(var(--rotate));
+    position: absolute;
+    left: -150px;
+    transform: rotate(135deg);
+    top: -20px;
+    mask: url('../img/tip-arrow.svg') center no-repeat;
+    mask-size: contain;
+    background-color: var(--color-blue);
+    @include media-down($screen-md) {
+      position: initial;
+      display: block;
+      transform: scaleY(-100%) rotate(-55deg);
+      padding-left: 100%;
+    }
+  }
+}
+
+.business {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  @include media-down($screen-md) {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+  }
+  @include media-up($screen-md) {
+    &__item:nth-child(3) {
+      grid-area: 1 / 2 / 3;
+    }
+  }
+  &__item:nth-child(2) {
+    grid-row-start: 2;
+    padding-right: 110px;
+  }
+  &__item:nth-child(3) {
+    grid-row: span 2;
+  }
+  
 }

@@ -146,6 +146,31 @@
           </div>
         </div>
       </section>
+      <section class="section">
+        <div class="wrapper">
+          <h2 class="section__title">Для большого бизнеса</h2>
+          <div class="business-tip">
+            Для компаний с бюджетом на IT от 0,9 млн в месяц
+          </div>
+          <div class="business">
+            <div class="business__item panel panel--no-shadow">
+              <div class="panel__content">Сбор и анализ Big Data</div>
+              <img src="./dist/img/icons/analytics-b/032-data visualization.svg" alt="" class="panel__image">
+            </div>
+            <div class="business__item panel panel--black panel--no-shadow">
+              <div class="panel__content">Систематическая доработка и модернизация архитектуры 1С по мере накопления запросов пользователей</div>
+              <img src="./dist/img/icons/analytics-w/016-effective.svg" alt="" class="panel__image">
+            </div>
+            <div class="business__item panel panel--blue">
+              <div class="panel__content">
+                <div class="panel__text">Разработка информационной системы с выделенным ИТ директором от проекта до эффективной рабочей версии. Система масштабируется параллельно с ростом вашего бизнеса</div>
+                <a href="#" class="panel__link">Подробнее</a>
+                <img src="./dist/img/icons/analytics-b/025-structured data.svg" alt="" class="panel__image">
+                
+              </div>
+          </div>
+        </div>
+      </section>
     </div>
     <div class="container__footer"><? include './partials/_footer.html'?></div>
   </div>
