@@ -82,7 +82,7 @@
           </div>
         </div>
       </section>
-      <section class="section section--black-head">
+      <section class="section section--black">
         <div class="wrapper">
           <h2 class="section__title">Этапы работы по задаче</h2>
           <div class="steps">
@@ -150,7 +150,7 @@
         <div class="wrapper">
           <h2 class="section__title">Для большого бизнеса</h2>
           <div class="business-tip">
-            Для компаний с бюджетом на IT от 0,9 млн в месяц
+            Для&nbsp;компаний с&nbsp;бюджетом на&nbsp;IT от&nbsp;0,9&nbsp;млн в&nbsp;месяц
           </div>
           <div class="business">
             <div class="business__item panel panel--no-shadow">
@@ -158,16 +158,43 @@
               <img src="./dist/img/icons/analytics-b/032-data visualization.svg" alt="" class="panel__image">
             </div>
             <div class="business__item panel panel--black panel--no-shadow">
-              <div class="panel__content">Систематическая доработка и модернизация архитектуры 1С по мере накопления запросов пользователей</div>
+              <div class="panel__content">Систематическая доработка и&nbsp;модернизация архитектуры 1С по&nbsp;мере накопления запросов пользователей</div>
               <img src="./dist/img/icons/analytics-w/016-effective.svg" alt="" class="panel__image">
             </div>
             <div class="business__item panel panel--blue">
               <div class="panel__content">
-                <div class="panel__text">Разработка информационной системы с выделенным ИТ директором от проекта до эффективной рабочей версии. Система масштабируется параллельно с ростом вашего бизнеса</div>
+                <div class="panel__text">Разработка информационной системы с&nbsp;выделенным ИТ&nbsp;директором от&nbsp;проекта до&nbsp;эффективной рабочей версии. Система масштабируется параллельно с&nbsp;ростом вашего бизнеса</div>
                 <a href="#" class="panel__link">Подробнее</a>
                 <img src="./dist/img/icons/analytics-b/025-structured data.svg" alt="" class="panel__image">
-                
               </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section--black">
+        <div class="wrapper">
+          <h2 class="section__title">
+            Для всех, кому нужен учёт чего-либо
+          </h2>
+          <div class="accounting-tip">
+            Для&nbsp;компаний с&nbsp;бюджетом на&nbsp;IT от&nbsp;0,9&nbsp;млн в&nbsp;месяц
+          </div>
+          <div class="accounting">
+            <div class="accounting__item panel panel--white">
+              <div class="panel__content">
+                <div class="panel__title">Наши решения</div>
+                <div class="panel__text">Вы&nbsp;можете выбрать интересующий вас&nbsp;продукт, направление или&nbsp;посмотреть схему взаимодействия наших решений</div>
+                <a href="#" class="panel__link">выбрать решение</a>
+                <img src="./dist/img/panel-zeta.svg" alt="" class="panel__image">
+              </div>
+            </div>
+            <div class="accounting__item panel panel--yellow">
+              <div class="panel__content">
+                <div class="panel__title">Продукты 1С</div>
+                <div class="panel__text">C&nbsp;2006&nbsp;года мы&nbsp;оказываем комплексные услуги по&nbsp;постановке учёта, автоматизации предприятий и&nbsp;сопровождению наших клиентов на&nbsp;базе конфигураций 1С</div>
+                <a href="#" class="panel__link">выбрать продукт 1С</a>
+                <img src="./dist/img/panel-1c.svg" alt="" class="panel__image">
+              </div>
+            </div>
           </div>
         </div>
       </section>

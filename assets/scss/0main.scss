@@ -8,6 +8,7 @@
   gap: 16px;
   max-width: calc($screen-bg + 16px);
   position: relative;
+  color: var(--color-black);
   @include media-down($screen-md) {
     display: flex;
     flex-direction: column;
@@ -201,12 +202,72 @@
       grid-area: 1 / 2 / 3;
     }
   }
-  &__item:nth-child(2) {
-    grid-row-start: 2;
-    padding-right: 110px;
+  &__item {
+    min-height: 168px;
+    &:nth-child(2) {
+      grid-row-start: 2;
+      padding-right: 110px;
+    }
+    &:nth-child(3) {
+      grid-row: span 2;
+    }
   }
-  &__item:nth-child(3) {
+}
+
+.accounting-tip {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  position: relative;
+  color: #fff;
+  max-width: 580px;
+  margin: 48px 0 68px;
+  @include media-down($screen-bg) { font-size: 24px; }
+  @include media-down($screen-md) {
+    font-size: 20px;
+    margin: 28px 0 5px;
+  }
+  &::after {
+    content: '';
+    --square: 136px;
+    height: var(--square);
+    width: var(--square);
+    transform: scaleY(-100%) rotate(-55deg);
+    position: absolute;
+    right: -80px;
+    top: -20px;
+    mask: url('../img/tip-arrow.svg') center no-repeat;
+    mask-size: contain;
+    background-color: var(--color-yellow);
+    @include media-down($screen-md) {
+      position: initial;
+      display: block;
+      padding-left: 100%;
+    }
+  }
+}
+
+
+.accounting {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  @include media-down($screen-md) {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    &__item {
+      min-height: 256px;
+    }
+
+  }
+  &__item {
+    min-height: 336px;
     grid-row: span 2;
+    @include media-down($screen-md) {
+      min-height: 272px;
+      .panel__image {
+        width: 96px;
+      }
+    }
   }
-  
 }

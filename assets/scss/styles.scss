@@ -162,11 +162,15 @@ img {
       margin-bottom: auto;
     }
   }
-  &--black-head {
+  &--black {
     background-color: var(--color-black);
+    color: #fff;
     & h2.section__title {
       color: #fff;
       border-color: #fff !important;
+    }
+    .panel {
+      box-shadow: 4px 4px 0px 0px #fff;
     }
   }
   h1.section__title {
@@ -208,7 +212,6 @@ img {
   box-shadow: 4px 4px 0px 0px var(--color-black);
   --head-height: 44px;
   color: var(--color-black);
-  min-height: 168px;
   font-size: 20px;
   line-height: normal;
   position: relative;
@@ -255,6 +258,12 @@ img {
     height: 100%;
     flex: 1;
   }
+  &__title {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 130%;
+    margin-bottom: 16px;
+  }
   &__link {
     margin-top: auto;
     text-decoration: underline;
@@ -265,7 +274,7 @@ img {
   }
   &__image {
     --square: 104px;
-    height: var(--square);
+    //height: var(--square);
     width: var(--square);
     position: absolute;
     right: var(--panel-content-padding);
@@ -287,7 +296,13 @@ img {
   &--black-head &__head::before { border-top-color: var(--color-black) }
   &--yellow { background: var(--color-yellow) }
   &--blue { background: var(--color-blue) }
-  &--black { background: var(--color-black); color: #fff; }
+  &--black {
+    background: var(--color-black);
+    color: #fff;
+  }
+  &--white {
+    background-color: #fff;
+  }
   &--sm &__head { --head-height: 32px; }
   &--sm &__content { padding: 16px; }
 }
