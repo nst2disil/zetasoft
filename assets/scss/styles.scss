@@ -238,7 +238,7 @@ img {
   line-height: normal;
   position: relative;
   --panel-content-padding: 32px;
-  transition: box-shadow var(--animation-duration);
+  transition: box-shadow var(--animation-duration) !important;
   @include media-down($screen-lg) { --panel-content-padding: 24px; }
   @include media-down($screen-bg) { --panel-content-padding: 20px; }
   @include media-down($screen-md) { font-size: 16px; }
@@ -291,13 +291,16 @@ img {
       font-weight: 400;
     }
   }
+  &__text {
+    @include media-down($screen-bg) {
+      font-size: 16px;
+    }
+
+  }
   &__link {
     margin-top: auto;
     text-decoration: underline;
     text-transform: uppercase;
-    &:hover {
-      text-decoration: none;
-    }
   }
   &__image {
     --square: 104px;
@@ -339,6 +342,7 @@ img {
 }
 a.panel:hover {
   box-shadow: none;
+  cursor: pointer;
 }
 
 .callback-panel {

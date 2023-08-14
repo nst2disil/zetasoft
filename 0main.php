@@ -161,13 +161,13 @@
               <div class="panel__content">Систематическая доработка и&nbsp;модернизация архитектуры 1С по&nbsp;мере накопления запросов пользователей</div>
               <img src="./dist/img/icons/analytics-w/016-effective.svg" alt="иллюстрация" class="panel__image">
             </div>
-            <div class="business__item panel panel--blue">
+            <a class="business__item panel panel--blue" href="#">
               <div class="panel__content">
                 <div class="panel__text">Разработка информационной системы с&nbsp;выделенным ИТ&nbsp;директором от&nbsp;проекта до&nbsp;эффективной рабочей версии. Система масштабируется параллельно с&nbsp;ростом вашего бизнеса</div>
-                <a href="#" class="panel__link">Подробнее</a>
+                <div class="panel__link">Подробнее</div>
                 <img src="./dist/img/icons/analytics-b/025-structured data.svg" alt="иллюстрация" class="panel__image">
               </div>
-          </div>
+            </a>
         </div>
       </section>
       <section class="section section--black">
@@ -179,22 +179,22 @@
             Для&nbsp;компаний с&nbsp;бюджетом на&nbsp;IT от&nbsp;0,9&nbsp;млн в&nbsp;месяц
           </div>
           <div class="accounting">
-            <div class="accounting__item panel panel--white">
+            <a class="accounting__item panel panel--white">
               <div class="panel__content">
                 <div class="panel__title">Наши решения</div>
                 <div class="panel__text">Вы&nbsp;можете выбрать интересующий вас&nbsp;продукт, направление или&nbsp;посмотреть схему взаимодействия наших решений</div>
-                <a href="#" class="panel__link">выбрать решение</a>
+                <div class="panel__link">выбрать решение</div>
                 <img src="./dist/img/panel-zeta.svg" alt="zeta logo" class="panel__image">
               </div>
-            </div>
-            <div class="accounting__item panel panel--yellow">
+            </a>
+            <a class="accounting__item panel panel--yellow">
               <div class="panel__content">
                 <div class="panel__title">Продукты 1С</div>
                 <div class="panel__text">C&nbsp;2006&nbsp;года мы&nbsp;оказываем комплексные услуги по&nbsp;постановке учёта, автоматизации предприятий и&nbsp;сопровождению наших клиентов на&nbsp;базе конфигураций 1С</div>
-                <a href="#" class="panel__link">выбрать продукт 1С</a>
+                <div class="panel__link">выбрать продукт 1С</div>
                 <img src="./dist/img/panel-1c.svg" alt="1c logo" class="panel__image">
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </section>
