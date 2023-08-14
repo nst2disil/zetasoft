@@ -125,7 +125,7 @@
 
           <div class="callback-panel panel panel--yellow">
             <div class="callback-panel__text">Протестируйте вашу бизнес-задачу бесплатно</div>
-            <button class="callback-panel__button button button--block" data-modal="contact-form">Поставить&nbsp;задачу</button>
+            <button class="callback-panel__button button button--block button--big" data-modal="contact-form">Поставить&nbsp;задачу</button>
           </div>
           <div class="modal" id="contact-form">
             <div class="modal__bg js-modal-exit"></div>
@@ -155,17 +155,17 @@
           <div class="business">
             <div class="business__item panel panel--no-shadow">
               <div class="panel__content">Сбор и анализ Big Data</div>
-              <img src="./dist/img/icons/analytics-b/032-data visualization.svg" alt="" class="panel__image">
+              <img src="./dist/img/icons/analytics-b/032-data visualization.svg" alt="иллюстрация" class="panel__image">
             </div>
             <div class="business__item panel panel--black panel--no-shadow">
               <div class="panel__content">Систематическая доработка и&nbsp;модернизация архитектуры 1С по&nbsp;мере накопления запросов пользователей</div>
-              <img src="./dist/img/icons/analytics-w/016-effective.svg" alt="" class="panel__image">
+              <img src="./dist/img/icons/analytics-w/016-effective.svg" alt="иллюстрация" class="panel__image">
             </div>
             <div class="business__item panel panel--blue">
               <div class="panel__content">
                 <div class="panel__text">Разработка информационной системы с&nbsp;выделенным ИТ&nbsp;директором от&nbsp;проекта до&nbsp;эффективной рабочей версии. Система масштабируется параллельно с&nbsp;ростом вашего бизнеса</div>
                 <a href="#" class="panel__link">Подробнее</a>
-                <img src="./dist/img/icons/analytics-b/025-structured data.svg" alt="" class="panel__image">
+                <img src="./dist/img/icons/analytics-b/025-structured data.svg" alt="иллюстрация" class="panel__image">
               </div>
           </div>
         </div>
@@ -263,6 +263,72 @@
             <div class="swiper-pagination"></div>
           </div>
           
+        </div>
+      </section>
+      <section class="section section--black">
+        <div class="wrapper">
+          <h2 class="section__title">Чем&nbsp;мы еще можем вам&nbsp;помочь?</h2>
+          <div class="help">
+            <div class="help__item panel panel--white panel--no-shadow">
+              <div class="panel__content help">
+                <div class="help__block">
+                  <div class="panel__title help__title">Проанализировать код</div>
+                  <div class="help__text">с точки зрения его технической реализации и оформления </div>
+                </div>
+                <img src="./dist/img/icons/business-b/039-research and development.svg" alt="иллюстрация" class="help__image panel__image">
+              </div>
+            </div>
+            <div class="help__item panel panel--white panel--no-shadow">
+              <div class="panel__content help">
+                <div class="help__block">
+                  <div class="panel__title help__title">Оценить скорость 1С с&nbsp;методикой&nbsp;APDEX</div>
+                  <div class="help__text">с точки зрения его технической реализации и оформления </div>
+                </div>
+                <img src="./dist/img/icons/business-b/046-profit.svg" alt="иллюстрация" class="help__image panel__image">
+              </div>
+            </div>
+            <div class="help__item panel panel--white panel--no-shadow">
+              <div class="panel__content help">
+                <div class="help__block">
+                  <div class="panel__title help__title">Показать подход и совместно описать ваши бизнес-процессы</div>
+                  <div class="help__text">чтобы&nbsp;снизить зависимость от&nbsp;«сотрудников на&nbsp;местах»</div>
+                </div>
+                <img src="./dist/img/icons/business-b/019-effort.svg" alt="иллюстрация" class="help__image panel__image">
+              </div>
+            </div>
+            <div class="help__item panel panel--white panel--no-shadow">
+              <div class="panel__content help">
+                <div class="help__block">
+                  <div class="panel__title help__title">Расставить метрики</div>
+                  <div class="help__text">чтобы посмотреть, сколько времени занимает каждая операция</div>
+                </div>
+                <img src="./dist/img/icons/business-b/005-analytics.svg" alt="иллюстрация" class="help__image panel__image">
+              </div>
+            </div>
+            <div class="help__item panel panel--white panel--no-shadow">
+              <div class="panel__content help">
+                <div class="help__block">
+                  <div class="panel__title help__title">Применить методы глубокой автоматизации</div>
+                  <div class="help__text">на основе детальных бизнес-процессов</div>
+                </div>
+                <img src="./dist/img/icons/business-b/009-concentrate.svg" alt="иллюстрация" class="help__image panel__image">
+              </div>
+            </div>
+            <div class="help__item panel panel--white panel--no-shadow">
+              <div class="panel__content help">
+                <div class="help__block">
+                  <div class="panel__title help__title">Обсудить и настроить основные управленческие отчеты</div>
+                  <div class="help__text">кэш-фло, прибыли и убытки, баланс</div>
+                </div>
+                <img src="./dist/img/icons/business-b/038-agreement.svg" alt="иллюстрация" class="help__image panel__image">
+              </div>
+            </div>
+          </div>
+          <div class="contact-big">
+            <div class="contact-big__title">Оставьте заявку для&nbsp;бесплатной консультации с&nbsp;нашим специалистом</div>
+            <img src="./dist/img/panel-contact-big.svg" alt="иллюстрация" class="contact-big__image">
+            <button class="button button--block button--big contact-big__button" data-modal="contact-form">оставить заявку</button>
+          </div>
         </div>
       </section>
     </div>

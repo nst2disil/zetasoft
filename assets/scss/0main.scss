@@ -372,3 +372,108 @@
     }
   }
 }
+
+.help {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 24px;
+  max-height: 700px;
+  @include media-down($screen-bg) {
+    max-height: 600px;
+    gap: 20px;
+  }
+  @include media-down($screen-md) {
+    max-height: unset;
+  }
+  &__item {
+    width: calc(50% - 12px);
+    @include media-up($screen-bg) {
+      height: 216px;
+    }
+    @include media-between($screen-md, $screen-bg) {
+      height: 160px;
+    }
+    @include media-down($screen-md) {
+      width: auto;
+      min-height: 172px;
+    }
+
+  }
+  &__title {
+    margin-bottom: auto;
+  }
+  &__text {
+    font-size: 20px;
+    margin-top: auto;
+    @include media-down($screen-bg) {
+      font-size: 16px;
+    }
+  }
+  &__block {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-right: 100px;
+    flex: 1;
+  }
+  &__image {
+    top: var(--panel-content-padding);
+    bottom: unset;
+  }
+}
+
+.contact-big {
+  margin-top: 72px;
+  padding: 64px;
+  height: 376px;
+  background-color: var(--color-yellow);
+  color: var(--color-black);
+  position: relative;
+  @include media-down($screen-lg) {
+    height: 301px;
+    padding: 48px;
+  }
+  @include media-down($screen-md) {
+    height: auto;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+  }
+  &__title {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    padding-right: 540px;
+    margin-bottom: 36px;
+    @include media-down($screen-lg) {
+      font-size: 32px;
+      margin-bottom: 22px;
+      padding-right: 400px;
+    }
+    @include media-down($screen-bg) {
+      font-size: 24px;
+    }
+    @include media-down($screen-md) {
+      padding: 0;
+    }
+  }
+  &__image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 476px;
+    max-height: unset;
+    @include media-down($screen-lg) {
+      width: 371px;
+    }
+
+    @include media-down($screen-md) {
+      position: relative;
+      width: 214px;
+      align-self: flex-end;
+    }
+  }
+}

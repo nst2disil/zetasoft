@@ -112,6 +112,16 @@ img {
   &--yellow {
     background: var(--color-yellow);
   }
+  &--big {
+    padding: 18px 60px;
+    justify-content: center;
+    text-transform: uppercase;
+    @include media-down($screen-md) {
+      width: 100%;
+      padding: 18px 0;
+    }
+
+  }
 }
 
 .hide-sm {
@@ -233,7 +243,7 @@ img {
   @include media-down($screen-bg) { --panel-content-padding: 20px; }
   @include media-down($screen-md) { font-size: 16px; }
   &--no-shadow {
-    box-shadow: none;
+    box-shadow: none !important;
   }
   &__head {
     height: var(--head-height);
@@ -276,6 +286,10 @@ img {
     font-weight: 600;
     line-height: 130%;
     margin-bottom: 16px;
+    @include media-down($screen-bg) {
+      font-size: 20px;
+      font-weight: 400;
+    }
   }
   &__link {
     margin-top: auto;
@@ -416,6 +430,7 @@ a.panel:hover {
     margin-bottom: 32px;
     @include media-down($screen-bg) {
       padding-right: 32px;
+      font-size: 24px;
     }
   }
   .form {
@@ -490,4 +505,3 @@ a.panel:hover {
     }
   }
 }
-
