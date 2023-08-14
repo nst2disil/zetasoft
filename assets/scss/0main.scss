@@ -96,7 +96,8 @@
 .steps {
   column-count: 2;
   gap: 24px;
-  margin: 48px 0 72px;
+  margin: 0 0 72px;
+  color: var(--color-black);
   @include media-down($screen-bg) {
     gap: 20px;
   }
@@ -160,13 +161,13 @@
   font-style: normal;
   font-weight: 500;
   line-height: 130%;
-  margin: 48px 0 58px 50%;
+  margin: 0 0 58px 50%;
   position: relative;
 
   @include media-down($screen-bg) { font-size: 24px; }
   @include media-down($screen-md) {
     font-size: 20px;
-    margin: 28px 0 5px;
+    margin: 0 0 5px;
   }
   &::after {
     content: '';
@@ -222,11 +223,11 @@
   position: relative;
   color: #fff;
   max-width: 580px;
-  margin: 48px 0 68px;
+  margin: 0 0 68px;
   @include media-down($screen-bg) { font-size: 24px; }
   @include media-down($screen-md) {
     font-size: 20px;
-    margin: 28px 0 5px;
+    margin: 0 0 5px;
   }
   &::after {
     content: '';
@@ -267,6 +268,106 @@
       min-height: 272px;
       .panel__image {
         width: 96px;
+      }
+    }
+  }
+}
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+@include media-up($screen-md) {
+  .cases {
+    display: grid;
+    grid-template: '1fr 1fr 1fr';
+    gap: 18px;
+    &__item {
+      aspect-ratio: 1/1;
+    }
+  }
+}
+
+.case {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  @include media-down($screen-bg) {
+    gap: 18px;
+  }
+  &__title {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 130%;
+    flex: 1;
+    @include media-down($screen-lg) {
+      font-size: 20px;
+    }
+  }
+  &__image {
+    height: 25px;
+  }
+  &__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 130%;
+    @include media-down($screen-lg) {
+      font-size: 14px;
+    }
+  }
+}
+
+// Сбрасываем стили для слайдера для десктопа, тк он нужен только на мобиле
+@include media-up($screen-md) {
+  .swiper {
+    overflow: unset;
+    &-wrapper {
+      width: unset;
+      height: unset;
+      display: grid;
+    }
+    &-slide {
+      width: unset;
+      height: unset;
+      display: flex;
+    }
+    &-pagination {
+      display: none;
+    }
+  }
+}
+
+@include media-down($screen-md) {
+  .swiper {
+    width: 100%;
+    height: 340px;
+    &-slide {
+      display: flex;
+      width: fit-content;
+      transition-property: transform, box-shadow;
+      width: 312px;
+    }
+    &-wrapper {
+      height: 312px;
+    }
+    &-pagination {
+      bottom: 0 !important;
+    }
+    &-pagination-bullet {
+      background: #fff;
+      border: 1px solid var(--color-black);
+      width: 8px;
+      height: 8px;
+      border-radius: 8px;
+      opacity: 1;
+      transition-duration: var(--animation-duration);
+      &-active {
+        width: 24px;
+        background-color: var(--color-black);
       }
     }
   }

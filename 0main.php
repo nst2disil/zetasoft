@@ -12,9 +12,9 @@
           <h1 class="section__title">Автоматизируем бизнес-процессы с&nbsp;помощью собственных IT-решений и&nbsp;продуктов 1С</h1>
           <div class="tools">
             <div class="tools__item js-tool-item">
-              <button class="button button--block js-tool-toggler">Kanban</button>
+              <button class="button button--block js-tool-toggler button--dot">Kanban</button>
               <div class="tools__panel js-tool-panel">
-                <div class="panel panel--no-shadow panel--sm panel--black-head">
+                <div class="panel panel--no-shadow panel--sm panel--head-black">
                   <div class="panel__head">
                     <button class="panel__close button js-tool-panel-close"><span class="icon icon--cross"></span></button>
                   </div>
@@ -23,9 +23,9 @@
               </div>              
             </div>
             <div class="tools__item js-tool-item">
-              <button class="button button--block js-tool-toggler button--blue-light">Gherkin</button>
+              <button class="button button--block js-tool-toggler button--dot button--blue-light">Gherkin</button>
               <div class="tools__panel js-tool-panel">
-                <div class="panel panel--no-shadow panel--sm panel--black-head">
+                <div class="panel panel--no-shadow panel--sm panel--head-black">
                   <div class="panel__head">
                     <button class="panel__close button js-tool-panel-close"><span class="icon icon--cross"></span></button>
                   </div>
@@ -35,9 +35,9 @@
               
             </div>
             <div class="tools__item js-tool-item">
-              <button class="button button--block js-tool-toggler button--blue">CI/CD</button>
+              <button class="button button--block js-tool-toggler button--dot button--blue">CI/CD</button>
               <div class="tools__panel js-tool-panel">
-                <div class="panel panel--no-shadow panel--sm panel--black-head">
+                <div class="panel panel--no-shadow panel--sm panel--head-black">
                   <div class="panel__head">
                     <button class="panel__close button js-tool-panel-close"><span class="icon icon--cross"></span></button>
                   </div>
@@ -46,9 +46,9 @@
               </div>
             </div>
             <div class="tools__item js-tool-item">
-              <button class="button button--block js-tool-toggler button--red">Git</button>
+              <button class="button button--block js-tool-toggler button--dot button--red">Git</button>
               <div class="tools__panel js-tool-panel">
-                <div class="panel panel--no-shadow panel--sm panel--black-head">
+                <div class="panel panel--no-shadow panel--sm panel--head-black">
                   <div class="panel__head">
                     <button class="panel__close button js-tool-panel-close"><span class="icon icon--cross"></span></button>
                   </div>
@@ -57,9 +57,9 @@
               </div>
             </div>
             <div class="tools__item js-tool-item">
-              <button class="button button--block js-tool-toggler button--yellow">База знаний</button>
+              <button class="button button--block js-tool-toggler button--dot button--yellow">База знаний</button>
               <div class="tools__panel js-tool-panel">
-                <div class="panel panel--no-shadow panel--sm panel--black-head">
+                <div class="panel panel--no-shadow panel--sm panel--head-black">
                   <div class="panel__head">
                     <button class="panel__close button js-tool-panel-close"><span class="icon icon--cross"></span></button>
                   </div>
@@ -68,9 +68,9 @@
               </div>
             </div>
             <div class="tools__item js-tool-item">
-              <button class="button button--block js-tool-toggler">Контроль качества кода</button>
+              <button class="button button--block js-tool-toggler button--dot">Контроль качества кода</button>
               <div class="tools__panel js-tool-panel">
-                <div class="panel panel--no-shadow panel--sm panel--black-head">
+                <div class="panel panel--no-shadow panel--sm panel--head-black">
                   <div class="panel__head">
                     <button class="panel__close button js-tool-panel-close"><span class="icon icon--cross"></span></button>
                   </div>
@@ -184,7 +184,7 @@
                 <div class="panel__title">Наши решения</div>
                 <div class="panel__text">Вы&nbsp;можете выбрать интересующий вас&nbsp;продукт, направление или&nbsp;посмотреть схему взаимодействия наших решений</div>
                 <a href="#" class="panel__link">выбрать решение</a>
-                <img src="./dist/img/panel-zeta.svg" alt="" class="panel__image">
+                <img src="./dist/img/panel-zeta.svg" alt="zeta logo" class="panel__image">
               </div>
             </div>
             <div class="accounting__item panel panel--yellow">
@@ -192,10 +192,77 @@
                 <div class="panel__title">Продукты 1С</div>
                 <div class="panel__text">C&nbsp;2006&nbsp;года мы&nbsp;оказываем комплексные услуги по&nbsp;постановке учёта, автоматизации предприятий и&nbsp;сопровождению наших клиентов на&nbsp;базе конфигураций 1С</div>
                 <a href="#" class="panel__link">выбрать продукт 1С</a>
-                <img src="./dist/img/panel-1c.svg" alt="" class="panel__image">
+                <img src="./dist/img/panel-1c.svg" alt="1c logo" class="panel__image">
               </div>
             </div>
           </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="wrapper">
+          <h2 class="section__title">Кейсы</h2>
+          <div class="categories">
+            <a href="#" class="categories__item button button--block button--dot">Автобизнес</a>
+            <a href="#" class="categories__item button button--block button--dot">Вендинг</a>
+            <a href="#" class="categories__item button button--block button--dot">Продажа времени</a>
+            <a href="#" class="categories__item button button--block button--dot">Универсальные</a>
+            <a href="#" class="categories__item button button--block button--dot">1C</a>
+            <a href="#" class="categories__item button button--block button--dot">Все продукты</a>
+          </div>
+          <div class="swiper js-cases-swiper">
+            <div class="cases swiper-wrapper">
+              <a href="#" class="swiper-slide cases__item panel panel--head-yellow">
+                <div class="panel__head"></div>
+                <div class="panel__content case">
+                  <div class="case__title">АТОЛ онлайн и&nbsp;1С: готовое решение для&nbsp;интеграции</div>
+                  <img src="./dist/img/panel-1c.svg" alt="1c logo" class="case__image">
+                  <div class="case__text">Подсистема предназначена для компаний, работающих в 1С и использующих онлайн-кассы АТОЛ Онлайн</div>
+                </div>
+              </a>
+              <a href="#" class="swiper-slide cases__item panel panel--head-red">
+                <div class="panel__head"></div>
+                <div class="panel__content case">
+                  <div class="case__title">Проектное решение<br/>«Продажа автозапчастей»</div>
+                  <img src="./dist/img/panel-zeta.svg" alt="zeta logo" class="case__image">
+                  <div class="case__text">Подсистема предназначена для компаний, работающих в 1С и использующих онлайн-кассы АТОЛ Онлайн</div>
+                </div>
+              </a>
+              <a href="#" class="swiper-slide cases__item panel panel--head-yellow">
+                <div class="panel__head"></div>
+                <div class="panel__content case">
+                  <div class="case__title">Подсистема учета б/у запчастей в торговой конфигурации 1С</div>
+                  <img src="./dist/img/panel-1c.svg" alt="1c logo" class="case__image">
+                  <div class="case__text">Подсистема предназначена для компаний, работающих в 1С и использующих онлайн-кассы АТОЛ Онлайн</div>
+                </div>
+              </a>
+              <a href="#" class="swiper-slide cases__item panel panel--head-blue-dark">
+                <div class="panel__head"></div>
+                <div class="panel__content case">
+                  <div class="case__title">Проектное решение<br/>«Управление торговым комплексом»</div>
+                  <img src="./dist/img/panel-zeta.svg" alt="zeta logo" class="case__image">
+                  <div class="case__text">Подсистема предназначена для компаний, работающих в 1С и использующих онлайн-кассы АТОЛ Онлайн</div>
+                </div>
+              </a>
+              <a href="#" class="swiper-slide cases__item panel panel--head-blue">
+                <div class="panel__head"></div>
+                <div class="panel__content case">
+                  <div class="case__title">Проектное решение<br/>«Учёт в&nbsp;вендинговом бизнесе»</div>
+                  <img src="./dist/img/panel-zeta.svg" alt="zeta logo" class="case__image">
+                  <div class="case__text">Подсистема предназначена для компаний, работающих в 1С и использующих онлайн-кассы АТОЛ Онлайн</div>
+                </div>
+              </a>
+              <a href="#" class="swiper-slide cases__item panel panel--head-blue-dark">
+                <div class="panel__head"></div>
+                <div class="panel__content case">
+                  <div class="case__title">Проектное решение<br/>«Управление торговым комплексом»</div>
+                  <img src="./dist/img/panel-zeta.svg" alt="zeta logo" class="case__image">
+                  <div class="case__text">Подсистема предназначена для компаний, работающих в 1С и использующих онлайн-кассы АТОЛ Онлайн</div>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+          
         </div>
       </section>
     </div>

@@ -67,9 +67,38 @@ function ininPopups() {
   });
 }
 
+var init = false;
+var swiper;
+
+function swiperCard() {
+  if (window.innerWidth <= 880) {
+    if (!init) {
+      init = true;
+      swiper = new Swiper(".js-cases-swiper", {
+        direction: "horizontal",
+        slidesPerView: 'auto',
+        centeredSlides: true,
+        spaceBetween: 8,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    }
+  } else if (init) {
+    swiper.destroy();
+    init = false;
+  }
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   setupToolToggler();
   ininPopups();
+  swiperCard();
+});
+
+window.addEventListener('resize', () => {
+  swiperCard();
 });
 
 

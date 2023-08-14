@@ -6,6 +6,8 @@
   <meta name="keywords" />
   <meta name="Content-Type" content="text/html; charset=utf-8" />
   <link rel="stylesheet" href="./dist/css/styles.min.css?cache=<?= date("Y-m-d")?>">
+  <link rel="stylesheet" href="./dist/css/swiper-bundle.min.css?cache=<?= date("Y-m-d")?>">
   <link rel="stylesheet" href="./dist/css/<?= basename($_SERVER["SCRIPT_FILENAME"], '.php') ?>.min.css?cache=<?= date("Y-m-d")?>">
   <script defer src="./dist/js/main.js?cache=<?= date("Y-m-d")?>"></script>
+  <script defer src="./dist/js/swiper-bundle.min.js?cache=<?= date("Y-m-d")?>"></script>
   <title>Автоматизация онлайн-продаж и учёта в 1С | Компания "ЗетаСофт"</title>

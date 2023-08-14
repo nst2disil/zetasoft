@@ -70,8 +70,17 @@ img {
   font-size: inherit;
   line-height: inherit;
   cursor: pointer;
-  &--link {
-
+  &--dot {
+    &::before {
+      content: '';
+      display: block;
+      background-color: var(--color-black);
+      border-radius: 50%;
+      height: 7px;
+      width: 7px;
+      margin: 0 5px;
+      margin-top: 7px;
+    }
   }
   &--block {
     padding: 12px 16px;
@@ -190,12 +199,15 @@ img {
     line-height: 130%;
     border-bottom: 1px solid var(--color-black);
     padding-bottom: 28px;
+    margin-bottom: 48px;
     @include media-down($screen-bg) {
       font-size: 40px;
       padding-bottom: 16px;
+      margin-bottom: 40px;
     }
     @include media-down($screen-md) {
       font-size: 28px;
+      margin-bottom: 20px;
     }
   }
   .wrapper {
@@ -216,8 +228,9 @@ img {
   line-height: normal;
   position: relative;
   --panel-content-padding: 32px;
-  @include media-down($screen-bg) { --panel-content-padding: 24px; }
-  @include media-down($screen-md) { --panel-content-padding: 20px; }
+  transition: box-shadow var(--animation-duration);
+  @include media-down($screen-lg) { --panel-content-padding: 24px; }
+  @include media-down($screen-bg) { --panel-content-padding: 20px; }
   @include media-down($screen-md) { font-size: 16px; }
   &--no-shadow {
     box-shadow: none;
@@ -293,7 +306,11 @@ img {
       width: 100%;
     }
   }
-  &--black-head &__head::before { border-top-color: var(--color-black) }
+  &--head-black &__head::before { border-top-color: var(--color-black) }
+  &--head-yellow &__head::before { border-top-color: var(--color-yellow) }
+  &--head-red &__head::before { border-top-color: var(--color-red) }
+  &--head-blue &__head::before { border-top-color: var(--color-blue) }
+  &--head-blue-dark &__head::before { border-top-color: var(--color-blue-dark) }
   &--yellow { background: var(--color-yellow) }
   &--blue { background: var(--color-blue) }
   &--black {
@@ -305,6 +322,9 @@ img {
   }
   &--sm &__head { --head-height: 32px; }
   &--sm &__content { padding: 16px; }
+}
+a.panel:hover {
+  box-shadow: none;
 }
 
 .callback-panel {
