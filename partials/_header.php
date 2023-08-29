@@ -46,7 +46,7 @@
       </ul>
     </nav>
     <a href="tel:+78124906789" class="popup-menu__phone links__item">+7&nbsp;812&nbsp;490-67-89</a>
-    <button class="popup-menu__contact-button button button--block button--yellow" data-modal="contact-form">Оставить&nbsp;заявку</button>
+    <button class="popup-menu__contact-button button button--big button--block button--yellow" data-modal="contact-form">Оставить&nbsp;заявку</button>
   </div>
   
 </div>

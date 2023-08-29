@@ -117,6 +117,9 @@
       gap: 12px;
       margin-bottom: 12px;
     }
+    @include media-down($screen-md) {
+      gap: 8px;
+    }
     &-number {
       flex: 0 1 112px;
       font-size: 72px;
@@ -138,7 +141,7 @@
       font-weight: 400;
       line-height: normal;
       @include media-down($screen-lg) {
-        font-size: 16px;
+        font-size: 15px;
       }
     }
     &-image {
@@ -267,7 +270,7 @@
     @include media-down($screen-md) {
       min-height: 272px;
       .panel__image {
-        width: 96px;
+        max-width: 96px;
       }
     }
   }
@@ -353,6 +356,7 @@
     }
     &-wrapper {
       height: 312px;
+      margin-left: -14px;
     }
     &-pagination {
       bottom: 0 !important;

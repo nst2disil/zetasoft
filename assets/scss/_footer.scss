@@ -26,11 +26,15 @@
   @include media-down($screen-md) {
     flex-direction: column;
     align-items: flex-start;
+    padding: 40px 20px;
   }
   &__link:hover {
     color: var(--color-blue-dark)
   }
   &__contacts {
+    @include media-up($screen-md) {
+      text-align: right;
+    }
     @include media-down($screen-md) {
       order: -1;
     }

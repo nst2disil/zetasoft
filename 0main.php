@@ -23,7 +23,7 @@
               </div>              
             </div>
             <div class="tools__item js-tool-item">
-              <button class="button button--block js-tool-toggler button--dot button--blue-light">Gherkin</button>
+              <button class="button button--block js-tool-toggler button--dot button--blue">Gherkin</button>
               <div class="tools__panel js-tool-panel">
                 <div class="panel panel--no-shadow panel--sm panel--head-black">
                   <div class="panel__head">
@@ -35,7 +35,7 @@
               
             </div>
             <div class="tools__item js-tool-item">
-              <button class="button button--block js-tool-toggler button--dot button--blue">CI/CD</button>
+              <button class="button button--block js-tool-toggler button--dot button--blue-dark">CI/CD</button>
               <div class="tools__panel js-tool-panel">
                 <div class="panel panel--no-shadow panel--sm panel--head-black">
                   <div class="panel__head">
@@ -123,7 +123,7 @@
             </div>
           </div>
 
-          <div class="callback-panel panel panel--yellow">
+          <div class="callback-panel panel panel--yellow panel--no-shadow">
             <div class="callback-panel__text">Протестируйте вашу бизнес-задачу бесплатно</div>
             <button class="callback-panel__button button button--block button--big" data-modal="contact-form">Поставить&nbsp;задачу</button>
           </div>

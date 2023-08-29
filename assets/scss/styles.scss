@@ -100,11 +100,11 @@ img {
       padding: 10px 16px;
     }
   }
-  &--blue-light {
-    background: var(--color-blue);
-  }
   &--blue {
     background: var(--color-blue);
+  }
+  &--blue-dark {
+    background: var(--color-blue-dark);
   }
   &--red {
     background: var(--color-red);
@@ -119,6 +119,7 @@ img {
     @include media-down($screen-md) {
       width: 100%;
       padding: 18px 0;
+      font-size: 16px;
     }
 
   }
@@ -193,30 +194,30 @@ img {
     }
   }
   h1.section__title {
-    font-size: 40px;
+    font-size: 56px;
     font-weight: 600;
     line-height: 130%;
     @include media-down($screen-bg) {
-      font-size: 32px;
+      font-size: 40px;
     }
     @include media-down($screen-md) {
-      font-size: 24px;
+      font-size: 28px;
     }
   }
   h2.section__title {
-    font-size: 56px;
+    font-size: 40px;
     font-weight: 600;
     line-height: 130%;
     border-bottom: 1px solid var(--color-black);
     padding-bottom: 28px;
     margin-bottom: 48px;
     @include media-down($screen-bg) {
-      font-size: 40px;
+      font-size: 32px;
       padding-bottom: 16px;
       margin-bottom: 40px;
     }
     @include media-down($screen-md) {
-      font-size: 28px;
+      font-size: 24px;
       margin-bottom: 20px;
     }
   }
@@ -310,7 +311,7 @@ img {
     right: var(--panel-content-padding);
     bottom: var(--panel-content-padding);
     @include media-down($screen-bg) { --square: 80px; }
-    @include media-down($screen-md) { --square: 64px; }
+    @include media-down($screen-md) { --square: 64px; max-height: 40px; }
   }
   &__close {
     position: absolute;
@@ -348,6 +349,8 @@ a.panel:hover {
 .callback-panel {
   padding: 40px;
   display: flex;
+  flex-direction: row;
+  align-items: center;
   justify-content: space-between;
   font-size: 32px;
   font-style: normal;
