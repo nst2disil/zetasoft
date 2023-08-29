@@ -344,7 +344,8 @@ $cases-categories:(
     }
   }
   &__image {
-    height: 25px;
+    max-height: 33px;
+    max-width: 72px;
   }
   &__text {
     font-size: 16px;

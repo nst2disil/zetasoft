@@ -407,7 +407,8 @@
   }
 }
 .case__image {
-  height: 25px;
+  max-height: 33px;
+  max-width: 72px;
 }
 .case__text {
   font-size: 16px;
