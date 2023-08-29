@@ -278,6 +278,17 @@ img {
       z-index: -1;
     }
   }
+  &__head-icon {
+    position: absolute;
+    --offset: 24px;
+    left: var(--offset);
+    top: var(--offset);
+    height: 40px;
+    width: 40px;
+    @include media-down($screen-lg) {
+      --offset: 16px;
+    }
+  }
   &__content {
     padding: var(--panel-content-padding);
     display: flex;

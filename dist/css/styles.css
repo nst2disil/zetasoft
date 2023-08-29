@@ -699,6 +699,19 @@ img {
   top: 0;
   z-index: -1;
 }
+.panel__head-icon {
+  position: absolute;
+  --offset: 24px;
+  left: var(--offset);
+  top: var(--offset);
+  height: 40px;
+  width: 40px;
+}
+@media screen and (max-width: 1439px) {
+  .panel__head-icon {
+    --offset: 16px;
+  }
+}
 .panel__content {
   padding: var(--panel-content-padding);
   display: flex;
