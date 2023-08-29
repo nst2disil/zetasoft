@@ -348,14 +348,42 @@
 
 @media screen and (min-width: 880px) {
   .cases {
-    display: grid;
-    grid-template: "1fr 1fr 1fr";
+    display: flex;
+    flex-wrap: wrap;
     gap: 18px;
   }
+}
+@media screen and (min-width: 880px) {
   .cases__item {
     aspect-ratio: 1/1;
+    max-height: 436px;
   }
 }
+@media screen and (min-width: 375px) {
+  .cases__item {
+    width: calc(33.3333333333% - 12px);
+  }
+}
+
+.cases__item:visibile:nth-child(n+7) {
+  display: none;
+}
+.cases--filtered[data-filtered-by=auto] .cases__item:not([data-case-category=auto]) {
+  display: none;
+}
+.cases--filtered[data-filtered-by=vending] .cases__item:not([data-case-category=vending]) {
+  display: none;
+}
+.cases--filtered[data-filtered-by=time] .cases__item:not([data-case-category=time]) {
+  display: none;
+}
+.cases--filtered[data-filtered-by=common] .cases__item:not([data-case-category=common]) {
+  display: none;
+}
+.cases--filtered[data-filtered-by="1c"] .cases__item:not([data-case-category="1c"]) {
+  display: none;
+}
+
 .case {
   display: flex;
   flex-direction: column;
@@ -395,14 +423,14 @@
 @media screen and (min-width: 880px) {
   .swiper {
     overflow: unset;
+    margin-left: unset;
+    margin-right: unset;
   }
   .swiper-wrapper {
     width: unset;
     height: unset;
-    display: grid;
   }
   .swiper-slide {
-    width: unset;
     height: unset;
     display: flex;
   }

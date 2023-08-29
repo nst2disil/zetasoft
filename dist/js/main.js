@@ -67,6 +67,35 @@ function ininPopups() {
   });
 }
 
+function initCases() {
+  const cases = document.querySelector('.js-cases');
+  const buttons = document.querySelectorAll('.js-case-category');
+
+  const handleClick = (event) => {
+      const clickedButton = event.target;
+      const category = clickedButton.getAttribute('data-case-category');
+      buttons.forEach((button) => {
+          if (button !== clickedButton) {
+              button.classList.remove('button--active');
+          }
+      });
+      if (clickedButton.classList.contains('button--active')) {
+        cases.classList.remove('cases--filtered');
+        clickedButton.classList.remove('button--active');
+        cases.setAttribute('data-filtered-by', '');
+        return;
+      }
+      clickedButton.classList.add('button--active');
+
+      cases.setAttribute('data-filtered-by', category);
+      cases.classList.add('cases--filtered');
+  };
+
+  buttons.forEach((button) => {
+      button.addEventListener('click', handleClick);
+  });
+}
+
 var init = false;
 var swiper;
 
@@ -95,6 +124,7 @@ document.addEventListener('DOMContentLoaded', () => {
   setupToolToggler();
   ininPopups();
   swiperCard();
+  initCases();
 });
 
 window.addEventListener('resize', () => {

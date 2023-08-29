@@ -480,9 +480,9 @@ img {
   border: 1px solid var(--main-black-231-f-20, #231F20);
   background: #fff;
   box-shadow: 4px 4px 0px 0px #231F20;
-  transition: box-shadow var(--animation-duration);
+  transition: box-shadow var(--animation-duration), background-color var(--animation-duration);
 }
-.button--block:focus {
+.button--block:focus:not(.button--active) {
   box-shadow: 2px 2px 0px 0px #231F20;
   outline: none;
 }
@@ -517,6 +517,10 @@ img {
     padding: 18px 0;
     font-size: 16px;
   }
+}
+.button--active {
+  background-color: var(--color-yellow);
+  box-shadow: none;
 }
 
 @media screen and (max-width: 374px) {

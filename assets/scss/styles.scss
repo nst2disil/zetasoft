@@ -87,8 +87,8 @@ img {
     border: 1px solid var(--main-black-231-f-20, #231F20);
     background: #fff;
     box-shadow: 4px 4px 0px 0px #231F20;
-    transition: box-shadow var(--animation-duration);
-    &:focus {
+    transition: box-shadow var(--animation-duration), background-color var(--animation-duration);
+    &:focus:not(.button--active) {
       box-shadow: 2px 2px 0px 0px #231F20;
       outline: none;
     }
@@ -121,7 +121,10 @@ img {
       padding: 18px 0;
       font-size: 16px;
     }
-
+  }
+  &--active {
+    background-color: var(--color-yellow);
+    box-shadow: none;
   }
 }
 

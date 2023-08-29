@@ -283,13 +283,45 @@
   margin-bottom: 40px;
 }
 
-@include media-up($screen-md) {
-  .cases {
-    display: grid;
-    grid-template: '1fr 1fr 1fr';
+
+.cases {
+  @include media-up($screen-md) {
+    display: flex;
+    flex-wrap: wrap;
+    //display: grid;
+    //grid-template: '1fr 1fr 1fr';
     gap: 18px;
-    &__item {
+  }
+  &__item {
+    @include media-up($screen-md) {
       aspect-ratio: 1/1;
+      max-height: 436px;
+    }
+    @include media-up($screen-sm) {
+      //max-height: 312px;
+      width: calc(100%/3 - 12px);
+    }
+  }
+}
+
+
+$cases-categories:(
+  "auto",
+  "vending",
+  "time",
+  "common",
+  "1c",
+);
+
+.cases {
+  &__item:visibile:nth-child(n+7) {
+    display: none;
+  }
+  &--filtered {
+    @each $val in $cases-categories {
+      &[data-filtered-by='#{$val}'] .cases__item:not([data-case-category='#{$val}']) {
+        display: none;
+      }
     }
   }
 }
@@ -328,13 +360,14 @@
 @include media-up($screen-md) {
   .swiper {
     overflow: unset;
+    margin-left: unset;
+    margin-right: unset;
     &-wrapper {
       width: unset;
       height: unset;
-      display: grid;
     }
     &-slide {
-      width: unset;
+      //width: unset;
       height: unset;
       display: flex;
     }
