@@ -54,6 +54,43 @@
           </div>
         </div>
       </section>
+      <section class="section section--black section--two-cols">
+        <div class="wrapper">
+          <div class="section__col">
+            <h2 class="section__title">Чем&nbsp;мы отличаемся от&nbsp;большинства франчайзи 1С в&nbsp;России?</h2>
+            <img class="section__image" src="/dist/img/section-report.svg" alt="illustration">
+          </div>
+          <div class="section__col">
+            <div class="diffs">
+              <div class="diffs__item panel panel--white panel--no-shadow">
+                <div class="panel__content">
+                  <div class="panel__title">Процесс работы над задачей</div>
+                  <div class="panel__text">Каждый этап выполняется в соответствии с высоким стандартом, мониторинг</div>
+                </div>
+              </div>
+              <div class="diffs__item panel panel--white panel--no-shadow">
+                <div class="panel__content">
+                  <div class="panel__title">Квалификация сотрудников</div>
+                  <div class="panel__text">Каждый специалист, будучи экспертом в своей области, гарантирует высокий стандарт результата</div>
+                </div>
+              </div>
+              <div class="diffs__item panel panel--blue panel--no-shadow">
+                <div class="panel__content">
+                  <div class="panel__title">Глубокая отраслевая экспертиза</div>
+                  <ul class="ul panel__list">
+                    <li>Вендинг</li>
+                    <li>Автобизнес</li>
+                    <li>Торговый бизнес</li>
+                    <li>ТРК и БЦ</li>
+                  </ul>
+                  <div class="panel__text">Сэкономим время на погружение команды в тему и предложим способы оптимизации бизнес-процессов</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
     </div>
     <div class="container__footer"><? include './partials/_footer.html'?></div>
   </div>

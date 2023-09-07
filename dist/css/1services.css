@@ -26,6 +26,77 @@
   margin-top: auto;
 }
 
+.section--two-cols .wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+@media screen and (max-width: 879px) {
+  .section--two-cols .wrapper {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+}
+.section--two-cols .wrapper .section__col {
+  display: flex;
+  flex-direction: column;
+}
+.section--two-cols .wrapper .section__image {
+  margin-top: auto;
+  --size: 476px;
+  height: var(--size);
+  width: var(--size);
+}
+@media screen and (max-width: 879px) {
+  .section--two-cols .wrapper .section__image {
+    --size: 371px;
+  }
+}
+@media screen and (max-width: 879px) {
+  .section--two-cols .wrapper .section__image {
+    display: none;
+  }
+}
+
+.diffs {
+  display: grid;
+  --block-height: 200px;
+  grid-template-rows: var(--block-height) var(--block-height) calc(var(--block-height) * 2);
+  gap: 24px;
+}
+@media screen and (max-width: 1439px) {
+  .diffs {
+    --block-height: 168px;
+  }
+}
+@media screen and (max-width: 879px) {
+  .diffs {
+    --block-height: 212px;
+  }
+}
+.diffs__item {
+  --image-pos: 32px;
+  background-repeat: no-repeat;
+  background-position: right var(--image-pos) top var(--image-pos);
+}
+.diffs__item .panel__title {
+  padding-right: 66px;
+}
+@media screen and (max-width: 1439px) {
+  .diffs__item {
+    --image-pos: 20px;
+  }
+}
+.diffs__item:nth-child(1) {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none"><rect x="31" y="31" width="24" height="24" rx="1" fill="%23231F20" stroke="%23231F20" stroke-width="2"/><rect x="1" y="31" width="24" height="24" rx="1" fill="%23231F20" stroke="%23231F20" stroke-width="2"/><rect x="1" y="1" width="24" height="24" rx="1" fill="%2300ABEA" stroke="%23231F20" stroke-width="2"/></svg>');
+}
+.diffs__item:nth-child(2) {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none"><rect x="31" y="31" width="24" height="24" rx="1" fill="%23231F20" stroke="%23231F20" stroke-width="2"/><rect x="31" y="1" width="24" height="24" rx="1" fill="%2300ABEA" stroke="%23231F20" stroke-width="2"/><rect x="1" y="1" width="24" height="24" rx="1" fill="%2300ABEA" stroke="%23231F20" stroke-width="2"/></svg>');
+}
+.diffs__item:nth-child(3) {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none"><rect x="31" y="31" width="24" height="24" rx="1" fill="%23231F20" stroke="%23231F20" stroke-width="2"/><rect x="1" y="31" width="24" height="24" rx="1" fill="white" stroke="%23231F20" stroke-width="2"/><rect x="31" y="1" width="24" height="24" rx="1" fill="%23231F20" stroke="%23231F20" stroke-width="2"/><rect x="1" y="1" width="24" height="24" rx="1" fill="%23231F20" stroke="%23231F20" stroke-width="2"/></svg>');
+}
+
 .tools {
   margin-top: auto;
   display: grid;

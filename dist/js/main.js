@@ -100,6 +100,7 @@ var init = false;
 var swiper;
 
 function swiperCard() {
+  if (!document.querySelector('.js-cases-swiper')) return;
   if (window.innerWidth <= 880) {
     if (!init) {
       init = true;
