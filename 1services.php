@@ -91,6 +91,74 @@
 
         </div>
       </div>
+      <div class="section">
+        <div class="wrapper">
+          <h2 class="section__title">Ваша задача разработки в 1С проходит следующие этапы</h2>
+          <div class="stages">
+            <div class="stages__item">
+              <div class="panel">
+                <div class="panel__content">
+                  <div class="panel__title"><span class="panel__title-text">Описание задачи</span><div class="stages__item-number"></div></div>
+                  <div class="panel__text">Работаем с сутью задачи: описываем её роль, взаимодействие с другими бизнес-процессами, предлагаем возможные варианты решения</div>
+                </div>
+              </div>
+            </div>
+            <div class="stages__item">
+              <div class="panel">
+                <div class="panel__content">
+                  <div class="panel__title"><span class="panel__title-text">Сценарий</span><div class="stages__item-number"></div></div>
+                  <div class="panel__text">Бизнес-аналитик совместно с вами прописывает все варианты развития событий, затем на их основе пишет сценарии на языке Gherkin</div>
+                </div>
+              </div>
+            </div>
+            <div class="stages__item">
+              <div class="panel">
+                <div class="panel__content">
+                  <div class="panel__title"><span class="panel__title-text">Архитектура</span><div class="stages__item-number"></div></div>
+                  <div class="panel__text">Утверждённый сценарий попадает к архитектору. Чем сложнее задача, тем больше времени и компетенций требуется от архитектора</div>
+                </div>
+              </div>
+            </div>
+            <div class="stages__item">
+              <div class="panel">
+                <div class="panel__content">
+                  <div class="panel__title"><span class="panel__title-text">Бюджет</span><div class="stages__item-number"></div></div>
+                  <div class="panel__text">Формируем бюджет проекта на основании построенной архитектуры и выбранного решения</div>
+                </div>
+              </div>
+            </div>
+            <div class="stages__item">
+              <div class="panel panel--black panel--no-shadow">
+                <div class="panel__content">
+                  <div class="panel__title"><span class="panel__title-text">Разработка</span><div class="stages__item-number"></div></div>
+                  <div class="panel__text">Разработчики приступают к написанию кода исходя из описанной логики и способа технической реализации. Код формируется на основе стандартов 1С, хранится и версионируется в Git репозиториях. Надёжность процесса разработки гарантирует техническое обеспечение: защищённые хранилища, привязка кода в рамках задач, тестирование на окружениях, приближенных к реальным производственным средам</div>
+                </div>
+              </div>
+            </div>
+            <div class="stages__item">
+              <div class="panel">
+                <div class="panel__content">
+                  <div class="panel__title"><span class="panel__title-text">Внедрение</span><div class="stages__item-number"></div></div>
+                  <div class="panel__text">Бизнес-аналитик внедряет результат совместно с заказчиком</div>
+                </div>
+              </div>
+            </div>
+            <div class="stages__item">
+              <div class="panel">
+                <div class="panel__content">
+                  <div class="panel__title"><span class="panel__title-text">Создание базы знаний</span><div class="stages__item-number"></div></div>
+                  <div class="panel__text">На основе сценария формируются инструкции по бизнес-процессу</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="callback-panel panel panel--yellow panel--no-shadow">
+            <div class="callback-panel__text">Протестируйте вашу бизнес-задачу бесплатно</div>
+            <button class="callback-panel__button button button--block button--big" data-modal="contact-form">Поставить&nbsp;задачу</button>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="container__footer"><? include './partials/_footer.html'?></div>
   </div>

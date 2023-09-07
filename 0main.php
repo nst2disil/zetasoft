@@ -127,23 +127,7 @@
             <div class="callback-panel__text">Протестируйте вашу бизнес-задачу бесплатно</div>
             <button class="callback-panel__button button button--block button--big" data-modal="contact-form">Поставить&nbsp;задачу</button>
           </div>
-          <div class="modal" id="contact-form">
-            <div class="modal__bg js-modal-exit"></div>
-            <div class="modal__container">
-              <button class="modal__close js-modal-exit"></button>
-              <div class="modal__title">
-                Заполните данные для бесплатной консультации
-              </div>
-              <form class="modal__form form">
-                <input type="text" name="name" placeholder="Имя" class="input" required>
-                <input type="text" name="phone" placeholder="+7" class="input" required>
-                <input type="text" name="email" placeholder="E-mail" class="input" required>
-                <textarea class="input form__textarea" name="comment" placeholder="Комментарий" rows="10"></textarea>
-                <input type="submit" value="Отправить" class="form__submit button button--block button--yellow">
-                <span class="form__tip">Нажимая на кнопку «Отправить», я даю согласие на обработку персональных данных</span>
-              </form>
-            </div>
-          </div>
+          
         </div>
       </section>
       <section class="section">
