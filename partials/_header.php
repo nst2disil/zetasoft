@@ -5,7 +5,7 @@
     </a>
     <nav class="header__menu hide-md hide-sm">
       <ul class="menu">
-        <li class="menu__item"><a href="/1services.php" class="header__link">Услуги</a></li>
+        <li class="menu__item"><a href="/services.html" class="header__link">Услуги</a></li>
         <li class="menu__item"><a href="#" class="header__link">Продукты</a></li>
         <li class="menu__item hide-bg"><a href="#" class="header__link">Компетенции</a></li>
         <li class="menu__item"><a href="#" class="header__link">Кейсы</a></li>
@@ -28,7 +28,7 @@
   <div class="wrapper">
     <nav class="links">
       <ul class="links__col">
-        <a href="/1services.php" class="links__item">Услуги</a>
+        <a href="/services.html" class="links__item">Услуги</a>
         <a href="#" class="links__item">Продукты</a>
         <a href="#" class="links__item">Компетенции</a>
         <a href="#" class="links__item">Кейсы</a>
