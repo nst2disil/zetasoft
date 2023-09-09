@@ -570,6 +570,9 @@ img {
   flex-direction: column;
   min-height: calc(720px - var(--header-height));
 }
+.section--no-min-height {
+  min-height: unset;
+}
 @media screen and (max-width: 1023px) {
   .section {
     padding: 48px 0;
@@ -591,7 +594,7 @@ img {
   color: #fff;
   border-color: #fff !important;
 }
-.section--black .panel {
+.section--black .panel:not([class*=panel--shadow-]) {
   box-shadow: 4px 4px 0px 0px #fff;
 }
 .section h1.section__title {
@@ -628,6 +631,22 @@ img {
   .section h2.section__title {
     font-size: 24px;
     margin-bottom: 20px;
+  }
+}
+.section__subtitle {
+  color: var(--color-black);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 130%;
+}
+@media screen and (max-width: 1439px) {
+  .section__subtitle {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 879px) {
+  .section__subtitle {
+    font-size: 20px;
   }
 }
 .section .wrapper {
@@ -732,7 +751,7 @@ img {
     font-weight: 400;
   }
 }
-.panel__text {
+.panel__text:not(:first-child):last-child {
   margin-top: auto;
 }
 @media screen and (max-width: 1439px) {
@@ -755,6 +774,11 @@ img {
   text-decoration: underline;
   text-transform: uppercase;
 }
+@media screen and (max-width: 1439px) {
+  .panel__link {
+    font-size: 16px;
+  }
+}
 .panel__image {
   --square: 104px;
   width: var(--square);
@@ -762,7 +786,7 @@ img {
   right: var(--panel-content-padding);
   bottom: var(--panel-content-padding);
 }
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1439px) {
   .panel__image {
     --square: 80px;
   }
@@ -770,6 +794,8 @@ img {
 @media screen and (max-width: 879px) {
   .panel__image {
     --square: 64px;
+  }
+  .panel__image--logo {
     max-height: 40px;
   }
 }
@@ -817,6 +843,9 @@ img {
 }
 .panel--sm .panel__content {
   padding: 16px;
+}
+.panel--shadow-blue {
+  box-shadow: 4px 4px 0px 0px var(--color-blue);
 }
 
 a.panel:hover {
@@ -1021,7 +1050,13 @@ ul.ul {
 }
 ul.ul li {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  line-height: 130%;
+}
+@media screen and (max-width: 879px) {
+  ul.ul li {
+    font-size: 16px;
+  }
 }
 ul.ul li::before {
   content: "";
@@ -1030,5 +1065,106 @@ ul.ul li::before {
   border-radius: 50%;
   height: 7px;
   width: 7px;
-  margin: 0 8px;
+  margin: 11px 8px 0;
+  flex: 0 0 7px;
+}
+@media screen and (max-width: 879px) {
+  ul.ul li::before {
+    margin-top: 7px;
+  }
+}
+
+.contact-big {
+  margin-top: 72px;
+  padding: 64px;
+  height: 376px;
+  background-color: var(--color-yellow);
+  color: var(--color-black);
+  position: relative;
+}
+@media screen and (max-width: 1439px) {
+  .contact-big {
+    height: 301px;
+    padding: 48px;
+  }
+}
+@media screen and (max-width: 879px) {
+  .contact-big {
+    height: auto;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+.contact-big__title {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  padding-right: 540px;
+  margin-bottom: 36px;
+}
+@media screen and (max-width: 1439px) {
+  .contact-big__title {
+    font-size: 32px;
+    margin-bottom: 22px;
+    padding-right: 395px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .contact-big__title {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 879px) {
+  .contact-big__title {
+    padding: 0;
+  }
+}
+.contact-big__text {
+  margin-top: 16px;
+  font-size: 20px;
+  font-weight: 500;
+}
+@media screen and (max-width: 1439px) {
+  .contact-big__text {
+    font-size: 16px;
+    margin-top: 14px;
+  }
+}
+.contact-big__text + .contact-big__image + .contact-big__button {
+  margin-top: 74px;
+}
+@media screen and (max-width: 1439px) {
+  .contact-big__text + .contact-big__image + .contact-big__button {
+    margin-top: 52px;
+  }
+}
+@media screen and (max-width: 879px) {
+  .contact-big__text + .contact-big__image + .contact-big__button {
+    margin-top: 8px;
+  }
+}
+.contact-big__image {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 476px;
+  max-height: unset;
+}
+@media screen and (max-width: 1439px) {
+  .contact-big__image {
+    width: 371px;
+  }
+}
+@media screen and (max-width: 879px) {
+  .contact-big__image {
+    position: relative;
+    width: 214px;
+    align-self: flex-end;
+  }
+}
+
+.section--no-min-height .contact-big {
+  margin-top: 0;
 }

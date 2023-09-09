@@ -163,20 +163,20 @@
             Мы&nbsp;— франчайзи программы 1С и&nbsp;предлагаем&nbsp;собственные решения
           </div>
           <div class="accounting">
-            <a class="accounting__item panel panel--white">
+            <a href="#" class="accounting__item panel panel--white">
               <div class="panel__content">
                 <div class="panel__title">Наши решения</div>
                 <div class="panel__text">Вы&nbsp;можете выбрать интересующий вас&nbsp;продукт, направление или&nbsp;посмотреть схему взаимодействия наших решений</div>
                 <div class="panel__link">выбрать решение</div>
-                <img src="./dist/img/panel-zeta.svg" alt="zeta logo" class="panel__image">
+                <img src="./dist/img/panel-zeta.svg" alt="zeta logo" class="panel__image panel__image--logo">
               </div>
             </a>
-            <a class="accounting__item panel panel--yellow">
+            <a href="#" class="accounting__item panel panel--yellow">
               <div class="panel__content">
                 <div class="panel__title">Продукты 1С</div>
                 <div class="panel__text">C&nbsp;2006&nbsp;года мы&nbsp;оказываем комплексные услуги по&nbsp;постановке учёта, автоматизации предприятий и&nbsp;сопровождению наших клиентов на&nbsp;базе конфигураций 1С</div>
                 <div class="panel__link">выбрать продукт 1С</div>
-                <img src="./dist/img/panel-1c.svg" alt="1c logo" class="panel__image">
+                <img src="./dist/img/panel-1c.svg" alt="1c logo" class="panel__image panel__image--logo">
               </div>
             </a>
           </div>
@@ -281,7 +281,7 @@
               <div class="panel__content help">
                 <div class="help__block">
                   <div class="panel__title help__title">Проанализировать код</div>
-                  <div class="help__text">с точки зрения его технической реализации и оформления </div>
+                  <div class="panel__text help__text">с точки зрения его технической реализации и оформления </div>
                 </div>
                 <img src="./dist/img/icons/business-b/039-research and development.svg" alt="иллюстрация" class="help__image panel__image">
               </div>
@@ -290,7 +290,7 @@
               <div class="panel__content help">
                 <div class="help__block">
                   <div class="panel__title help__title">Оценить скорость 1С с&nbsp;методикой&nbsp;APDEX</div>
-                  <div class="help__text">с точки зрения его технической реализации и оформления </div>
+                  <div class="panel__text help__text">с точки зрения его технической реализации и оформления </div>
                 </div>
                 <img src="./dist/img/icons/business-b/046-profit.svg" alt="иллюстрация" class="help__image panel__image">
               </div>
@@ -299,7 +299,7 @@
               <div class="panel__content help">
                 <div class="help__block">
                   <div class="panel__title help__title">Показать подход и совместно описать ваши бизнес-процессы</div>
-                  <div class="help__text">чтобы&nbsp;снизить зависимость от&nbsp;«сотрудников на&nbsp;местах»</div>
+                  <div class="panel__text help__text">чтобы&nbsp;снизить зависимость от&nbsp;«сотрудников на&nbsp;местах»</div>
                 </div>
                 <img src="./dist/img/icons/business-b/019-effort.svg" alt="иллюстрация" class="help__image panel__image">
               </div>
@@ -308,7 +308,7 @@
               <div class="panel__content help">
                 <div class="help__block">
                   <div class="panel__title help__title">Расставить метрики</div>
-                  <div class="help__text">чтобы посмотреть, сколько времени занимает каждая операция</div>
+                  <div class="panel__text help__text">чтобы посмотреть, сколько времени занимает каждая операция</div>
                 </div>
                 <img src="./dist/img/icons/business-b/005-analytics.svg" alt="иллюстрация" class="help__image panel__image">
               </div>
@@ -317,7 +317,7 @@
               <div class="panel__content help">
                 <div class="help__block">
                   <div class="panel__title help__title">Применить методы глубокой автоматизации</div>
-                  <div class="help__text">на основе детальных бизнес-процессов</div>
+                  <div class="panel__text help__text">на основе детальных бизнес-процессов</div>
                 </div>
                 <img src="./dist/img/icons/business-b/009-concentrate.svg" alt="иллюстрация" class="help__image panel__image">
               </div>
@@ -326,7 +326,7 @@
               <div class="panel__content help">
                 <div class="help__block">
                   <div class="panel__title help__title">Обсудить и настроить основные управленческие отчеты</div>
-                  <div class="help__text">кэш-фло, прибыли и убытки, баланс</div>
+                  <div class="panel__text help__text">кэш-фло, прибыли и убытки, баланс</div>
                 </div>
                 <img src="./dist/img/icons/business-b/038-agreement.svg" alt="иллюстрация" class="help__image panel__image">
               </div>

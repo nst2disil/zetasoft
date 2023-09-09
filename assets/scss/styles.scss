@@ -174,6 +174,9 @@ img {
   align-items: stretch;
   flex-direction: column;
   min-height: calc(720px - var(--header-height));
+  &--no-min-height {
+    min-height: unset;
+  }
   @include media-down($screen-bg) {
     padding: 48px 0;
   }
@@ -192,7 +195,7 @@ img {
       color: #fff;
       border-color: #fff !important;
     }
-    .panel {
+    .panel:not([class*="panel--shadow-"]) {
       box-shadow: 4px 4px 0px 0px #fff;
     }
   }
@@ -222,6 +225,18 @@ img {
     @include media-down($screen-md) {
       font-size: 24px;
       margin-bottom: 20px;
+    }
+  }
+  &__subtitle {
+    color: var(--color-black);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 130%;
+    @include media-down($screen-lg) {
+      font-size: 24px;
+    }
+    @include media-down($screen-md) {
+      font-size: 20px;
     }
   }
   .wrapper {
@@ -308,11 +323,12 @@ img {
     }
   }
   &__text {
-    margin-top: auto;
+    &:not(:first-child):last-child {
+      margin-top: auto;
+    }
     @include media-down($screen-lg) {
       font-size: 16px;
     }
-
   }
   &__list {
     font-size: 24px;
@@ -326,16 +342,21 @@ img {
     margin-top: auto;
     text-decoration: underline;
     text-transform: uppercase;
+    @include media-down($screen-lg) { font-size: 16px; }
   }
   &__image {
     --square: 104px;
-    //height: var(--square);
     width: var(--square);
     position: absolute;
     right: var(--panel-content-padding);
     bottom: var(--panel-content-padding);
-    @include media-down($screen-bg) { --square: 80px; }
-    @include media-down($screen-md) { --square: 64px; max-height: 40px; }
+    @include media-down($screen-lg) { --square: 80px; }
+    @include media-down($screen-md) {
+      --square: 64px;
+      &--logo {
+        max-height: 40px;
+      }
+    }
   }
   &__close {
     position: absolute;
@@ -364,6 +385,7 @@ img {
   }
   &--sm &__head { --head-height: 32px; }
   &--sm &__content { padding: 16px; }
+  &--shadow-blue { box-shadow: 4px 4px 0px 0px var(--color-blue); }
 }
 a.panel:hover {
   box-shadow: none;
@@ -544,7 +566,11 @@ ul.ul {
   gap: 8px;
   li {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    line-height: 130%;
+    @include media-down($screen-md) {
+      font-size: 16px;
+    }
     &::before {
       content: '';
       display: block;
@@ -552,7 +578,87 @@ ul.ul {
       border-radius: 50%;
       height: 7px;
       width: 7px;
-      margin: 0 8px;
+      margin: 11px 8px 0;
+      flex: 0 0 7px;
+      @include media-down($screen-md) {
+        margin-top: 7px;
+      }
     }
   }
+}
+
+.contact-big {
+  margin-top: 72px;
+  padding: 64px;
+  height: 376px;
+  background-color: var(--color-yellow);
+  color: var(--color-black);
+  position: relative;
+  @include media-down($screen-lg) {
+    height: 301px;
+    padding: 48px;
+  }
+  @include media-down($screen-md) {
+    height: auto;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+  }
+  &__title {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    padding-right: 540px;
+    margin-bottom: 36px;
+    @include media-down($screen-lg) {
+      font-size: 32px;
+      margin-bottom: 22px;
+      padding-right: 395px;
+    }
+    @include media-down($screen-bg) {
+      font-size: 24px;
+    }
+    @include media-down($screen-md) {
+      padding: 0;
+    }
+  }
+  &__text {
+    margin-top: 16px;
+    font-size: 20px;
+    font-weight: 500;
+    @include media-down($screen-lg) {
+      font-size: 16px;
+      margin-top: 14px;
+    }
+    & + .contact-big__image + .contact-big__button {
+      margin-top: 74px;
+      @include media-down($screen-lg) {
+        margin-top: 52px;
+      }
+      @include media-down($screen-md) {
+        margin-top: 8px;
+      }
+    }
+  }
+  &__image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 476px;
+    max-height: unset;
+    @include media-down($screen-lg) {
+      width: 371px;
+    }
+
+    @include media-down($screen-md) {
+      position: relative;
+      width: 214px;
+      align-self: flex-end;
+    }
+  }
+}
+
+.section--no-min-height .contact-big {
+  margin-top: 0;
 }
