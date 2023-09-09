@@ -186,11 +186,11 @@
         <div class="wrapper">
           <h2 class="section__title">Кейсы</h2>
           <div class="categories">
-            <button class="categories__item js-case-category button button--yellow button--block button--dot" data-case-category="auto">Автобизнес</button>
-            <button class="categories__item js-case-category button button--red button--block button--dot" data-case-category="vending">Вендинг</button>
+            <button class="categories__item js-case-category button button--red button--block button--dot" data-case-category="auto">Автозапчасти</button>
+            <button class="categories__item js-case-category button button--green button--block button--dot" data-case-category="vending">Вендинг</button>
             <button class="categories__item js-case-category button button--blue-dark button--block button--dot" data-case-category="time">Продажа времени</button>
-            <button class="categories__item js-case-category button button--blue button--block button--dot" data-case-category="common">Универсальные</button>
-            <button class="categories__item js-case-category button button--block button--dot" data-case-category="1c">1C</button>
+            <button class="categories__item js-case-category button button--blue button--block button--dot" data-case-category="common">Универсальный</button>
+            <button class="categories__item js-case-category button bbutton--yellow utton--block button--dot" data-case-category="1c">1C</button>
             <a href="#" class="categories__item button button--block button--dot">Все продукты</a>
           </div>
           <div class="swiper js-cases-swiper">

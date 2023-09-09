@@ -9,22 +9,22 @@
   <meta name="description" content="Продукты компаний ЗетаСофт и 1С - современные решения для автоматизации бизнеса и бизнес-процессов." />
   <meta name="keywords" />
   <meta name="Content-Type" content="text/html; charset=utf-8" />
-  <link rel="stylesheet" href="./dist/css/styles.css?cache=2023-08-29">
-  <link rel="stylesheet" href="./dist/css/swiper-bundle.min.css?cache=2023-08-29">
-  <link rel="stylesheet" href="./dist/css/0main.css?cache=2023-08-29">
-  <script defer src="./dist/js/main.js?cache=2023-08-29"></script>
-  <script defer src="./dist/js/swiper-bundle.min.js?cache=2023-08-29"></script>
+  <link rel="stylesheet" href="./dist/css/styles.css?cache=2023-09-09">
+  <link rel="stylesheet" href="./dist/css/swiper-bundle.min.css?cache=2023-09-09">
+  <link rel="stylesheet" href="./dist/css/0main.css?cache=2023-09-09">
+  <script defer src="./dist/js/main.js?cache=2023-09-09"></script>
+  <script defer src="./dist/js/swiper-bundle.min.js?cache=2023-09-09"></script>
   <title>Автоматизация онлайн-продаж и учёта в 1С | Компания "ЗетаСофт"</title></head>
 <body>
   <div class="container">
     <div class="container__header"><header class="header">
   <div class="wrapper">
-    <div class="header__logo-container">
+    <a class="header__logo-container" href="/">
       <img src="./dist/img/logo.svg" alt="Zeta Soft logo" class="header__logo">
-    </div>
+    </a>
     <nav class="header__menu hide-md hide-sm">
       <ul class="menu">
-        <li class="menu__item"><a href="#" class="header__link">Услуги</a></li>
+        <li class="menu__item"><a href="./services.html" class="header__link">Услуги</a></li>
         <li class="menu__item"><a href="#" class="header__link">Продукты</a></li>
         <li class="menu__item hide-bg"><a href="#" class="header__link">Компетенции</a></li>
         <li class="menu__item"><a href="#" class="header__link">Кейсы</a></li>
@@ -47,7 +47,7 @@
   <div class="wrapper">
     <nav class="links">
       <ul class="links__col">
-        <a href="#" class="links__item">Услуги</a>
+        <a href="./services.html" class="links__item">Услуги</a>
         <a href="#" class="links__item">Продукты</a>
         <a href="#" class="links__item">Компетенции</a>
         <a href="#" class="links__item">Кейсы</a>
@@ -191,23 +191,7 @@
             <div class="callback-panel__text">Протестируйте вашу бизнес-задачу бесплатно</div>
             <button class="callback-panel__button button button--block button--big" data-modal="contact-form">Поставить&nbsp;задачу</button>
           </div>
-          <div class="modal" id="contact-form">
-            <div class="modal__bg js-modal-exit"></div>
-            <div class="modal__container">
-              <button class="modal__close js-modal-exit"></button>
-              <div class="modal__title">
-                Заполните данные для бесплатной консультации
-              </div>
-              <form class="modal__form form">
-                <input type="text" name="name" placeholder="Имя" class="input" required>
-                <input type="text" name="phone" placeholder="+7" class="input" required>
-                <input type="text" name="email" placeholder="E-mail" class="input" required>
-                <textarea class="input form__textarea" name="comment" placeholder="Комментарий" rows="10"></textarea>
-                <input type="submit" value="Отправить" class="form__submit button button--block button--yellow">
-                <span class="form__tip">Нажимая на кнопку «Отправить», я даю согласие на обработку персональных данных</span>
-              </form>
-            </div>
-          </div>
+          
         </div>
       </section>
       <section class="section">
@@ -243,20 +227,20 @@
             Мы&nbsp;— франчайзи программы 1С и&nbsp;предлагаем&nbsp;собственные решения
           </div>
           <div class="accounting">
-            <a class="accounting__item panel panel--white">
+            <a href="#" class="accounting__item panel panel--white">
               <div class="panel__content">
                 <div class="panel__title">Наши решения</div>
                 <div class="panel__text">Вы&nbsp;можете выбрать интересующий вас&nbsp;продукт, направление или&nbsp;посмотреть схему взаимодействия наших решений</div>
                 <div class="panel__link">выбрать решение</div>
-                <img src="./dist/img/panel-zeta.svg" alt="zeta logo" class="panel__image">
+                <img src="./dist/img/panel-zeta.svg" alt="zeta logo" class="panel__image panel__image--logo">
               </div>
             </a>
-            <a class="accounting__item panel panel--yellow">
+            <a href="#" class="accounting__item panel panel--yellow">
               <div class="panel__content">
                 <div class="panel__title">Продукты 1С</div>
                 <div class="panel__text">C&nbsp;2006&nbsp;года мы&nbsp;оказываем комплексные услуги по&nbsp;постановке учёта, автоматизации предприятий и&nbsp;сопровождению наших клиентов на&nbsp;базе конфигураций 1С</div>
                 <div class="panel__link">выбрать продукт 1С</div>
-                <img src="./dist/img/panel-1c.svg" alt="1c logo" class="panel__image">
+                <img src="./dist/img/panel-1c.svg" alt="1c logo" class="panel__image panel__image--logo">
               </div>
             </a>
           </div>
@@ -266,11 +250,11 @@
         <div class="wrapper">
           <h2 class="section__title">Кейсы</h2>
           <div class="categories">
-            <button class="categories__item js-case-category button button--yellow button--block button--dot" data-case-category="auto">Автобизнес</button>
-            <button class="categories__item js-case-category button button--red button--block button--dot" data-case-category="vending">Вендинг</button>
+            <button class="categories__item js-case-category button button--red button--block button--dot" data-case-category="auto">Автозапчасти</button>
+            <button class="categories__item js-case-category button button--green button--block button--dot" data-case-category="vending">Вендинг</button>
             <button class="categories__item js-case-category button button--blue-dark button--block button--dot" data-case-category="time">Продажа времени</button>
-            <button class="categories__item js-case-category button button--blue button--block button--dot" data-case-category="common">Универсальные</button>
-            <button class="categories__item js-case-category button button--block button--dot" data-case-category="1c">1C</button>
+            <button class="categories__item js-case-category button button--blue button--block button--dot" data-case-category="common">Универсальный</button>
+            <button class="categories__item js-case-category button bbutton--yellow utton--block button--dot" data-case-category="1c">1C</button>
             <a href="#" class="categories__item button button--block button--dot">Все продукты</a>
           </div>
           <div class="swiper js-cases-swiper">
@@ -361,7 +345,7 @@
               <div class="panel__content help">
                 <div class="help__block">
                   <div class="panel__title help__title">Проанализировать код</div>
-                  <div class="help__text">с точки зрения его технической реализации и оформления </div>
+                  <div class="panel__text help__text">с точки зрения его технической реализации и оформления </div>
                 </div>
                 <img src="./dist/img/icons/business-b/039-research and development.svg" alt="иллюстрация" class="help__image panel__image">
               </div>
@@ -370,7 +354,7 @@
               <div class="panel__content help">
                 <div class="help__block">
                   <div class="panel__title help__title">Оценить скорость 1С с&nbsp;методикой&nbsp;APDEX</div>
-                  <div class="help__text">с точки зрения его технической реализации и оформления </div>
+                  <div class="panel__text help__text">с точки зрения его технической реализации и оформления </div>
                 </div>
                 <img src="./dist/img/icons/business-b/046-profit.svg" alt="иллюстрация" class="help__image panel__image">
               </div>
@@ -379,7 +363,7 @@
               <div class="panel__content help">
                 <div class="help__block">
                   <div class="panel__title help__title">Показать подход и совместно описать ваши бизнес-процессы</div>
-                  <div class="help__text">чтобы&nbsp;снизить зависимость от&nbsp;«сотрудников на&nbsp;местах»</div>
+                  <div class="panel__text help__text">чтобы&nbsp;снизить зависимость от&nbsp;«сотрудников на&nbsp;местах»</div>
                 </div>
                 <img src="./dist/img/icons/business-b/019-effort.svg" alt="иллюстрация" class="help__image panel__image">
               </div>
@@ -388,7 +372,7 @@
               <div class="panel__content help">
                 <div class="help__block">
                   <div class="panel__title help__title">Расставить метрики</div>
-                  <div class="help__text">чтобы посмотреть, сколько времени занимает каждая операция</div>
+                  <div class="panel__text help__text">чтобы посмотреть, сколько времени занимает каждая операция</div>
                 </div>
                 <img src="./dist/img/icons/business-b/005-analytics.svg" alt="иллюстрация" class="help__image panel__image">
               </div>
@@ -397,7 +381,7 @@
               <div class="panel__content help">
                 <div class="help__block">
                   <div class="panel__title help__title">Применить методы глубокой автоматизации</div>
-                  <div class="help__text">на основе детальных бизнес-процессов</div>
+                  <div class="panel__text help__text">на основе детальных бизнес-процессов</div>
                 </div>
                 <img src="./dist/img/icons/business-b/009-concentrate.svg" alt="иллюстрация" class="help__image panel__image">
               </div>
@@ -406,7 +390,7 @@
               <div class="panel__content help">
                 <div class="help__block">
                   <div class="panel__title help__title">Обсудить и настроить основные управленческие отчеты</div>
-                  <div class="help__text">кэш-фло, прибыли и убытки, баланс</div>
+                  <div class="panel__text help__text">кэш-фло, прибыли и убытки, баланс</div>
                 </div>
                 <img src="./dist/img/icons/business-b/038-agreement.svg" alt="иллюстрация" class="help__image panel__image">
               </div>
@@ -425,7 +409,7 @@
     <div class="footer-menu">
       <nav class="footer-menu__links links">
         <ul class="links__col">
-          <a href="#" class="footer-menu__link">Услуги</a>
+          <a href="./services.html" class="footer-menu__link">Услуги</a>
           <a href="#" class="footer-menu__link">Продукты</a>
           <a href="#" class="footer-menu__link">Компетенции</a>
           <a href="#" class="footer-menu__link">Кейсы</a>
@@ -461,6 +445,24 @@
       <a href="#" class="credits__link">Пользовательское соглашение</a>
       <a href="#" class="credits__link">Работает на: Zeta Web</a>
     </footer>
+  </div>
+</div>
+
+<div class="modal" id="contact-form">
+  <div class="modal__bg js-modal-exit"></div>
+  <div class="modal__container">
+    <button class="modal__close js-modal-exit"></button>
+    <div class="modal__title">
+      Заполните данные для бесплатной консультации
+    </div>
+    <form class="modal__form form">
+      <input type="text" name="name" placeholder="Имя" class="input" required>
+      <input type="text" name="phone" placeholder="+7" class="input" required>
+      <input type="text" name="email" placeholder="E-mail" class="input" required>
+      <textarea class="input form__textarea" name="comment" placeholder="Комментарий" rows="10"></textarea>
+      <input type="submit" value="Отправить" class="form__submit button button--block button--yellow">
+      <span class="form__tip">Нажимая на кнопку «Отправить», я даю согласие на обработку персональных данных</span>
+    </form>
   </div>
 </div></div>
   </div>
