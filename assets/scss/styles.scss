@@ -98,6 +98,7 @@ img {
     }
     @include media-down($screen-bg) {
       padding: 10px 16px;
+      font-size: 16px;
     }
   }
   &--blue {
@@ -386,6 +387,7 @@ img {
   &--sm &__head { --head-height: 32px; }
   &--sm &__content { padding: 16px; }
   &--shadow-blue { box-shadow: 4px 4px 0px 0px var(--color-blue); }
+  &--shadow-red { box-shadow: 4px 4px 0px 0px var(--color-red); }
 }
 a.panel:hover {
   box-shadow: none;

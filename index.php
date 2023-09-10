@@ -1,1 +1,1 @@
-<? header("Location: 0main.php") ?>
+<? header("Location: main.php") ?>

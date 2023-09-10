@@ -96,40 +96,52 @@ function initCases() {
   });
 }
 
-var init = false;
-var swiper;
+const defaultSwiperOptions = {
+  direction: 'horizontal',
+  slidesPerView: 'auto',
+  centeredSlides: true,
+  spaceBetween: 8,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+};
 
-function swiperCard() {
-  if (!document.querySelector('.js-cases-swiper')) return;
-  if (window.innerWidth <= 880) {
-    if (!init) {
-      init = true;
-      swiper = new Swiper('.js-cases-swiper', {
-        direction: 'horizontal',
-        slidesPerView: 'auto',
-        centeredSlides: true,
-        spaceBetween: 8,
-        pagination: {
-          el: '.swiper-pagination',
-          clickable: true,
-        },
-      });
-    }
-  } else if (init) {
-    swiper.destroy();
-    init = false;
+function initSwiper(slug) {
+  if (!document.querySelector(`.js-${slug}-swiper`)) return;
+  if (!APP_CONFIG.swipersConfig[slug]) {
+    APP_CONFIG.swipersConfig[slug] = {};
   }
+  if (window.innerWidth <= 880) {
+    if (!APP_CONFIG.swipersConfig[slug].init) {
+      APP_CONFIG.swipersConfig[slug].init = true;
+      APP_CONFIG.swipersConfig[slug].swiperNativeEl = new Swiper(`.js-${slug}-swiper`, defaultSwiperOptions);
+    }
+  } else if (APP_CONFIG.swipersConfig[slug].init) {
+    APP_CONFIG.swipersConfig[slug].swiperNativeEl.destroy();
+    APP_CONFIG.swipersConfig[slug].init  = false;
+  }
+}
+
+
+function initSwipers(slugList) {
+  slugList.forEach(slug => initSwiper(slug));
+}
+
+const APP_CONFIG = {
+  swipersList: ['cases', 'products'], // чтобы добавить новый слайдер - добавляем его слаг, который используем в селекторе
+  swipersConfig: {}
 }
 
 document.addEventListener('DOMContentLoaded', () => {
   setupToolToggler();
   ininPopups();
-  swiperCard();
+  initSwipers(APP_CONFIG.swipersList);
   initCases();
 });
 
 window.addEventListener('resize', () => {
-  swiperCard();
+  initSwipers(APP_CONFIG.swipersList);
 });
 
 

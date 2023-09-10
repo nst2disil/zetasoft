@@ -6,7 +6,7 @@
     <nav class="header__menu hide-md hide-sm">
       <ul class="menu">
         <li class="menu__item"><a href="./services.html" class="header__link">Услуги</a></li>
-        <li class="menu__item"><a href="#" class="header__link">Продукты</a></li>
+        <li class="menu__item"><a href="./products.html" class="header__link">Продукты</a></li>
         <li class="menu__item hide-bg"><a href="#" class="header__link">Компетенции</a></li>
         <li class="menu__item"><a href="#" class="header__link">Кейсы</a></li>
         <li class="menu__item hide-bg"><a href="#" class="header__link">Блог</a></li>
@@ -29,7 +29,7 @@
     <nav class="links">
       <ul class="links__col">
         <a href="./services.html" class="links__item">Услуги</a>
-        <a href="#" class="links__item">Продукты</a>
+        <a href="./products.html" class="links__item">Продукты</a>
         <a href="#" class="links__item">Компетенции</a>
         <a href="#" class="links__item">Кейсы</a>
         <a href="#" class="links__item">Блог</a>

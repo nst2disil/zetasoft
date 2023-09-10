@@ -492,6 +492,7 @@ img {
 @media screen and (max-width: 1023px) {
   .button--block {
     padding: 10px 16px;
+    font-size: 16px;
   }
 }
 .button--blue {
@@ -846,6 +847,9 @@ img {
 }
 .panel--shadow-blue {
   box-shadow: 4px 4px 0px 0px var(--color-blue);
+}
+.panel--shadow-red {
+  box-shadow: 4px 4px 0px 0px var(--color-red);
 }
 
 a.panel:hover {

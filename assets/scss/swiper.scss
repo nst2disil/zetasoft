@@ -1,0 +1,64 @@
+@import './_mixins';
+// Сбрасываем стили для слайдера для десктопа, тк он нужен только на мобиле
+@include media-up($screen-md) {
+  .swiper {
+    overflow: unset;
+    margin-left: unset;
+    margin-right: unset;
+    &-wrapper {
+      width: unset;
+      height: unset;
+    }
+    &-slide {
+      //width: unset;
+      height: unset;
+      display: flex;
+    }
+    &-pagination {
+      display: none;
+    }
+  }
+}
+
+@include media-down($screen-md) {
+  .swiper {
+    width: 100%;
+    height: 340px;
+    &--big {
+      height: 372px;
+      .swiper-slide {
+        width: 344px;
+      }
+      .swiper-wrapper {
+        height: 344px;
+        margin-left: 0;
+      }
+    }
+    &-slide {
+      display: flex;
+      width: fit-content;
+      transition-property: transform box-shadow !important;
+      width: 312px;
+    }
+    &-wrapper {
+      height: 312px;
+      margin-left: -14px;
+    }
+    &-pagination {
+      bottom: 0 !important;
+    }
+    &-pagination-bullet {
+      background: #fff;
+      border: 1px solid var(--color-black);
+      width: 8px;
+      height: 8px;
+      border-radius: 8px;
+      opacity: 1;
+      transition-duration: var(--animation-duration);
+      &-active {
+        width: 24px;
+        background-color: var(--color-black);
+      }
+    }
+  }
+}
