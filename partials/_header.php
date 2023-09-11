@@ -1,6 +1,6 @@
 <header class="header">
   <div class="wrapper">
-    <a class="header__logo-container" href="/">
+    <a class="header__logo-container" href="./">
       <img src="./dist/img/logo.svg" alt="Zeta Soft logo" class="header__logo">
     </a>
     <nav class="header__menu hide-md hide-sm">

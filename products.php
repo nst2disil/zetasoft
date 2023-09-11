@@ -123,6 +123,57 @@
           </div>
         </div>
       </section>
+      <section class="section section--black section--no-min-height">
+        <div class="wrapper">
+          <h2 class="section__title">
+            Продукты и сервисы
+          </h2>
+          <div class="swiper swiper--big js-systems-swiper">
+            <div class="products swiper-wrapper">
+              <a href="#" class="swiper-slide products__item panel panel--white panel--shadow-blue">
+                <div class="panel__content">
+                  <div class="products__top">
+                    <div class="products__title products__title--red">Учёт времени</div>
+                    <div class="products__price">От 50 000 ₽</div>
+                  </div>
+                  <div class="products__text">Продукт для повременного учёта работы ваших сотрудников. Для компаний, оказывающих услуги консалтинга, юридические, бухгалтерские и другие услуги, где принята почасовая оплата.</div>
+                  <div class="products__bottom">
+                    <div class="panel__link">подробнее</div>
+                    <img src="./dist/img/panel-zeta.svg" alt="" class="products__logo">
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="swiper-slide products__item products__item--red panel panel--white panel--shadow-blue">
+                <div class="panel__content">
+                  <div class="products__top">
+                    <div class="products__title products__title--blue">Авторазборка</div>
+                    <div class="products__price">От 1000 ₽/месяц</div>
+                  </div>
+                  <div class="products__text">Удобный интерфейс для подбора товаров и создания заказа, используя собственные остатки, прайс-листы и веб-сервисы поставщиков</div>
+                  <div class="products__bottom">
+                    <div class="panel__link">подробнее</div>
+                    <img src="./dist/img/panel-zeta.svg" alt="" class="products__logo">
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="swiper-slide products__item panel panel--white panel--shadow-blue">
+                <div class="panel__content">
+                  <div class="products__top">
+                    <div class="products__title products__title--yellow">Управление ТК</div>
+                    <div class="products__price">40 000 ₽</div>
+                  </div>
+                  <div class="products__text">Загружайте прайс-листы поставщиков и пользуйтесь ими, как своими собственными товарами.</div>
+                  <div class="products__bottom">
+                    <div class="panel__link">подробнее</div>
+                    <img src="./dist/img/panel-zeta.svg" alt="" class="products__logo">
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
     </div>
     <div class="container__footer"><? include './partials/_footer.html'?></div>
   </div>

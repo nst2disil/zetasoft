@@ -61,4 +61,19 @@
       }
     }
   }
+  .section--black .swiper {
+    &-pagination-bullet {
+      background: var(--color-black);
+      border: 1px solid #fff;
+      width: 8px;
+      height: 8px;
+      border-radius: 8px;
+      opacity: 1;
+      transition-duration: var(--animation-duration);
+      &-active {
+        width: 24px;
+        background-color: #fff;
+      }
+    }
+  }
 }
