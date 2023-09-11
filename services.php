@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="ru" xmlns="http://www.w3.org/1999/xhtml" >
 <head>
-  <? include './partials/_head.php'; ?>
+  <?php $fileName = 'services'; ?>
+  <?php include './partials/_head.php'; ?>
 </head>
 <body>
   <div class="container">
-    <div class="container__header"><? include './partials/_header.php'; ?></div>
+    <div class="container__header"><?php include './partials/_header.php'; ?></div>
     <div class="container__content">
       <section class="section section--main">
         <div class="wrapper">
@@ -235,7 +236,7 @@
         </div>
       </section>
     </div>
-    <div class="container__footer"><? include './partials/_footer.html'?></div>
+    <div class="container__footer"><?php include './partials/_footer.html'?></div>
   </div>
 </body>
 </html>
