@@ -172,6 +172,13 @@
             </div>
             <div class="swiper-pagination"></div>
           </div>
+          <div class="callback-panel panel panel--yellow panel--no-shadow">
+            <div class="callback-panel__text">
+              <img src="./dist/img/panel-1c.svg" alt="1c logo" class="callback-panel__image">
+              Продукты 1С
+            </div>
+            <a href="#" class="callback-panel__button button button--block button--big">выбрать продукт</a>
+          </div>
         </div>
       </section>
     </div>

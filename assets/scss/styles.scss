@@ -421,6 +421,16 @@ a.panel:hover {
     font-size: 16px;
     text-transform: uppercase;
   }
+  &__text {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+  &__image {
+    @include media-down($screen-bg) {
+      max-width: 60px;
+    }
+  }
 }
 
 .modal {

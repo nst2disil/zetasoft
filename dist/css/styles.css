@@ -889,6 +889,16 @@ a.panel:hover {
   font-size: 16px;
   text-transform: uppercase;
 }
+.callback-panel__text {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+@media screen and (max-width: 1023px) {
+  .callback-panel__image {
+    max-width: 60px;
+  }
+}
 
 .modal {
   position: fixed;
