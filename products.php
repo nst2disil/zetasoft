@@ -16,7 +16,7 @@
             <img src="./dist/img/tip-arrow.svg" alt="arrow" class="our-products__arrow">
             <div class="our-products__button-container">
               <div class="our-products__button-title">Наши продукты зарегистрированы в реестре ПО</div>
-              <a href="#" class="button button--block button--blue our-products__button">подписка на продукты Зетасофт</a>
+              <button class="button button--block button--mobile-full-width button--blue our-products__button" data-modal="contact-form">подписка на продукты Зетасофт</button>
             </div>
           </div>
         </div>

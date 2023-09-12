@@ -120,6 +120,11 @@ img {
     background-color: var(--color-yellow);
     box-shadow: none;
   }
+  &--mobile-full-width {
+    @include media-down($screen-md) {
+      width: 100%;
+    }
+  }
 }
 
 .hide-sm {
@@ -485,6 +490,7 @@ a.panel:hover {
     font-size: 32px;
     font-weight: 600;
     margin-bottom: 32px;
+    line-height: 130%;
     @include media-down($screen-bg) {
       padding-right: 32px;
       font-size: 24px;
@@ -504,6 +510,9 @@ a.panel:hover {
       font-size: 16px;
       font-weight: 400;
       line-height: 24px;
+    }
+    &__link {
+      text-decoration: underline;
     }
     &__textarea {
       height: 110px;

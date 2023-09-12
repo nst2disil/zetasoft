@@ -526,6 +526,11 @@ img {
   background-color: var(--color-yellow);
   box-shadow: none;
 }
+@media screen and (max-width: 879px) {
+  .button--mobile-full-width {
+    width: 100%;
+  }
+}
 
 @media screen and (max-width: 374px) {
   .hide-sm {
@@ -971,6 +976,7 @@ a.panel:hover {
   font-size: 32px;
   font-weight: 600;
   margin-bottom: 32px;
+  line-height: 130%;
 }
 @media screen and (max-width: 1023px) {
   .modal__title {
@@ -993,6 +999,9 @@ a.panel:hover {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+}
+.modal .form__link {
+  text-decoration: underline;
 }
 .modal .form__textarea {
   height: 110px;

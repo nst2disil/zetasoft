@@ -53,6 +53,9 @@ function ininPopups() {
         modal.classList.remove('open');
         trigger.classList.remove('active');
       } else {
+        if (trigger.dataset.modalTitle) {
+          modal.querySelector('.js-title').innerHTML = trigger.dataset.modalTitle;
+        }
         modal.classList.add('open');
         trigger.classList.add('active');
       }
