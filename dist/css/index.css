@@ -368,19 +368,19 @@
 .cases__item:visibile:nth-child(n+7) {
   display: none;
 }
-.cases--filtered[data-filtered-by=auto] .cases__item:not([data-case-category=auto]) {
+.cases--filtered[data-filtered-by=blue] .cases__item:not([data-case-category=blue]) {
   display: none;
 }
-.cases--filtered[data-filtered-by=vending] .cases__item:not([data-case-category=vending]) {
+.cases--filtered[data-filtered-by=blue-dark] .cases__item:not([data-case-category=blue-dark]) {
   display: none;
 }
-.cases--filtered[data-filtered-by=time] .cases__item:not([data-case-category=time]) {
+.cases--filtered[data-filtered-by=red] .cases__item:not([data-case-category=red]) {
   display: none;
 }
-.cases--filtered[data-filtered-by=common] .cases__item:not([data-case-category=common]) {
+.cases--filtered[data-filtered-by=green] .cases__item:not([data-case-category=green]) {
   display: none;
 }
-.cases--filtered[data-filtered-by="1c"] .cases__item:not([data-case-category="1c"]) {
+.cases--filtered[data-filtered-by=yellow] .cases__item:not([data-case-category=yellow]) {
   display: none;
 }
 

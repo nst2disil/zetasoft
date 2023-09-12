@@ -89,6 +89,7 @@ function initCases() {
 
       cases.setAttribute('data-filtered-by', category);
       cases.classList.add('cases--filtered');
+      APP_CONFIG.swipersConfig.cases.swiperNativeEl.slideTo(0);
   };
 
   buttons.forEach((button) => {

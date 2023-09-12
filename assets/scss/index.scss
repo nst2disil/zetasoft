@@ -304,20 +304,13 @@
 }
 
 
-$cases-categories:(
-  "auto",
-  "vending",
-  "time",
-  "common",
-  "1c",
-);
 
 .cases {
   &__item:visibile:nth-child(n+7) {
     display: none;
   }
   &--filtered {
-    @each $val in $cases-categories {
+    @each $val in $color-list {
       &[data-filtered-by='#{$val}'] .cases__item:not([data-case-category='#{$val}']) {
         display: none;
       }

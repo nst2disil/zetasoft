@@ -101,17 +101,10 @@ img {
       font-size: 16px;
     }
   }
-  &--blue {
-    background: var(--color-blue);
-  }
-  &--blue-dark {
-    background: var(--color-blue-dark);
-  }
-  &--red {
-    background: var(--color-red);
-  }
-  &--yellow {
-    background: var(--color-yellow);
+  @each $val in $color-list {
+    &--#{$val} {
+      background: var(--color-#{$val});
+    }
   }
   &--big {
     padding: 18px 60px;
@@ -370,11 +363,10 @@ img {
       width: 100%;
     }
   }
+  @each $val in $color-list {
+    &--head-#{$val} &__head::before { border-top-color: var(--color-#{$val}) }
+  }
   &--head-black &__head::before { border-top-color: var(--color-black) }
-  &--head-yellow &__head::before { border-top-color: var(--color-yellow) }
-  &--head-red &__head::before { border-top-color: var(--color-red) }
-  &--head-blue &__head::before { border-top-color: var(--color-blue) }
-  &--head-blue-dark &__head::before { border-top-color: var(--color-blue-dark) }
   &--yellow { background: var(--color-yellow) }
   &--blue { background: var(--color-blue) }
   &--black {

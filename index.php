@@ -187,16 +187,16 @@
         <div class="wrapper">
           <h2 class="section__title">Кейсы</h2>
           <div class="categories">
-            <button class="categories__item js-case-category button button--red button--block button--dot" data-case-category="auto">Автозапчасти</button>
-            <button class="categories__item js-case-category button button--green button--block button--dot" data-case-category="vending">Вендинг</button>
-            <button class="categories__item js-case-category button button--blue-dark button--block button--dot" data-case-category="time">Продажа времени</button>
-            <button class="categories__item js-case-category button button--blue button--block button--dot" data-case-category="common">Универсальный</button>
-            <button class="categories__item js-case-category button bbutton--yellow utton--block button--dot" data-case-category="1c">1C</button>
+            <button class="categories__item js-case-category button button--blue button--block button--dot" data-case-category="blue">Автозапчасти</button>
+            <button class="categories__item js-case-category button button--red button--block button--dot" data-case-category="red">Вендинг</button>
+            <button class="categories__item js-case-category button button--blue-dark button--block button--dot" data-case-category="blue-dark">Продажа времени</button>
+            <button class="categories__item js-case-category button button--green button--block button--dot" data-case-category="green">Универсальный</button>
+            <button class="categories__item js-case-category button button--yellow button--block button--dot" data-case-category="yellow">1C</button>
             <a href="#" class="categories__item button button--block button--dot">Все продукты</a>
           </div>
           <div class="swiper js-cases-swiper">
             <div class="cases js-cases swiper-wrapper">
-              <a href="#" class="swiper-slide cases__item panel panel--head-yellow" data-case-category="auto">
+              <a href="#" class="swiper-slide cases__item panel panel--head-blue" data-case-category="blue">
                 <div class="panel__head"></div>
                 <div class="panel__content case">
                   <div class="case__title">АТОЛ онлайн и&nbsp;1С: готовое решение для&nbsp;интеграции</div>
@@ -204,7 +204,7 @@
                   <div class="case__text">Подсистема предназначена для компаний, работающих в 1С и использующих онлайн-кассы АТОЛ Онлайн</div>
                 </div>
               </a>
-              <a href="#" class="swiper-slide cases__item panel panel--head-red" data-case-category="vending">
+              <a href="#" class="swiper-slide cases__item panel panel--head-red" data-case-category="red">
                 <div class="panel__head"></div>
                 <div class="panel__content case">
                   <div class="case__title">Проектное решение<br/>«Продажа автозапчастей»</div>
@@ -212,7 +212,7 @@
                   <div class="case__text">Подсистема предназначена для компаний, работающих в 1С и использующих онлайн-кассы АТОЛ Онлайн</div>
                 </div>
               </a>
-              <a href="#" class="swiper-slide cases__item panel panel--head-yellow" data-case-category="auto">
+              <a href="#" class="swiper-slide cases__item panel panel--head-red" data-case-category="red">
                 <div class="panel__head"></div>
                 <div class="panel__content case">
                   <div class="case__title">Подсистема учета б/у запчастей в торговой конфигурации 1С</div>
@@ -220,7 +220,7 @@
                   <div class="case__text">Подсистема предназначена для компаний, работающих в 1С и использующих онлайн-кассы АТОЛ Онлайн</div>
                 </div>
               </a>
-              <a href="#" class="swiper-slide cases__item panel panel--head-blue-dark" data-case-category="time">
+              <a href="#" class="swiper-slide cases__item panel panel--head-yellow" data-case-category="yellow">
                 <div class="panel__head"></div>
                 <div class="panel__content case">
                   <div class="case__title">Проектное решение<br/>«Управление торговым комплексом»</div>
@@ -228,7 +228,7 @@
                   <div class="case__text">Подсистема предназначена для компаний, работающих в 1С и использующих онлайн-кассы АТОЛ Онлайн</div>
                 </div>
               </a>
-              <a href="#" class="swiper-slide cases__item panel panel--head-blue" data-case-category="common">
+              <a href="#" class="swiper-slide cases__item panel panel--head-green" data-case-category="green">
                 <div class="panel__head"></div>
                 <div class="panel__content case">
                   <div class="case__title">Проектное решение<br/>«Учёт в&nbsp;вендинговом бизнесе»</div>
@@ -236,7 +236,7 @@
                   <div class="case__text">Подсистема предназначена для компаний, работающих в 1С и использующих онлайн-кассы АТОЛ Онлайн</div>
                 </div>
               </a>
-              <a href="#" class="swiper-slide cases__item panel panel--head-blue-dark" data-case-category="time">
+              <a href="#" class="swiper-slide cases__item panel panel--head-blue" data-case-category="blue">
                 <div class="panel__head"></div>
                 <div class="panel__content case">
                   <div class="case__title">Проектное решение<br/>«Управление торговым комплексом»</div>
@@ -244,7 +244,7 @@
                   <div class="case__text">Подсистема предназначена для компаний, работающих в 1С и использующих онлайн-кассы АТОЛ Онлайн</div>
                 </div>
               </a>
-              <a href="#" class="swiper-slide cases__item panel panel--head-yellow" data-case-category="auto">
+              <a href="#" class="swiper-slide cases__item panel panel--head-yellow" data-case-category="yellow">
                 <div class="panel__head"></div>
                 <div class="panel__content case">
                   <div class="case__title">Подсистема учета б/у запчастей в торговой конфигурации 1С</div>
@@ -252,15 +252,15 @@
                   <div class="case__text">Дополнительный модуль, с помощью которого можно делать разбор автомобиля, разбор детали на более мелкие, продажу детали, списание автомобиля, отчет по автомобилям</div>
                 </div>
               </a>
-              <a href="#" class="swiper-slide cases__item panel panel--head-yellow" data-case-category="auto">
+              <a href="#" class="swiper-slide cases__item panel panel--head-blue-dark" data-case-category="blue-dark">
                 <div class="panel__head"></div>
                 <div class="panel__content case">
-                  <div class="case__title">Lorem ipsum</div>
+                  <div class="case__title">Учет времени</div>
                   <img src="./dist/img/panel-zeta.svg" alt="zeta logo" class="case__image">
-                  <div class="case__text">dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</div>
+                  <div class="case__text">Тут нигде этого не нашел, поэтому текст написал сам. Фиолетового цвета у нас в системе нет, поэтому задал темно-синий aliquip ex ea commodo consequat</div>
                 </div>
               </a>
-              <a href="#" class="swiper-slide cases__item panel panel--head-white" data-case-category="1c">
+              <a href="#" class="swiper-slide cases__item panel panel--head-green" data-case-category="green">
                 <div class="panel__head"></div>
                 <div class="panel__content case">
                   <div class="case__title">1C 1C Lorem ipsum</div>
