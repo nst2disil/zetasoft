@@ -42,6 +42,9 @@
       }
     }
   }
+  &__bottom {
+    align-items: flex-end;
+  }
   &__title,
   &__name {
     font-size: 24px;

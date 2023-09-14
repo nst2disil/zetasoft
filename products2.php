@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru" xmlns="http://www.w3.org/1999/xhtml" >
 <head>
-  <?php $stylesName = 'products2'; ?>
+  <?php $stylesName = 'products'; ?>
   <?php include './partials/_head.php'; ?>
 </head>
 <body>
@@ -122,7 +122,90 @@
           </div>
         </div>
       </section>
-      
+      <section class="section section--black">
+        <div class="wrapper">
+          <h2 class="section__title">Лицензии 1С</h2>
+          <div class="products">
+            <a href="#" class="swiper-slide products__item panel panel--white panel--shadow-yellow">
+              <div class="panel__content">
+                <div class="products__top">
+                  <div class="products__title">1С: Предприятие 8.3. Сервер МИНИ на 5 подключений</div>
+                </div>
+                <div class="products__bottom">
+                <div class="products__price">14 400 ₽</div>
+                  <img src="./dist/img/panel-1c.svg" alt="" class="products__logo">
+                </div>
+              </div>
+            </a>
+            <a href="#" class="swiper-slide products__item panel panel--white panel--shadow-yellow">
+              <div class="panel__content">
+                <div class="products__top">
+                  <div class="products__title">1С: Предприятие 8.3. Лицензия на сервер (x86–64)</div>
+                </div>
+                <div class="products__bottom">
+                <div class="products__price">86 400 ₽</div>
+                  <img src="./dist/img/panel-1c.svg" alt="" class="products__logo">
+                </div>
+              </div>
+            </a>
+            <a href="#" class="swiper-slide products__item panel panel--white panel--shadow-yellow">
+              <div class="panel__content">
+                <div class="products__top">
+                  <div class="products__title">1С: Предприятие 8.3. Лицензия на сервер (x86-64) (USB)</div>
+                </div>
+                <div class="products__bottom">
+                <div class="products__price">103 700 ₽</div>
+                  <img src="./dist/img/panel-1c.svg" alt="" class="products__logo">
+                </div>
+              </div>
+            </a>
+            <a href="#" class="swiper-slide products__item panel panel--white panel--shadow-yellow">
+              <div class="panel__content">
+                <div class="products__top">
+                  <div class="products__title">1С: Предприятие 8. Клиентская лицензия на 5 рабочих мест</div>
+                </div>
+                <div class="products__bottom">
+                <div class="products__price">21 600 ₽</div>
+                  <img src="./dist/img/panel-1c.svg" alt="" class="products__logo">
+                </div>
+              </div>
+            </a>
+            <a href="#" class="swiper-slide products__item panel panel--white panel--shadow-yellow">
+              <div class="panel__content">
+                <div class="products__top">
+                  <div class="products__title">1С: Предприятие 8. Клиентская лицензия на 5 рабочих мест (USB)</div>
+                </div>
+                <div class="products__bottom">
+                <div class="products__price">28 100 ₽</div>
+                  <img src="./dist/img/panel-1c.svg" alt="" class="products__logo">
+                </div>
+              </div>
+            </a>
+            <a href="#" class="swiper-slide products__item panel panel--white panel--shadow-yellow">
+              <div class="panel__content">
+                <div class="products__top">
+                  <div class="products__title">1С: Предприятие 10. Клиентская лицензия на 10 рабочих мест</div>
+                </div>
+                <div class="products__bottom">
+                <div class="products__price">41 400 ₽</div>
+                  <img src="./dist/img/panel-1c.svg" alt="" class="products__logo">
+                </div>
+              </div>
+            </a>
+            <a href="#" class="swiper-slide products__item panel panel--white panel--shadow-yellow">
+              <div class="panel__content">
+                <div class="products__top">
+                  <div class="products__title">1С: Предприятие 8. Клиентская лицензия на 10 рабочих мест (USB)</div>
+                </div>
+                <div class="products__bottom">
+                <div class="products__price">51 900 ₽</div>
+                  <img src="./dist/img/panel-1c.svg" alt="" class="products__logo">
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
 
     </div>
     <div class="container__footer"><?php include './partials/_footer.html'?></div>

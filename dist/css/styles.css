@@ -859,6 +859,9 @@ img {
 .panel--shadow-blue {
   box-shadow: 4px 4px 0px 0px var(--color-blue);
 }
+.panel--shadow-yellow {
+  box-shadow: 4px 4px 0px 0px var(--color-yellow);
+}
 .panel--shadow-red {
   box-shadow: 4px 4px 0px 0px var(--color-red);
 }

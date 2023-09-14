@@ -112,6 +112,9 @@
     flex-wrap: nowrap;
   }
 }
+.products__bottom {
+  align-items: flex-end;
+}
 .products__title, .products__name {
   font-size: 24px;
   font-weight: 600;
