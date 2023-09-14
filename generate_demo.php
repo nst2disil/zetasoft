@@ -1,32 +1,22 @@
 <?php
-// Список файлов, которые вы хотите обработать
-$files = ['index.php', 'services.php', 'products.php'];
+$files = ['index.php', 'services.php', 'products.php', 'competitions.php', 'cases.php', 'blog.php', 'about.php'];
 
-// Перебираем каждый файл
 foreach ($files as $phpFile) {
-    // Определяем имя HTML файла
-    $htmlFile = str_replace('.php', '.html', $phpFile);
-
-    // Включаем буферизацию вывода
-    ob_start();
-
-    // Выполняем PHP файл
-    include $phpFile;
-
-    // Получаем содержимое буфера вывода
-    $output = ob_get_clean();
-
-    // Проверяем наличие инструкции включения и обрабатываем ее
-    while (preg_match('/<\? include \'\.\/partials\/(.+?)\'; \?>/', $output, $matches)) {
-        $includeFile = $matches[1];
-        $includeContent = file_get_contents('./partials/' . $includeFile);
-        $output = str_replace($matches[0], $includeContent, $output);
+    if (file_exists($phpFile)) {
+        $htmlFile = str_replace('.php', '.html', $phpFile);
+        ob_start();
+        include $phpFile;
+        $output = ob_get_clean();
+        while (preg_match('/<\? include \'\.\/partials\/(.+?)\'; \?>/', $output, $matches)) {
+            $includeFile = $matches[1];
+            $includeContent = file_get_contents('./partials/' . $includeFile);
+            $output = str_replace($matches[0], $includeContent, $output);
+        }
+        file_put_contents($htmlFile, $output);
+        echo "Demo file $htmlFile is created\n";
+    } else {
+        echo "Source $phpFile doesn't exist\n";
     }
-
-    // Записываем результат в HTML файл
-    file_put_contents($htmlFile, $output);
-
-    // Выводим сообщение о завершении
-    echo "Demo file $htmlFile is created\n";
+    
 }
 ?>

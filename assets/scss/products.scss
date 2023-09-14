@@ -1,55 +1,10 @@
 @import './_mixins';
+@import './_our-products';
 
-
-.our-products {
-  display: grid;
-  grid-template-columns: minmax(auto, 516px) auto 1fr;
-  gap: 30px;
-  @include media-down($screen-lg) {
-    grid-template-columns: minmax(auto, 338px) auto 1fr;
-  }
+.our-products + .swiper {
+  margin-top: 76px;
   @include media-down($screen-md) {
-    grid-template-columns: 1fr;
-    grid-auto-rows: auto;
-    gap: 20px;
-  }
-  &__title {
-    font-size: 32px;
-    font-weight: 500;
-    line-height: 130%;
-    @include media-down($screen-lg) {
-      font-size: 24px;
-    }
-    @include media-down($screen-md) {
-      font-size: 20px;
-    }
-  }
-  &__arrow {
-    --square: 135px;
-    width: var(--square);
-    height: var(--square);
-    @include media-down($screen-lg) {
-      --square: 104px;
-    }
-    @include media-down($screen-md) {
-      transform: rotate(230deg) scaleX(-100%);
-      order: 4;
-      margin: 0 auto;
-    }
-  }
-  &__button-title {
-    margin-bottom: 32px;
-    font-size: 20px;
-    @include media-down($screen-lg) {
-      font-size: 16px;
-    }
-    @include media-down($screen-md) {
-      margin-bottom: 24px;
-    }
-  }
-  &__button {
-    justify-content: center;
-    text-transform: uppercase;
+    margin-top: 20px;
   }
 }
 
@@ -80,16 +35,24 @@
       flex-direction: column;
       align-items: flex-start;
     }
+    & + .products__bottom {
+      margin-top: auto;
+      @include media-up($screen-md) {
+        flex-wrap: nowrap;
+      }
+    }
   }
-  &__title {
+  &__title,
+  &__name {
     font-size: 24px;
     font-weight: 600;
-    padding: 12px 24px;
-    border: 1px solid var(--color-black);
     @include media-down($screen-lg) {
       font-size: 20px;
     }
-
+  }
+  &__name {
+    padding: 12px 24px;
+    border: 1px solid var(--color-black);
     $products-colors:("red","blue","green","yellow");
     @each $val in $products-colors {
       &--#{$val} {

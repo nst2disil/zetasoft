@@ -7,10 +7,10 @@
       <ul class="menu">
         <li class="menu__item"><a href="./services.html" class="header__link">Услуги</a></li>
         <li class="menu__item"><a href="./products.html" class="header__link">Продукты</a></li>
-        <li class="menu__item hide-bg"><a href="#" class="header__link">Компетенции</a></li>
-        <li class="menu__item"><a href="#" class="header__link">Кейсы</a></li>
-        <li class="menu__item hide-bg"><a href="#" class="header__link">Блог</a></li>
-        <li class="menu__item"><a href="#" class="header__link">О&nbsp;компании</a></li>
+        <li class="menu__item hide-bg"><a href="./competitions.html" class="header__link">Компетенции</a></li>
+        <li class="menu__item"><a href="./cases.html" class="header__link">Кейсы</a></li>
+        <li class="menu__item hide-bg"><a href="./blog.html" class="header__link">Блог</a></li>
+        <li class="menu__item"><a href="./about.html" class="header__link">О&nbsp;компании</a></li>
       </ul>
     </nav>
     <a href="tel:+7812490-67-89" class="header__phone header__link">
@@ -30,10 +30,10 @@
       <ul class="links__col">
         <a href="./services.html" class="links__item">Услуги</a>
         <a href="./products.html" class="links__item">Продукты</a>
-        <a href="#" class="links__item">Компетенции</a>
-        <a href="#" class="links__item">Кейсы</a>
-        <a href="#" class="links__item">Блог</a>
-        <a href="#" class="links__item">О компании</a>
+        <a href="./competitions.html" class="links__item">Компетенции</a>
+        <a href="./cases.html" class="links__item">Кейсы</a>
+        <a href="./blog.html" class="links__item">Блог</a>
+        <a href="./about.html" class="links__item">О компании</a>
       </ul>
       <ul class="links__col">
         <a href="#" class="links__item">Продукты фирмы ЗетаСофт</a>

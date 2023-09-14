@@ -7,7 +7,7 @@
   <meta name="Content-Type" content="text/html; charset=utf-8" />
   <link rel="stylesheet" href="./dist/css/styles.css?cache=<?php echo date("Y-m-d")?>">
   <link rel="stylesheet" href="./dist/css/swiper-bundle.min.css?cache=<?php echo date("Y-m-d")?>">
-  <link rel="stylesheet" href="./dist/css/<?php echo $fileName; ?>.css?cache=<?php echo date("Y-m-d")?>">
+  <link rel="stylesheet" href="./dist/css/<?php echo $stylesName; ?>.css?cache=<?php echo date("Y-m-d")?>">
   <link rel="stylesheet" href="./dist/css/swiper.css?cache=<?php echo date("Y-m-d")?>">
   <script defer src="./dist/js/main.js?cache=<?php echo date("Y-m-d")?>"></script>
   <script defer src="./dist/js/swiper-bundle.min.js?cache=<?php echo date("Y-m-d")?>"></script>

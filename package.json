@@ -1,0 +1,11 @@
+{
+  "name": "Zetasoft new front",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "docker-start": "docker run -p 8080:80 -v $(pwd):/var/www/html zetasoft-front",
+    "generate-demos": "./pre_commit_script.sh"
+
+  },
+  "author": "Kirilll"
+}
