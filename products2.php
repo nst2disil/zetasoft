@@ -19,7 +19,7 @@
               <button class="button button--block button--mobile-full-width button--yellow our-products__button" data-modal="contact-form">подписка на продукты 1С</button>
             </div>
           </div>
-          <div class="swiper swiper--big js-products-swiper">
+          <div class="swiper swiper--big js-products-1c-swiper">
             <div class="products swiper-wrapper">
               <a href="#" class="swiper-slide products__item panel panel--yellow">
                 <div class="panel__content">
@@ -125,8 +125,8 @@
       <section class="section section--black">
         <div class="wrapper">
           <h2 class="section__title">Лицензии 1С</h2>
-          <div class="products">
-            <a href="#" class="swiper-slide products__item panel panel--white panel--shadow-yellow">
+          <div class="products products--small">
+            <a href="#" class="products__item panel panel--white panel--shadow-yellow">
               <div class="panel__content">
                 <div class="products__top">
                   <div class="products__title">1С: Предприятие 8.3. Сервер МИНИ на 5 подключений</div>
@@ -137,7 +137,7 @@
                 </div>
               </div>
             </a>
-            <a href="#" class="swiper-slide products__item panel panel--white panel--shadow-yellow">
+            <a href="#" class="products__item panel panel--white panel--shadow-yellow">
               <div class="panel__content">
                 <div class="products__top">
                   <div class="products__title">1С: Предприятие 8.3. Лицензия на сервер (x86–64)</div>
@@ -148,7 +148,7 @@
                 </div>
               </div>
             </a>
-            <a href="#" class="swiper-slide products__item panel panel--white panel--shadow-yellow">
+            <a href="#" class="products__item panel panel--white panel--shadow-yellow">
               <div class="panel__content">
                 <div class="products__top">
                   <div class="products__title">1С: Предприятие 8.3. Лицензия на сервер (x86-64) (USB)</div>
@@ -159,7 +159,7 @@
                 </div>
               </div>
             </a>
-            <a href="#" class="swiper-slide products__item panel panel--white panel--shadow-yellow">
+            <a href="#" class="products__item panel panel--white panel--shadow-yellow">
               <div class="panel__content">
                 <div class="products__top">
                   <div class="products__title">1С: Предприятие 8. Клиентская лицензия на 5 рабочих мест</div>
@@ -170,7 +170,7 @@
                 </div>
               </div>
             </a>
-            <a href="#" class="swiper-slide products__item panel panel--white panel--shadow-yellow">
+            <a href="#" class="products__item panel panel--white panel--shadow-yellow">
               <div class="panel__content">
                 <div class="products__top">
                   <div class="products__title">1С: Предприятие 8. Клиентская лицензия на 5 рабочих мест (USB)</div>
@@ -181,7 +181,7 @@
                 </div>
               </div>
             </a>
-            <a href="#" class="swiper-slide products__item panel panel--white panel--shadow-yellow">
+            <a href="#" class="products__item panel panel--white panel--shadow-yellow">
               <div class="panel__content">
                 <div class="products__top">
                   <div class="products__title">1С: Предприятие 10. Клиентская лицензия на 10 рабочих мест</div>
@@ -192,7 +192,7 @@
                 </div>
               </div>
             </a>
-            <a href="#" class="swiper-slide products__item panel panel--white panel--shadow-yellow">
+            <a href="#" class="products__item panel panel--white panel--shadow-yellow">
               <div class="panel__content">
                 <div class="products__top">
                   <div class="products__title">1С: Предприятие 8. Клиентская лицензия на 10 рабочих мест (USB)</div>
@@ -203,6 +203,72 @@
                 </div>
               </div>
             </a>
+          </div>
+        </div>
+      </section>
+      <section class="section section--no-min-height">
+        <div class="wrapper">
+          <h2 class="section__title">Лицензии на совместные решения 1С и Microsoft</h2>
+          <div class="swiper swiper--big js-licenses-swiper">
+            <div class="products swiper-wrapper">
+              <a href="#" class="swiper-slide products__item panel panel--yellow">
+                <div class="panel__content">
+                  <div class="products__top">
+                    <div class="products__title">Лицензия на сервер MS SQL Server Standard 2019 Runtime для пользователей 1С: Предприятие 8</div>
+                    <div class="products__price">18 660 ₽</div>
+                  </div>
+                  <div class="products__bottom">
+                    <div class="products__link">Электронная поставка</div>
+                    <img src="./dist/img/panel-1c.svg" alt="" class="products__logo">
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="swiper-slide products__item panel">
+                <div class="panel__content">
+                  <div class="products__top">
+                    <div class="products__title">Клиентский доступ на 1 рабочее место к MS SQL Server 2019 Runtime для 1С: Предприятие 8</div>
+                    <div class="products__price">9 450 ₽</div>
+                  </div>
+                  <div class="products__bottom">
+                    <div class="products__link">Электронная поставка</div>
+                    <img src="./dist/img/panel-1c.svg" alt="" class="products__logo">
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="swiper-slide products__item panel">
+                <div class="panel__content">
+                  <div class="products__top">
+                    <div class="products__title">Клиентский доступ на 5 рабочих мест к MS SQL Server 2019 Runtime для 1С: Предприятие 8</div>
+                    <div class="products__price">47 250 ₽</div>
+                  </div>
+                  <div class="products__bottom">
+                    <div class="products__link">Электронная поставка</div>
+                    <img src="./dist/img/panel-1c.svg" alt="" class="products__logo">
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="swiper-slide products__item panel panel--yellow">
+                <div class="panel__content">
+                  <div class="products__top">
+                    <div class="products__title">Клиентский доступ на 10 рабочих мест к MS SQL Server 2019 Runtime для 1С: Предприятие 8</div>
+                    <div class="products__price">94 500 ₽</div>
+                  </div>
+                  <div class="products__bottom">
+                    <div class="products__link">Электронная поставка</div>
+                    <img src="./dist/img/panel-1c.svg" alt="" class="products__logo">
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+          <div class="button-panel panel panel--blue">
+            <div class="button-panel__text">
+              <img src="./dist/img/panel-zeta__black.svg" alt="zetasoft logo" class="button-panel__image">
+              Продукты Зетасофт
+            </div>
+            <a href="#" class="button-panel__button button button--block button--big">выбрать продукт</a>
           </div>
         </div>
       </section>

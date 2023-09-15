@@ -871,7 +871,7 @@ a.panel:hover {
   cursor: pointer;
 }
 
-.callback-panel {
+.button-panel {
   padding: 40px;
   display: flex;
   flex-direction: row;
@@ -883,33 +883,33 @@ a.panel:hover {
   gap: 20px;
 }
 @media screen and (max-width: 1023px) {
-  .callback-panel {
+  .button-panel {
     font-size: 24px;
   }
 }
 @media screen and (max-width: 879px) {
-  .callback-panel {
+  .button-panel {
     flex-direction: column;
     gap: 28px;
     padding: 35px;
     font-size: 20px;
   }
-  .callback-panel__button {
+  .button-panel__button {
     width: 100%;
     justify-content: center;
   }
 }
-.callback-panel__button {
+.button-panel__button {
   font-size: 16px;
   text-transform: uppercase;
 }
-.callback-panel__text {
+.button-panel__text {
   display: flex;
   align-items: center;
   gap: 24px;
 }
 @media screen and (max-width: 1023px) {
-  .callback-panel__image {
+  .button-panel__image {
     max-width: 60px;
   }
 }

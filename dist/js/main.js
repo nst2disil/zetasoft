@@ -133,7 +133,7 @@ function initSwipers(slugList) {
 }
 
 const APP_CONFIG = {
-  swipersList: ['cases', 'products', 'systems'], // чтобы добавить новый слайдер - добавляем его слаг, который используем в селекторе
+  swipersList: ['cases', 'products', 'systems', 'products-1c', 'licenses'], // чтобы добавить новый слайдер - добавляем его слаг, который используем в селекторе
   swipersConfig: {}
 }
 

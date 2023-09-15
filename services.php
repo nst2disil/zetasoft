@@ -154,9 +154,9 @@
             </div>
 
           </div>
-          <div class="callback-panel panel panel--yellow panel--no-shadow">
-            <div class="callback-panel__text">Протестируйте вашу бизнес-задачу бесплатно</div>
-            <button class="callback-panel__button button button--block button--big" data-modal="contact-form">Поставить&nbsp;задачу</button>
+          <div class="button-panel panel panel--yellow panel--no-shadow">
+            <div class="button-panel__text">Протестируйте вашу бизнес-задачу бесплатно</div>
+            <button class="button-panel__button button button--block button--big" data-modal="contact-form">Поставить&nbsp;задачу</button>
           </div>
         </div>
       </section>
