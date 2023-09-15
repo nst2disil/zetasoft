@@ -140,7 +140,7 @@
             <a href="#" class="products__item panel panel--white panel--shadow-yellow">
               <div class="panel__content">
                 <div class="products__top">
-                  <div class="products__title">1С: Предприятие 8.3. Лицензия на сервер (x86–64)</div>
+                  <div class="products__title">1С: Предприятие 8.3. Лицензия на&nbsp;сервер (x86–64)</div>
                 </div>
                 <div class="products__bottom">
                 <div class="products__price">86 400 ₽</div>
@@ -272,7 +272,15 @@
           </div>
         </div>
       </section>
-
+      <section class="section section--black section--no-min-height">
+        <div class="wrapper">
+          <div class="contact-big">
+            <div class="contact-big__title">Напишите нам&nbsp;чтобы&nbsp;заказать или&nbsp;получить полный перечень продуктов 1С</div>
+            <img src="./dist/img/panel-contact-big.svg" alt="иллюстрация" class="contact-big__image">
+            <button class="button button--block button--big contact-big__button" data-modal="contact-form">оставить заявку</button>
+          </div>
+        </div>
+      </section>
     </div>
     <div class="container__footer"><?php include './partials/_footer.html'?></div>
   </div>
