@@ -430,6 +430,13 @@ a.panel:hover {
   &__button {
     font-size: 16px;
     text-transform: uppercase;
+    @include media-up($screen-md) {
+      flex: 0 0 280px;
+    }
+    @include media-down($screen-md) {
+      width: 100%;
+    }
+
   }
   &__text {
     display: flex;
@@ -705,12 +712,14 @@ ul.ul {
   grid-template-columns: repeat(2, 1fr);
   @include media-down($screen-md) {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 1fr);
   }
   &--3 {
-    @include media-up($screen-md) {
-      .block-group__item:nth-child(3) {
+    .block-group__item:nth-child(3) {
+      @include media-up($screen-md) {
         grid-area: 1 / 2 / 3;
+      }
+      @include media-down($screen-md) {
+        min-height: 344px;
       }
     }
     .block-group__item {
@@ -723,7 +732,16 @@ ul.ul {
       }
     }
   }
-  &__item {
-    min-height: 168px;
+  .block-group__item {
+    min-height: 216px;
+    @include media-down($screen-lg) {
+      min-height: 168px;
+    }
+    @include media-down($screen-md) {
+      min-height: 196px;
+    }
+  }
+  &--2 {
+
   }
 }

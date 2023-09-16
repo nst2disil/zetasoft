@@ -42,7 +42,7 @@
   align-items: flex-start;
   gap: 24px;
 }
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
   .case {
     gap: 18px;
   }
@@ -151,6 +151,6 @@
   left: calc(33.3333333333% - 1px);
 }
 
-.block-group {
+.block-group, .button-panel {
   margin-top: 72px;
 }
