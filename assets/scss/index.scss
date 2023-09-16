@@ -1,4 +1,5 @@
 @import './_mixins';
+@import './_cases';
 
 .tools {
   margin-top: auto;
@@ -194,30 +195,6 @@
   }
 }
 
-.business {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  @include media-down($screen-md) {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 1fr);
-  }
-  @include media-up($screen-md) {
-    &__item:nth-child(3) {
-      grid-area: 1 / 2 / 3;
-    }
-  }
-  &__item {
-    min-height: 168px;
-    &:nth-child(2) {
-      grid-row-start: 2;
-      padding-right: 110px;
-    }
-    &:nth-child(3) {
-      grid-row: span 2;
-    }
-  }
-}
-
 .accounting-tip {
   font-size: 32px;
   font-style: normal;
@@ -281,74 +258,6 @@
   gap: 16px;
   margin-bottom: 40px;
 }
-
-
-.cases {
-  @include media-up($screen-md) {
-    display: flex;
-    flex-wrap: wrap;
-    //display: grid;
-    //grid-template: '1fr 1fr 1fr';
-    gap: 18px;
-  }
-  &__item {
-    @include media-up($screen-md) {
-      aspect-ratio: 1/1;
-      max-height: 436px;
-    }
-    @include media-up($screen-sm) {
-      //max-height: 312px;
-      width: calc(100%/3 - 12px);
-    }
-  }
-}
-
-
-
-.cases {
-  &__item:visibile:nth-child(n+7) {
-    display: none;
-  }
-  &--filtered {
-    @each $val in $color-list {
-      &[data-filtered-by='#{$val}'] .cases__item:not([data-case-category='#{$val}']) {
-        display: none;
-      }
-    }
-  }
-}
-
-.case {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 24px;
-  @include media-down($screen-bg) {
-    gap: 18px;
-  }
-  &__title {
-    font-size: 28px;
-    font-weight: 600;
-    line-height: 130%;
-    flex: 1;
-    @include media-down($screen-lg) {
-      font-size: 20px;
-    }
-  }
-  &__image {
-    max-height: 33px;
-    max-width: 72px;
-  }
-  &__text {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 130%;
-    @include media-down($screen-lg) {
-      font-size: 14px;
-    }
-  }
-}
-
 
 .help {
   display: flex;

@@ -291,6 +291,10 @@ img {
       top: 0;
       z-index: -1;
     }
+    @each $val in $color-list {
+      &--#{$val}::before { border-top-color: var(--color-#{$val}) }
+    }
+    &--black::before { border-top-color: var(--color-black) }
   }
   &__head-icon {
     position: absolute;
@@ -357,6 +361,14 @@ img {
       }
     }
   }
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    .panel__image {
+      position: initial;
+    }
+  }
   &__close {
     position: absolute;
     top: 8px;
@@ -368,10 +380,7 @@ img {
       width: 100%;
     }
   }
-  @each $val in $color-list {
-    &--head-#{$val} &__head::before { border-top-color: var(--color-#{$val}) }
-  }
-  &--head-black &__head::before { border-top-color: var(--color-black) }
+
 
   &--yellow { background: var(--color-yellow) }
   &--blue { background: var(--color-blue) }
@@ -678,4 +687,43 @@ ul.ul {
 
 .section--no-min-height .contact-big:first-child {
   margin-top: 0;
+}
+
+.cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  @include media-down($screen-md) {
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    gap: 20px;
+  }
+}
+
+.block-group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  @include media-down($screen-md) {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+  }
+  &--3 {
+    @include media-up($screen-md) {
+      .block-group__item:nth-child(3) {
+        grid-area: 1 / 2 / 3;
+      }
+    }
+    .block-group__item {
+      &:nth-child(2) {
+        grid-row-start: 2;
+        padding-right: 110px;
+      }
+      &:nth-child(3) {
+        grid-row: span 2;
+      }
+    }
+  }
+  &__item {
+    min-height: 168px;
+  }
 }

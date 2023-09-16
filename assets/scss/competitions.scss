@@ -1,4 +1,6 @@
 @import './_mixins';
+@import './_cases';
+
 
 .anchors {
   display: flex;
@@ -43,4 +45,31 @@
     width: 40px;
     background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none"><path d="M20 8.33325V31.6666" stroke="%23231F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M31.6673 20L20.0007 31.6667L8.33398 20" stroke="%23231F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>') center no-repeat;
   }
+}
+
+.section {
+  position: relative;
+}
+.section > .panel__head {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  --head-height: 72px;
+  @include media-down($screen-lg) {
+    --head-height: 56px;
+  }
+  @include media-down($screen-md) {
+    --head-height: 40px;
+  }
+  &::before {
+    margin-left: calc(100% / 3);
+  }
+  &::after {
+    left: calc(100% / 3 - 1px);
+  }
+}
+
+.block-group {
+  margin-top: 72px;
 }
