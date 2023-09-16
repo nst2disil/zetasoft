@@ -194,7 +194,7 @@ img {
       color: #fff;
       border-color: #fff !important;
     }
-    .panel:not([class*="panel--shadow-"]) {
+    .panel:not([class*="panel--shadow-"]):not(a:hover) {
       box-shadow: 4px 4px 0px 0px #fff;
     }
   }
@@ -372,8 +372,11 @@ img {
     &--head-#{$val} &__head::before { border-top-color: var(--color-#{$val}) }
   }
   &--head-black &__head::before { border-top-color: var(--color-black) }
+
   &--yellow { background: var(--color-yellow) }
   &--blue { background: var(--color-blue) }
+  &--red { background: var(--color-red) }
+
   &--black {
     background: var(--color-black);
     color: #fff;

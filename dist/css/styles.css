@@ -603,7 +603,7 @@ img {
   color: #fff;
   border-color: #fff !important;
 }
-.section--black .panel:not([class*=panel--shadow-]) {
+.section--black .panel:not([class*=panel--shadow-]):not(a:hover) {
   box-shadow: 4px 4px 0px 0px #fff;
 }
 .section h1.section__title {
@@ -842,6 +842,9 @@ img {
 }
 .panel--blue {
   background: var(--color-blue);
+}
+.panel--red {
+  background: var(--color-red);
 }
 .panel--black {
   background: var(--color-black);

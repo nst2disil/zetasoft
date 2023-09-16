@@ -70,7 +70,6 @@
   }
   @include media-up($screen-lg) {
     grid-auto-rows: minmax(264px, auto);
-
   }
   &--small {
     display: grid;
