@@ -178,7 +178,7 @@
               <img src="./dist/img/panel-1c.svg" alt="1c logo" class="button-panel__image">
               Продукты 1С
             </div>
-            <a href="#" class="button-panel__button button button--block button--big">выбрать продукт</a>
+            <a href="./products1c.html" class="button-panel__button button button--block button--big">выбрать продукт</a>
           </div>
         </div>
       </section>

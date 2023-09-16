@@ -268,7 +268,7 @@
               <img src="./dist/img/panel-zeta__black.svg" alt="zetasoft logo" class="button-panel__image">
               Продукты Зетасофт
             </div>
-            <a href="#" class="button-panel__button button button--block button--big">выбрать продукт</a>
+            <a href="./products.html" class="button-panel__button button button--block button--big">выбрать продукт</a>
           </div>
         </div>
       </section>
