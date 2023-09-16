@@ -1273,4 +1273,7 @@ ul.ul li::before {
   .block-group .block-group__item {
     min-height: 196px;
   }
+  .block-group .block-group__item:nth-child(3) {
+    order: 3;
+  }
 }

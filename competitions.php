@@ -54,7 +54,7 @@
               <ul class="ul">
                 <li>Создаём отдельную платформу для&nbsp;доступа и&nbsp;управления базами данных</li>
                 <li>Внедряем в&nbsp;ваш&nbsp;ИТ-ресурс только нужный функционал</li>
-                <li>Предоставляем актуальные данные в&nbsp;режиме реального времени как&nbsp;из&nbsp;внешних баз&nbsp;данных ТД, так и от ваших поставщиков Веб сервисы</li>
+                <li>Предоставляем актуальные данные в&nbsp;режиме реального времени как&nbsp;из&nbsp;внешних баз&nbsp;данных ТД, так&nbsp;и&nbsp;от&nbsp;ваших поставщиков Веб&nbsp;сервисы</li>
               </ul>
             </div>
           </div>
@@ -77,7 +77,7 @@
                   <div class="panel__title">Оптимизация складских ресурсов</div>
                   <img src="./dist/img/anchor-car.svg" alt="" class="panel__image">
                 </div>
-                <div class="panel__text">сбыт в первую очередь чужих остатков, неликвидных позиций, контроль наличия маржинальных и частотных позиций</div>
+                <div class="panel__text">сбыт в&nbsp;первую очередь чужих остатков, неликвидных позиций, контроль наличия маржинальных и&nbsp;частотных позиций</div>
               </div>
             </div>
         </div>
@@ -124,7 +124,7 @@
           <h2 class="section__title">Вендинг</h2>
           <div class="cols">
             <div class="cols__item">
-              <div class="section__subtitle">Сопровождение бизнеса вендинговых автоматов: от контроля продаж и остатков до автоматизации взаимодействия склада с операторами</div>
+              <div class="section__subtitle">Сопровождение бизнеса вендинговых автоматов: от&nbsp;контроля продаж и&nbsp;остатков до&nbsp;автоматизации взаимодействия склада с&nbsp;операторами</div>
             </div>
             <div class="cols__item">
               <ul class="ul">
@@ -151,7 +151,7 @@
                   <div class="panel__title">Разработка ИТ-системы с нуля</div>
                   <img src="./dist/img/anchor-vending.svg" alt="" class="panel__image">
                 </div>
-                <div class="panel__text">или отдельного сервиса для контроля за определёнными этапами бизнес-процесса</div>
+                <div class="panel__text">или&nbsp;отдельного сервиса для&nbsp;контроля за&nbsp;определёнными этапами бизнес-процесса</div>
               </div>
             </div>
         </div>
@@ -182,6 +182,89 @@
                 <div class="panel__head panel__head--blue-dark"></div>
                 <div class="panel__content case">
                   <div class="case__title">Проектное решение<br/>«Учёт в&nbsp;вендинговом бизнесе»</div>
+                  <img src="./dist/img/panel-1c.svg" alt="1c logo" class="case__image">
+                  <div class="case__text">Подсистема предназначена для компаний, работающих в 1С и использующих онлайн-кассы АТОЛ Онлайн</div>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+          <div class="button-panel panel panel--yellow panel--no-shadow">
+            <div class="button-panel__text">Оставьте заявку для&nbsp;бесплатной консультации </div>
+            <button class="button-panel__button button button--block button--big" data-modal="contact-form">оставить заявку</button>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="panel__head panel__head--blue"></div>
+        <div class="wrapper">
+          <h2 class="section__title">Повременные услуги</h2>
+          <div class="cols">
+            <div class="cols__item">
+              <div class="section__subtitle">Учёт времени в&nbsp;консалтинге или&nbsp;другой деятельности, где&nbsp;час&nbsp;является единицей измерения&nbsp;стоимости</div>
+            </div>
+            <div class="cols__item">
+              <ul class="ul">
+                <li>консалтинг</li>
+                <li>юридические</li>
+                <li>бухгалтерские услуги</li>
+              </ul>
+            </div>
+          </div>
+          <div class="block-group block-group--2">
+            <div class="block-group__item panel panel--black panel--no-shadow">
+              <div class="panel__content">
+                <div class="panel__title">Мониторинг и управление рабочей нагрузкой сотрудников по проектам</div>
+              </div>
+            </div>
+            <div class="block-group__item panel panel--white panel--no-shadow">
+              <div class="panel__content">
+                <div class="panel__title">Анализ ресурсного потенциала</div>
+                <div class="panel__text">определите, кто&nbsp;из&nbsp;сотрудников недо-, а&nbsp;кто&nbsp;перегружен, оптимизируйте рабочую нагрузку и&nbsp;снизьте собственную себестоимость</div>
+              </div>
+            </div>
+            <div class="block-group__item panel panel--white panel--no-shadow">
+              <div class="panel__content">
+                <div class="panel__title">Прогноз вашей рабочей нагрузки на&nbsp;месяцы вперёд</div>
+              </div>
+            </div>
+            <div class="block-group__item panel panel--blue panel--no-shadow">
+              <div class="panel__content">
+                <div class="panel__top">
+                  <div class="panel__title">Создание прозрачного процесса определения себестоимости</div>
+                  <img src="./dist/img/anchor-time.svg" alt="" class="panel__image">
+                </div>
+                <div class="panel__text">а также ценообразования с последующим попаданием в акты оказанных услуг </div>
+              </div>
+            </div>
+        </div>
+        </div>
+      </section>
+      <section class="section section--black section--no-min-height">
+        <div class="wrapper">
+          <h2 class="section__title">Наши кейсы по Вендингу</h2>
+          <div class="swiper js-competitions-vending-swiper">
+            <div class="cases swiper-wrapper">
+              <a href="#" class="swiper-slide cases__item panel panel--white">
+                <div class="panel__head panel__head--yellow"></div>
+                <div class="panel__content case">
+                  <div class="case__title">Автоматизация учета кадровых ресурсов на основе подхода GTD</div>
+                  <img src="./dist/img/panel-1c.svg" alt="1c logo" class="case__image">
+                  <div class="case__text">Подсистема предназначена для компаний, работающих в 1С и использующих онлайн-кассы АТОЛ Онлайн</div>
+                </div>
+              </a>
+              <a href="#" class="swiper-slide cases__item panel panel--white">
+                <div class="panel__head panel__head--blue-dark"></div>
+                <div class="panel__content case">
+                  <div class="case__title">Кейс Кеско Групп</div>
+                  <img src="./dist/img/panel-zeta.svg" alt="zeta logo" class="case__image">
+                  <div class="case__text">Подсистема предназначена для компаний, работающих в 1С и использующих онлайн-кассы АТОЛ Онлайн</div>
+                </div>
+              </a>
+              <a href="#" class="swiper-slide cases__item panel panel--white">
+                <div class="panel__head panel__head--red"></div>
+                <div class="panel__content case">
+                  <div class="case__title">Управлении консалтинговой компанией</div>
                   <img src="./dist/img/panel-1c.svg" alt="1c logo" class="case__image">
                   <div class="case__text">Подсистема предназначена для компаний, работающих в 1С и использующих онлайн-кассы АТОЛ Онлайн</div>
                 </div>

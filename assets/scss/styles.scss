@@ -739,9 +739,10 @@ ul.ul {
     }
     @include media-down($screen-md) {
       min-height: 196px;
+      &:nth-child(3) {
+        order: 3;
+      }
     }
-  }
-  &--2 {
 
   }
 }
