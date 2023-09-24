@@ -163,7 +163,7 @@
       right: var(--panel-content-padding);
       top: var(--panel-content-padding);
       background-color: var(--color-yellow);
-      transition-duration: var(--animation-duration);
+      transition-duration: var(--animation-slow-duration);
       @include media-down($screen-lg) {
         height: 64px;
         width: 64px;
@@ -192,33 +192,11 @@
     grid-auto-rows: auto;
   }
   &__item {
+    border: 0;
+    outline: 1px solid var(--color-black);
     min-height: 336px;
     @include media-down($screen-md) {
       min-height: 256px;
-    }
-  }
-}
-
-.business {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  @include media-down($screen-md) {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 1fr);
-  }
-  @include media-up($screen-md) {
-    &__item:nth-child(3) {
-      grid-area: 1 / 2 / 3;
-    }
-  }
-  &__item {
-    min-height: 168px;
-    &:nth-child(2) {
-      grid-row-start: 2;
-      padding-right: 110px;
-    }
-    &:nth-child(3) {
-      grid-row: span 2;
     }
   }
 }
@@ -236,8 +214,9 @@
     grid-template-rows: unset;
     grid-auto-rows: 172px;
   }
-  &__item {
-    //min-height: 168px;
+  .panel {
+    border: 0;
+    outline: 1px solid var(--color-black);
   }
   .panel__text {
     @include media-up($screen-lg) {

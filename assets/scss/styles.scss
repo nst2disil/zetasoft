@@ -5,6 +5,10 @@
 @import './_footer';
 @import './fonts';
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   min-width: $screen-sm;
   font-size: 20px;
@@ -22,6 +26,8 @@ body {
   --color-green: #00B04C;
   --color-orange: #EC6400;
   --animation-duration: .2s;
+  --animation-slow-duration: .4s;
+
 
   --wrapper-h-padding: 44px;
   --header-height: 72px;
@@ -107,13 +113,15 @@ img {
     }
   }
   &--big {
-    padding: 18px 60px;
+    padding: 18px 30px;
+    min-width: 280px;
     justify-content: center;
     text-transform: uppercase;
+    font-size: 16px;
+    white-space: nowrap;
     @include media-down($screen-md) {
       width: 100%;
       padding: 18px 0;
-      font-size: 16px;
     }
   }
   &--active {
@@ -282,6 +290,8 @@ img {
     }
     &::before {
       margin-left: 125px;
+      position: relative;
+      z-index: 1;
     }
     &::after {
       border-top: var(--head-height) solid var(--color-black);
@@ -289,7 +299,7 @@ img {
       right: 0;
       left: 124px;
       top: 0;
-      z-index: -1;
+      z-index: 0;
     }
     @each $val in $color-list {
       &--#{$val}::before { border-top-color: var(--color-#{$val}) }
@@ -416,12 +426,14 @@ a.panel:hover {
   gap: 20px;
   @include media-down($screen-bg) {
     font-size: 24px;
+    padding: 35px;
   }
   @include media-down($screen-md) {
     flex-direction: column;
     gap: 28px;
-    padding: 35px;
     font-size: 20px;
+    padding: 24px 20px;
+
     &__button {
       width: 100%;
       justify-content: center;
@@ -430,8 +442,9 @@ a.panel:hover {
   &__button {
     font-size: 16px;
     text-transform: uppercase;
+    //white-space: nowrap;
     @include media-up($screen-md) {
-      flex: 0 0 280px;
+      //flex: 0 0 280px;
     }
     @include media-down($screen-md) {
       width: 100%;
@@ -622,7 +635,7 @@ ul.ul {
 
 .contact-big {
   margin-top: 72px;
-  padding: 64px;
+  padding: 64px 604px 64px 64px;
   height: 376px;
   background-color: var(--color-yellow);
   color: var(--color-black);
@@ -630,6 +643,8 @@ ul.ul {
   @include media-down($screen-lg) {
     height: 301px;
     padding: 48px;
+    padding: 64px 459px 64px 64px;
+
   }
   @include media-down($screen-md) {
     height: auto;
@@ -642,12 +657,10 @@ ul.ul {
     font-style: normal;
     font-weight: 600;
     line-height: 130%;
-    padding-right: 540px;
     margin-bottom: 36px;
     @include media-down($screen-lg) {
       font-size: 32px;
       margin-bottom: 22px;
-      padding-right: 395px;
     }
     @include media-down($screen-bg) {
       font-size: 24px;
@@ -660,6 +673,7 @@ ul.ul {
     margin-top: 16px;
     font-size: 20px;
     font-weight: 500;
+    max-width: 518px;
     @include media-down($screen-lg) {
       font-size: 16px;
       margin-top: 14px;
@@ -713,6 +727,10 @@ ul.ul {
   @include media-down($screen-md) {
     grid-template-columns: 1fr;
   }
+  &__item {
+    border: none;
+    outline: 1px solid var(--color-black);
+  }
   &--3 {
     .block-group__item:nth-child(3) {
       @include media-up($screen-md) {
@@ -725,7 +743,6 @@ ul.ul {
     .block-group__item {
       &:nth-child(2) {
         grid-row-start: 2;
-        padding-right: 110px;
       }
       &:nth-child(3) {
         grid-row: span 2;

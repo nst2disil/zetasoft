@@ -180,7 +180,7 @@
   right: var(--panel-content-padding);
   top: var(--panel-content-padding);
   background-color: var(--color-yellow);
-  transition-duration: var(--animation-duration);
+  transition-duration: var(--animation-slow-duration);
 }
 @media screen and (max-width: 1439px) {
   .stages .panel::before {
@@ -211,38 +211,14 @@
   }
 }
 .pricing__item {
+  border: 0;
+  outline: 1px solid var(--color-black);
   min-height: 336px;
 }
 @media screen and (max-width: 879px) {
   .pricing__item {
     min-height: 256px;
   }
-}
-
-.business {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-@media screen and (max-width: 879px) {
-  .business {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 1fr);
-  }
-}
-@media screen and (min-width: 880px) {
-  .business__item:nth-child(3) {
-    grid-area: 1/2/3;
-  }
-}
-.business__item {
-  min-height: 168px;
-}
-.business__item:nth-child(2) {
-  grid-row-start: 2;
-  padding-right: 110px;
-}
-.business__item:nth-child(3) {
-  grid-row: span 2;
 }
 
 .business-tips {
@@ -262,6 +238,10 @@
     grid-template-rows: unset;
     grid-auto-rows: 172px;
   }
+}
+.business-tips .panel {
+  border: 0;
+  outline: 1px solid var(--color-black);
 }
 @media screen and (min-width: 1440px) {
   .business-tips .panel__text {

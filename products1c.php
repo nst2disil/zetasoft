@@ -16,7 +16,7 @@
             <img src="./dist/img/tip-arrow_yellow.svg" alt="arrow" class="our-products__arrow">
             <div class="our-products__button-container">
               <div class="our-products__button-title">С&nbsp;2006&nbsp;года являемся официальным партнёром фирмы 1С </div>
-              <button class="button button--block button--mobile-full-width button--yellow our-products__button" data-modal="contact-form">подписка на продукты 1С</button>
+              <button class="button button--block button--big button--mobile-full-width button--yellow our-products__button" data-modal="contact-form">подписка на продукты 1С</button>
             </div>
           </div>
           <div class="swiper swiper--big js-products-1c-swiper">

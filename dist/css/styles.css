@@ -394,6 +394,10 @@ a:hover > .icon,
   font-family: "Mulish";
   src: local("Mulish"), url("../fonts/Mulish-VariableFont_wght.ttf") format("truetype");
 }
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   min-width: 375px;
   font-size: 20px;
@@ -411,6 +415,7 @@ body {
   --color-green: #00B04C;
   --color-orange: #EC6400;
   --animation-duration: .2s;
+  --animation-slow-duration: .4s;
   --wrapper-h-padding: 44px;
   --header-height: 72px;
 }
@@ -511,15 +516,17 @@ img {
   background: var(--color-yellow);
 }
 .button--big {
-  padding: 18px 60px;
+  padding: 18px 30px;
+  min-width: 280px;
   justify-content: center;
   text-transform: uppercase;
+  font-size: 16px;
+  white-space: nowrap;
 }
 @media screen and (max-width: 879px) {
   .button--big {
     width: 100%;
     padding: 18px 0;
-    font-size: 16px;
   }
 }
 .button--active {
@@ -718,6 +725,8 @@ img {
 }
 .panel__head::before {
   margin-left: 125px;
+  position: relative;
+  z-index: 1;
 }
 .panel__head::after {
   border-top: var(--head-height) solid var(--color-black);
@@ -725,7 +734,7 @@ img {
   right: 0;
   left: 124px;
   top: 0;
-  z-index: -1;
+  z-index: 0;
 }
 .panel__head--blue::before {
   border-top-color: var(--color-blue);
@@ -896,14 +905,15 @@ a.panel:hover {
 @media screen and (max-width: 1024px) {
   .button-panel {
     font-size: 24px;
+    padding: 35px;
   }
 }
 @media screen and (max-width: 879px) {
   .button-panel {
     flex-direction: column;
     gap: 28px;
-    padding: 35px;
     font-size: 20px;
+    padding: 24px 20px;
   }
   .button-panel__button {
     width: 100%;
@@ -913,11 +923,6 @@ a.panel:hover {
 .button-panel__button {
   font-size: 16px;
   text-transform: uppercase;
-}
-@media screen and (min-width: 880px) {
-  .button-panel__button {
-    flex: 0 0 280px;
-  }
 }
 @media screen and (max-width: 879px) {
   .button-panel__button {
@@ -1129,7 +1134,7 @@ ul.ul li::before {
 
 .contact-big {
   margin-top: 72px;
-  padding: 64px;
+  padding: 64px 604px 64px 64px;
   height: 376px;
   background-color: var(--color-yellow);
   color: var(--color-black);
@@ -1139,6 +1144,7 @@ ul.ul li::before {
   .contact-big {
     height: 301px;
     padding: 48px;
+    padding: 64px 459px 64px 64px;
   }
 }
 @media screen and (max-width: 879px) {
@@ -1154,14 +1160,12 @@ ul.ul li::before {
   font-style: normal;
   font-weight: 600;
   line-height: 130%;
-  padding-right: 540px;
   margin-bottom: 36px;
 }
 @media screen and (max-width: 1439px) {
   .contact-big__title {
     font-size: 32px;
     margin-bottom: 22px;
-    padding-right: 395px;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -1178,6 +1182,7 @@ ul.ul li::before {
   margin-top: 16px;
   font-size: 20px;
   font-weight: 500;
+  max-width: 518px;
 }
 @media screen and (max-width: 1439px) {
   .contact-big__text {
@@ -1244,6 +1249,10 @@ ul.ul li::before {
     grid-template-columns: 1fr;
   }
 }
+.block-group__item {
+  border: none;
+  outline: 1px solid var(--color-black);
+}
 @media screen and (min-width: 880px) {
   .block-group--3 .block-group__item:nth-child(3) {
     grid-area: 1/2/3;
@@ -1256,7 +1265,6 @@ ul.ul li::before {
 }
 .block-group--3 .block-group__item:nth-child(2) {
   grid-row-start: 2;
-  padding-right: 110px;
 }
 .block-group--3 .block-group__item:nth-child(3) {
   grid-row: span 2;

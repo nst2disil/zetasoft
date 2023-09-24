@@ -12,7 +12,7 @@
         <div class="wrapper">
           <h1 class="section__title">Создаём индивидуальную ИТ-платформу для&nbsp;решения задач в&nbsp;разных отраслях бизнеса</h1>
           <div class="anchors">
-            <a href="#" class="anchors__item panel panel--yellow">
+            <a href="#autobusiness" class="anchors__item panel panel--yellow">
               <div class="panel__content">
                 <img src="./dist/img/anchor-car.svg" alt="" class="anchors__image">
                 <div class="anchors__bottom">
@@ -21,7 +21,7 @@
                 </div>
               </div>
             </a>
-            <a href="#" class="anchors__item panel panel--red">
+            <a href="#vending" class="anchors__item panel panel--red">
               <div class="panel__content">
                 <img src="./dist/img/anchor-vending.svg" alt="" class="anchors__image">
                 <div class="anchors__bottom">
@@ -30,7 +30,7 @@
                 </div>
               </div>
             </a>
-            <a href="#" class="anchors__item panel panel--blue">
+            <a href="#services" class="anchors__item panel panel--blue">
               <div class="panel__content">
                 <img src="./dist/img/anchor-time.svg" alt="" class="anchors__image">
                 <div class="anchors__bottom">
@@ -42,7 +42,7 @@
           </div>
         </div>
       </section>
-      <section class="section">
+      <section class="section" id="autobusiness">
         <div class="panel__head panel__head--yellow"></div>
         <div class="wrapper">
           <h2 class="section__title">Автобизнес</h2>
@@ -67,7 +67,7 @@
             </div>
             <div class="block-group__item panel panel--black panel--no-shadow">
               <div class="panel__content">
-                <div class="panel__title">Поиск аналогов товаров, отвечающих запросу клиента</div>
+                <div class="panel__title">Поиск аналогов товаров,<br>отвечающих запросу клиента</div>
                 <div class="panel__text">официальному названию марки/производителя, альтернативным вариантам названия группы брендов</div>
               </div>
             </div>
@@ -118,7 +118,7 @@
           </div>
         </div>
       </section>
-      <section class="section">
+      <section class="section" id="vending">
         <div class="panel__head panel__head--red"></div>
         <div class="wrapper">
           <h2 class="section__title">Вендинг</h2>
@@ -195,7 +195,7 @@
           </div>
         </div>
       </section>
-      <section class="section">
+      <section class="section" id="services">
         <div class="panel__head panel__head--blue"></div>
         <div class="wrapper">
           <h2 class="section__title">Повременные услуги</h2>
