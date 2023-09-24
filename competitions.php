@@ -87,7 +87,7 @@
         <div class="wrapper">
           <h2 class="section__title">Наши кейсы по Автобизнесу</h2>
           <div class="swiper js-competitions-auto-swiper">
-            <div class="cases js-cases swiper-wrapper">
+            <div class="cases swiper-wrapper">
               <a href="#" class="swiper-slide cases__item panel panel--white"">
                 <div class="panel__head panel__head--yellow"></div>
                 <div class="panel__content case">

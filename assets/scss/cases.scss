@@ -1,0 +1,30 @@
+@import './_mixins';
+@import './_cases';
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+.cases {
+  @include media-down($screen-md) {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    gap: 16px;
+  }
+  &__item {
+    @include media-down($screen-md) {
+      width: 100%;
+      flex: 1;
+    }
+  }
+  &_item:nth-child(6n + 1),
+  &_item:nth-child(10n + 1) {
+    width: calc(100%/3*2 - 6px);
+    aspect-ratio: 2/1;
+  }
+}
+
