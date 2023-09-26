@@ -1,0 +1,93 @@
+@import './_mixins';
+
+.about {
+  display: flex;
+  gap: 24px;
+  @include media-down($screen-bg) {
+    gap: 16px;
+  }
+  @include media-down($screen-bg) {
+    flex-direction: column;
+  }
+  &__bank-info {
+    flex: 1 0 100%;
+    max-width: 436px;
+    min-width: 312px;
+    @include media-down($screen-bg) {
+      max-width: unset;
+    }
+  }
+  &__title {
+    font-size: 28px;
+    @include media-down($screen-lg) {
+      font-size: 24px;
+    }
+    @include media-down($screen-md) {
+      font-size: 20px;
+    }
+  }
+  
+}
+
+.addresses {
+  &__item {
+    display: flex;
+    gap: 60px;
+    @include media-down($screen-md) {
+      flex-direction: column;
+      gap: 12px;
+    }
+    & + .addresses__item {
+      margin-top: 34px;
+    }
+    &--separator + .addresses__item {
+      margin-top: 42px;
+      padding-top: 42px;
+      border-top: 1px solid #fff;
+    }
+  }
+  &__location {
+    flex: 0 0 48%;
+    @include media-down($screen-lg) {
+      flex: 0 0 35%;
+    }
+    @include media-down($screen-md) {
+      flex: 0 0 100%;
+    }
+  }
+  &__contact {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    &--email {
+      text-decoration: underline;
+    }
+    &:last-of-type:not(:first-child) {
+      margin-bottom: 16px;
+    }
+    @include media-down($screen-lg) {
+      font-size: 20px;
+    }
+    @include media-down($screen-md) {
+      font-size: 16px;
+    }
+  }
+  &__details {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    @include media-down($screen-md) {
+      align-self: flex-start;
+    }
+  }
+}
+
+.map {
+  height: 584px;
+  margin-top: 54px;
+  position: relative;
+  @include media-down($screen-lg) {
+    height: 420px;
+  }
+}

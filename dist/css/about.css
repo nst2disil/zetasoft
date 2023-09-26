@@ -1,0 +1,112 @@
+.about {
+  display: flex;
+  gap: 24px;
+}
+@media screen and (max-width: 1023px) {
+  .about {
+    gap: 16px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .about {
+    flex-direction: column;
+  }
+}
+.about__bank-info {
+  flex: 1 0 100%;
+  max-width: 436px;
+  min-width: 312px;
+}
+@media screen and (max-width: 1023px) {
+  .about__bank-info {
+    max-width: unset;
+  }
+}
+.about__title {
+  font-size: 28px;
+}
+@media screen and (max-width: 1439px) {
+  .about__title {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 879px) {
+  .about__title {
+    font-size: 20px;
+  }
+}
+
+.addresses__item {
+  display: flex;
+  gap: 60px;
+}
+@media screen and (max-width: 879px) {
+  .addresses__item {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+.addresses__item + .addresses__item {
+  margin-top: 34px;
+}
+.addresses__item--separator + .addresses__item {
+  margin-top: 42px;
+  padding-top: 42px;
+  border-top: 1px solid #fff;
+}
+.addresses__location {
+  flex: 0 0 48%;
+}
+@media screen and (max-width: 1439px) {
+  .addresses__location {
+    flex: 0 0 35%;
+  }
+}
+@media screen and (max-width: 879px) {
+  .addresses__location {
+    flex: 0 0 100%;
+  }
+}
+.addresses__contact {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+}
+.addresses__contact--email {
+  text-decoration: underline;
+}
+.addresses__contact:last-of-type:not(:first-child) {
+  margin-bottom: 16px;
+}
+@media screen and (max-width: 1439px) {
+  .addresses__contact {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 879px) {
+  .addresses__contact {
+    font-size: 16px;
+  }
+}
+.addresses__details {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+@media screen and (max-width: 879px) {
+  .addresses__details {
+    align-self: flex-start;
+  }
+}
+
+.map {
+  height: 584px;
+  margin-top: 54px;
+  position: relative;
+}
+@media screen and (max-width: 1439px) {
+  .map {
+    height: 420px;
+  }
+}

@@ -42,7 +42,7 @@
   align-items: flex-start;
   gap: 24px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .case {
     gap: 18px;
   }
