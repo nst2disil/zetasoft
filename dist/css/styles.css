@@ -515,6 +515,10 @@ img {
 .button--yellow {
   background: var(--color-yellow);
 }
+.button--white {
+  background: #fff;
+  color: var(--color-black);
+}
 .button--big {
   padding: 18px 30px;
   min-width: 280px;
@@ -536,6 +540,7 @@ img {
 @media screen and (max-width: 879px) {
   .button--mobile-full-width {
     width: 100%;
+    justify-content: center;
   }
 }
 

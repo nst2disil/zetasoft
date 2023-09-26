@@ -1,0 +1,80 @@
+@import './_mixins';
+
+
+.vacancy-info {
+  margin-bottom: 32px;
+  &__button {
+    margin: 40px 0;
+  }
+  .section__title {
+    display: flex;
+    justify-content: space-between;
+    @include media-down($screen-md) {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  .stack {
+    display: flex;
+    gap: 24px;
+    @include media-down($screen-md) {
+      gap: 16px;
+    }
+    &__item {
+      height: 80px;
+      @include media-down($screen-lg) {
+        height: 70px;
+      }
+      @include media-down($screen-md) {
+        height: 40px;
+      }
+    }
+  }
+  .section__subtitle {
+    margin-top: 24px;
+  }
+}
+
+.vacancy-list {
+  counter-reset: vacancy;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  margin-bottom: 64px;
+  &__item {
+    counter-increment: vacancy;
+    .section__title::after {
+      content: counter(vacancy);
+      --square: 64px;
+      line-height: var(--square);
+      width: var(--square);
+      height: var(--square);
+      flex: 0 0 var(--square);
+      text-align: center;
+      font-family: 'Quantico', sans-serif;
+      color: var(--color-black);
+      background-color: var(--color-yellow);
+      font-size: 40px;
+      @include media-down($screen-lg) {
+        --square: 48px;
+        font-size: 32px;
+      }
+    }
+    .section__title {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      gap: 24px;
+    }
+  }
+  &__detail {
+    width: 846px;
+    margin: 0 auto;
+    @include media-down($screen-lg) {
+      width: 696px;
+    }
+    @include media-down($screen-md) {
+      width: auto;
+    }
+  }
+}

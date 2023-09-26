@@ -112,6 +112,10 @@ img {
       background: var(--color-#{$val});
     }
   }
+  &--white {
+    background: #fff;
+    color: var(--color-black);
+  }
   &--big {
     padding: 18px 30px;
     min-width: 280px;
@@ -131,6 +135,7 @@ img {
   &--mobile-full-width {
     @include media-down($screen-md) {
       width: 100%;
+      justify-content: center;
     }
   }
 }
