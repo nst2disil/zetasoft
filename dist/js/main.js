@@ -92,7 +92,7 @@ function initCases() {
 
       cases.setAttribute('data-filtered-by', category);
       cases.classList.add('cases--filtered');
-      APP_CONFIG.swipersConfig.cases.swiperNativeEl.slideTo(0);
+      SWIPERS.cases.swiperNativeEl.slideTo(0);
   };
 
   buttons.forEach((button) => {
@@ -128,40 +128,36 @@ const defaultSwiperOptions = {
 };
 
 function initSwiper(slug) {
-  if (!document.querySelector(`.js-${slug}-swiper`)) return;
-  if (!APP_CONFIG.swipersConfig[slug]) {
-    APP_CONFIG.swipersConfig[slug] = {};
+  if (!SWIPERS[slug]) {
+    SWIPERS[slug] = {};
   }
   if (window.innerWidth <= 880) {
-    if (!APP_CONFIG.swipersConfig[slug].init) {
-      APP_CONFIG.swipersConfig[slug].init = true;
-      APP_CONFIG.swipersConfig[slug].swiperNativeEl = new Swiper(`.js-${slug}-swiper`, defaultSwiperOptions);
+    if (!SWIPERS[slug].init) {
+      SWIPERS[slug].init = true;
+      SWIPERS[slug].swiperNativeEl = new Swiper(`[data-swiper-id="${slug}"]`, SWIPERS[slug].config || defaultSwiperOptions);
     }
-  } else if (APP_CONFIG.swipersConfig[slug].init) {
-    APP_CONFIG.swipersConfig[slug].swiperNativeEl.destroy();
-    APP_CONFIG.swipersConfig[slug].init  = false;
+  } else if (SWIPERS[slug].init) {
+    SWIPERS[slug].swiperNativeEl.destroy();
+    SWIPERS[slug].init  = false;
   }
 }
 
-function initSwipers(slugList) {
-  slugList.forEach(slug => initSwiper(slug));
+function initSwipers() {
+  document.querySelectorAll('[data-swiper-id]').forEach(swiperItem => initSwiper(swiperItem.dataset.swiperId));
 }
 
-const APP_CONFIG = {
-  swipersList: ['cases', 'products', 'systems', 'products-1c', 'licenses', 'competitions-auto', 'competitions-vending'], // чтобы добавить новый слайдер - добавляем его слаг, который используем в селекторе
-  swipersConfig: {}
-}
+const SWIPERS = {}
 
 document.addEventListener('DOMContentLoaded', () => {
   setupToolToggler();
   ininPopups();
-  initSwipers(APP_CONFIG.swipersList);
+  initSwipers();
   initCases();
   initDashboardToggleds();
 });
 
 window.addEventListener('resize', () => {
-  initSwipers(APP_CONFIG.swipersList);
+  initSwipers();
 });
 
 

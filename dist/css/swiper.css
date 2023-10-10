@@ -21,14 +21,24 @@
     width: 100%;
     height: 340px;
   }
-  .swiper--big {
+  .swiper--m {
     height: 372px;
   }
-  .swiper--big .swiper-slide {
+  .swiper--m .swiper-slide {
     width: 344px;
   }
-  .swiper--big .swiper-wrapper {
+  .swiper--m .swiper-wrapper {
     height: 344px;
+    margin-left: 0;
+  }
+  .swiper--l {
+    height: 428px;
+  }
+  .swiper--l .swiper-slide {
+    width: 344px;
+  }
+  .swiper--l .swiper-wrapper {
+    height: 400px;
     margin-left: 0;
   }
   .swiper-slide {

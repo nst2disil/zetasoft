@@ -1117,9 +1117,9 @@ ul.ul {
   gap: 8px;
 }
 ul.ul li {
-  display: flex;
-  align-items: flex-start;
+  position: relative;
   line-height: 130%;
+  padding-left: 24px;
 }
 @media screen and (max-width: 879px) {
   ul.ul li {
@@ -1133,13 +1133,9 @@ ul.ul li::before {
   border-radius: 50%;
   height: 7px;
   width: 7px;
-  margin: 11px 8px 0;
-  flex: 0 0 7px;
-}
-@media screen and (max-width: 879px) {
-  ul.ul li::before {
-    margin-top: 7px;
-  }
+  position: absolute;
+  left: 8px;
+  top: calc(0.5em + 1px);
 }
 
 .contact-big {

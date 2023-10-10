@@ -86,9 +86,9 @@
       <section class="section section--black section--no-min-height">
         <div class="wrapper">
           <h2 class="section__title">Наши кейсы по Автобизнесу</h2>
-          <div class="swiper js-competitions-auto-swiper">
+          <div class="swiper" data-swiper-id="competitions-auto">
             <div class="cases swiper-wrapper">
-              <a href="#" class="swiper-slide cases__item panel panel--white"">
+              <a href="#" class="swiper-slide cases__item panel panel--white">
                 <div class="panel__head panel__head--yellow"></div>
                 <div class="panel__content case">
                   <div class="case__title">АТОЛ онлайн и&nbsp;1С: готовое решение для&nbsp;интеграции</div>
@@ -160,7 +160,7 @@
       <section class="section section--black section--no-min-height">
         <div class="wrapper">
           <h2 class="section__title">Наши кейсы по Вендингу</h2>
-          <div class="swiper js-competitions-vending-swiper">
+          <div class="swiper" data-swiper-id="competitions-vending">
             <div class="cases swiper-wrapper">
               <a href="#" class="swiper-slide cases__item panel panel--white">
                 <div class="panel__head panel__head--blue"></div>
@@ -243,7 +243,7 @@
       <section class="section section--black section--no-min-height">
         <div class="wrapper">
           <h2 class="section__title">Наши кейсы по Вендингу</h2>
-          <div class="swiper js-competitions-vending-swiper">
+          <div class="swiper" data-swiper-id="competitions-vending">
             <div class="cases swiper-wrapper">
               <a href="#" class="swiper-slide cases__item panel panel--white">
                 <div class="panel__head panel__head--yellow"></div>

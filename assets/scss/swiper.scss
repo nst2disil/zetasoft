@@ -24,13 +24,23 @@
   .swiper {
     width: 100%;
     height: 340px;
-    &--big {
+    &--m {
       height: 372px;
       .swiper-slide {
         width: 344px;
       }
       .swiper-wrapper {
         height: 344px;
+        margin-left: 0;
+      }
+    }
+    &--l {
+      height: 428px;
+      .swiper-slide {
+        width: 344px;
+      }
+      .swiper-wrapper {
+        height: 400px;
         margin-left: 0;
       }
     }

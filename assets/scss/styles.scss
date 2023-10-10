@@ -619,9 +619,9 @@ ul.ul {
   flex-direction: column;
   gap: 8px;
   li {
-    display: flex;
-    align-items: flex-start;
+    position: relative;
     line-height: 130%;
+    padding-left: 24px;
     @include media-down($screen-md) {
       font-size: 16px;
     }
@@ -632,11 +632,10 @@ ul.ul {
       border-radius: 50%;
       height: 7px;
       width: 7px;
-      margin: 11px 8px 0;
-      flex: 0 0 7px;
-      @include media-down($screen-md) {
-        margin-top: 7px;
-      }
+      position: absolute;
+      left: 8px;
+      top: calc(1em / 2 + 1px);
+      //transform: translateY(-50%);
     }
   }
 }

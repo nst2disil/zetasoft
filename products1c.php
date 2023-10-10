@@ -19,7 +19,7 @@
               <button class="button button--block button--big button--mobile-full-width button--yellow our-products__button" data-modal="contact-form">подписка на продукты 1С</button>
             </div>
           </div>
-          <div class="swiper swiper--big js-products-1c-swiper">
+          <div class="swiper swiper--m" data-swiper-id="products-1c">
             <div class="products swiper-wrapper">
               <a href="#" class="swiper-slide products__item panel panel--yellow">
                 <div class="panel__content">
@@ -209,7 +209,7 @@
       <section class="section section--no-min-height">
         <div class="wrapper">
           <h2 class="section__title">Лицензии на совместные решения 1С и Microsoft</h2>
-          <div class="swiper swiper--big js-licenses-swiper">
+          <div class="swiper swiper--m" data-swiper-id="licenses">
             <div class="products swiper-wrapper">
               <a href="#" class="swiper-slide products__item panel panel--yellow">
                 <div class="panel__content">

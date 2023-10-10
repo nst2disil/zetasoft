@@ -26,7 +26,7 @@
           <h2 class="section__title">
             Продукты и сервисы
           </h2>
-          <div class="swiper swiper--big js-products-swiper">
+          <div class="swiper swiper--m" data-swiper-id="products">
             <div class="products swiper-wrapper">
               <a href="#" class="swiper-slide products__item panel panel--white">
                 <div class="panel__content">
@@ -129,7 +129,7 @@
           <h2 class="section__title">
             Продукты и сервисы
           </h2>
-          <div class="swiper swiper--big js-systems-swiper">
+          <div class="swiper swiper--m" data-swiper-id="systems">
             <div class="products swiper-wrapper">
               <a href="#" class="swiper-slide products__item panel panel--white panel--shadow-blue">
                 <div class="panel__content">
