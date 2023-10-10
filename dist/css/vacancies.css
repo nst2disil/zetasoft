@@ -1,0 +1,7 @@
+.vacancies__item {
+  min-height: 312px;
+}
+.vacancies__item .cols__item {
+  display: flex;
+  flex-direction: column;
+}

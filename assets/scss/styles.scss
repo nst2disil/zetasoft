@@ -76,6 +76,7 @@ img {
   font-size: inherit;
   line-height: inherit;
   cursor: pointer;
+  white-space: nowrap;
   &--dot {
     &::before {
       content: '';
@@ -116,9 +117,13 @@ img {
     background: #fff;
     color: var(--color-black);
   }
+  &--black {
+    background: var(--color-black);
+    color: #fff;
+  }
   &--big {
     padding: 18px 30px;
-    min-width: 280px;
+    min-width: 270px;
     justify-content: center;
     text-transform: uppercase;
     font-size: 16px;
@@ -582,7 +587,6 @@ a.panel:hover {
   }
 }
 
-
 .links {
   flex: 1;
   display: flex;
@@ -609,7 +613,6 @@ a.panel:hover {
     }
   }
 }
-
 
 ul.ul {
   display: flex;
@@ -766,5 +769,63 @@ ul.ul {
       }
     }
 
+  }
+}
+
+.checkbox {
+  display: inline-block;
+  position: relative;
+  font-size: 16px;
+  &__label {
+    padding-right: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    user-select: none;
+  }
+
+  &__input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+  }
+
+  &__label::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 32px;
+    height: 20px;
+    background-color: var(--color-black);
+    border-radius: 12px;
+    transition: background-color var(--animation-duration) ease;
+
+  }
+
+  &__label::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    transform: translateY(-50%);
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: right var(--animation-duration) ease;
+  }
+
+  &__input:checked + .checkbox__label::after {
+    right: 4px;
+  }
+  &__input:checked + .checkbox__label::before {
+    background-color: var(--color-blue-dark);
+  }
+
+  &__label:hover::before {
+    background-color: var(--color-blue-dark);
   }
 }

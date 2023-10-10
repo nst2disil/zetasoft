@@ -100,6 +100,22 @@ function initCases() {
   });
 }
 
+function initDashboardToggleds() {
+  const jsCheckboxes = document.querySelectorAll(".js-toggle-show-active");
+  
+  jsCheckboxes.forEach(function (checkbox) {
+    const productsList = checkbox.closest(".js-products-block").querySelector(".js-products-list");
+
+    checkbox.addEventListener("change", function () {
+      if (checkbox.checked) {
+        productsList.classList.remove("products__list--show-inactive");
+      } else {
+        productsList.classList.add("products__list--show-inactive");
+      }
+    });
+  });
+}
+
 const defaultSwiperOptions = {
   direction: 'horizontal',
   slidesPerView: 'auto',
@@ -127,7 +143,6 @@ function initSwiper(slug) {
   }
 }
 
-
 function initSwipers(slugList) {
   slugList.forEach(slug => initSwiper(slug));
 }
@@ -142,6 +157,7 @@ document.addEventListener('DOMContentLoaded', () => {
   ininPopups();
   initSwipers(APP_CONFIG.swipersList);
   initCases();
+  initDashboardToggleds();
 });
 
 window.addEventListener('resize', () => {

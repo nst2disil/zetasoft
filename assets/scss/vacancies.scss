@@ -1,0 +1,9 @@
+@import './_mixins';
+
+.vacancies__item {
+  min-height: 312px;
+  .cols__item {
+    display: flex;
+    flex-direction: column;
+  }
+}
