@@ -1,5 +1,75 @@
 @import './_mixins';
 
+.vacancies {
+  margin-top: 72px;
+  display: flex;
+  flex-direction: column;
+  &__title {
+    font-size: 32px;
+    margin-bottom: 24px;
+    @include media-down($screen-lg) {
+      font-size: 24px;
+      margin-right: 84px;
+    }
+  }
+  &__text {
+    margin-top: auto;
+    font-size: 20px;
+    @include media-down($screen-lg) {
+      font-size: 16px;
+      margin-top: 64px;
+    }
+  }
+  &__link {
+    color: var(--color-blue);
+    font-size: 24px;
+    @include media-down($screen-lg) {
+      font-size: 20px;
+    }
+    &:hover {
+      text-decoration: underline;
+    }
+    & + .vacancies__link {
+      margin-top: 16px;
+    }
+  }
+  &__img {
+    position: absolute;
+    top: 32px;
+    right: 32px;
+    @include media-down($screen-lg) {
+      top: 24px;
+      right: 24px;
+      width: 80px;
+      height: 80px;
+    }
+    @include media-down($screen-md) {
+      top: 20px;
+      right: 20px;
+      width: 64px;
+      height: 64px;
+    }
+  }
+  &__arrow {
+    margin: 0 auto;
+    &--right {
+      transform: scaleY(-1) rotate(-55deg);
+    }
+    &--left {
+      transform: rotate(125deg);
+    }
+  }
+  @include media-down($screen-md) {
+    .cols {
+      gap: 40px;
+      &__item {
+        min-height: 200px;
+      }
+    }
+  }
+  
+}
+
 .vacancies__item {
   min-height: 312px;
   .cols__item {
