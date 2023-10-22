@@ -612,6 +612,21 @@ img {
 .section--main .section__title {
   margin-bottom: auto;
 }
+.section--blue {
+  background-color: var(--color-blue);
+}
+.section--blue-dark {
+  background-color: var(--color-blue-dark);
+}
+.section--red {
+  background-color: var(--color-red);
+}
+.section--green {
+  background-color: var(--color-green);
+}
+.section--yellow {
+  background-color: var(--color-yellow);
+}
 .section--black {
   background-color: var(--color-black);
   color: #fff;
@@ -688,6 +703,7 @@ img {
   box-shadow: 4px 4px 0px 0px var(--color-black);
   --head-height: 44px;
   color: var(--color-black);
+  background: #fff;
   font-size: 20px;
   line-height: normal;
   position: relative;
@@ -1136,6 +1152,17 @@ ul.ul li::before {
   position: absolute;
   left: 8px;
   top: calc(0.5em + 1px);
+}
+@media screen and (max-width: 879px) {
+  ul.ul li::before {
+    height: 6px;
+    width: 6px;
+    top: 0.5em;
+  }
+}
+
+.section--black ul.ul li::before {
+  background-color: #fff;
 }
 
 .contact-big {

@@ -134,7 +134,7 @@ function initSwiper(slug) {
   if (window.innerWidth <= 880) {
     if (!SWIPERS[slug].init) {
       SWIPERS[slug].init = true;
-      SWIPERS[slug].swiperNativeEl = new Swiper(`[data-swiper-id="${slug}"]`, SWIPERS[slug].config || defaultSwiperOptions);
+      SWIPERS[slug].swiperNativeEl = new Swiper(`[data-swiper-id="${slug}"]`, {...defaultSwiperOptions, ...SWIPERS[slug].config});
     }
   } else if (SWIPERS[slug].init) {
     SWIPERS[slug].swiperNativeEl.destroy();
@@ -146,7 +146,13 @@ function initSwipers() {
   document.querySelectorAll('[data-swiper-id]').forEach(swiperItem => initSwiper(swiperItem.dataset.swiperId));
 }
 
-const SWIPERS = {}
+const SWIPERS = {
+  'case-screenshots': {
+    config: {
+      autoHeight: true
+    }
+  }
+}
 
 document.addEventListener('DOMContentLoaded', () => {
   setupToolToggler();

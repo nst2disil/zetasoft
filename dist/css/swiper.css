@@ -19,7 +19,15 @@
 @media screen and (max-width: 879px) {
   .swiper {
     width: 100%;
+  }
+  .swiper:not(.swiper-autoheight) {
     height: 340px;
+  }
+  .swiper:not(.swiper-autoheight) .swiper-wrapper {
+    height: 312px;
+  }
+  .swiper.swiper-autoheight {
+    padding-bottom: 26px;
   }
   .swiper--m {
     height: 372px;
@@ -49,7 +57,6 @@
     width: 312px;
   }
   .swiper-wrapper {
-    height: 312px;
     margin-left: -14px;
   }
   .swiper-pagination {

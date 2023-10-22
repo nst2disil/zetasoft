@@ -1,0 +1,145 @@
+@import './_mixins';
+@import './_cases';
+
+
+.case-info {
+  display: grid;
+  grid-template-columns: auto minmax(280px, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 64px;
+  @include media-down($screen-lg) {
+    grid-template-columns: auto minmax(240px, 1fr);
+  }
+  @include media-down($screen-md) {
+    grid-template-rows: repeat(2, auto);
+    grid-row-gap: 64px;
+  }
+  &__title {
+    grid-area: 1 / 1 / 2 / 2;
+    @include media-down($screen-md) {
+      grid-area: 1 / 1 / 2 / 3;
+    }
+  }
+  &__logos {
+    grid-area: 2 / 1 / 3 / 2;
+    display: flex;
+    align-items: flex-end;
+  }
+  &__logos-list {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+  &__img {
+    grid-area: 1 / 2 / 3 / 3;
+    @include media-down($screen-md) {
+      grid-area: 2 / 2 / 3 / 3;
+      img {
+        max-width: 192px;
+      }
+    }
+    text-align: right;
+  }
+}
+
+
+.container__content {
+  counter-reset: case;
+}
+
+.section--case-item {
+  .section__title {
+    counter-increment: case;
+  }
+  .section__title::after {
+    content: counter(case);
+    --square: 64px;
+    line-height: var(--square);
+    width: var(--square);
+    height: var(--square);
+    flex: 0 0 var(--square);
+    text-align: center;
+    font-family: 'Quantico', sans-serif;
+    color: var(--color-black);
+    background-color: var(--color-yellow);
+    font-size: 40px;
+    @include media-down($screen-lg) {
+      --square: 48px;
+      font-size: 32px;
+    }
+  }
+  .section__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 24px;
+  }
+}
+
+.section--black .section__title::after {
+  background-color: #fff;
+}
+
+
+.text-wrapper {
+  font-weight: 500;
+  line-height: 130%;
+  width: 846px;
+  margin: 0 auto;
+  @include media-down($screen-lg) {
+    width: 696px;
+  }
+  @include media-down($screen-md) {
+    width: auto;
+  }
+  & + .section__title {
+    margin-top: 64px;
+  }
+  & + & {
+    margin-top: 40px;
+  }
+  p {
+    margin: 1em 0;
+  }
+}
+
+.case {
+  &__subtitle {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    margin-bottom: 24px;
+    @include media-down($screen-lg) {
+      font-size: 20px;
+    }
+  }
+  &__list {
+    font-size: 20px;
+    @include media-down($screen-lg) {
+      font-size: 16px;
+    }
+  }
+}
+
+.screenshots {
+  margin-top: 64px;
+  @include media-up($screen-md) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 18px;
+    &__item {
+      display: block !important;
+      width: auto;
+    }
+  }
+  @include media-down($screen-md) {
+    &__img {
+      margin: 0 auto;
+    }
+  }
+}
+
+.button-panel {
+  margin-top: 64px;
+}

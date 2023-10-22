@@ -205,6 +205,9 @@ img {
       margin-bottom: auto;
     }
   }
+  @each $val in $color-list {
+    &--#{$val} { background-color: var(--color-#{$val}) }
+  }
   &--black {
     background-color: var(--color-black);
     color: #fff;
@@ -270,6 +273,7 @@ img {
   box-shadow: 4px 4px 0px 0px var(--color-black);
   --head-height: 44px;
   color: var(--color-black);
+  background: #fff;
   font-size: 20px;
   line-height: normal;
   position: relative;
@@ -636,8 +640,17 @@ ul.ul {
       left: 8px;
       top: calc(1em / 2 + 1px);
       //transform: translateY(-50%);
+      @include media-down($screen-md) {
+        height: 6px;
+        width: 6px;
+        top: calc(1em / 2);
+      }
     }
   }
+}
+
+.section--black ul.ul li::before {
+  background-color: #fff;
 }
 
 .contact-big {
