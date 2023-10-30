@@ -70,34 +70,41 @@ function ininPopups() {
   });
 }
 
-function initCases() {
+function filterCaseByCategory(categorySlug) {
   const cases = document.querySelector('.js-cases');
   const buttons = document.querySelectorAll('.js-case-category');
-
-  const handleClick = (event) => {
-      const clickedButton = event.target;
-      const category = clickedButton.getAttribute('data-case-category');
-      buttons.forEach((button) => {
-          if (button !== clickedButton) {
-              button.classList.remove('button--active');
-          }
-      });
-      if (clickedButton.classList.contains('button--active')) {
-        cases.classList.remove('cases--filtered');
-        clickedButton.classList.remove('button--active');
-        cases.setAttribute('data-filtered-by', '');
-        return;
-      }
-      clickedButton.classList.add('button--active');
-
-      cases.setAttribute('data-filtered-by', category);
-      cases.classList.add('cases--filtered');
-      SWIPERS.cases.swiperNativeEl.slideTo(0);
-  };
-
+  const currentFilterButton = document.querySelector(`[data-case-category="${categorySlug}"]`);
   buttons.forEach((button) => {
+    if (button !== currentFilterButton) {
+        button.classList.remove('button--active');
+    }
+  });
+  if (currentFilterButton.classList.contains('button--active')) {
+    cases.classList.remove('cases--filtered');
+    currentFilterButton.classList.remove('button--active');
+    cases.setAttribute('data-filtered-by', '');
+    return;
+  }
+  currentFilterButton.classList.add('button--active');
+
+  cases.setAttribute('data-filtered-by', categorySlug);
+  cases.classList.add('cases--filtered');
+  SWIPERS.cases.swiperNativeEl.slideTo(0);
+}
+
+function initCases() {
+  const handleClick = (event) => {
+      const category = event.target.getAttribute('data-case-category');
+      filterCaseByCategory(category);
+  };
+  document.querySelectorAll('.js-case-category').forEach((button) => {
       button.addEventListener('click', handleClick);
   });
+  const hash = window.location.hash;
+  if (hash.includes('#filter-by-')) {
+    const category = hash.replace('#filter-by-', '');
+    filterCaseByCategory(category);
+  }
 }
 
 function initDashboardToggleds() {

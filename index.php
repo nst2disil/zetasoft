@@ -187,12 +187,12 @@
         <div class="wrapper">
           <h2 class="section__title">Кейсы</h2>
           <div class="categories">
-            <button class="categories__item js-case-category button button--blue button--block button--dot" data-case-category="blue">Автозапчасти</button>
-            <button class="categories__item js-case-category button button--red button--block button--dot" data-case-category="red">Вендинг</button>
-            <button class="categories__item js-case-category button button--blue-dark button--block button--dot" data-case-category="blue-dark">Продажа времени</button>
-            <button class="categories__item js-case-category button button--green button--block button--dot" data-case-category="green">Универсальный</button>
-            <button class="categories__item js-case-category button button--yellow button--block button--dot" data-case-category="yellow">1C</button>
-            <a href="#" class="categories__item button button--block button--dot">Все продукты</a>
+            <a href="./cases.html#filter-by-blue" class="categories__item js-case-category button button--blue button--block button--dot">Автозапчасти</a>
+            <a href="./cases.html#filter-by-red" class="categories__item js-case-category button button--red button--block button--dot">Вендинг</a>
+            <a href="./cases.html#filter-by-blue-dark" class="categories__item js-case-category button button--blue-dark button--block button--dot">Продажа времени</a>
+            <a href="./cases.html#filter-by-green" class="categories__item js-case-category button button--green button--block button--dot">Универсальный</a>
+            <a href="./cases.html#filter-by-yellow" class="categories__item js-case-category button button--yellow button--block button--dot">1C</a>
+            <a href="./cases.html" class="categories__item button button--block button--dot">Все продукты</a>
           </div>
           <div class="swiper" data-swiper-id="cases">
             <div class="cases js-cases swiper-wrapper">
@@ -244,7 +244,7 @@
                   <div class="case__text">Подсистема предназначена для компаний, работающих в 1С и использующих онлайн-кассы АТОЛ Онлайн</div>
                 </div>
               </a>
-              <a href="#" class="swiper-slide cases__item panel" data-case-category="yellow">
+              <!--<a href="#" class="swiper-slide cases__item panel" data-case-category="yellow">
                 <div class="panel__head panel__head--yellow"></div>
                 <div class="panel__content case">
                   <div class="case__title">Подсистема учета б/у запчастей в торговой конфигурации 1С</div>
@@ -267,7 +267,7 @@
                   <img src="./dist/img/panel-zeta.svg" alt="zeta logo" class="case__image">
                   <div class="case__text">dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</div>
                 </div>
-              </a>
+              </a>-->
             </div>
             <div class="swiper-pagination"></div>
           </div>
