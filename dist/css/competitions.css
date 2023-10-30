@@ -35,6 +35,9 @@
 .cases--filtered[data-filtered-by=yellow] .cases__item:not([data-case-category=yellow]) {
   display: none;
 }
+.cases--filtered[data-filtered-by=grey] .cases__item:not([data-case-category=grey]) {
+  display: none;
+}
 
 .case {
   display: flex;
@@ -42,7 +45,7 @@
   align-items: flex-start;
   gap: 24px;
 }
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
   .case {
     gap: 18px;
   }

@@ -1,7 +1,7 @@
 <header class="header">
   <div class="wrapper">
     <a class="header__logo-container" href="./">
-      <img src="./dist/img/logo.svg" alt="Zeta Soft logo" class="header__logo">
+      <img src="./dist/img/logo.svg?1" alt="Zeta Soft logo" class="header__logo">
     </a>
     <nav class="header__menu hide-md hide-sm">
       <ul class="menu">

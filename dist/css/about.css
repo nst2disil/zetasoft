@@ -2,12 +2,12 @@
   display: flex;
   gap: 24px;
 }
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
   .about {
     gap: 16px;
   }
 }
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
   .about {
     flex-direction: column;
   }
@@ -17,7 +17,7 @@
   max-width: 436px;
   min-width: 312px;
 }
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
   .about__bank-info {
     max-width: unset;
   }

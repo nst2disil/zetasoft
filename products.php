@@ -28,7 +28,7 @@
           </h2>
           <div class="swiper swiper--m" data-swiper-id="products">
             <div class="products swiper-wrapper">
-              <a href="#" class="swiper-slide products__item panel panel--white">
+              <a href="#" class="swiper-slide products__item panel panel--grey">
                 <div class="panel__content">
                   <div class="products__top">
                     <div class="products__name products__name--red">ЗетаВеб</div>
@@ -67,7 +67,7 @@
                   </div>
                 </div>
               </a>
-              <a href="#" class="swiper-slide products__item panel panel--white">
+              <a href="#" class="swiper-slide products__item panel panel--grey">
                 <div class="panel__content">
                   <div class="products__top">
                     <div class="products__name products__name--blue">Веб-сервисы</div>
@@ -106,7 +106,7 @@
                   </div>
                 </div>
               </a>
-              <a href="#" class="swiper-slide products__item panel panel--white">
+              <a href="#" class="swiper-slide products__item panel panel--grey">
                 <div class="panel__content">
                   <div class="products__top">
                     <div class="products__name products__name--red">Универсальный отчет</div>

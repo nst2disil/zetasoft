@@ -242,8 +242,8 @@
       </section>
       <section class="section section--black section--no-min-height">
         <div class="wrapper">
-          <h2 class="section__title">Наши кейсы по Вендингу</h2>
-          <div class="swiper" data-swiper-id="competitions-vending">
+          <h2 class="section__title">Наши кейсы по оказанию повременных услуг</h2>
+          <div class="swiper" data-swiper-id="competitions-time-services">
             <div class="cases swiper-wrapper">
               <a href="#" class="swiper-slide cases__item panel panel--white">
                 <div class="panel__head panel__head--yellow"></div>

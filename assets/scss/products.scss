@@ -108,6 +108,7 @@
   }
   &__bottom {
     align-items: flex-end;
+    overflow: hidden;
   }
   &__title,
   &__name {
@@ -117,10 +118,14 @@
       font-size: 20px;
     }
   }
+  &__title {
+    max-width: 482px;
+  }
   &__name {
     padding: 12px 24px;
     border: 1px solid var(--color-black);
     $products-colors:("red","blue","green","yellow");
+    background-color: #fff;
     @each $val in $products-colors {
       &--#{$val} {
         border-color: var(--color-#{$val});
@@ -138,6 +143,7 @@
     font-size: 24px;
     font-weight: 700;
     line-height: 130%;
+    white-space: nowrap;
     @include media-down($screen-lg) {
       font-size: 20px;
     }

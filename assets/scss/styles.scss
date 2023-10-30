@@ -73,6 +73,7 @@ img {
   background: none;
   border: none;
   color: inherit;
+  font-family: inherit;
   font-size: inherit;
   line-height: inherit;
   cursor: pointer;
@@ -409,6 +410,8 @@ img {
   &--yellow { background: var(--color-yellow) }
   &--blue { background: var(--color-blue) }
   &--red { background: var(--color-red) }
+  &--grey { background: var(--color-grey) }
+
 
   &--black {
     background: var(--color-black);
@@ -568,7 +571,8 @@ a.panel:hover {
   
 }
 
-.input {
+.input,
+.select {
   padding: 18px 24px;
   color: inherit;
   font-family: inherit;
@@ -839,5 +843,38 @@ ul.ul {
 
   &__label:hover::before {
     background-color: var(--color-blue-dark);
+  }
+}
+
+
+.select {
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  &::before {
+    content: '';
+    position: absolute;
+    font-size: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 1em;
+    width: 1em;
+    height: 1em;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 5V19" stroke="%23231F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M19 12L12 19L5 12" stroke="%23231F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>') center no-repeat;
+    pointer-events: none;
+  }
+  select {
+    width: 100%;
+    border: none;
+    background: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    outline: none;
+    font-size: inherit;
+    &::-ms-expand {
+      display: none;
+    }
   }
 }
