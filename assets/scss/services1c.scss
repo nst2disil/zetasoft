@@ -46,6 +46,11 @@
     font-weight: 400;
     line-height: 150%;
   }
+  &__info {
+    @include media-down($screen-md) {
+      overflow: auto;
+    }
+  }
   &__tip {
     border: 1px solid var(--color-black);
     background-color: var(--color-grey);

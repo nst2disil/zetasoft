@@ -50,6 +50,11 @@
   font-weight: 400;
   line-height: 150%;
 }
+@media screen and (max-width: 879px) {
+  .services1c__info {
+    overflow: auto;
+  }
+}
 .services1c__tip {
   border: 1px solid var(--color-black);
   background-color: var(--color-grey);

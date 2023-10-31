@@ -118,7 +118,7 @@ a:hover > .icon,
     margin-right: 0;
   }
 }
-.header__link:hover {
+.header__link:hover, .header__link--active {
   color: var(--color-yellow);
   font-weight: 500;
 }
@@ -543,7 +543,6 @@ img {
   }
 }
 .button--active {
-  background-color: var(--color-yellow);
   box-shadow: none;
 }
 @media screen and (max-width: 879px) {
@@ -644,6 +643,9 @@ img {
 }
 .section--black .panel:not([class*=panel--shadow-]):not(a:hover) {
   box-shadow: 4px 4px 0px 0px #fff;
+}
+.section--grey {
+  background-color: var(--color-grey);
 }
 .section h1.section__title {
   font-size: 56px;
@@ -820,13 +822,20 @@ img {
 @media screen and (max-width: 1439px) {
   .panel__title {
     font-size: 20px;
-    font-weight: 400;
   }
+}
+.panel__text {
+  padding-right: 80px;
 }
 .panel__text:not(:first-child):last-child {
   margin-top: auto;
 }
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 879px) {
+  .panel__text {
+    padding-right: 0;
+  }
+}
+@media screen and (max-width: 1024px) {
   .panel__text {
     font-size: 16px;
   }
@@ -852,7 +861,7 @@ img {
   }
 }
 .panel__image {
-  --square: 104px;
+  --square: 80px;
   width: var(--square);
   position: absolute;
   right: var(--panel-content-padding);
@@ -860,12 +869,12 @@ img {
 }
 @media screen and (max-width: 1439px) {
   .panel__image {
-    --square: 80px;
+    --square: 64px;
   }
 }
 @media screen and (max-width: 879px) {
   .panel__image {
-    --square: 64px;
+    --square: 56px;
   }
   .panel__image--logo {
     max-height: 40px;
@@ -914,6 +923,7 @@ img {
 }
 .panel--sm .panel__content {
   padding: 16px;
+  font-size: 14px;
 }
 .panel--shadow-blue {
   box-shadow: 4px 4px 0px 0px var(--color-blue);
@@ -1210,34 +1220,30 @@ ul.ul li::before {
   font-style: normal;
   font-weight: 600;
   line-height: 130%;
-  margin-bottom: 36px;
+  margin-bottom: 16px;
 }
 @media screen and (max-width: 1439px) {
   .contact-big__title {
     font-size: 32px;
-    margin-bottom: 22px;
-  }
-}
-@media screen and (max-width: 1024px) {
-  .contact-big__title {
-    font-size: 24px;
+    margin-bottom: 14px;
   }
 }
 @media screen and (max-width: 879px) {
   .contact-big__title {
-    padding: 0;
+    font-size: 24px;
+    margin-bottom: 16px;
   }
 }
 .contact-big__text {
   margin-top: 16px;
   font-size: 20px;
   font-weight: 500;
+  line-height: normal;
   max-width: 518px;
 }
 @media screen and (max-width: 1439px) {
   .contact-big__text {
     font-size: 16px;
-    margin-top: 14px;
   }
 }
 .contact-big__text + .contact-big__image + .contact-big__button {

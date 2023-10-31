@@ -85,7 +85,9 @@ function filterCaseByCategory(categorySlug) {
     cases.setAttribute('data-filtered-by', '');
     return;
   }
-  currentFilterButton.classList.add('button--active');
+  if (!!categorySlug) {
+    currentFilterButton.classList.add('button--active');
+  }
 
   cases.setAttribute('data-filtered-by', categorySlug);
   cases.classList.add('cases--filtered');

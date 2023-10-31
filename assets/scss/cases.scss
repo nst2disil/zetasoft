@@ -21,8 +21,8 @@
       flex: 1;
     }
   }
-  &_item:nth-child(6n + 1),
-  &_item:nth-child(10n + 1) {
+  &__item:nth-of-type(6n + 1),
+  &__item:nth-of-type(10n + 1) {
     width: calc(100%/3*2 - 6px);
     aspect-ratio: 2/1;
   }

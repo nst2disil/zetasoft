@@ -6,7 +6,7 @@
     <nav class="header__menu hide-md hide-sm">
       <ul class="menu">
         <li class="menu__item"><a href="./services.html" class="header__link">Услуги</a></li>
-        <li class="menu__item"><a href="./products.html" class="header__link">Продукты</a></li>
+        <li class="menu__item"><a href="./products.html" class="header__link header__link--active">Продукты</a></li>
         <li class="menu__item hide-bg"><a href="./competitions.html" class="header__link">Компетенции</a></li>
         <li class="menu__item"><a href="./cases.html" class="header__link">Кейсы</a></li>
         <li class="menu__item hide-bg"><a href="./blog.html" class="header__link">Блог</a></li>

@@ -135,7 +135,6 @@ img {
     }
   }
   &--active {
-    background-color: var(--color-yellow);
     box-shadow: none;
   }
   &--mobile-full-width {
@@ -219,6 +218,9 @@ img {
     .panel:not([class*="panel--shadow-"]):not(a:hover) {
       box-shadow: 4px 4px 0px 0px #fff;
     }
+  }
+  &--grey {
+    background-color: var(--color-grey);
   }
   h1.section__title {
     font-size: 56px;
@@ -347,14 +349,20 @@ img {
     margin-bottom: 16px;
     @include media-down($screen-lg) {
       font-size: 20px;
-      font-weight: 400;
     }
   }
   &__text {
+    padding-right: 80px;
     &:not(:first-child):last-child {
       margin-top: auto;
     }
     @include media-down($screen-lg) {
+      //padding-right: 0;
+    }
+    @include media-down($screen-md) {
+      padding-right: 0;
+    }
+    @include media-down($screen-bg) {
       font-size: 16px;
     }
   }
@@ -373,14 +381,14 @@ img {
     @include media-down($screen-lg) { font-size: 16px; }
   }
   &__image {
-    --square: 104px;
+    --square: 80px;
     width: var(--square);
     position: absolute;
     right: var(--panel-content-padding);
     bottom: var(--panel-content-padding);
-    @include media-down($screen-lg) { --square: 80px; }
+    @include media-down($screen-lg) { --square: 64px; }
     @include media-down($screen-md) {
-      --square: 64px;
+      --square: 56px;
       &--logo {
         max-height: 40px;
       }
@@ -421,7 +429,10 @@ img {
     background-color: #fff;
   }
   &--sm &__head { --head-height: 32px; }
-  &--sm &__content { padding: 16px; }
+  &--sm &__content {
+    padding: 16px;
+    font-size: 14px;
+  }
   &--shadow-blue { box-shadow: 4px 4px 0px 0px var(--color-blue); }
   &--shadow-yellow { box-shadow: 4px 4px 0px 0px var(--color-yellow); }
   &--shadow-red { box-shadow: 4px 4px 0px 0px var(--color-red); }
@@ -681,26 +692,25 @@ ul.ul {
     font-style: normal;
     font-weight: 600;
     line-height: 130%;
-    margin-bottom: 36px;
+    margin-bottom: 16px;
     @include media-down($screen-lg) {
       font-size: 32px;
-      margin-bottom: 22px;
-    }
-    @include media-down($screen-bg) {
-      font-size: 24px;
+      margin-bottom: 14px;
     }
     @include media-down($screen-md) {
-      padding: 0;
+      font-size: 24px;
+      margin-bottom: 16px;
+
     }
   }
   &__text {
     margin-top: 16px;
     font-size: 20px;
     font-weight: 500;
+    line-height: normal;
     max-width: 518px;
     @include media-down($screen-lg) {
       font-size: 16px;
-      margin-top: 14px;
     }
     & + .contact-big__image + .contact-big__button {
       margin-top: 74px;

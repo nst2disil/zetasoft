@@ -135,9 +135,6 @@
           </div>
         </div>
       </section>
-
-
-
     </div>
     <div class="container__footer"><?php include './partials/_footer.html'?></div>
   </div>

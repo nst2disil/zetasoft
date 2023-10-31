@@ -8,7 +8,7 @@
   <div class="container">
     <div class="container__header"><?php include './partials/_header.php'; ?></div>
     <div class="container__content">
-      <section class="section">
+      <section class="section section--grey">
         <div class="wrapper">
           <h2 class="section__title">Кейсы</h2>
           <div class="categories">
@@ -17,7 +17,7 @@
             <button class="categories__item js-case-category button button--blue-dark button--block button--dot" data-case-category="blue-dark">Продажа времени</button>
             <button class="categories__item js-case-category button button--green button--block button--dot" data-case-category="green">Универсальный</button>
             <button class="categories__item js-case-category button button--yellow button--block button--dot" data-case-category="yellow">1C</button>
-            <a href="#" class="categories__item button button--block button--dot">Все продукты</a>
+            <button class="categories__item js-case-category button button--block button--dot" data-case-category="">Все продукты</button>
           </div>
           <div class="cases js-cases">
             <a href="#" class="cases__item panel panel--white" data-case-category="green">
@@ -61,7 +61,7 @@
               </div>
             </a>
             <a href="#" class="cases__item panel panel--white" data-case-category="blue-dark">
-              <div class="panel__head panel__head--yellow"></div>
+              <div class="panel__head panel__head--blue-dark"></div>
               <div class="panel__content case">
                 <div class="case__title">Подсистема учета б/у запчастей в торговой конфигурации 1С</div>
                 <img src="./dist/img/panel-1c.svg" alt="1c logo" class="case__image">

@@ -97,7 +97,7 @@
     flex: 1;
   }
 }
-.cases_item:nth-child(6n+1), .cases_item:nth-child(10n+1) {
+.cases__item:nth-of-type(6n + 1), .cases__item:nth-of-type(10n + 1) {
   width: calc(66.6666666667% - 6px);
   aspect-ratio: 2/1;
 }
