@@ -114,6 +114,12 @@ img {
       background: var(--color-#{$val});
     }
   }
+  @each $val in $color-list {
+    &--active-#{$val}.button--active,
+    &--active-#{$val}:hover {
+      background: var(--color-#{$val});
+    }
+  }
   &--white {
     background: #fff;
     color: var(--color-black);
@@ -181,11 +187,16 @@ img {
   flex-direction: column;
   &__content {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    .section:last-child:first-child {
+      flex: 1;
+    }
   }
 }
 
 .section {
-  padding: 56px 0;
+  padding: 56px 0 72px;
   color: var(--color-black);
   display: flex;
   align-items: stretch;
@@ -850,10 +861,6 @@ ul.ul {
   &__input:checked + .checkbox__label::before {
     background-color: var(--color-blue-dark);
   }
-
-  &__label:hover::before {
-    background-color: var(--color-blue-dark);
-  }
 }
 
 
@@ -885,6 +892,56 @@ ul.ul {
     font-size: inherit;
     &::-ms-expand {
       display: none;
+    }
+  }
+}
+
+
+.tooltip {
+  position: relative;
+  &__icon {
+    border: unset;
+    width: 24px;
+    height: 24px;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" fill="%23231F20"/><path d="M12 16V12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 8H12.01" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>') center no-repeat;
+    cursor: pointer;
+    @include media-down($screen-md) {
+      height: 18px;
+      width: 18px;
+      background-size: cover;
+    }
+    &:hover + .tooltip__text,
+    &:active + .tooltip__text {
+      display: block;
+    }
+  }
+  &__text {
+    width: 205px;
+    background: var(--color-black);
+    color: #fff;
+    border-radius: 4px;
+    padding: 12px 16px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    display: none;
+    opacity: 0;
+    transition-duration: var(--animation-duration);
+    &:hover {
+      display: block;
+      opacity: 1;
+    }
+    &::before {
+      content: '';
+      width: calc(100% + 10px);
+      height: calc(100% + 30px);
+      position: absolute;
+      left: -5px;
+      top: -5px;
     }
   }
 }

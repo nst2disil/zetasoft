@@ -71,7 +71,7 @@
   .section__title {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
     gap: 24px;
   }
 }
@@ -86,6 +86,7 @@
   line-height: 130%;
   width: 846px;
   margin: 0 auto;
+  position: relative;
   @include media-down($screen-lg) {
     width: 696px;
   }
@@ -124,6 +125,11 @@
 
 .screenshots {
   margin-top: 64px;
+  &__item {
+    border-radius: 8px;
+    overflow: hidden;
+    border: 3px solid var(--color-black);
+  }
   @include media-up($screen-md) {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -142,4 +148,9 @@
 
 .button-panel {
   margin-top: 64px;
+}
+.tooltip--atol {
+  position: absolute;
+  left: 33.1%;
+  top: 1%;
 }

@@ -40,7 +40,7 @@
             <div class="panel panel--no-shadow panel--yellow about__bank-info">
               <div class="panel__content">
                 <div class="about__title">Банковские реквизиты:</div>
-                <div class="panel__text">
+                <div class="about__bank-info-text">
                   ООО «ЗетаСофт»<br>
                   ИНН: 7813200760<br>
                   КПП: 781401001<br>

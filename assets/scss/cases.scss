@@ -26,5 +26,11 @@
     width: calc(100%/3*2 - 6px);
     aspect-ratio: 2/1;
   }
+  &--filtered .button-panel {
+    display: none;
+  }
+  .button-panel {
+    width: 100%;
+  }
 }
 

@@ -101,3 +101,9 @@
   width: calc(66.6666666667% - 6px);
   aspect-ratio: 2/1;
 }
+.cases--filtered .button-panel {
+  display: none;
+}
+.cases .button-panel {
+  width: 100%;
+}

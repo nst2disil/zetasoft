@@ -159,6 +159,7 @@
   &__link-list {
     display: flex;
     column-gap: 16px;
+    row-gap: 8px;
     flex-wrap: wrap;
   }
   &__link {
@@ -178,6 +179,7 @@
   border: unset;
   background-color: var(--color-black);
   color: #fff;
+  font-family: inherit;
   font-size: 16px;
   font-weight: 600;
   line-height: 40px;
@@ -220,6 +222,12 @@
   }
   &__logout {
     align-self: flex-end;
+    font-size: 24px;
+    margin: 12px 0;
+    @include media-down($screen-lg) {
+      font-size: 20px;
+      margin: 4px 0;
+    }
   }
 }
 

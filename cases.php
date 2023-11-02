@@ -12,11 +12,11 @@
         <div class="wrapper">
           <h2 class="section__title">Кейсы</h2>
           <div class="categories">
-            <button class="categories__item js-case-category button button--blue button--block button--dot" data-case-category="blue">Автозапчасти</button>
-            <button class="categories__item js-case-category button button--red button--block button--dot" data-case-category="red">Вендинг</button>
-            <button class="categories__item js-case-category button button--blue-dark button--block button--dot" data-case-category="blue-dark">Продажа времени</button>
-            <button class="categories__item js-case-category button button--green button--block button--dot" data-case-category="green">Универсальный</button>
-            <button class="categories__item js-case-category button button--yellow button--block button--dot" data-case-category="yellow">1C</button>
+            <button class="categories__item js-case-category button button--active-blue button--block button--dot" data-case-category="blue">Автозапчасти</button>
+            <button class="categories__item js-case-category button button--active-red button--block button--dot" data-case-category="red">Вендинг</button>
+            <button class="categories__item js-case-category button button--active-blue-dark button--block button--dot" data-case-category="blue-dark">Продажа времени</button>
+            <button class="categories__item js-case-category button button--active-green button--block button--dot" data-case-category="green">Универсальный</button>
+            <button class="categories__item js-case-category button button--active-yellow button--block button--dot" data-case-category="yellow">1C</button>
             <button class="categories__item js-case-category button button--block button--dot" data-case-category="">Все продукты</button>
           </div>
           <div class="cases js-cases">
@@ -76,6 +76,10 @@
                 <div class="case__text">Подсистема предназначена для компаний, работающих в 1С и использующих онлайн-кассы АТОЛ Онлайн</div>
               </div>
             </a>
+            <div class="button-panel panel panel--yellow panel--no-shadow">
+              <div class="button-panel__text">Протестируйте вашу бизнес-задачу бесплатно</div>
+              <button class="button-panel__button button button--block button--big" data-modal="contact-form">Поставить&nbsp;задачу</button>
+            </div>
             <a href="#" class="cases__item panel panel--white">
               <div class="panel__head panel__head--red"></div>
               <div class="panel__content case">

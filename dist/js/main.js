@@ -79,7 +79,7 @@ function filterCaseByCategory(categorySlug) {
         button.classList.remove('button--active');
     }
   });
-  if (currentFilterButton.classList.contains('button--active')) {
+  if (currentFilterButton.classList.contains('button--active') || !categorySlug) {
     cases.classList.remove('cases--filtered');
     currentFilterButton.classList.remove('button--active');
     cases.setAttribute('data-filtered-by', '');

@@ -183,6 +183,7 @@
   display: flex;
   -moz-column-gap: 16px;
        column-gap: 16px;
+  row-gap: 8px;
   flex-wrap: wrap;
 }
 .products__link {
@@ -201,6 +202,7 @@
   border: unset;
   background-color: var(--color-black);
   color: #fff;
+  font-family: inherit;
   font-size: 16px;
   font-weight: 600;
   line-height: 40px;
@@ -251,6 +253,14 @@
 }
 .aside__logout {
   align-self: flex-end;
+  font-size: 24px;
+  margin: 12px 0;
+}
+@media screen and (max-width: 1439px) {
+  .aside__logout {
+    font-size: 20px;
+    margin: 4px 0;
+  }
 }
 
 .profile__info {

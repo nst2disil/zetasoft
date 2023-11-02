@@ -8,7 +8,7 @@
   <div class="container">
     <div class="container__header"><?php include './partials/_header.php'; ?></div>
     <div class="container__content">
-      <section class="section section--no-min-height">
+      <section class="section section--grey section--no-min-height">
         <div class="wrapper">
           <h2 class="section__title">Сервисы компании 1С</h2>
           <div class="cols disclaimer">

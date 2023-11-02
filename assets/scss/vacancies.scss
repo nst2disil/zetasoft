@@ -35,11 +35,11 @@
   }
   &__img {
     position: absolute;
-    top: 32px;
-    right: 32px;
+    top: 0;
+    right: 0;
     @include media-down($screen-lg) {
-      top: 24px;
-      right: 24px;
+      top: 0;
+      right: 0;
       width: 80px;
       height: 80px;
     }
@@ -72,8 +72,26 @@
 
 .vacancies__item {
   min-height: 312px;
+  .cols {
+    gap: 64px;
+    @include media-down($screen-md) {
+      gap: 48px;
+    }
+    @include media-down($screen-md) {
+      gap: 40px;
+    }
+  }
   .cols__item {
     display: flex;
     flex-direction: column;
+    position: relative;
+    @include media-down($screen-md) {
+      position: initial;
+    }
+    &--list {
+      @include media-down($screen-md) {
+        order: 2;
+      }
+    }
   }
 }
