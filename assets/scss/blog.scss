@@ -1,5 +1,4 @@
 @import './_mixins';
-@import './_cases';
 
 .tags {
   &__list {
@@ -17,7 +16,6 @@
     color: var(--color-yellow);
   }
 }
-
 .blog {
   display: flex;
   flex-direction: column;
@@ -27,6 +25,12 @@
   }
   @include media-down($screen-md) {
     gap: 28px;
+  }
+  .custom-select {
+    display: none;
+    @include media-down($screen-md) {
+      display: block;
+    }
   }
 }
 .article {
@@ -63,6 +67,7 @@
     margin-left: auto;
     @include media-down($screen-md) {
       margin-left: unset;
+      flex: 100%;
     }
   }
   &__title {
@@ -117,4 +122,15 @@
     }
   }
 }
-
+.section__title--search {
+  display: flex;
+  justify-content: space-between;
+  @include media-down($screen-md) {
+    position: relative;
+    margin-bottom: 96px !important;
+    .search {
+      position: absolute;
+      bottom: -84px;
+    }
+  }
+}

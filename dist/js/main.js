@@ -125,6 +125,33 @@ function initDashboardToggleds() {
   });
 }
 
+function initCustomSelect(customSelect) {
+  const selectBox = customSelect.querySelector('.js-custom-select__box');
+  const selectedOption = customSelect.querySelector('.js-custom-select__selected-option');
+  const optionsContainer = customSelect.querySelector('.js-custom-select__options-container');
+
+  selectBox.addEventListener('click', function() {
+    customSelect.classList.toggle('custom-select--is-open');
+  });
+
+  optionsContainer.addEventListener('click', function(e) {
+    if (e.target.classList.contains('js-custom-select__option')) {
+      selectedOption.textContent = e.target.textContent;
+      customSelect.classList.remove('custom-select--is-open');
+    }
+  });
+
+  document.addEventListener('click', function(e) {
+    if (!customSelect.contains(e.target) && !optionsContainer.contains(e.target)) {
+      customSelect.classList.remove('custom-select--is-open');
+    }
+  });
+}
+
+function initCustomSelects() {
+  document.querySelectorAll('.js-custom-select').forEach(initCustomSelect);
+}
+
 const defaultSwiperOptions = {
   direction: 'horizontal',
   slidesPerView: 'auto',
@@ -169,6 +196,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initSwipers();
   initCases();
   initDashboardToggleds();
+  initCustomSelects();
 });
 
 window.addEventListener('resize', () => {

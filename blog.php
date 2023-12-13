@@ -10,7 +10,13 @@
     <div class="container__content">
       <section class="section section--no-min-height">
         <div class="wrapper">
-          <h2 class="section__title">Блог</h2>
+          <h2 class="section__title section__title--search">
+            Блог
+            <form class="search" action="">
+              <input type="text" class="search__input" name="q" placeholder="Введите ключевое слово">
+              <button type="submit" class="search__submit"></button>
+            </form>
+          </h2>
           <div class="blog">
             <ul class="tags__list tags__list--top js-tag-list">
               <li class="tags__item"><a href="#" class="button button--sm button--black button--no-shadow tags__link">Все статьи</a></li>
@@ -27,6 +33,26 @@
               <li class="tags__item"><a href="#" class="button button--sm button--black button--no-shadow tags__link">Гит</a></li>
               </li>
             </ul>
+            <div class="custom-select js-custom-select">
+              <div class="custom-select__box js-custom-select__box">
+                <span class="custom-select__selected-option js-custom-select__selected-option">Выберите тег</span>
+                <span class="custom-select__arrow"></span>
+              </div>
+              <div class="custom-select__options-container js-custom-select__options-container">
+                <div class="custom-select__option js-custom-select__option">Все статьи</div>
+                <div class="custom-select__option js-custom-select__option">Автобизнес</div>
+                <div class="custom-select__option js-custom-select__option">Вендинг</div>
+                <div class="custom-select__option js-custom-select__option">Продажа времени</div>
+                <div class="custom-select__option js-custom-select__option">Универсальные</div>
+                <div class="custom-select__option js-custom-select__option">1С</div>
+                <div class="custom-select__option js-custom-select__option">Частное мнение</div>
+                <div class="custom-select__option js-custom-select__option">ЗетаВеб</div>
+                <div class="custom-select__option js-custom-select__option">Аналитика</div>
+                <div class="custom-select__option js-custom-select__option">Devops</div>
+                <div class="custom-select__option js-custom-select__option">Искусственный интеллект</div>
+                <div class="custom-select__option js-custom-select__option">Гит</div>
+              </div>
+            </div>
             <div class="article__list">
               <div class="panel article__item">
                 <div class="panel__content">

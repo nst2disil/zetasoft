@@ -1,81 +1,3 @@
-@media screen and (min-width: 880px) {
-  .cases {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 18px;
-  }
-}
-@media screen and (min-width: 880px) {
-  .cases__item {
-    aspect-ratio: 1/1;
-    max-height: 436px;
-  }
-}
-@media screen and (min-width: 375px) {
-  .cases__item {
-    width: calc(33.3333333333% - 12px);
-  }
-}
-
-.cases__item:visibile:nth-child(n+7) {
-  display: none;
-}
-.cases--filtered[data-filtered-by=blue] .cases__item:not([data-case-category=blue]) {
-  display: none;
-}
-.cases--filtered[data-filtered-by=blue-dark] .cases__item:not([data-case-category=blue-dark]) {
-  display: none;
-}
-.cases--filtered[data-filtered-by=red] .cases__item:not([data-case-category=red]) {
-  display: none;
-}
-.cases--filtered[data-filtered-by=green] .cases__item:not([data-case-category=green]) {
-  display: none;
-}
-.cases--filtered[data-filtered-by=yellow] .cases__item:not([data-case-category=yellow]) {
-  display: none;
-}
-.cases--filtered[data-filtered-by=grey] .cases__item:not([data-case-category=grey]) {
-  display: none;
-}
-
-.case {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 24px;
-}
-@media screen and (max-width: 1024px) {
-  .case {
-    gap: 18px;
-  }
-}
-.case__title {
-  font-size: 28px;
-  font-weight: 600;
-  line-height: 130%;
-  flex: 1;
-}
-@media screen and (max-width: 1439px) {
-  .case__title {
-    font-size: 20px;
-  }
-}
-.case__image {
-  max-height: 33px;
-  max-width: 72px;
-}
-.case__text {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 130%;
-}
-@media screen and (max-width: 1439px) {
-  .case__text {
-    font-size: 14px;
-  }
-}
-
 .tags__list {
   display: flex;
   gap: 12px;
@@ -104,6 +26,14 @@
 @media screen and (max-width: 879px) {
   .blog {
     gap: 28px;
+  }
+}
+.blog .custom-select {
+  display: none;
+}
+@media screen and (max-width: 879px) {
+  .blog .custom-select {
+    display: block;
   }
 }
 
@@ -145,6 +75,7 @@
 @media screen and (max-width: 879px) {
   .article__tags-list {
     margin-left: unset;
+    flex: 100%;
   }
 }
 .article__title {
@@ -208,4 +139,19 @@
 }
 .article__link:hover {
   text-decoration: none;
+}
+
+.section__title--search {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 879px) {
+  .section__title--search {
+    position: relative;
+    margin-bottom: 96px !important;
+  }
+  .section__title--search .search {
+    position: absolute;
+    bottom: -84px;
+  }
 }

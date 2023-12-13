@@ -5,6 +5,9 @@
 @import './_footer';
 @import './fonts';
 
+@import './components/_components';
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -62,110 +65,6 @@ img {
   }
   @include media-down($screen-md) {
     --wrapper-h-padding: 16px;
-  }
-}
-
-.button {
-  display: flex;
-  align-self: center;
-  gap: 8px;
-  transition: color var(--animation-duration);
-  background: none;
-  border: none;
-  color: var(--color-black);
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
-  cursor: pointer;
-  white-space: nowrap;
-  padding: 12px 16px;
-  border: 1px solid var(--main-black-231-f-20, #231F20);
-  box-shadow: 4px 4px 0px 0px #231F20;
-  transition: box-shadow var(--animation-duration), background-color var(--animation-duration), color var(--animation-duration);
-  &:focus:not(.button--active) {
-    box-shadow: 2px 2px 0px 0px #231F20;
-    outline: none;
-  }
-  &:hover,
-  &:active {
-    box-shadow: none;
-  }
-  @include media-down($screen-bg) {
-    padding: 10px 16px;
-    font-size: 16px;
-  }
-  &--no-decoration {
-    padding: unset !important;
-    border: unset !important;
-    box-sizing: unset !important;
-
-  }
-  &--link {
-    color: inherit;
-    background: none;
-  }
-  &--dot {
-    &::before {
-      content: '';
-      display: block;
-      background-color: var(--color-black);
-      border-radius: 50%;
-      height: 7px;
-      width: 7px;
-      margin: 0 5px;
-      margin-top: 7px;
-    }
-  }
-  @each $val in $color-list {
-    &--#{$val} {
-      background: var(--color-#{$val});
-    }
-  }
-  @each $val in $color-list {
-    &--active-#{$val}.button--active,
-    &--active-#{$val}:hover {
-      background: var(--color-#{$val});
-    }
-  }
-  &--white {
-    background: #fff;
-    color: var(--color-black);
-  }
-  &--black {
-    background: var(--color-black);
-    color: #fff;
-  }
-  &--bg {
-    padding: 18px 30px;
-    min-width: 270px;
-    justify-content: center;
-    text-transform: uppercase;
-    font-size: 16px;
-    line-height: normal;
-    white-space: nowrap;
-    @include media-down($screen-md) {
-      width: 100%;
-      padding: 18px 0;
-    }
-  }
-  &--sm {
-    padding: 5px 12px 6px 12px;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 130%;
-  }
-  &--active {
-    box-shadow: none;
-  }
-  &--mobile-full-width {
-    @include media-down($screen-md) {
-      width: 100%;
-      justify-content: center;
-    }
-  }
-  &--no-shadow {
-    box-shadow: unset !important;
   }
 }
 
@@ -480,6 +379,7 @@ img {
   &--shadow-yellow { box-shadow: 4px 4px 0px 0px var(--color-yellow); }
   &--shadow-red { box-shadow: 4px 4px 0px 0px var(--color-red); }
 }
+
 a.panel:hover {
   box-shadow: none;
   cursor: pointer;
@@ -844,61 +744,6 @@ ul.ul {
   }
 }
 
-.checkbox {
-  display: inline-block;
-  position: relative;
-  font-size: 16px;
-  &__label {
-    padding-right: 40px;
-    font-size: 16px;
-    cursor: pointer;
-    position: relative;
-    user-select: none;
-  }
-
-  &__input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-    position: absolute;
-  }
-
-  &__label::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    right: 0;
-    transform: translateY(-50%);
-    width: 32px;
-    height: 20px;
-    background-color: var(--color-black);
-    border-radius: 12px;
-    transition: background-color var(--animation-duration) ease;
-
-  }
-
-  &__label::after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    right: 16px;
-    transform: translateY(-50%);
-    width: 12px;
-    height: 12px;
-    background-color: #fff;
-    border-radius: 50%;
-    transition: right var(--animation-duration) ease;
-  }
-
-  &__input:checked + .checkbox__label::after {
-    right: 4px;
-  }
-  &__input:checked + .checkbox__label::before {
-    background-color: var(--color-blue-dark);
-  }
-}
-
-
 .select {
   position: relative;
   overflow: hidden;
@@ -928,117 +773,5 @@ ul.ul {
     &::-ms-expand {
       display: none;
     }
-  }
-}
-
-
-.tooltip {
-  position: relative;
-  &__icon {
-    border: unset;
-    width: 24px;
-    height: 24px;
-    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" fill="%23231F20"/><path d="M12 16V12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 8H12.01" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>') center no-repeat;
-    cursor: pointer;
-    @include media-down($screen-md) {
-      height: 18px;
-      width: 18px;
-      background-size: cover;
-    }
-    &:hover + .tooltip__text,
-    &:active + .tooltip__text {
-      display: block;
-    }
-  }
-  &__text {
-    width: 205px;
-    background: var(--color-black);
-    color: #fff;
-    border-radius: 4px;
-    padding: 12px 16px;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 130%;
-    position: absolute;
-    left: 0;
-    bottom: 30px;
-    display: none;
-    opacity: 0;
-    transition-duration: var(--animation-duration);
-    &:hover {
-      display: block;
-      opacity: 1;
-    }
-    &::before {
-      content: '';
-      width: calc(100% + 10px);
-      height: calc(100% + 30px);
-      position: absolute;
-      left: -5px;
-      top: -5px;
-    }
-  }
-}
-
-.paginator {
-  display: flex;
-  gap: 8px;
-  font-size: 16px;
-  margin: 0 auto;
-  button {
-    border: none;
-    cursor: pointer;
-    font-family: inherit;
-    font-size: inherit;
-  }
-  &__first,
-  &__last {
-    font-weight: 600;
-    line-height: 130%;
-    padding: 5px 12px;
-    background-color: var(--color-black);
-    color: #fff;
-    transition: color var(--animation-duration);
-    &:hover {
-      color: var(--color-yellow);
-    }
-    @include media-down($screen-md) {
-      font-size: 0 !important;
-      height: 32px;
-      width: 32px;
-      padding: 0;
-      &::before {
-        content: '';
-        mask: url('../img/icons/paginator-chevron.svg') center no-repeat;
-        background-color: #fff;
-        height: 32px;
-        width: 32px;
-        display: block;
-        transition: background-color var(--animation-duration);
-      }
-      &:hover::before {
-        background-color: var(--color-yellow);
-      }
-    }
-  }
-  &__last::before {
-    transform: rotate(180deg);
-  }
-  &__page {
-    height: 32px;
-    width: 32px;
-    font-weight: 500;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: none;
-    &--active {
-      background-color: var(--color-yellow);
-      outline: 1px solid var(--color-black);
-    }
-  }
-  button.paginator__page:hover {
-    outline: 1px solid var(--color-black);
   }
 }

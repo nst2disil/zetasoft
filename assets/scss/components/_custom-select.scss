@@ -1,0 +1,82 @@
+@import '../_mixins';
+
+.custom-select {
+  position: relative;
+  display: inline-block;
+  &--is-open {
+    .custom-select__options-container {
+      display: block;
+    }
+    .custom-select__arrow::before {
+      transform: rotate(180deg);
+    }
+  }
+}
+
+.custom-select__box {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  outline: 1px solid var(--color-black);
+  border: unset;
+  padding: 16px 38px 16px 24px;
+  width: 100%;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  @include media-down($screen-md) {
+    padding-left: 16px;
+  }
+}
+
+.custom-select__selected-option {
+  flex-grow: 1;
+}
+
+.custom-select__arrow {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  width: 40px;
+  height: 40px;
+  background-color: var(--color-black);
+  padding: 0;
+  cursor: pointer;
+  &::before {
+    content: '';
+    mask: url('../img/icons/arrow-select.svg') center no-repeat;
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    display: block;
+    transition: background-color var(--animation-duration), transform var(--animation-duration);
+  }
+  &:hover::before {
+    background-color: var(--color-yellow);
+  }
+}
+
+.custom-select__options-container {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.custom-select__option {
+  height: 40px;
+  line-height: 40px;
+  padding: 0 12px;
+  color: #fff;
+  background-color: var(--color-black);
+  transition: color var(--animation-duration);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  &:hover {
+    color: var(--color-yellow);
+  }
+}

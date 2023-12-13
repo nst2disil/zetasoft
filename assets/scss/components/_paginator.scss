@@ -1,0 +1,63 @@
+@import '../_mixins';
+
+.paginator {
+  display: flex;
+  gap: 8px;
+  font-size: 16px;
+  margin: 0 auto;
+  button {
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+  }
+  &__first,
+  &__last {
+    font-weight: 600;
+    line-height: 130%;
+    padding: 5px 12px;
+    background-color: var(--color-black);
+    color: #fff;
+    transition: color var(--animation-duration);
+    &:hover {
+      color: var(--color-yellow);
+    }
+    @include media-down($screen-md) {
+      font-size: 0 !important;
+      height: 32px;
+      width: 32px;
+      padding: 0;
+      &::before {
+        content: '';
+        mask: url('../img/icons/paginator-chevron.svg') center no-repeat;
+        background-color: #fff;
+        height: 32px;
+        width: 32px;
+        display: block;
+        transition: background-color var(--animation-duration);
+      }
+      &:hover::before {
+        background-color: var(--color-yellow);
+      }
+    }
+  }
+  &__last::before {
+    transform: rotate(180deg);
+  }
+  &__page {
+    height: 32px;
+    width: 32px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    &--active {
+      background-color: var(--color-yellow);
+      outline: 1px solid var(--color-black);
+    }
+  }
+  button.paginator__page:hover {
+    outline: 1px solid var(--color-black);
+  }
+}

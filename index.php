@@ -336,7 +336,7 @@
           <div class="contact-big">
             <div class="contact-big__title">Оставьте заявку для&nbsp;бесплатной консультации с&nbsp;нашим специалистом</div>
             <img src="./dist/img/panel-contact-big.svg" alt="иллюстрация" class="contact-big__image">
-            <button class="button  button--bg contact-big__button" data-modal="contact-form" data-modal-title="Заполните данные, чтобы протестировать вашу бизнес-задачу">оставить заявку</button>
+            <button class="button button--white button--bg contact-big__button" data-modal="contact-form" data-modal-title="Заполните данные, чтобы протестировать вашу бизнес-задачу">оставить заявку</button>
           </div>
         </div>
       </section>
