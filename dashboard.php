@@ -160,7 +160,7 @@
                       <div class="profile__label">E-mail</div>
                       <div class="profile__value">info@kiviniemi.ru</div>
                     </div>
-                    <button class="button button--block button--big button--yellow profile__edit-button" data-modal="edit-profile-form">Изменить</button>
+                    <button class="button  button--bg button--yellow profile__edit-button" data-modal="edit-profile-form">Изменить</button>
                   </div>
                 </div>
               </div>
@@ -181,7 +181,7 @@
           <input type="text" name="name" placeholder="Иванов Иван Иванович" class="input" required>
           <input type="text" name="phone" placeholder="+7 999 112-23-33|" class="input" required>
           <input type="text" name="email" placeholder="info@kiviniemi.ru" class="input" required>
-          <input type="submit" value="Сохранить" class="form__submit button button--block button--big button--yellow">
+          <input type="submit" value="Сохранить" class="form__submit button  button--bg button--yellow">
           <span class="form__tip">Нажимая на кнопку «Сохранить», я <a class="form__link" href="#">даю согласие</a> на обработку персональных данных</span>
         </form>
       </div>
@@ -205,7 +205,7 @@
         </select>
       </div>
       <input type="text" name="companyName" placeholder="Имя компании" class="input" value="ООО «Кивиниеми»" required readonly>
-      <input type="submit" value="Отправить" class="form__submit button button--block button--big button--yellow">
+      <input type="submit" value="Отправить" class="form__submit button  button--bg button--yellow">
       <span class="form__tip">Нажимая на кнопку «Отправить», я <a class="form__link" href="#">даю согласие</a> на обработку персональных данных</span>
     </form>
   </div>

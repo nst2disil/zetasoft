@@ -78,6 +78,32 @@ img {
   line-height: inherit;
   cursor: pointer;
   white-space: nowrap;
+  padding: 12px 16px;
+  border: 1px solid var(--main-black-231-f-20, #231F20);
+  box-shadow: 4px 4px 0px 0px #231F20;
+  transition: box-shadow var(--animation-duration), background-color var(--animation-duration), color var(--animation-duration);
+  &:focus:not(.button--active) {
+    box-shadow: 2px 2px 0px 0px #231F20;
+    outline: none;
+  }
+  &:hover,
+  &:active {
+    box-shadow: none;
+  }
+  @include media-down($screen-bg) {
+    padding: 10px 16px;
+    font-size: 16px;
+  }
+  &--no-decoration {
+    padding: unset !important;
+    border: unset !important;
+    box-sizing: unset !important;
+
+  }
+  &--link {
+    color: inherit;
+    background: none;
+  }
   &--dot {
     &::before {
       content: '';
@@ -88,25 +114,6 @@ img {
       width: 7px;
       margin: 0 5px;
       margin-top: 7px;
-    }
-  }
-  &--block {
-    padding: 12px 16px;
-    border: 1px solid var(--main-black-231-f-20, #231F20);
-    background: #fff;
-    box-shadow: 4px 4px 0px 0px #231F20;
-    transition: box-shadow var(--animation-duration), background-color var(--animation-duration);
-    &:focus:not(.button--active) {
-      box-shadow: 2px 2px 0px 0px #231F20;
-      outline: none;
-    }
-    &:hover,
-    &:active {
-      box-shadow: none;
-    }
-    @include media-down($screen-bg) {
-      padding: 10px 16px;
-      font-size: 16px;
     }
   }
   @each $val in $color-list {
@@ -128,7 +135,7 @@ img {
     background: var(--color-black);
     color: #fff;
   }
-  &--big {
+  &--bg {
     padding: 18px 30px;
     min-width: 270px;
     justify-content: center;
@@ -141,6 +148,13 @@ img {
       padding: 18px 0;
     }
   }
+  &--sm {
+    padding: 5px 12px 6px 12px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+  }
   &--active {
     box-shadow: none;
   }
@@ -149,6 +163,9 @@ img {
       width: 100%;
       justify-content: center;
     }
+  }
+  &--no-shadow {
+    box-shadow: unset !important;
   }
 }
 
@@ -433,6 +450,7 @@ img {
     right: 8px;
     height: 16px;
     width: 16px;
+    z-index: 1;
     & > .icon {
       height: 100%;
       width: 100%;
@@ -508,6 +526,9 @@ a.panel:hover {
     display: flex;
     align-items: center;
     gap: 24px;
+    @include media-down($screen-md) {
+      align-self: flex-start;
+    }
   }
   &__image {
     @include media-down($screen-bg) {
@@ -957,5 +978,67 @@ ul.ul {
       left: -5px;
       top: -5px;
     }
+  }
+}
+
+.paginator {
+  display: flex;
+  gap: 8px;
+  font-size: 16px;
+  margin: 0 auto;
+  button {
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+  }
+  &__first,
+  &__last {
+    font-weight: 600;
+    line-height: 130%;
+    padding: 5px 12px;
+    background-color: var(--color-black);
+    color: #fff;
+    transition: color var(--animation-duration);
+    &:hover {
+      color: var(--color-yellow);
+    }
+    @include media-down($screen-md) {
+      font-size: 0 !important;
+      height: 32px;
+      width: 32px;
+      padding: 0;
+      &::before {
+        content: '';
+        mask: url('../img/icons/paginator-chevron.svg') center no-repeat;
+        background-color: #fff;
+        height: 32px;
+        width: 32px;
+        display: block;
+        transition: background-color var(--animation-duration);
+      }
+      &:hover::before {
+        background-color: var(--color-yellow);
+      }
+    }
+  }
+  &__last::before {
+    transform: rotate(180deg);
+  }
+  &__page {
+    height: 32px;
+    width: 32px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    &--active {
+      background-color: var(--color-yellow);
+      outline: 1px solid var(--color-black);
+    }
+  }
+  button.paginator__page:hover {
+    outline: 1px solid var(--color-black);
   }
 }

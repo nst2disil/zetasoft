@@ -471,6 +471,32 @@ img {
   line-height: inherit;
   cursor: pointer;
   white-space: nowrap;
+  padding: 12px 16px;
+  border: 1px solid var(--main-black-231-f-20, #231F20);
+  box-shadow: 4px 4px 0px 0px #231F20;
+  transition: box-shadow var(--animation-duration), background-color var(--animation-duration), color var(--animation-duration);
+}
+.button:focus:not(.button--active) {
+  box-shadow: 2px 2px 0px 0px #231F20;
+  outline: none;
+}
+.button:hover, .button:active {
+  box-shadow: none;
+}
+@media screen and (max-width: 1024px) {
+  .button {
+    padding: 10px 16px;
+    font-size: 16px;
+  }
+}
+.button--no-decoration {
+  padding: unset !important;
+  border: unset !important;
+  box-sizing: unset !important;
+}
+.button--link {
+  color: inherit;
+  background: none;
 }
 .button--dot::before {
   content: "";
@@ -481,26 +507,6 @@ img {
   width: 7px;
   margin: 0 5px;
   margin-top: 7px;
-}
-.button--block {
-  padding: 12px 16px;
-  border: 1px solid var(--main-black-231-f-20, #231F20);
-  background: #fff;
-  box-shadow: 4px 4px 0px 0px #231F20;
-  transition: box-shadow var(--animation-duration), background-color var(--animation-duration);
-}
-.button--block:focus:not(.button--active) {
-  box-shadow: 2px 2px 0px 0px #231F20;
-  outline: none;
-}
-.button--block:hover, .button--block:active {
-  box-shadow: none;
-}
-@media screen and (max-width: 1024px) {
-  .button--block {
-    padding: 10px 16px;
-    font-size: 16px;
-  }
 }
 .button--blue {
   background: var(--color-blue);
@@ -546,7 +552,7 @@ img {
   background: var(--color-black);
   color: #fff;
 }
-.button--big {
+.button--bg {
   padding: 18px 30px;
   min-width: 270px;
   justify-content: center;
@@ -556,10 +562,17 @@ img {
   white-space: nowrap;
 }
 @media screen and (max-width: 879px) {
-  .button--big {
+  .button--bg {
     width: 100%;
     padding: 18px 0;
   }
+}
+.button--sm {
+  padding: 5px 12px 6px 12px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
 }
 .button--active {
   box-shadow: none;
@@ -569,6 +582,9 @@ img {
     width: 100%;
     justify-content: center;
   }
+}
+.button--no-shadow {
+  box-shadow: unset !important;
 }
 
 .panel--black .button {
@@ -930,6 +946,7 @@ img {
   right: 8px;
   height: 16px;
   width: 16px;
+  z-index: 1;
 }
 .panel__close > .icon {
   height: 100%;
@@ -1018,6 +1035,11 @@ a.panel:hover {
   display: flex;
   align-items: center;
   gap: 24px;
+}
+@media screen and (max-width: 879px) {
+  .button-panel__text {
+    align-self: flex-start;
+  }
 }
 @media screen and (max-width: 1024px) {
   .button-panel__image {
@@ -1509,4 +1531,68 @@ ul.ul li::before {
   position: absolute;
   left: -5px;
   top: -5px;
+}
+
+.paginator {
+  display: flex;
+  gap: 8px;
+  font-size: 16px;
+  margin: 0 auto;
+}
+.paginator button {
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+}
+.paginator__first, .paginator__last {
+  font-weight: 600;
+  line-height: 130%;
+  padding: 5px 12px;
+  background-color: var(--color-black);
+  color: #fff;
+  transition: color var(--animation-duration);
+}
+.paginator__first:hover, .paginator__last:hover {
+  color: var(--color-yellow);
+}
+@media screen and (max-width: 879px) {
+  .paginator__first, .paginator__last {
+    font-size: 0 !important;
+    height: 32px;
+    width: 32px;
+    padding: 0;
+  }
+  .paginator__first::before, .paginator__last::before {
+    content: "";
+    -webkit-mask: url("../img/icons/paginator-chevron.svg") center no-repeat;
+            mask: url("../img/icons/paginator-chevron.svg") center no-repeat;
+    background-color: #fff;
+    height: 32px;
+    width: 32px;
+    display: block;
+    transition: background-color var(--animation-duration);
+  }
+  .paginator__first:hover::before, .paginator__last:hover::before {
+    background-color: var(--color-yellow);
+  }
+}
+.paginator__last::before {
+  transform: rotate(180deg);
+}
+.paginator__page {
+  height: 32px;
+  width: 32px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+}
+.paginator__page--active {
+  background-color: var(--color-yellow);
+  outline: 1px solid var(--color-black);
+}
+.paginator button.paginator__page:hover {
+  outline: 1px solid var(--color-black);
 }

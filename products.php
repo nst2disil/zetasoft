@@ -16,7 +16,7 @@
             <img src="./dist/img/tip-arrow.svg" alt="arrow" class="our-products__arrow">
             <div class="our-products__button-container">
               <div class="our-products__button-title">Наши продукты зарегистрированы в реестре ПО</div>
-              <button class="button button--block button--big button--mobile-full-width button--blue our-products__button" data-modal="contact-form">подписка на продукты Зетасофт</button>
+              <button class="button  button--bg button--mobile-full-width button--blue our-products__button" data-modal="contact-form">подписка на продукты Зетасофт</button>
             </div>
           </div>
         </div>
@@ -178,7 +178,7 @@
               <img src="./dist/img/panel-1c.svg" alt="1c logo" class="button-panel__image">
               Продукты 1С
             </div>
-            <a href="./products1c.html" class="button-panel__button button button--block button--big">выбрать продукт</a>
+            <a href="./products1c.html" class="button-panel__button button  button--bg">выбрать продукт</a>
           </div>
         </div>
       </section>

@@ -191,7 +191,7 @@
           </div>
           <div class="button-panel panel panel--yellow panel--no-shadow">
             <div class="button-panel__text">Оставьте заявку для&nbsp;бесплатной консультации </div>
-            <button class="button-panel__button button button--block button--big" data-modal="contact-form">оставить заявку</button>
+            <button class="button-panel__button button button--white button--bg" data-modal="contact-form">оставить заявку</button>
           </div>
         </div>
       </section>
@@ -274,7 +274,7 @@
           </div>
           <div class="button-panel panel panel--yellow panel--no-shadow">
             <div class="button-panel__text">Оставьте заявку для&nbsp;бесплатной консультации </div>
-            <button class="button-panel__button button button--block button--big" data-modal="contact-form">оставить заявку</button>
+            <button class="button-panel__button button button--white button--bg" data-modal="contact-form">оставить заявку</button>
           </div>
         </div>
       </section>

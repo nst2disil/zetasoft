@@ -4,6 +4,7 @@
   "description": "",
   "scripts": {
     "docker-start": "docker run -p 8080:80 -v $(pwd):/var/www/html --name container-zetasoft-front zetasoft-front",
+    "docker-restart": "docker restart container-zetasoft-front",
     "generate-demos": "./pre_commit_script.sh"
 
   },

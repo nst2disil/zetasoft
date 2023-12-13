@@ -42,7 +42,7 @@
                     <li>электронные версии журнала «БУХ.1С» (в формате pdf или epub) в Личном кабинете пользователя на сайте <a href="https://its.1c.ru/personal/souvenir" target="_blank">https://its.1c.ru/personal/souvenir</a>;</li>
                     <li>ежемесячные сувениры: электронные книги, аудио и видеозаписи (также доступны в Личном кабинете <a href="https://its.1c.ru/personal/souvenir" target="_blank">https://its.1c.ru/personal/souvenir</a>).</li>
                   </ul>
-                  <button class="services1c__order-button button button--block button--big button--yellow" data-modal="contact-form" data-modal-title="Заполните данные на запрос подписки">оставить заявку</button>
+                  <button class="services1c__order-button button  button--bg button--yellow" data-modal="contact-form" data-modal-title="Заполните данные на запрос подписки">оставить заявку</button>
                 </div>
               </div>
               <div class="swiper-slide services1c__item panel panel--white">
@@ -65,7 +65,7 @@
                     <li>предоставление электронной подписи и возможность произвести внеплановую дистанционную замену подписи до 2-х раз в год;</li>
                     <li>круглосуточная профессиональная техническая поддержка компанией «Калуга Астрал».</li>
                   </ul>
-                  <button class="services1c__order-button button button--block button--big button--yellow" data-modal="contact-form" data-modal-title="Заполните данные на запрос подписки">оставить заявку</button>
+                  <button class="services1c__order-button button  button--bg button--yellow" data-modal="contact-form" data-modal-title="Заполните данные на запрос подписки">оставить заявку</button>
                 </div>
               </div>
               <div class="swiper-slide services1c__item panel panel--white">
@@ -88,7 +88,7 @@
                     <li>электронные версии журнала «БУХ.1С» (в формате pdf или epub) в Личном кабинете пользователя на сайте https://its.1c.ru/personal/souvenir;</li>
                     <li>ежемесячные сувениры: электронные книги, аудио и видеозаписи (также доступны в Личном кабинете https://its.1c.ru/personal/souvenir).</li>
                   </ul>
-                  <button class="services1c__order-button button button--block button--big button--yellow" data-modal="contact-form" data-modal-title="Заполните данные на запрос подписки">оставить заявку</button>
+                  <button class="services1c__order-button button  button--bg button--yellow" data-modal="contact-form" data-modal-title="Заполните данные на запрос подписки">оставить заявку</button>
                 </div>
               </div>
               <div class="swiper-slide services1c__item panel panel--white">
@@ -111,7 +111,7 @@
                     <li>предоставление электронной подписи и возможность произвести внеплановую дистанционную замену подписи до 2-х раз в год;</li>
                     <li>круглосуточная профессиональная техническая поддержка компанией «Калуга Астрал».</li>
                   </ul>
-                  <button class="services1c__order-button button button--block button--big button--yellow" data-modal="contact-form" data-modal-title="Заполните данные на запрос подписки">оставить заявку</button>
+                  <button class="services1c__order-button button  button--bg button--yellow" data-modal="contact-form" data-modal-title="Заполните данные на запрос подписки">оставить заявку</button>
                 </div>
               </div>
             </div>

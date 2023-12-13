@@ -16,7 +16,7 @@
             <img src="./dist/img/tip-arrow_yellow.svg" alt="arrow" class="our-products__arrow">
             <div class="our-products__button-container">
               <div class="our-products__button-title">С&nbsp;2006&nbsp;года являемся официальным партнёром фирмы 1С </div>
-              <button class="button button--block button--big button--mobile-full-width button--yellow our-products__button" data-modal="contact-form">подписка на продукты 1С</button>
+              <button class="button  button--bg button--mobile-full-width button--yellow our-products__button" data-modal="contact-form">подписка на продукты 1С</button>
             </div>
           </div>
           <div class="swiper swiper--m" data-swiper-id="products-1c">
@@ -268,7 +268,7 @@
               <img src="./dist/img/panel-zeta__black.svg" alt="zetasoft logo" class="button-panel__image">
               Продукты Зетасофт
             </div>
-            <a href="./products.html" class="button-panel__button button button--block button--big">выбрать продукт</a>
+            <a href="./products.html" class="button-panel__button button  button--bg">выбрать продукт</a>
           </div>
         </div>
       </section>
@@ -277,7 +277,7 @@
           <div class="contact-big">
             <div class="contact-big__title">Напишите нам&nbsp;чтобы&nbsp;заказать или&nbsp;получить полный перечень продуктов 1С</div>
             <img src="./dist/img/panel-contact-big.svg" alt="иллюстрация" class="contact-big__image">
-            <button class="button button--block button--big contact-big__button" data-modal="contact-form">оставить заявку</button>
+            <button class="button button--bg button--white contact-big__button" data-modal="contact-form">оставить заявку</button>
           </div>
         </div>
       </section>

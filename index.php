@@ -13,22 +13,22 @@
           <h1 class="section__title">Автоматизируем бизнес-процессы с&nbsp;помощью собственных IT-решений и&nbsp;продуктов 1С</h1>
           <div class="tools">
             <div class="tools__item js-tool-item">
-              <button class="button button--block js-tool-toggler button--dot">Kanban</button>
+              <button class="button  js-tool-toggler button--dot">Kanban</button>
               <div class="tools__panel js-tool-panel">
                 <div class="panel panel--no-shadow panel--sm">
                   <div class="panel__head panel__head--black">
-                    <button class="panel__close button js-tool-panel-close"><span class="icon icon--cross"></span></button>
+                    <button class="panel__close button button--no-decoration js-tool-panel-close"><span class="icon icon--cross"></span></button>
                   </div>
                   <div class="panel__content">Это система постановки задач и организации рабочих процессов для эффективного достижения поставленных целей, которая предполагает максимальную прозрачность продвижения работ</div>
                 </div>
               </div>              
             </div>
             <div class="tools__item js-tool-item">
-              <button class="button button--block js-tool-toggler button--dot button--blue">Gherkin</button>
+              <button class="button  js-tool-toggler button--dot button--blue">Gherkin</button>
               <div class="tools__panel js-tool-panel">
                 <div class="panel panel--no-shadow panel--sm">
                   <div class="panel__head panel__head--black">
-                    <button class="panel__close button js-tool-panel-close"><span class="icon icon--cross"></span></button>
+                    <button class="panel__close button button--no-decoration js-tool-panel-close"><span class="icon icon--cross"></span></button>
                   </div>
                   <div class="panel__content">Итеративный подход к управлению проектами и разработке программного обеспечения, который помогает командам быстрее и с меньшими проблемами поставлять ценность клиентам</div>
                 </div>
@@ -36,44 +36,44 @@
               
             </div>
             <div class="tools__item js-tool-item">
-              <button class="button button--block js-tool-toggler button--dot button--blue-dark">CI/CD</button>
+              <button class="button  js-tool-toggler button--dot button--blue-dark">CI/CD</button>
               <div class="tools__panel js-tool-panel">
                 <div class="panel panel--no-shadow panel--sm">
                   <div class="panel__head panel__head--black">
-                    <button class="panel__close button js-tool-panel-close"><span class="icon icon--cross"></span></button>
+                    <button class="panel__close button button--no-decoration js-tool-panel-close"><span class="icon icon--cross"></span></button>
                   </div>
                   <div class="panel__content">Набор принципов и практик, которые позволяют разработчикам чаще и надежнее развертывать изменения программного обеспечения</div>
                 </div>
               </div>
             </div>
             <div class="tools__item js-tool-item">
-              <button class="button button--block js-tool-toggler button--dot button--red">Git</button>
+              <button class="button  js-tool-toggler button--dot button--red">Git</button>
               <div class="tools__panel js-tool-panel">
                 <div class="panel panel--no-shadow panel--sm">
                   <div class="panel__head panel__head--black">
-                    <button class="panel__close button js-tool-panel-close"><span class="icon icon--cross"></span></button>
+                    <button class="panel__close button button--no-decoration js-tool-panel-close"><span class="icon icon--cross"></span></button>
                   </div>
                   <div class="panel__content">Развитая система контроля версий с активной поддержкой и открытым исходным кодом, которую используют тысячи разработчиков во всем мире</div>
                 </div>
               </div>
             </div>
             <div class="tools__item js-tool-item">
-              <button class="button button--block js-tool-toggler button--dot button--yellow">База знаний</button>
+              <button class="button  js-tool-toggler button--dot button--yellow">База знаний</button>
               <div class="tools__panel js-tool-panel">
                 <div class="panel panel--no-shadow panel--sm">
                   <div class="panel__head panel__head--black">
-                    <button class="panel__close button js-tool-panel-close"><span class="icon icon--cross"></span></button>
+                    <button class="panel__close button button--no-decoration js-tool-panel-close"><span class="icon icon--cross"></span></button>
                   </div>
                   <div class="panel__content">Онлайн-библиотека, в которой хранится информация о продукте или проекте</div>
                 </div>
               </div>
             </div>
             <div class="tools__item js-tool-item">
-              <button class="button button--block js-tool-toggler button--dot">Контроль качества кода</button>
+              <button class="button  js-tool-toggler button--dot">Контроль качества кода</button>
               <div class="tools__panel js-tool-panel">
                 <div class="panel panel--no-shadow panel--sm">
                   <div class="panel__head panel__head--black">
-                    <button class="panel__close button js-tool-panel-close"><span class="icon icon--cross"></span></button>
+                    <button class="panel__close button button--no-decoration js-tool-panel-close"><span class="icon icon--cross"></span></button>
                   </div>
                   <div class="panel__content">Минимизация ошибок перед выпуском программного обеспечения, проверка на наличие недостатков и дефектов с целью минимизации ошибок перед выпуском программного обеспечения</div>
                 </div>
@@ -126,7 +126,7 @@
 
           <div class="button-panel panel panel--yellow panel--no-shadow">
             <div class="button-panel__text">Протестируйте вашу бизнес-задачу бесплатно</div>
-            <button class="button-panel__button button button--block button--big" data-modal="contact-form" data-modal-title="Заполните данные, чтобы протестировать вашу бизнес-задачу">Поставить&nbsp;задачу</button>
+            <button class="button-panel__button button  button--bg" data-modal="contact-form" data-modal-title="Заполните данные, чтобы протестировать вашу бизнес-задачу">Поставить&nbsp;задачу</button>
           </div>
           
         </div>
@@ -187,12 +187,12 @@
         <div class="wrapper">
           <h2 class="section__title">Кейсы</h2>
           <div class="categories">
-            <a href="./cases.html#filter-by-blue" class="categories__item js-case-category button button--blue button--block button--dot">Автозапчасти</a>
-            <a href="./cases.html#filter-by-red" class="categories__item js-case-category button button--red button--block button--dot">Вендинг</a>
-            <a href="./cases.html#filter-by-blue-dark" class="categories__item js-case-category button button--blue-dark button--block button--dot">Продажа времени</a>
-            <a href="./cases.html#filter-by-green" class="categories__item js-case-category button button--green button--block button--dot">Универсальный</a>
-            <a href="./cases.html#filter-by-yellow" class="categories__item js-case-category button button--yellow button--block button--dot">1C</a>
-            <a href="./cases.html" class="categories__item button button--block button--dot">Все продукты</a>
+            <a href="./cases.html#filter-by-blue" class="categories__item js-case-category button button--blue  button--dot">Автозапчасти</a>
+            <a href="./cases.html#filter-by-red" class="categories__item js-case-category button button--red  button--dot">Вендинг</a>
+            <a href="./cases.html#filter-by-blue-dark" class="categories__item js-case-category button button--blue-dark  button--dot">Продажа времени</a>
+            <a href="./cases.html#filter-by-green" class="categories__item js-case-category button button--green  button--dot">Универсальный</a>
+            <a href="./cases.html#filter-by-yellow" class="categories__item js-case-category button button--yellow  button--dot">1C</a>
+            <a href="./cases.html" class="categories__item button  button--dot">Все продукты</a>
           </div>
           <div class="swiper" data-swiper-id="cases">
             <div class="cases js-cases swiper-wrapper">
@@ -336,7 +336,7 @@
           <div class="contact-big">
             <div class="contact-big__title">Оставьте заявку для&nbsp;бесплатной консультации с&nbsp;нашим специалистом</div>
             <img src="./dist/img/panel-contact-big.svg" alt="иллюстрация" class="contact-big__image">
-            <button class="button button--block button--big contact-big__button" data-modal="contact-form" data-modal-title="Заполните данные, чтобы протестировать вашу бизнес-задачу">оставить заявку</button>
+            <button class="button  button--bg contact-big__button" data-modal="contact-form" data-modal-title="Заполните данные, чтобы протестировать вашу бизнес-задачу">оставить заявку</button>
           </div>
         </div>
       </section>

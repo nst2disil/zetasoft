@@ -20,7 +20,7 @@
               </div>
             </h1>
             <div class="section__subtitle">от 150 000 до 200 000 руб. на руки</div>
-            <button class="button button--block button--big button--yellow button--mobile-full-width vacancy-info__button" data-modal="contact-form" data-modal-title="Отклик на вакансию">Откликнуться</button>
+            <button class="button  button--bg button--yellow button--mobile-full-width vacancy-info__button" data-modal="contact-form" data-modal-title="Отклик на вакансию">Откликнуться</button>
           </div>
           <div class="vacancy-list">
             <div class="vacancy-list__item">
@@ -78,7 +78,7 @@
           </div>
           <div class="button-panel panel panel--black panel--no-shadow">
             <div class="button-panel__text">Оставьте свой отклик на вакансию</div>
-            <button class="button-panel__button button button--block button--yellow button--big" data-modal="contact-form">оставить заявку</button>
+            <button class="button-panel__button button button--yellow button--bg" data-modal="contact-form">откликнуться</button>
           </div>
         </div>
       </section>

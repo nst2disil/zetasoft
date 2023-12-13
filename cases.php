@@ -12,12 +12,12 @@
         <div class="wrapper">
           <h2 class="section__title">Кейсы</h2>
           <div class="categories">
-            <button class="categories__item js-case-category button button--active-blue button--block button--dot" data-case-category="blue">Автозапчасти</button>
-            <button class="categories__item js-case-category button button--active-red button--block button--dot" data-case-category="red">Вендинг</button>
-            <button class="categories__item js-case-category button button--active-blue-dark button--block button--dot" data-case-category="blue-dark">Продажа времени</button>
-            <button class="categories__item js-case-category button button--active-green button--block button--dot" data-case-category="green">Универсальный</button>
-            <button class="categories__item js-case-category button button--active-yellow button--block button--dot" data-case-category="yellow">1C</button>
-            <button class="categories__item js-case-category button button--block button--dot" data-case-category="">Все продукты</button>
+            <button class="categories__item js-case-category button button--active-blue button--dot" data-case-category="blue">Автозапчасти</button>
+            <button class="categories__item js-case-category button button--active-red button--dot" data-case-category="red">Вендинг</button>
+            <button class="categories__item js-case-category button button--active-blue-dark button--dot" data-case-category="blue-dark">Продажа времени</button>
+            <button class="categories__item js-case-category button button--active-green button--dot" data-case-category="green">Универсальный</button>
+            <button class="categories__item js-case-category button button--active-yellow button--dot" data-case-category="yellow">1C</button>
+            <button class="categories__item js-case-category button button--dot" data-case-category="">Все продукты</button>
           </div>
           <div class="cases js-cases">
             <a href="#" class="cases__item panel panel--white" data-case-category="green">
@@ -78,7 +78,7 @@
             </a>
             <div class="button-panel panel panel--yellow panel--no-shadow">
               <div class="button-panel__text">Протестируйте вашу бизнес-задачу бесплатно</div>
-              <button class="button-panel__button button button--block button--big" data-modal="contact-form" data-modal-title="Заполните данные, чтобы протестировать вашу бизнес-задачу">Поставить&nbsp;задачу</button>
+              <button class="button-panel__button button  button--bg" data-modal="contact-form" data-modal-title="Заполните данные, чтобы протестировать вашу бизнес-задачу">Поставить&nbsp;задачу</button>
             </div>
             <a href="#" class="cases__item panel panel--white">
               <div class="panel__head panel__head--red"></div>
