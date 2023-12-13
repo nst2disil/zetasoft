@@ -72,7 +72,7 @@ img {
   transition: color var(--animation-duration);
   background: none;
   border: none;
-  color: inherit;
+  color: var(--color-black);
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
@@ -134,6 +134,7 @@ img {
     justify-content: center;
     text-transform: uppercase;
     font-size: 16px;
+    line-height: normal;
     white-space: nowrap;
     @include media-down($screen-md) {
       width: 100%;
@@ -148,6 +149,19 @@ img {
       width: 100%;
       justify-content: center;
     }
+  }
+}
+
+.panel--black .button {
+  box-shadow: 4px 4px 0px 0px #fff;
+  transition: box-shadow var(--animation-duration), background-color var(--animation-duration);
+  &:focus:not(.button--active) {
+    box-shadow: 2px 2px 0px 0px #fff;
+    outline: none;
+  }
+  &:hover,
+  &:active {
+    box-shadow: none;
   }
 }
 
@@ -363,7 +377,7 @@ img {
     }
   }
   &__text {
-    padding-right: 80px;
+    padding-right: 75px;
     &:not(:first-child):last-child {
       margin-top: auto;
     }

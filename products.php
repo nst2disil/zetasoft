@@ -41,7 +41,7 @@
                   </div>
                 </div>
               </a>
-              <a href="#" class="swiper-slide products__item products__item--red panel panel--white">
+              <a href="#" class="swiper-slide products__item panel panel--white">
                 <div class="panel__content">
                   <div class="products__top">
                     <div class="products__name products__name--blue">Атол</div>
@@ -80,7 +80,7 @@
                   </div>
                 </div>
               </a>
-              <a href="#" class="swiper-slide products__item panel panel--white">
+              <a href="#" class="swiper-slide products__item panel panel--grey">
                 <div class="panel__content">
                   <div class="products__top">
                     <div class="products__name products__name--green">Вендинг</div>
@@ -93,7 +93,7 @@
                   </div>
                 </div>
               </a>
-              <a href="#" class="swiper-slide products__item products__item--red panel panel--white">
+              <a href="#" class="swiper-slide products__item panel panel--white">
                 <div class="panel__content">
                   <div class="products__top">
                     <div class="products__name products__name--red">ТекДок</div>
@@ -106,7 +106,7 @@
                   </div>
                 </div>
               </a>
-              <a href="#" class="swiper-slide products__item panel panel--grey">
+              <a href="#" class="swiper-slide products__item panel panel--white">
                 <div class="panel__content">
                   <div class="products__top">
                     <div class="products__name products__name--red">Универсальный отчет</div>
@@ -144,7 +144,7 @@
                   </div>
                 </div>
               </a>
-              <a href="#" class="swiper-slide products__item products__item--red panel panel--white panel--shadow-blue">
+              <a href="#" class="swiper-slide products__item panel panel--white panel--shadow-blue">
                 <div class="panel__content">
                   <div class="products__top">
                     <div class="products__name products__name--blue">Авторазборка</div>

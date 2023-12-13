@@ -78,7 +78,7 @@
           </div>
           <div class="button-panel panel panel--black panel--no-shadow">
             <div class="button-panel__text">Оставьте свой отклик на вакансию</div>
-            <button class="button-panel__button button button--block button--white button--big" data-modal="contact-form">оставить заявку</button>
+            <button class="button-panel__button button button--block button--yellow button--big" data-modal="contact-form">оставить заявку</button>
           </div>
         </div>
       </section>

@@ -17,21 +17,20 @@
                 <div class="addresses__item addresses__item--separator">
                   <div class="about__title addresses__location">Санкт-Петербург</div>
                   <div class="addresses__details">
-                    <a href="tel:+78124906789" class="addresses__contact">+7 812 490-67-89</a>
-                    <a href="mailto:info@zetasoft.ru" class="addresses__contact addresses__contact--email">info@zetasoft.ru</a>
                     <div class="panel__text">197342, г. Санкт-Петербург, ул. Белоостровская,д. 17, к. 2, лит. А (б/ц «Авантаж»), 5 эт., офис №413</div>
                   </div>
                 </div>
                 <div class="addresses__item">
-                  <div class="about__title addresses__location">Москва</div>
+                  <div class="about__title addresses__location">Телефон</div>
                   <div class="addresses__details">
-                    <a href="tel:+74992726264" class="addresses__contact">+7 499 272-62-64</a>
+                    <a href="tel:+78124906789" class="addresses__contact">+7 812 490-67-89</a>
+
                   </div>
                 </div>
                 <div class="addresses__item">
-                  <div class="about__title addresses__location">Болгария</div>
+                  <div class="about__title addresses__location">E-mail</div>
                   <div class="addresses__details">
-                    <a href="tel:+359879106775" class="addresses__contact">+359 87-910-67-75</a>
+                    <a href="mailto:info@zetasoft.ru" class="addresses__contact addresses__contact--email">info@zetasoft.ru</a>
                   </div>
                 </div>
               </div>

@@ -26,17 +26,17 @@
                   <div class="vacancies__title">Открытые вакансии</div>
                   <a href="#" class="vacancies__link">Маркетолог</a>
                   <a href="#" class="vacancies__link">PR-специалист</a>
-                  <img src="./dist/img/icons/003-diagram.svg" alt="" class="vacancies__img">
+                  <img src="./dist/img/icons/003-diagram.svg?1" alt="" class="vacancies__img">
                 </div>
               </div>
             </div>
-            <img src="./dist/img/tip-arrow.svg" alt="" class="vacancies__arrow vacancies__arrow--right">
+            <img src="./dist/img/tip-arrow.svg?1" alt="" class="vacancies__arrow vacancies__arrow--right">
             <div class="vacancies__item panel panel--black panel--no-shadow">
               <div class="panel__content cols">
                 <div class="cols__item cols__item--list">
                   <div class="vacancies__title">Открытые вакансии</div>
                   <a href="#" class="vacancies__link">Менеджер по продажам</a>
-                  <img src="./dist/img/icons/023-team work.svg" alt="" class="vacancies__img">
+                  <img src="./dist/img/icons/023-team work.svg?1" alt="" class="vacancies__img">
                 </div>
                 <div class="cols__item">
                   <div class="vacancies__title">Продажи</div>
@@ -44,7 +44,7 @@
                 </div>
               </div>
             </div>
-            <img src="./dist/img/tip-arrow.svg" alt="" class="vacancies__arrow vacancies__arrow--left">
+            <img src="./dist/img/tip-arrow.svg?1" alt="" class="vacancies__arrow vacancies__arrow--left">
             <div class="vacancies__item panel panel--white panel--no-shadow">
               <div class="panel__content cols">
                 <div class="cols__item">
@@ -54,17 +54,17 @@
                 <div class="cols__item cols__item--list">
                   <div class="vacancies__title">Открытые вакансии</div>
                   <a href="#" class="vacancies__link">Аналитик</a>
-                  <img src="./dist/img/icons/031-statistics.svg" alt="" class="vacancies__img">
+                  <img src="./dist/img/icons/031-statistics.svg?1" alt="" class="vacancies__img">
                 </div>
               </div>
             </div>
-            <img src="./dist/img/tip-arrow.svg" alt="" class="vacancies__arrow vacancies__arrow--right">
+            <img src="./dist/img/tip-arrow.svg?1" alt="" class="vacancies__arrow vacancies__arrow--right">
             <div class="vacancies__item panel panel--black panel--no-shadow">
               <div class="panel__content cols">
                 <div class="cols__item cols__item--list">
                   <div class="vacancies__title">Открытые вакансии</div>
                   <a href="#" class="vacancies__link">Консультант</a>
-                  <img src="./dist/img/icons/011-product management.svg" alt="" class="vacancies__img">
+                  <img src="./dist/img/icons/011-product management.svg?1" alt="" class="vacancies__img">
                 </div>
                 <div class="cols__item">
                   <div class="vacancies__title">Производство</div>
@@ -72,7 +72,7 @@
                 </div>
               </div>
             </div>
-            <img src="./dist/img/tip-arrow.svg" alt="" class="vacancies__arrow vacancies__arrow--left">
+            <img src="./dist/img/tip-arrow.svg?1" alt="" class="vacancies__arrow vacancies__arrow--left">
             <div class="vacancies__item panel panel--white panel--no-shadow">
               <div class="panel__content cols">
                 <div class="cols__item">
@@ -82,16 +82,16 @@
                 <div class="cols__item cols__item--list">
                   <div class="vacancies__title">Открытые вакансии</div>
                   <a href="#" class="vacancies__link">Разработчик 1С (Middle)</a>
-                  <img src="./dist/img/icons/045-data management.svg" alt="" class="vacancies__img">
+                  <img src="./dist/img/icons/045-data management.svg?1" alt="" class="vacancies__img">
                 </div>
               </div>
             </div>
-            <img src="./dist/img/tip-arrow.svg" alt="" class="vacancies__arrow vacancies__arrow--right">
+            <img src="./dist/img/tip-arrow.svg?1" alt="" class="vacancies__arrow vacancies__arrow--right">
             <div class="vacancies__item panel panel--black panel--no-shadow">
               <div class="panel__content cols">
                 <div class="cols__item cols__item--list">
                   <div class="vacancies__title">Нет вакансий</div>
-                  <img src="./dist/img/icons/009-concentrate.svg" alt="" class="vacancies__img">
+                  <img src="./dist/img/icons/009-concentrate.svg?1" alt="" class="vacancies__img">
                 </div>
                 <div class="cols__item">
                   <div class="vacancies__title">Автоматизация процессов</div>

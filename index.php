@@ -126,7 +126,7 @@
 
           <div class="button-panel panel panel--yellow panel--no-shadow">
             <div class="button-panel__text">Протестируйте вашу бизнес-задачу бесплатно</div>
-            <button class="button-panel__button button button--block button--big" data-modal="contact-form">Поставить&nbsp;задачу</button>
+            <button class="button-panel__button button button--block button--big" data-modal="contact-form" data-modal-title="Заполните данные, чтобы протестировать вашу бизнес-задачу">Поставить&nbsp;задачу</button>
           </div>
           
         </div>

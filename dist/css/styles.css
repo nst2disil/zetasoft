@@ -465,7 +465,7 @@ img {
   transition: color var(--animation-duration);
   background: none;
   border: none;
-  color: inherit;
+  color: var(--color-black);
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
@@ -552,6 +552,7 @@ img {
   justify-content: center;
   text-transform: uppercase;
   font-size: 16px;
+  line-height: normal;
   white-space: nowrap;
 }
 @media screen and (max-width: 879px) {
@@ -568,6 +569,18 @@ img {
     width: 100%;
     justify-content: center;
   }
+}
+
+.panel--black .button {
+  box-shadow: 4px 4px 0px 0px #fff;
+  transition: box-shadow var(--animation-duration), background-color var(--animation-duration);
+}
+.panel--black .button:focus:not(.button--active) {
+  box-shadow: 2px 2px 0px 0px #fff;
+  outline: none;
+}
+.panel--black .button:hover, .panel--black .button:active {
+  box-shadow: none;
 }
 
 @media screen and (max-width: 374px) {
@@ -848,7 +861,7 @@ img {
   }
 }
 .panel__text {
-  padding-right: 80px;
+  padding-right: 75px;
 }
 .panel__text:not(:first-child):last-child {
   margin-top: auto;
