@@ -66,6 +66,15 @@ img {
   @include media-down($screen-md) {
     --wrapper-h-padding: 16px;
   }
+  & + .wrapper {
+    margin-top: 72px;
+    @include media-down($screen-bg) {
+      margin-top: 64px;
+    }
+    @include media-down($screen-md) {
+      margin-top: 56px;
+    }
+  }
 }
 
 .panel--black .button {
@@ -126,20 +135,20 @@ img {
 }
 
 .section {
-  padding: 56px 0 72px;
+  padding: 56px 0 88px;
   color: var(--color-black);
   display: flex;
   align-items: stretch;
   flex-direction: column;
   min-height: calc(720px - var(--header-height));
-  &--no-min-height {
-    min-height: unset;
-  }
-  @include media-down($screen-bg) {
-    padding: 48px 0;
+  @include media-down($screen-lg) {
+    padding: 48px 0 72px;
   }
   @include media-down($screen-md) {
-    padding: 40px 0 56px;
+    padding: 40px 0 72px;
+  }
+  &--no-min-height {
+    min-height: unset;
   }
   &--main {
     .section__title {
@@ -615,6 +624,8 @@ ul.ul {
 }
 
 .contact-big {
+  display: flex;
+  flex-direction: column;
   margin-top: 72px;
   padding: 64px 604px 64px 64px;
   height: 376px;
@@ -622,10 +633,8 @@ ul.ul {
   color: var(--color-black);
   position: relative;
   @include media-down($screen-lg) {
-    height: 301px;
-    padding: 48px;
-    padding: 64px 459px 64px 64px;
-
+    height: 300px;
+    padding: 48px 380px 48px 48px;
   }
   @include media-down($screen-md) {
     height: auto;
@@ -650,7 +659,6 @@ ul.ul {
     }
   }
   &__text {
-    margin-top: 16px;
     font-size: 20px;
     font-weight: 500;
     line-height: normal;
@@ -659,13 +667,8 @@ ul.ul {
       font-size: 16px;
     }
     & + .contact-big__image + .contact-big__button {
-      margin-top: 74px;
-      @include media-down($screen-lg) {
-        margin-top: 52px;
-      }
-      @include media-down($screen-md) {
-        margin-top: 8px;
-      }
+      margin-top: auto;
+      align-self: flex-start;
     }
   }
   &__image {
@@ -687,7 +690,7 @@ ul.ul {
 }
 
 .section--no-min-height .contact-big:first-child {
-  margin-top: 0;
+  margin-top: 24px;
 }
 
 .cols {

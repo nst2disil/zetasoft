@@ -231,7 +231,7 @@
             <div class="contact-big__title">Остались еще вопросы?</div>
             <div class="contact-big__text">Если&nbsp;у&nbsp;вас появились вопросы по&nbsp;услугам, вы&nbsp;всегда можете задать их&nbsp;нашим специалистам</div>
             <img src="./dist/img/panel-contact-big.svg" alt="иллюстрация" class="contact-big__image">
-            <button class="button button--white button--bg contact-big__button" data-modal="contact-form">оставить заявку</button>
+            <button class="button button--white button--bg contact-big__button" data-modal="contact-form">да, хочу задать</button>
           </div>
         </div>
       </section>

@@ -59,6 +59,7 @@
   --block-height: 200px;
   grid-template-rows: var(--block-height) var(--block-height) calc(var(--block-height) * 2);
   gap: 24px;
+  margin-top: 32px;
   @include media-down($screen-lg) {
     --block-height: 168px;
   }
