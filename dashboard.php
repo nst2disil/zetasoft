@@ -114,7 +114,7 @@
               </div>
             </div>
             <div class="dashboard__aside aside">
-              <button class="button aside__logout">Выйти</button>
+              <button class="button button--link button--no-decoration aside__logout">Выйти</button>
               <div class="panel panel--white panel--no-shadow">
                 <div class="panel__content">
                   <div class="aside__title">Ваш менеджер</div>

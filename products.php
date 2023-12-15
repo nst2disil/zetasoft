@@ -8,7 +8,7 @@
   <div class="container">
     <div class="container__header"><?php include './partials/_header.php'; ?></div>
     <div class="container__content">
-      <section class="section section--no-min-height">
+      <section class="section">
         <div class="wrapper">
           <h2 class="section__title">Наши продукты</h1>
           <div class="our-products">
@@ -21,7 +21,7 @@
           </div>
         </div>
       </section>
-      <section class="section section--no-min-height">
+      <section class="section">
         <div class="wrapper">
           <h2 class="section__title">
             Продукты и сервисы
@@ -124,7 +124,7 @@
           </div>
         </div>
       </section>
-      <section class="section section--black section--no-min-height">
+      <section class="section section--black">
         <div class="wrapper">
           <h2 class="section__title">
             Продукты и сервисы

@@ -8,7 +8,7 @@
   <div class="container">
     <div class="container__header"><?php include './partials/_header.php'; ?></div>
     <div class="container__content">
-      <section class="section section--black">
+      <section class="section section--main section--black">
         <div class="wrapper">
           <h1 class="section__title">Создаём индивидуальную ИТ-платформу для&nbsp;решения задач в&nbsp;разных отраслях бизнеса</h1>
           <div class="anchors">
@@ -83,7 +83,7 @@
         </div>
         </div>
       </section>
-      <section class="section section--black section--no-min-height">
+      <section class="section section--black">
         <div class="wrapper">
           <h2 class="section__title">Наши кейсы по Автобизнесу</h2>
           <div class="swiper" data-swiper-id="competitions-auto">
@@ -157,7 +157,7 @@
         </div>
         </div>
       </section>
-      <section class="section section--black section--no-min-height">
+      <section class="section section--black">
         <div class="wrapper">
           <h2 class="section__title">Наши кейсы по Вендингу</h2>
           <div class="swiper" data-swiper-id="competitions-vending">
@@ -240,7 +240,7 @@
         </div>
         </div>
       </section>
-      <section class="section section--black section--no-min-height">
+      <section class="section section--black">
         <div class="wrapper">
           <h2 class="section__title">Наши кейсы по оказанию повременных услуг</h2>
           <div class="swiper" data-swiper-id="competitions-time-services">

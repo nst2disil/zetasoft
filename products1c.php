@@ -206,7 +206,7 @@
           </div>
         </div>
       </section>
-      <section class="section section--no-min-height">
+      <section class="section">
         <div class="wrapper">
           <h2 class="section__title">Лицензии на совместные решения 1С и Microsoft</h2>
           <div class="swiper swiper--m" data-swiper-id="licenses">
@@ -272,7 +272,7 @@
           </div>
         </div>
       </section>
-      <section class="section section--black section--no-min-height">
+      <section class="section section--black">
         <div class="wrapper">
           <div class="contact-big">
             <div class="contact-big__title">Напишите нам&nbsp;чтобы&nbsp;заказать или&nbsp;получить полный перечень продуктов 1С</div>

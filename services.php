@@ -225,7 +225,7 @@
           </div>
         </div>
       </section>
-      <section class="section section--black section--no-min-height">
+      <section class="section section--black">
         <div class="wrapper">
           <div class="contact-big">
             <div class="contact-big__title">Остались еще вопросы?</div>

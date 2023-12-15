@@ -429,6 +429,7 @@ a:hover > .icon,
   padding: unset !important;
   border: unset !important;
   box-sizing: unset !important;
+  box-shadow: none;
 }
 .button--link {
   color: inherit;
@@ -966,7 +967,6 @@ img {
   display: flex;
   align-items: stretch;
   flex-direction: column;
-  min-height: calc(720px - var(--header-height));
 }
 @media screen and (max-width: 1439px) {
   .section {
@@ -978,8 +978,21 @@ img {
     padding: 40px 0 72px;
   }
 }
-.section--no-min-height {
-  min-height: unset;
+.section--main {
+  padding-bottom: 56px;
+}
+.section--main:not(.section--no-min-height) {
+  min-height: calc(720px - var(--header-height));
+}
+@media screen and (max-width: 1439px) {
+  .section--main {
+    padding-bottom: 48px;
+  }
+}
+@media screen and (max-width: 879px) {
+  .section--main {
+    padding-bottom: 56px;
+  }
 }
 .section--main .section__title {
   margin-bottom: auto;
@@ -1645,7 +1658,7 @@ ul.ul li::before {
   }
 }
 
-.section--no-min-height .contact-big:first-child {
+.section .contact-big:first-child {
   margin-top: 24px;
 }
 

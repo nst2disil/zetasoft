@@ -8,7 +8,7 @@
   <div class="container">
     <div class="container__header"><?php include './partials/_header.php'; ?></div>
     <div class="container__content">
-      <section class="section section--yellow section--no-min-height">
+      <section class="section section--main section--no-min-height section--yellow">
         <div class="wrapper">
           <div class="case-info">
             <h1 class="case-info__title section__title">
@@ -28,7 +28,7 @@
           </div>
         </div>
       </section>
-      <section class="section section--no-min-height section--case-item">
+      <section class="section section--case-item">
         <div class="wrapper">
           <h2 class="section__title">Для кого</h2>
           <div class="text-wrapper">
@@ -60,7 +60,7 @@
           </div>
         </div>
       </section>
-      <section class="section section--no-min-height section--black section--case-item">
+      <section class="section section--black section--case-item">
         <div class="wrapper">
           <h2 class="section__title">Решение</h2>
           <div class="text-wrapper">
@@ -79,7 +79,7 @@
           </div>
         </div>
       </section>
-      <section class="section section--no-min-height section--case-item">
+      <section class="section section--case-item">
         <div class="wrapper">
           <h2 class="section__title">Результат</h2>
           <div class="text-wrapper">
@@ -103,7 +103,7 @@
           </div>
         </div>
       </section>
-      <section class="section section--no-min-height section--black section--case-item">
+      <section class="section section--black section--case-item">
         <div class="wrapper">
           <h2 class="section__title">Посмотрите другие кейсы</h2>
           <div class="swiper" data-swiper-id="cases">
