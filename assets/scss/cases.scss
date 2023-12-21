@@ -5,13 +5,14 @@
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
-  margin-bottom: 40px;
+  margin-bottom: 8px;
 }
 
 .cases {
+  flex-direction: row !important;
   @include media-down($screen-md) {
     display: flex;
-    flex-direction: column;
+    flex-direction: column !important;
     justify-content: stretch;
     gap: 16px;
   }
@@ -21,11 +22,6 @@
       flex: 1;
     }
   }
-  &__item:nth-of-type(6n + 1),
-  &__item:nth-of-type(10n + 1) {
-    width: calc(100%/3*2 - 6px);
-    aspect-ratio: 2/1;
-  }
   &--filtered .button-panel {
     display: none;
   }
@@ -34,3 +30,35 @@
   }
 }
 
+.cases-wrapper {
+  margin: 40px 0;
+}
+
+@include media-up($screen-md) {
+  .cases-wrapper:nth-child(odd) .cases__item:nth-child(1) {
+    width: calc(100%/3*2 - 6px);
+    aspect-ratio: 2/1;
+  }
+  .cases-wrapper:nth-child(even) {
+    .cases__item:nth-child(5) {
+      width: calc(100%/3*2 - 6px);
+      aspect-ratio: 2/1;
+    }
+  }
+}
+
+.cases-wrapper:nth-child(even) {
+  background-color: var(--color-black);
+  padding: 40px 0;
+  .panel {
+    @each $val in $color-list {
+      &--decoration-#{$val} {
+        box-shadow: 4px 4px 0px 0px var(--color-#{$val});
+      }
+    }
+  }
+}
+
+.paginator + .button-panel {
+  margin-top: 48px;
+}

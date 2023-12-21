@@ -39,6 +39,9 @@
 .cases--filtered[data-filtered-by=grey] .cases__item:not([data-case-category=grey]) {
   display: none;
 }
+.cases .panel__head {
+  --head-height: 52px;
+}
 
 .case {
   display: flex;
@@ -63,8 +66,11 @@
   }
 }
 .case__image {
-  max-height: 33px;
+  max-height: 22px;
   max-width: 72px;
+  position: absolute;
+  top: 20px;
+  left: 24px;
 }
 .case__text {
   font-size: 16px;

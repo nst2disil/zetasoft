@@ -108,27 +108,30 @@
           <h2 class="section__title">Посмотрите другие кейсы</h2>
           <div class="swiper" data-swiper-id="cases">
             <div class="cases js-cases swiper-wrapper">
-              <a href="#" class="swiper-slide cases__item panel" data-case-category="green">
-                <div class="panel__head panel__head--green"></div>
+              <a href="#" class="swiper-slide cases__item panel panel--decoration-green" data-case-category="green">
+                <div class="panel__head">
+                <img src="./dist/img/panel-zeta.svg" alt="zeta logo" class="case__image">
+                </div>
                 <div class="panel__content case">
                   <div class="case__title">Проектное решение<br/>«Учёт в&nbsp;вендинговом бизнесе»</div>
-                  <img src="./dist/img/panel-zeta.svg" alt="zeta logo" class="case__image">
                   <div class="case__text">Подсистема предназначена для компаний, работающих в 1С и использующих онлайн-кассы АТОЛ Онлайн</div>
                 </div>
               </a>
-              <a href="#" class="swiper-slide cases__item panel" data-case-category="blue">
-                <div class="panel__head panel__head--blue"></div>
+              <a href="#" class="swiper-slide cases__item panel panel--decoration-blue" data-case-category="blue">
+                <div class="panel__head">
+                <img src="./dist/img/panel-zeta.svg" alt="zeta logo" class="case__image">
+                </div>
                 <div class="panel__content case">
                   <div class="case__title">Проектное решение<br/>«Управление торговым комплексом»</div>
-                  <img src="./dist/img/panel-zeta.svg" alt="zeta logo" class="case__image">
                   <div class="case__text">Подсистема предназначена для компаний, работающих в 1С и использующих онлайн-кассы АТОЛ Онлайн</div>
                 </div>
               </a>
-              <a href="#" class="swiper-slide cases__item panel" data-case-category="yellow">
-                <div class="panel__head panel__head--yellow"></div>
+              <a href="#" class="swiper-slide cases__item panel panel--decoration-yellow" data-case-category="yellow">
+                <div class="panel__head">
+                <img src="./dist/img/panel-1c.svg" alt="zeta logo" class="case__image">
+                </div>
                 <div class="panel__content case">
                   <div class="case__title">Подсистема учета б/у запчастей в торговой конфигурации 1С</div>
-                  <img src="./dist/img/panel-1c.svg" alt="zeta logo" class="case__image">
                   <div class="case__text">Дополнительный модуль, с помощью которого можно делать разбор автомобиля, разбор детали на более мелкие, продажу детали, списание автомобиля, отчет по автомобилям</div>
                 </div>
               </a>

@@ -82,6 +82,20 @@
                   <a href="blog-item.html" class="article__link">Читать дальше</a>
                 </div>
               </div>
+              <div class="panel article__item" data-html-repeat="6">
+                <div class="panel__content">
+                  <div class="article__info">
+                    <div class="article__date">23.11.2023</div>
+                    <div class="article__time">10 минут</div>
+                    <div class="article__tags-list tags__list">
+                      <a href="#" class="button button--sm button--black button--no-shadow tags__link" data-fill="innerText; getRandomTag"></a>
+                    </div>
+                  </div>
+                  <div class="article__title" data-fill="innerText; generateLoremIpsumString; [5, 12]"></div>
+                  <div class="article__text" data-fill="innerText; generateLoremIpsumString; [15, 30]"></div>
+                  <a href="blog-item.html" class="article__link">Читать дальше</a>
+                </div>
+              </div>
             </div>
             <div class="paginator">
               <button class="paginator__first">В начало</button>

@@ -245,6 +245,9 @@ img {
   &--no-shadow {
     box-shadow: none !important;
   }
+  @each $val in $color-list {
+    &--decoration-#{$val} .panel__head::before { border-top-color: var(--color-#{$val}) }
+  }
   &__head {
     height: var(--head-height);
     position: relative;
@@ -693,6 +696,9 @@ ul.ul {
       width: 214px;
       align-self: flex-end;
     }
+  }
+  &__button {
+    align-self: flex-start;
   }
 }
 

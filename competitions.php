@@ -89,26 +89,31 @@
           <div class="swiper" data-swiper-id="competitions-auto">
             <div class="cases swiper-wrapper">
               <a href="#" class="swiper-slide cases__item panel panel--white">
-                <div class="panel__head panel__head--yellow"></div>
+                <div class="panel__head panel__head--yellow">
+                <img src="./dist/img/panel-1c.svg" alt="1c logo" class="case__image">
+                </div>
                 <div class="panel__content case">
                   <div class="case__title">АТОЛ онлайн и&nbsp;1С: готовое решение для&nbsp;интеграции</div>
-                  <img src="./dist/img/panel-1c.svg" alt="1c logo" class="case__image">
                   <div class="case__text">Подсистема предназначена для компаний, работающих в 1С и использующих онлайн-кассы АТОЛ Онлайн</div>
                 </div>
               </a>
               <a href="#" class="swiper-slide cases__item panel panel--white">
-                <div class="panel__head panel__head--red"></div>
+                <div class="panel__head panel__head--red">
+                <img src="./dist/img/panel-zeta.svg" alt="zeta logo" class="case__image">
+
+                </div>
                 <div class="panel__content case">
                   <div class="case__title">Проектное решение<br/>«Продажа автозапчастей»</div>
-                  <img src="./dist/img/panel-zeta.svg" alt="zeta logo" class="case__image">
                   <div class="case__text">Подсистема предназначена для компаний, работающих в 1С и использующих онлайн-кассы АТОЛ Онлайн</div>
                 </div>
               </a>
               <a href="#" class="swiper-slide cases__item panel panel--white">
-                <div class="panel__head panel__head--yellow"></div>
+                <div class="panel__head panel__head--yellow">
+                <img src="./dist/img/panel-1c.svg" alt="1c logo" class="case__image">
+
+                </div>
                 <div class="panel__content case">
                   <div class="case__title">Подсистема учета б/у запчастей в торговой конфигурации 1С</div>
-                  <img src="./dist/img/panel-1c.svg" alt="1c logo" class="case__image">
                   <div class="case__text">Подсистема предназначена для компаний, работающих в 1С и использующих онлайн-кассы АТОЛ Онлайн</div>
                 </div>
               </a>
@@ -163,26 +168,32 @@
           <div class="swiper" data-swiper-id="competitions-vending">
             <div class="cases swiper-wrapper">
               <a href="#" class="swiper-slide cases__item panel panel--white">
-                <div class="panel__head panel__head--blue"></div>
+                <div class="panel__head panel__head--blue">
+                <img src="./dist/img/panel-1c.svg" alt="1c logo" class="case__image">
+
+                </div>
                 <div class="panel__content case">
                   <div class="case__title">Проектное решение<br/>«Учёт в&nbsp;вендинговом бизнесе»</div>
-                  <img src="./dist/img/panel-1c.svg" alt="1c logo" class="case__image">
                   <div class="case__text">Подсистема предназначена для компаний, работающих в 1С и использующих онлайн-кассы АТОЛ Онлайн</div>
                 </div>
               </a>
               <a href="#" class="swiper-slide cases__item panel panel--white">
-                <div class="panel__head panel__head--red"></div>
+                <div class="panel__head panel__head--red">
+                <img src="./dist/img/panel-zeta.svg" alt="zeta logo" class="case__image">
+
+                </div>
                 <div class="panel__content case">
                   <div class="case__title">Проектное решение для ООО «Оптима»</div>
-                  <img src="./dist/img/panel-zeta.svg" alt="zeta logo" class="case__image">
                   <div class="case__text">Подсистема предназначена для компаний, работающих в 1С и использующих онлайн-кассы АТОЛ Онлайн</div>
                 </div>
               </a>
               <a href="#" class="swiper-slide cases__item panel panel--white">
-                <div class="panel__head panel__head--blue-dark"></div>
+                <div class="panel__head panel__head--blue-dark">
+                <img src="./dist/img/panel-1c.svg" alt="1c logo" class="case__image">
+
+                </div>
                 <div class="panel__content case">
                   <div class="case__title">Проектное решение<br/>«Учёт в&nbsp;вендинговом бизнесе»</div>
-                  <img src="./dist/img/panel-1c.svg" alt="1c logo" class="case__image">
                   <div class="case__text">Подсистема предназначена для компаний, работающих в 1С и использующих онлайн-кассы АТОЛ Онлайн</div>
                 </div>
               </a>
@@ -246,26 +257,32 @@
           <div class="swiper" data-swiper-id="competitions-time-services">
             <div class="cases swiper-wrapper">
               <a href="#" class="swiper-slide cases__item panel panel--white">
-                <div class="panel__head panel__head--yellow"></div>
+                <div class="panel__head panel__head--yellow">
+                <img src="./dist/img/panel-1c.svg" alt="1c logo" class="case__image">
+
+                </div>
                 <div class="panel__content case">
                   <div class="case__title">Автоматизация учета кадровых ресурсов на основе подхода GTD</div>
-                  <img src="./dist/img/panel-1c.svg" alt="1c logo" class="case__image">
                   <div class="case__text">Подсистема предназначена для компаний, работающих в 1С и использующих онлайн-кассы АТОЛ Онлайн</div>
                 </div>
               </a>
               <a href="#" class="swiper-slide cases__item panel panel--white">
-                <div class="panel__head panel__head--blue-dark"></div>
+                <div class="panel__head panel__head--blue-dark">
+                <img src="./dist/img/panel-zeta.svg" alt="zeta logo" class="case__image">
+
+                </div>
                 <div class="panel__content case">
                   <div class="case__title">Кейс Кеско Групп</div>
-                  <img src="./dist/img/panel-zeta.svg" alt="zeta logo" class="case__image">
                   <div class="case__text">Подсистема предназначена для компаний, работающих в 1С и использующих онлайн-кассы АТОЛ Онлайн</div>
                 </div>
               </a>
               <a href="#" class="swiper-slide cases__item panel panel--white">
-                <div class="panel__head panel__head--red"></div>
+                <div class="panel__head panel__head--red">
+                <img src="./dist/img/panel-1c.svg" alt="1c logo" class="case__image">
+
+                </div>
                 <div class="panel__content case">
                   <div class="case__title">Управлении консалтинговой компанией</div>
-                  <img src="./dist/img/panel-1c.svg" alt="1c logo" class="case__image">
                   <div class="case__text">Подсистема предназначена для компаний, работающих в 1С и использующих онлайн-кассы АТОЛ Онлайн</div>
                 </div>
               </a>

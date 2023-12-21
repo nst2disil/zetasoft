@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="./dist/css/swiper-bundle.min.css?cache=<?php echo date("Y-m-d")?>">
   <link rel="stylesheet" href="./dist/css/<?php echo $stylesName; ?>.css?cache=<?php echo date("Y-m-d")?>">
   <link rel="stylesheet" href="./dist/css/swiper.css?cache=<?php echo date("Y-m-d")?>">
+  <script defer src="./dist/js/filler.class.js?cache=<?php echo date("Y-m-d")?>"></script>
   <script defer src="./dist/js/main.js?cache=<?php echo date("Y-m-d")?>"></script>
   <script defer src="./dist/js/swiper-bundle.min.js?cache=<?php echo date("Y-m-d")?>"></script>
   <title>Автоматизация онлайн-продаж и учёта в 1С | Компания "ЗетаСофт"</title>

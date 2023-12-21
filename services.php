@@ -13,8 +13,8 @@
           <h1 class="section__title">Автоматизируем любые бизнес-процессы</h1>
           <div class="services">
             <div class="services__item">
-              <div class="panel panel--no-shadow">
-                <div class="panel__head panel__head--blue">
+              <div class="panel panel--no-shadow panel--decoration-blue">
+                <div class="panel__head">
                   <img src="./dist/img/icons/042-data-storage.svg" alt="graphic" class="panel__head-icon">
                 </div>
                 <div class="panel__content">
@@ -23,8 +23,8 @@
               </div>
             </div>
             <div class="services__item">
-              <div class="panel panel--no-shadow">
-                <div class="panel__head panel__head--blue-dark">
+              <div class="panel panel--no-shadow panel--decoration-blue-dark">
+                <div class="panel__head">
                 <img src="./dist/img/icons/039-file.svg" alt="graphic" class="panel__head-icon">
                 </div>
                 <div class="panel__content">
@@ -33,8 +33,8 @@
               </div>
             </div>
             <div class="services__item">
-              <div class="panel panel--no-shadow">
-                <div class="panel__head panel__head--red">
+              <div class="panel panel--no-shadow panel--decoration-red">
+                <div class="panel__head">
                   <img src="./dist/img/icons/017-time.svg" alt="graphic" class="panel__head-icon">
                 </div>
                 <div class="panel__content">
@@ -43,8 +43,8 @@
               </div>
             </div>
             <div class="services__item">
-              <div class="panel panel--no-shadow">
-                <div class="panel__head panel__head--yellow">
+              <div class="panel panel--no-shadow panel--decoration-yellow">
+                <div class="panel__head">
                   <img src="./dist/img/icons/003-analytics.svg" alt="graphic" class="panel__head-icon">
                 </div>
                 <div class="panel__content">
@@ -156,7 +156,7 @@
           </div>
           <div class="button-panel panel panel--yellow panel--no-shadow">
             <div class="button-panel__text">Протестируйте вашу бизнес-задачу бесплатно</div>
-            <button class="button-panel__button button  button--bg" data-modal="contact-form" data-modal-title="Заполните данные, чтобы протестировать вашу бизнес-задачу">Поставить&nbsp;задачу</button>
+            <button class="button-panel__button button button--white button--bg" data-modal="contact-form" data-modal-title="Заполните данные, чтобы протестировать вашу бизнес-задачу">Поставить&nbsp;задачу</button>
           </div>
         </div>
       </section>

@@ -1119,6 +1119,24 @@ img {
 .panel--no-shadow {
   box-shadow: none !important;
 }
+.panel--decoration-blue .panel__head::before {
+  border-top-color: var(--color-blue);
+}
+.panel--decoration-blue-dark .panel__head::before {
+  border-top-color: var(--color-blue-dark);
+}
+.panel--decoration-red .panel__head::before {
+  border-top-color: var(--color-red);
+}
+.panel--decoration-green .panel__head::before {
+  border-top-color: var(--color-green);
+}
+.panel--decoration-yellow .panel__head::before {
+  border-top-color: var(--color-yellow);
+}
+.panel--decoration-grey .panel__head::before {
+  border-top-color: var(--color-grey);
+}
 .panel__head {
   height: var(--head-height);
   position: relative;
@@ -1656,6 +1674,9 @@ ul.ul li::before {
     width: 214px;
     align-self: flex-end;
   }
+}
+.contact-big__button {
+  align-self: flex-start;
 }
 
 .section .contact-big:first-child {

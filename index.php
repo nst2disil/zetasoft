@@ -15,8 +15,8 @@
             <div class="tools__item js-tool-item">
               <button class="button  js-tool-toggler button--dot">Kanban</button>
               <div class="tools__panel js-tool-panel">
-                <div class="panel panel--no-shadow panel--sm">
-                  <div class="panel__head panel__head--black">
+                <div class="panel panel--no-shadow panel--sm panel--decoration-black">
+                  <div class="panel__head">
                     <button class="panel__close button button--no-decoration js-tool-panel-close"><span class="icon icon--cross"></span></button>
                   </div>
                   <div class="panel__content">Это система постановки задач и организации рабочих процессов для эффективного достижения поставленных целей, которая предполагает максимальную прозрачность продвижения работ</div>
@@ -26,8 +26,8 @@
             <div class="tools__item js-tool-item">
               <button class="button  js-tool-toggler button--dot button--blue">Gherkin</button>
               <div class="tools__panel js-tool-panel">
-                <div class="panel panel--no-shadow panel--sm">
-                  <div class="panel__head panel__head--black">
+                <div class="panel panel--no-shadow panel--sm panel--decoration-black">
+                  <div class="panel__head">
                     <button class="panel__close button button--no-decoration js-tool-panel-close"><span class="icon icon--cross"></span></button>
                   </div>
                   <div class="panel__content">Итеративный подход к управлению проектами и разработке программного обеспечения, который помогает командам быстрее и с меньшими проблемами поставлять ценность клиентам</div>
@@ -38,8 +38,8 @@
             <div class="tools__item js-tool-item">
               <button class="button  js-tool-toggler button--dot button--blue-dark">CI/CD</button>
               <div class="tools__panel js-tool-panel">
-                <div class="panel panel--no-shadow panel--sm">
-                  <div class="panel__head panel__head--black">
+                <div class="panel panel--no-shadow panel--sm panel--decoration-black">
+                  <div class="panel__head">
                     <button class="panel__close button button--no-decoration js-tool-panel-close"><span class="icon icon--cross"></span></button>
                   </div>
                   <div class="panel__content">Набор принципов и практик, которые позволяют разработчикам чаще и надежнее развертывать изменения программного обеспечения</div>
@@ -49,8 +49,8 @@
             <div class="tools__item js-tool-item">
               <button class="button  js-tool-toggler button--dot button--red">Git</button>
               <div class="tools__panel js-tool-panel">
-                <div class="panel panel--no-shadow panel--sm">
-                  <div class="panel__head panel__head--black">
+                <div class="panel panel--no-shadow panel--sm panel--decoration-black">
+                  <div class="panel__head">
                     <button class="panel__close button button--no-decoration js-tool-panel-close"><span class="icon icon--cross"></span></button>
                   </div>
                   <div class="panel__content">Развитая система контроля версий с активной поддержкой и открытым исходным кодом, которую используют тысячи разработчиков во всем мире</div>
@@ -60,8 +60,8 @@
             <div class="tools__item js-tool-item">
               <button class="button  js-tool-toggler button--dot button--yellow">База знаний</button>
               <div class="tools__panel js-tool-panel">
-                <div class="panel panel--no-shadow panel--sm">
-                  <div class="panel__head panel__head--black">
+                <div class="panel panel--no-shadow panel--sm panel--decoration-black">
+                  <div class="panel__head">
                     <button class="panel__close button button--no-decoration js-tool-panel-close"><span class="icon icon--cross"></span></button>
                   </div>
                   <div class="panel__content">Онлайн-библиотека, в которой хранится информация о продукте или проекте</div>
@@ -71,8 +71,8 @@
             <div class="tools__item js-tool-item">
               <button class="button  js-tool-toggler button--dot">Контроль качества кода</button>
               <div class="tools__panel js-tool-panel">
-                <div class="panel panel--no-shadow panel--sm">
-                  <div class="panel__head panel__head--black">
+                <div class="panel panel--no-shadow panel--sm panel--decoration-black">
+                  <div class="panel__head">
                     <button class="panel__close button button--no-decoration js-tool-panel-close"><span class="icon icon--cross"></span></button>
                   </div>
                   <div class="panel__content">Минимизация ошибок перед выпуском программного обеспечения, проверка на наличие недостатков и дефектов с целью минимизации ошибок перед выпуском программного обеспечения</div>
@@ -126,7 +126,7 @@
 
           <div class="button-panel panel panel--yellow panel--no-shadow">
             <div class="button-panel__text">Протестируйте вашу бизнес-задачу бесплатно</div>
-            <button class="button-panel__button button  button--bg" data-modal="contact-form" data-modal-title="Заполните данные, чтобы протестировать вашу бизнес-задачу">Поставить&nbsp;задачу</button>
+            <button class="button-panel__button button button--white button--bg" data-modal="contact-form" data-modal-title="Заполните данные, чтобы протестировать вашу бизнес-задачу">Поставить&nbsp;задачу</button>
           </div>
           
         </div>
@@ -196,78 +196,63 @@
           </div>
           <div class="swiper" data-swiper-id="cases">
             <div class="cases js-cases swiper-wrapper">
-              <a href="#" class="swiper-slide cases__item panel" data-case-category="blue">
-                <div class="panel__head panel__head--blue"></div>
+              <a href="#" class="swiper-slide cases__item panel panel--decoration-blue" data-case-category="blue">
+                <div class="panel__head">
+                  <img src="./dist/img/panel-1c.svg" alt="1c logo" class="case__image">
+                </div>
                 <div class="panel__content case">
                   <div class="case__title">АТОЛ онлайн и&nbsp;1С: готовое решение для&nbsp;интеграции</div>
-                  <img src="./dist/img/panel-1c.svg" alt="1c logo" class="case__image">
                   <div class="case__text">Подсистема предназначена для компаний, работающих в 1С и использующих онлайн-кассы АТОЛ Онлайн</div>
                 </div>
               </a>
-              <a href="#" class="swiper-slide cases__item panel" data-case-category="red">
-                <div class="panel__head panel__head--red"></div>
+              <a href="#" class="swiper-slide cases__item panel panel--decoration-red" data-case-category="red">
+                <div class="panel__head">
+                <img src="./dist/img/panel-zeta.svg" alt="zeta logo" class="case__image">
+                </div>
                 <div class="panel__content case">
                   <div class="case__title">Проектное решение<br/>«Продажа автозапчастей»</div>
-                  <img src="./dist/img/panel-zeta.svg" alt="zeta logo" class="case__image">
                   <div class="case__text">Подсистема предназначена для компаний, работающих в 1С и использующих онлайн-кассы АТОЛ Онлайн</div>
                 </div>
               </a>
-              <a href="#" class="swiper-slide cases__item panel" data-case-category="red">
-                <div class="panel__head panel__head--red"></div>
+              <a href="#" class="swiper-slide cases__item panel panel--decoration-red" data-case-category="red">
+                <div class="panel__head">
+                <img src="./dist/img/panel-1c.svg" alt="1c logo" class="case__image">
+                </div>
                 <div class="panel__content case">
                   <div class="case__title">Подсистема учета б/у запчастей в торговой конфигурации 1С</div>
-                  <img src="./dist/img/panel-1c.svg" alt="1c logo" class="case__image">
                   <div class="case__text">Подсистема предназначена для компаний, работающих в 1С и использующих онлайн-кассы АТОЛ Онлайн</div>
                 </div>
               </a>
-              <a href="#" class="swiper-slide cases__item panel" data-case-category="yellow">
-                <div class="panel__head panel__head--yellow"></div>
+              <a href="#" class="swiper-slide cases__item panel panel--decoration-yellow" data-case-category="yellow">
+                <div class="panel__head">
+                <img src="./dist/img/panel-zeta.svg" alt="zeta logo" class="case__image">
+
+                </div>
                 <div class="panel__content case">
                   <div class="case__title">Проектное решение<br/>«Управление торговым комплексом»</div>
-                  <img src="./dist/img/panel-zeta.svg" alt="zeta logo" class="case__image">
                   <div class="case__text">Подсистема предназначена для компаний, работающих в 1С и использующих онлайн-кассы АТОЛ Онлайн</div>
                 </div>
               </a>
-              <a href="#" class="swiper-slide cases__item panel" data-case-category="green">
-                <div class="panel__head panel__head--green"></div>
+              <a href="#" class="swiper-slide cases__item panel panel--decoration-green" data-case-category="green">
+                <div class="panel__head">
+                <img src="./dist/img/panel-zeta.svg" alt="zeta logo" class="case__image">
+
+                </div>
                 <div class="panel__content case">
                   <div class="case__title">Проектное решение<br/>«Учёт в&nbsp;вендинговом бизнесе»</div>
-                  <img src="./dist/img/panel-zeta.svg" alt="zeta logo" class="case__image">
                   <div class="case__text">Подсистема предназначена для компаний, работающих в 1С и использующих онлайн-кассы АТОЛ Онлайн</div>
                 </div>
               </a>
-              <a href="#" class="swiper-slide cases__item panel" data-case-category="blue">
-                <div class="panel__head panel__head--blue"></div>
+              <a href="#" class="swiper-slide cases__item panel panel--decoration-blue" data-case-category="blue">
+                <div class="panel__head">
+                <img src="./dist/img/panel-zeta.svg" alt="zeta logo" class="case__image">
+
+                </div>
                 <div class="panel__content case">
                   <div class="case__title">Проектное решение<br/>«Управление торговым комплексом»</div>
-                  <img src="./dist/img/panel-zeta.svg" alt="zeta logo" class="case__image">
                   <div class="case__text">Подсистема предназначена для компаний, работающих в 1С и использующих онлайн-кассы АТОЛ Онлайн</div>
                 </div>
               </a>
-              <!--<a href="#" class="swiper-slide cases__item panel" data-case-category="yellow">
-                <div class="panel__head panel__head--yellow"></div>
-                <div class="panel__content case">
-                  <div class="case__title">Подсистема учета б/у запчастей в торговой конфигурации 1С</div>
-                  <img src="./dist/img/panel-1c.svg" alt="zeta logo" class="case__image">
-                  <div class="case__text">Дополнительный модуль, с помощью которого можно делать разбор автомобиля, разбор детали на более мелкие, продажу детали, списание автомобиля, отчет по автомобилям</div>
-                </div>
-              </a>
-              <a href="#" class="swiper-slide cases__item panel" data-case-category="blue-dark">
-                <div class="panel__head panel__head--blue"></div>
-                <div class="panel__content case">
-                  <div class="case__title">Учет времени</div>
-                  <img src="./dist/img/panel-zeta.svg" alt="zeta logo" class="case__image">
-                  <div class="case__text">Тут нигде этого не нашел, поэтому текст написал сам. Фиолетового цвета у нас в системе нет, поэтому задал темно-синий aliquip ex ea commodo consequat</div>
-                </div>
-              </a>
-              <a href="#" class="swiper-slide cases__item panel" data-case-category="green">
-                <div class="panel__head panel__head--green"></div>
-                <div class="panel__content case">
-                  <div class="case__title">1C 1C Lorem ipsum</div>
-                  <img src="./dist/img/panel-zeta.svg" alt="zeta logo" class="case__image">
-                  <div class="case__text">dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</div>
-                </div>
-              </a>-->
             </div>
             <div class="swiper-pagination"></div>
           </div>
