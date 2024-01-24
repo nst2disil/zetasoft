@@ -80,7 +80,7 @@ img {
 .panel--black .button {
   box-shadow: 4px 4px 0px 0px #fff;
   transition: box-shadow var(--animation-duration), background-color var(--animation-duration);
-  &:focus:not(.button--active) {
+  &:focus:not(.button--active):not(.button--no-decoration) {
     box-shadow: 2px 2px 0px 0px #fff;
     outline: none;
   }
@@ -103,7 +103,7 @@ img {
 }
 
 .hide-bg {
-  @include media-between($screen-md, $screen-bg) {
+  @include media-down($header-bg) {
     display: none;
   }
 }
@@ -115,7 +115,7 @@ img {
 }
 
 .show-md {
-  @include media-up($screen-bg) {
+  @include media-up($header-bg) {
     display: none;
   }
 }
@@ -238,12 +238,18 @@ img {
   line-height: normal;
   position: relative;
   --panel-content-padding: 32px;
-  transition: box-shadow var(--animation-duration) !important;
+  transition: box-shadow var(--animation-duration), opacity var(--animation-duration) !important;
   @include media-down($screen-lg) { --panel-content-padding: 24px; }
   @include media-down($screen-bg) { --panel-content-padding: 20px; }
   @include media-down($screen-md) { font-size: 16px; }
   &--no-shadow {
     box-shadow: none !important;
+  }
+  &--clickable {
+    cursor: pointer;
+    &:hover {
+      box-shadow: none;
+    }
   }
   @each $val in $color-list {
     &--decoration-#{$val} .panel__head::before { border-top-color: var(--color-#{$val}) }
@@ -337,7 +343,6 @@ img {
   &__link {
     margin-top: auto;
     text-decoration: underline;
-    text-transform: uppercase;
     @include media-down($screen-lg) { font-size: 16px; }
   }
   &__image {

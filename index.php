@@ -9,7 +9,7 @@
     <div class="container__header"><?php include './partials/_header.php'; ?></div>
     <div class="container__content">
       <section class="section section--main">
-        <div class="wrapper">
+        <div class="wrapper wrapper--main-bg-image">
           <h1 class="section__title">Автоматизируем бизнес-процессы с&nbsp;помощью собственных IT-решений и&nbsp;продуктов 1С</h1>
           <div class="tools">
             <div class="tools__item js-tool-item">
@@ -168,7 +168,7 @@
               <div class="panel__content">
                 <div class="panel__title">Наши решения</div>
                 <div class="panel__text">Вы&nbsp;можете выбрать интересующий вас&nbsp;продукт, направление или&nbsp;посмотреть схему взаимодействия наших решений</div>
-                <div class="panel__link">выбрать решение</div>
+                <div class="panel__link">Выбрать решение</div>
                 <img src="./dist/img/panel-zeta.svg" alt="zeta logo" class="panel__image panel__image--logo">
               </div>
             </a>
@@ -176,7 +176,7 @@
               <div class="panel__content">
                 <div class="panel__title">Продукты 1С</div>
                 <div class="panel__text">C&nbsp;2006&nbsp;года мы&nbsp;оказываем комплексные услуги по&nbsp;постановке учёта, автоматизации предприятий и&nbsp;сопровождению наших клиентов на&nbsp;базе конфигураций 1С</div>
-                <div class="panel__link">выбрать продукт 1С</div>
+                <div class="panel__link">Выбрать продукт 1С</div>
                 <img src="./dist/img/panel-1c.svg" alt="1c logo" class="panel__image panel__image--logo">
               </div>
             </a>

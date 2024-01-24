@@ -17,6 +17,12 @@
       margin-right: 0;
     }
   }
+  &__logo {
+    transition-duration: .2s;
+    &:hover {
+      opacity: .8;
+    }
+  }
   &__link {
     &:hover,
     &--active {
@@ -126,7 +132,7 @@
   color: var(--color-black);
   background: #fff;
   overflow: auto;
-  @include media-up($screen-bg) {
+  @include media-up($header-bg) {
     display: none;
   }
   &.open {

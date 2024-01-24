@@ -4,16 +4,16 @@
   <?php $stylesName = 'services'; ?>
   <?php include './partials/_head.php'; ?>
 </head>
-<body>
+<body class="js-body">
   <div class="container">
     <div class="container__header"><?php include './partials/_header.php'; ?></div>
     <div class="container__content">
       <section class="section section--main">
-        <div class="wrapper">
+        <div class="wrapper wrapper--services-bg">
           <h1 class="section__title">Автоматизируем любые бизнес-процессы</h1>
-          <div class="services">
-            <div class="services__item">
-              <div class="panel panel--no-shadow panel--decoration-blue">
+          <div class="services js-services-with-hint">
+            <div class="services__item js-service-hint-wrap">
+              <div class="panel panel--clickable panel--decoration-blue js-service-hint-show">
                 <div class="panel__head">
                   <img src="./dist/img/icons/042-data-storage.svg" alt="graphic" class="panel__head-icon">
                 </div>
@@ -21,9 +21,18 @@
                   <div class="panel__text">сбор и обработку данных</div>
                 </div>
               </div>
+              <div class="panel panel--decoration-blue services__item--detail js-service-hint">
+                <div class="panel__head">
+                  <img src="./dist/img/icons/042-data-storage.svg" alt="graphic" class="panel__head-icon">
+                  <button class="panel__close button button--no-decoration js-service-hint-close"><span class="icon icon--cross icon--black"></span></button>
+                </div>
+                <div class="panel__content">
+                  <div class="panel__text">пример любого другого длинного текста, не важно, что это, как и где, в конечном счете мы просто космическая случайность на голубой песчинке</div>
+                </div>
+              </div>
             </div>
-            <div class="services__item">
-              <div class="panel panel--no-shadow panel--decoration-blue-dark">
+            <div class="services__item js-service-hint-wrap">
+              <div class="panel panel--clickable panel--decoration-blue-dark js-service-hint-show">
                 <div class="panel__head">
                 <img src="./dist/img/icons/039-file.svg" alt="graphic" class="panel__head-icon">
                 </div>
@@ -31,9 +40,18 @@
                   <div class="panel__text">формирование отчетов</div>
                 </div>
               </div>
+              <div class="panel panel--decoration-blue-dark services__item--detail js-service-hint">
+                <div class="panel__head">
+                <img src="./dist/img/icons/039-file.svg" alt="graphic" class="panel__head-icon">
+                <button class="panel__close button button--no-decoration js-service-hint-close"><span class="icon icon--cross icon--black"></span></button>
+                </div>
+                <div class="panel__content">
+                  <div class="panel__text">пример любого другого длинного текста, не важно, что это, как и где, в конечном счете мы просто космическая случайность на голубой песчинке</div>
+                </div>
+              </div>
             </div>
-            <div class="services__item">
-              <div class="panel panel--no-shadow panel--decoration-red">
+            <div class="services__item js-service-hint-wrap">
+              <div class="panel panel--clickable panel--decoration-red js-service-hint-show">
                 <div class="panel__head">
                   <img src="./dist/img/icons/017-time.svg" alt="graphic" class="panel__head-icon">
                 </div>
@@ -41,9 +59,18 @@
                   <div class="panel__text">учет рабочего времени</div>
                 </div>
               </div>
+              <div class="panel panel--decoration-red services__item--detail js-service-hint">
+                <div class="panel__head">
+                  <img src="./dist/img/icons/017-time.svg" alt="graphic" class="panel__head-icon">
+                  <button class="panel__close button button--no-decoration js-service-hint-close"><span class="icon icon--cross icon--black"></span></button>
+                </div>
+                <div class="panel__content">
+                  <div class="panel__text">пример любого другого длинного текста, не важно, что это, как и где, в конечном счете мы просто космическая случайность на голубой песчинке</div>
+                </div>
+              </div>
             </div>
-            <div class="services__item">
-              <div class="panel panel--no-shadow panel--decoration-yellow">
+            <div class="services__item js-service-hint-wrap">
+              <div class="panel panel--clickable panel--decoration-yellow js-service-hint-show">
                 <div class="panel__head">
                   <img src="./dist/img/icons/003-analytics.svg" alt="graphic" class="panel__head-icon">
                 </div>
@@ -51,9 +78,19 @@
                   <div class="panel__text">прогнозы и аналитику</div>
                 </div>
               </div>
+              <div class="panel panel--decoration-yellow services__item--detail js-service-hint">
+                <div class="panel__head">
+                  <img src="./dist/img/icons/003-analytics.svg" alt="graphic" class="panel__head-icon">
+                  <button class="panel__close button button--no-decoration js-service-hint-close"><span class="icon icon--cross icon--black"></span></button>
+                </div>
+                <div class="panel__content">
+                  <div class="panel__text">прогноз основывается на заданных показателях, оптимизирует ресурсы, составляет сценарии «что-если», формируется одним кликом</div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+      <div class="fixed-panel-cover"></div>
       </section>
       <section class="section section--black section--two-cols">
         <div class="wrapper">

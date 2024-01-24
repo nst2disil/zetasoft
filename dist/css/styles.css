@@ -89,11 +89,24 @@ textarea {
   -webkit-mask-image: url("../img/icons/cross.svg");
           mask-image: url("../img/icons/cross.svg");
 }
+.icon:hover {
+  border: unset;
+}
 
 a:hover > .icon,
 .button--link:hover > .icon,
 .icon:hover {
   background-color: var(--color-yellow);
+}
+
+.icon.icon--black {
+  background-color: var(--color-black, #000);
+}
+
+a:hover > .icon.icon--black,
+.button--link:hover > .icon.icon--black,
+.icon.icon--black:hover {
+  background-color: var(--color-white, #fff);
 }
 
 .header {
@@ -117,6 +130,12 @@ a:hover > .icon,
   .header__logo-container {
     margin-right: 0;
   }
+}
+.header__logo {
+  transition-duration: 0.2s;
+}
+.header__logo:hover {
+  opacity: 0.8;
 }
 .header__link:hover, .header__link--active {
   color: var(--color-yellow);
@@ -222,7 +241,7 @@ a:hover > .icon,
   background: #fff;
   overflow: auto;
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1240px) {
   .popup-menu {
     display: none;
   }
@@ -358,8 +377,8 @@ a:hover > .icon,
 
 .credits {
   border-top: 1px solid #fff;
+  color: var(--color-white, #fff);
   background-color: var(--color-black);
-  color: var(--color-blue-dark);
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -378,6 +397,9 @@ a:hover > .icon,
     gap: 8px;
     padding: 32px 20px;
   }
+}
+.credits__link {
+  color: var(--color-blue-dark);
 }
 .credits__link:first-child {
   flex: 1;
@@ -412,7 +434,7 @@ a:hover > .icon,
   box-shadow: 4px 4px 0px 0px #231F20;
   transition: box-shadow var(--animation-duration), background-color var(--animation-duration), color var(--animation-duration);
 }
-.button:focus:not(.button--active) {
+.button:focus:not(.button--active):not(.button--no-decoration) {
   box-shadow: 2px 2px 0px 0px #231F20;
   outline: none;
 }
@@ -463,6 +485,9 @@ a:hover > .icon,
 .button--grey {
   background: var(--color-grey);
 }
+.button--black {
+  background: var(--color-black);
+}
 .button--active-blue.button--active, .button--active-blue:hover {
   background: var(--color-blue);
 }
@@ -480,6 +505,9 @@ a:hover > .icon,
 }
 .button--active-grey.button--active, .button--active-grey:hover {
   background: var(--color-grey);
+}
+.button--active-black.button--active, .button--active-black:hover {
+  background: var(--color-black);
 }
 .button--white {
   background: #fff;
@@ -909,7 +937,7 @@ img {
   box-shadow: 4px 4px 0px 0px #fff;
   transition: box-shadow var(--animation-duration), background-color var(--animation-duration);
 }
-.panel--black .button:focus:not(.button--active) {
+.panel--black .button:focus:not(.button--active):not(.button--no-decoration) {
   box-shadow: 2px 2px 0px 0px #fff;
   outline: none;
 }
@@ -929,7 +957,7 @@ img {
   }
 }
 
-@media screen and (min-width: 880px) and (max-width: 1024px) {
+@media screen and (max-width: 1239px) {
   .hide-bg {
     display: none;
   }
@@ -941,7 +969,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1240px) {
   .show-md {
     display: none;
   }
@@ -1014,6 +1042,9 @@ img {
 }
 .section--grey {
   background-color: var(--color-grey);
+}
+.section--black {
+  background-color: var(--color-black);
 }
 .section--black {
   background-color: var(--color-black);
@@ -1099,7 +1130,7 @@ img {
   line-height: normal;
   position: relative;
   --panel-content-padding: 32px;
-  transition: box-shadow var(--animation-duration) !important;
+  transition: box-shadow var(--animation-duration), opacity var(--animation-duration) !important;
 }
 @media screen and (max-width: 1439px) {
   .panel {
@@ -1119,6 +1150,12 @@ img {
 .panel--no-shadow {
   box-shadow: none !important;
 }
+.panel--clickable {
+  cursor: pointer;
+}
+.panel--clickable:hover {
+  box-shadow: none;
+}
 .panel--decoration-blue .panel__head::before {
   border-top-color: var(--color-blue);
 }
@@ -1136,6 +1173,9 @@ img {
 }
 .panel--decoration-grey .panel__head::before {
   border-top-color: var(--color-grey);
+}
+.panel--decoration-black .panel__head::before {
+  border-top-color: var(--color-black);
 }
 .panel__head {
   height: var(--head-height);
@@ -1188,6 +1228,9 @@ img {
 }
 .panel__head--grey::before {
   border-top-color: var(--color-grey);
+}
+.panel__head--black::before {
+  border-top-color: var(--color-black);
 }
 .panel__head--black::before {
   border-top-color: var(--color-black);
@@ -1253,7 +1296,6 @@ img {
 .panel__link {
   margin-top: auto;
   text-decoration: underline;
-  text-transform: uppercase;
 }
 @media screen and (max-width: 1439px) {
   .panel__link {

@@ -17,7 +17,7 @@
   border: 1px solid var(--main-black-231-f-20, #231F20);
   box-shadow: 4px 4px 0px 0px #231F20;
   transition: box-shadow var(--animation-duration), background-color var(--animation-duration), color var(--animation-duration);
-  &:focus:not(.button--active) {
+  &:focus:not(.button--active):not(.button--no-decoration) {
     box-shadow: 2px 2px 0px 0px #231F20;
     outline: none;
   }

@@ -72,6 +72,7 @@ function ininPopups() {
 
 function filterCaseByCategory(categorySlug) {
   const cases = document.querySelector('.js-cases');
+  if (!cases) return;
   const buttons = document.querySelectorAll('.js-case-category');
   const currentFilterButton = document.querySelector(`[data-case-category="${categorySlug}"]`);
   buttons.forEach((button) => {
@@ -127,6 +128,7 @@ function initDashboardToggleds() {
 
 function initCustomSelect(customSelect) {
   const selectBox = customSelect.querySelector('.js-custom-select__box');
+  if (!selectBox) return;
   const selectedOption = customSelect.querySelector('.js-custom-select__selected-option');
   const optionsContainer = customSelect.querySelector('.js-custom-select__options-container');
 
@@ -182,6 +184,34 @@ function initSwipers() {
   document.querySelectorAll('[data-swiper-id]').forEach(swiperItem => initSwiper(swiperItem.dataset.swiperId));
 }
 
+
+function initServicesHints() {
+  const $servicesWithHintsWraps = document.querySelectorAll('.js-service-hint-wrap');
+  const $body = document.querySelector('.js-body');
+  const $hints = document.querySelectorAll('.js-service-hint');
+  if (!$servicesWithHintsWraps) return;
+  $servicesWithHintsWraps.forEach(($hintWrap) => {
+    const $hint = $hintWrap.querySelector('.js-service-hint');
+    const $hintClose = $hintWrap.querySelector('.js-service-hint-close');
+    const $hintShow = $hintWrap.querySelector('.js-service-hint-show');
+
+    $hintShow.addEventListener('click', function() {
+      $hints.forEach(($hint) => {
+        $hint.classList.remove('services__item--detail--show');
+      });
+      $hint.classList.add('services__item--detail--show');
+      $body.classList.add('shadowed');
+    });
+    $hintClose.addEventListener('click', function() {
+      $body.classList.remove('shadowed');
+      $hints.forEach(($hint) => {
+        $hint.classList.remove('services__item--detail--show');
+      });
+    });
+  }
+  )
+}
+
 const SWIPERS = {
   'case-screenshots': {
     config: {
@@ -197,6 +227,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initCases();
   initDashboardToggleds();
   initCustomSelects();
+  initServicesHints();
 });
 
 window.addEventListener('resize', () => {

@@ -15,10 +15,23 @@
   &--cross {
     mask-image: url('../img/icons/cross.svg');
   }
+  &:hover {
+    border: unset;
+  }
 }
 
 a:hover > .icon,
 .button--link:hover > .icon,
 .icon:hover {
   background-color: var(--color-yellow);
+}
+
+.icon.icon--black {
+  background-color: var(--color-black, #000);;
+}
+
+a:hover > .icon.icon--black,
+.button--link:hover > .icon.icon--black,
+.icon.icon--black:hover {
+  background-color: var(--color-white, #fff);
 }

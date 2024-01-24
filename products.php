@@ -36,7 +36,7 @@
                   </div>
                   <div class="products__text">Уникальный программный комплекс, предназначенный для управления интернет-магазином непосредственно из среды «1С: Предприятие»</div>
                   <div class="products__bottom">
-                    <div class="panel__link">подробнее</div>
+                    <div class="panel__link">Подробнее</div>
                     <img src="./dist/img/panel-zeta.svg" alt="" class="products__logo">
                   </div>
                 </div>
@@ -49,7 +49,7 @@
                   </div>
                   <div class="products__text">Удобный интерфейс для подбора товаров и создания заказа, используя собственные остатки, прайс-листы и веб-сервисы поставщиков</div>
                   <div class="products__bottom">
-                    <div class="panel__link">подробнее</div>
+                    <div class="panel__link">Подробнее</div>
                     <img src="./dist/img/panel-zeta.svg" alt="" class="products__logo">
                   </div>
                 </div>
@@ -62,7 +62,7 @@
                   </div>
                   <div class="products__text">Загружайте прайс-листы поставщиков и пользуйтесь ими, как своими собственными товарами.</div>
                   <div class="products__bottom">
-                    <div class="panel__link">подробнее</div>
+                    <div class="panel__link">Подробнее</div>
                     <img src="./dist/img/panel-zeta.svg" alt="" class="products__logo">
                   </div>
                 </div>
@@ -75,7 +75,7 @@
                   </div>
                   <div class="products__text">Подключение множества поставщиков через один общий шлюз по веб-сервису. Простой и понятный интерфейс: очистка недостоверной информации, «эталонные» бренды</div>
                   <div class="products__bottom">
-                    <div class="panel__link">подробнее</div>
+                    <div class="panel__link">Подробнее</div>
                     <img src="./dist/img/panel-zeta.svg" alt="" class="products__logo">
                   </div>
                 </div>
@@ -88,7 +88,7 @@
                   </div>
                   <div class="products__text">Комплексный программный продукт для автоматизации работы вендинговых компаний</div>
                   <div class="products__bottom">
-                    <div class="panel__link">подробнее</div>
+                    <div class="panel__link">Подробнее</div>
                     <img src="./dist/img/panel-zeta.svg" alt="" class="products__logo">
                   </div>
                 </div>
@@ -101,7 +101,7 @@
                   </div>
                   <div class="products__text">Продукт для&nbsp;повременного учёта работы ваших сотрудников. Для&nbsp;компаний, оказывающих услуги консалтинга, юридические, </div>
                   <div class="products__bottom">
-                    <div class="panel__link">подробнее</div>
+                    <div class="panel__link">Подробнее</div>
                     <img src="./dist/img/panel-zeta.svg" alt="" class="products__logo">
                   </div>
                 </div>
@@ -114,7 +114,7 @@
                   </div>
                   <div class="products__text">Уникальный программный комплекс, предназначенный для управления интернет-магазином непосредственно из среды «1С: Предприятие»</div>
                   <div class="products__bottom">
-                    <div class="panel__link">подробнее</div>
+                    <div class="panel__link">Подробнее</div>
                     <img src="./dist/img/panel-zeta.svg" alt="" class="products__logo">
                   </div>
                 </div>
@@ -139,7 +139,7 @@
                   </div>
                   <div class="products__text">Продукт для&nbsp;повременного учёта работы ваших сотрудников. Для&nbsp;компаний, оказывающих услуги консалтинга, юридические, бухгалтерские и&nbsp;другие услуги, где&nbsp;принята почасовая оплата.</div>
                   <div class="products__bottom">
-                    <div class="panel__link">подробнее</div>
+                    <div class="panel__link">Подробнее</div>
                     <img src="./dist/img/panel-zeta.svg" alt="" class="products__logo">
                   </div>
                 </div>
@@ -152,7 +152,7 @@
                   </div>
                   <div class="products__text">Удобный интерфейс для подбора товаров и создания заказа, используя собственные остатки, прайс-листы и веб-сервисы поставщиков</div>
                   <div class="products__bottom">
-                    <div class="panel__link">подробнее</div>
+                    <div class="panel__link">Подробнее</div>
                     <img src="./dist/img/panel-zeta.svg" alt="" class="products__logo">
                   </div>
                 </div>
@@ -165,7 +165,7 @@
                   </div>
                   <div class="products__text">Загружайте прайс-листы поставщиков и пользуйтесь ими, как своими собственными товарами.</div>
                   <div class="products__bottom">
-                    <div class="panel__link">подробнее</div>
+                    <div class="panel__link">Подробнее</div>
                     <img src="./dist/img/panel-zeta.svg" alt="" class="products__logo">
                   </div>
                 </div>
@@ -178,7 +178,7 @@
               <img src="./dist/img/panel-1c.svg" alt="1c logo" class="button-panel__image">
               Продукты 1С
             </div>
-            <a href="./products1c.html" class="button-panel__button button button--white button--bg">выбрать продукт</a>
+            <a href="./products1c.html" class="button-panel__button button button--white button--bg">Выбрать продукт</a>
           </div>
         </div>
       </section>

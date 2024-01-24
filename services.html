@@ -8,15 +8,15 @@
   <meta name="description" content="Продукты компаний ЗетаСофт и 1С - современные решения для автоматизации бизнеса и бизнес-процессов." />
   <meta name="keywords" />
   <meta name="Content-Type" content="text/html; charset=utf-8" />
-  <link rel="stylesheet" href="./dist/css/styles.css?cache=2023-12-21">
-  <link rel="stylesheet" href="./dist/css/swiper-bundle.min.css?cache=2023-12-21">
-  <link rel="stylesheet" href="./dist/css/services.css?cache=2023-12-21">
-  <link rel="stylesheet" href="./dist/css/swiper.css?cache=2023-12-21">
-  <script defer src="./dist/js/filler.class.js?cache=2023-12-21"></script>
-  <script defer src="./dist/js/main.js?cache=2023-12-21"></script>
-  <script defer src="./dist/js/swiper-bundle.min.js?cache=2023-12-21"></script>
+  <link rel="stylesheet" href="./dist/css/styles.css?cache=2024-01-24">
+  <link rel="stylesheet" href="./dist/css/swiper-bundle.min.css?cache=2024-01-24">
+  <link rel="stylesheet" href="./dist/css/services.css?cache=2024-01-24">
+  <link rel="stylesheet" href="./dist/css/swiper.css?cache=2024-01-24">
+  <script defer src="./dist/js/filler.class.js?cache=2024-01-24"></script>
+  <script defer src="./dist/js/main.js?cache=2024-01-24"></script>
+  <script defer src="./dist/js/swiper-bundle.min.js?cache=2024-01-24"></script>
   <title>Автоматизация онлайн-продаж и учёта в 1С | Компания "ЗетаСофт"</title></head>
-<body>
+<body class="js-body">
   <div class="container">
     <div class="container__header"><header class="header">
   <div class="wrapper">
@@ -30,7 +30,8 @@
         <li class="menu__item hide-bg"><a href="./competitions.html" class="header__link">Компетенции</a></li>
         <li class="menu__item"><a href="./cases.html" class="header__link">Кейсы</a></li>
         <li class="menu__item hide-bg"><a href="./blog.html" class="header__link">Блог</a></li>
-        <li class="menu__item"><a href="./about.html" class="header__link">О&nbsp;компании</a></li>
+        <li class="menu__item hide-bg"><a href="./vacancies.html" class="header__link">Вакансии</a></li>
+        <li class="menu__item"><a href="./about.html" class="header__link">Контакты</a></li> 
       </ul>
     </nav>
     <a href="tel:+7812490-67-89" class="header__phone header__link">
@@ -53,7 +54,8 @@
         <a href="./competitions.html" class="links__item">Компетенции</a>
         <a href="./cases.html" class="links__item">Кейсы</a>
         <a href="./blog.html" class="links__item">Блог</a>
-        <a href="./about.html" class="links__item">О компании</a>
+        <a href="./vacancies.html" class="links__item">Вакансии</a>
+        <a href="./about.html" class="links__item">Контакты</a>
       </ul>
       <ul class="links__col">
         <a href="#" class="links__item">Продукты фирмы ЗетаСофт</a>
@@ -73,11 +75,11 @@
 </div>
     <div class="container__content">
       <section class="section section--main">
-        <div class="wrapper">
+        <div class="wrapper wrapper--services-bg">
           <h1 class="section__title">Автоматизируем любые бизнес-процессы</h1>
-          <div class="services">
-            <div class="services__item">
-              <div class="panel panel--no-shadow panel--decoration-blue">
+          <div class="services js-services-with-hint">
+            <div class="services__item js-service-hint-wrap">
+              <div class="panel panel--clickable panel--decoration-blue js-service-hint-show">
                 <div class="panel__head">
                   <img src="./dist/img/icons/042-data-storage.svg" alt="graphic" class="panel__head-icon">
                 </div>
@@ -85,9 +87,18 @@
                   <div class="panel__text">сбор и обработку данных</div>
                 </div>
               </div>
+              <div class="panel panel--decoration-blue services__item--detail js-service-hint">
+                <div class="panel__head">
+                  <img src="./dist/img/icons/042-data-storage.svg" alt="graphic" class="panel__head-icon">
+                  <button class="panel__close button button--no-decoration js-service-hint-close"><span class="icon icon--cross icon--black"></span></button>
+                </div>
+                <div class="panel__content">
+                  <div class="panel__text">пример любого другого длинного текста, не важно, что это, как и где, в конечном счете мы просто космическая случайность на голубой песчинке</div>
+                </div>
+              </div>
             </div>
-            <div class="services__item">
-              <div class="panel panel--no-shadow panel--decoration-blue-dark">
+            <div class="services__item js-service-hint-wrap">
+              <div class="panel panel--clickable panel--decoration-blue-dark js-service-hint-show">
                 <div class="panel__head">
                 <img src="./dist/img/icons/039-file.svg" alt="graphic" class="panel__head-icon">
                 </div>
@@ -95,9 +106,18 @@
                   <div class="panel__text">формирование отчетов</div>
                 </div>
               </div>
+              <div class="panel panel--decoration-blue-dark services__item--detail js-service-hint">
+                <div class="panel__head">
+                <img src="./dist/img/icons/039-file.svg" alt="graphic" class="panel__head-icon">
+                <button class="panel__close button button--no-decoration js-service-hint-close"><span class="icon icon--cross icon--black"></span></button>
+                </div>
+                <div class="panel__content">
+                  <div class="panel__text">пример любого другого длинного текста, не важно, что это, как и где, в конечном счете мы просто космическая случайность на голубой песчинке</div>
+                </div>
+              </div>
             </div>
-            <div class="services__item">
-              <div class="panel panel--no-shadow panel--decoration-red">
+            <div class="services__item js-service-hint-wrap">
+              <div class="panel panel--clickable panel--decoration-red js-service-hint-show">
                 <div class="panel__head">
                   <img src="./dist/img/icons/017-time.svg" alt="graphic" class="panel__head-icon">
                 </div>
@@ -105,9 +125,18 @@
                   <div class="panel__text">учет рабочего времени</div>
                 </div>
               </div>
+              <div class="panel panel--decoration-red services__item--detail js-service-hint">
+                <div class="panel__head">
+                  <img src="./dist/img/icons/017-time.svg" alt="graphic" class="panel__head-icon">
+                  <button class="panel__close button button--no-decoration js-service-hint-close"><span class="icon icon--cross icon--black"></span></button>
+                </div>
+                <div class="panel__content">
+                  <div class="panel__text">пример любого другого длинного текста, не важно, что это, как и где, в конечном счете мы просто космическая случайность на голубой песчинке</div>
+                </div>
+              </div>
             </div>
-            <div class="services__item">
-              <div class="panel panel--no-shadow panel--decoration-yellow">
+            <div class="services__item js-service-hint-wrap">
+              <div class="panel panel--clickable panel--decoration-yellow js-service-hint-show">
                 <div class="panel__head">
                   <img src="./dist/img/icons/003-analytics.svg" alt="graphic" class="panel__head-icon">
                 </div>
@@ -115,9 +144,19 @@
                   <div class="panel__text">прогнозы и аналитику</div>
                 </div>
               </div>
+              <div class="panel panel--decoration-yellow services__item--detail js-service-hint">
+                <div class="panel__head">
+                  <img src="./dist/img/icons/003-analytics.svg" alt="graphic" class="panel__head-icon">
+                  <button class="panel__close button button--no-decoration js-service-hint-close"><span class="icon icon--cross icon--black"></span></button>
+                </div>
+                <div class="panel__content">
+                  <div class="panel__text">прогноз основывается на заданных показателях, оптимизирует ресурсы, составляет сценарии «что-если», формируется одним кликом</div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+      <div class="fixed-panel-cover"></div>
       </section>
       <section class="section section--black section--two-cols">
         <div class="wrapper">
@@ -310,7 +349,8 @@
           <a href="./competitions.html" class="footer-menu__link">Компетенции</a>
           <a href="./cases.html" class="footer-menu__link">Кейсы</a>
           <a href="./blog.html" class="footer-menu__link">Блог</a>
-          <a href="./about.html" class="footer-menu__link">О компании</a>
+          <a href="./vacancies.html" class="footer-menu__link">Вакансии</a>
+          <a href="./about.html" class="footer-menu__link">Контакты</a>
         </ul>
         <ul class="links__col">
           <a href="#" class="footer-menu__link">Продукты фирмы ЗетаСофт</a>
@@ -336,7 +376,7 @@
       </div>
     </div>
     <footer class="credits">
-      <a href="#" class="credits__link">Copyright © 2006 – 2023</a>
+      <span class="credits__item">Copyright © 2006 – 2024</span>
       <a href="#" class="credits__link">Политика конфиденциальности</a>
       <a href="#" class="credits__link">Пользовательское соглашение</a>
       <a href="#" class="credits__link">Работает на: Zeta Web</a>

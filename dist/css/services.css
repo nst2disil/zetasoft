@@ -5,25 +5,94 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 16px;
 }
-@media screen and (max-width: 879px) {
+@media screen and (max-width: 1024px) {
   .services {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
     margin-top: 56px;
   }
 }
-@media screen and (min-width: 880px) {
+@media screen and (min-width: 1025px) {
   .services .panel {
     height: 190px;
   }
 }
-@media screen and (max-width: 879px) {
+@media screen and (max-width: 1024px) {
   .services .panel {
     height: 132px;
   }
 }
 .services .panel__text {
   margin-top: auto;
+  padding-right: 0;
+}
+@media screen and (min-width: 880px) {
+  .services__item {
+    position: relative;
+  }
+}
+.services__item .panel {
+  --panel-content-padding: 24px;
+}
+.services__item .panel__head {
+  --head-height: 32px;
+}
+.services__item--detail {
+  opacity: 0;
+  pointer-events: none;
+  transition-duration: 0.2s;
+}
+.services__item--detail--show {
+  opacity: 1;
+  pointer-events: all;
+}
+.services__item--detail--show .panel__text {
+  transform: translateY(0) !important;
+}
+@media screen and (min-width: 880px) {
+  .services__item--detail {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .services__item--detail {
+    position: fixed;
+    left: 16px;
+    width: calc(100% - 32px);
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+  }
+}
+.services__item--detail .panel__text {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  transition: transform var(--animation-duration);
+  transform: translateY(-10px);
+}
+
+@media screen and (max-width: 1024px) {
+  .shadowed {
+    overflow: hidden;
+  }
+  .shadowed::after {
+    content: "";
+    transition-duration: 0.2s;
+    background: #000;
+    opacity: 0.4;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 99;
+  }
 }
 
 .section--two-cols .wrapper {
@@ -257,5 +326,11 @@
   .business-tips .panel__title,
   .business-tips .panel__text {
     max-width: 328px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .wrapper--services-bg {
+    background: url("../img/services-graphic.svg") 0 80px no-repeat;
   }
 }

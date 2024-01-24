@@ -306,3 +306,8 @@
   }
 }
 
+@include media-up($screen-lg) {
+  .wrapper--main-bg-image {
+    background: url('../img/main-graphic.svg') center no-repeat;
+  }
+}

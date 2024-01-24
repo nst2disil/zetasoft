@@ -7,20 +7,85 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 16px;
-  @include media-down($screen-md) {
+  @include media-down($screen-bg) {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
     margin-top: 56px;
   }
   .panel {
-    @include media-up($screen-md) {
+    @include media-up($screen-bg) {
       height: 190px;
     }
-    @include media-down($screen-md) {
+    @include media-down($screen-bg) {
       height: 132px;
     }
     &__text {
       margin-top: auto;
+      padding-right: 0;
+    }
+  }
+  &__item {
+    @include media-up($screen-md) {
+      position: relative;
+    }
+    .panel {
+      --panel-content-padding: 24px;
+    }
+    .panel__head {
+      --head-height: 32px;
+    }
+    &--detail {
+      opacity: 0;
+      pointer-events: none;
+      transition-duration: .2s;
+      &--show {
+        opacity: 1;
+        pointer-events: all;
+        .panel__text {
+          transform: translateY(0) !important
+        }
+      }
+      @include media-up($screen-md) {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+      }
+      @include media-down($screen-bg) {
+        position: fixed;
+        left: 16px;
+        width: calc(100% - 32px);
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 100;
+      }
+      .panel__text {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        transition: transform var(--animation-duration);
+        transform: translateY(-10px);
+      }
+    }
+  }
+}
+
+.shadowed {
+  @include media-down($screen-bg) {
+    overflow: hidden;
+    &::after {
+      content: '';
+      transition-duration: .2s;
+      background: #000;
+      opacity: .4;
+      position: fixed;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: 99;
     }
   }
 }
@@ -233,4 +298,10 @@
 
   }
 
+}
+
+@include media-up($screen-lg) {
+  .wrapper--services-bg {
+    background: url('../img/services-graphic.svg') 0 80px no-repeat;
+  }
 }
