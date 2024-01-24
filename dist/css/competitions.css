@@ -7,7 +7,6 @@
 }
 @media screen and (min-width: 880px) {
   .cases__item {
-    aspect-ratio: 1/1;
     max-height: 436px;
   }
 }
@@ -49,15 +48,15 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 24px;
+  gap: 16px;
 }
 @media screen and (max-width: 1024px) {
   .case {
-    gap: 18px;
+    gap: 12px;
   }
 }
 .case__title {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 600;
   line-height: 130%;
   flex: 1;
@@ -108,6 +107,9 @@
   display: flex;
   flex-direction: column;
   height: 164px;
+}
+.anchors__item .panel__content {
+  --panel-content-padding: 24px;
 }
 .anchors__image {
   height: 56px;
@@ -165,4 +167,32 @@
 
 .block-group, .button-panel {
   margin-top: 72px;
+}
+
+.scroll-top-button {
+  border: 1px solid var(--color-black, #000);
+  cursor: pointer;
+  display: block;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none"><path d="M25 39L25 11" stroke="%23231F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M11 25L25 11L39 25" stroke="%23231F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>') center no-repeat;
+  text-decoration: none;
+}
+.scroll-top-button--yellow {
+  background-color: var(--color-yellow);
+}
+.scroll-top-button--blue {
+  background-color: var(--color-blue);
+}
+.scroll-top-button--red {
+  background-color: var(--color-red);
+}
+.scroll-top-button:hover {
+  opacity: 0.8;
+}
+
+.section h2.section__title.section__title--with-button {
+  display: flex;
+  justify-content: space-between;
 }

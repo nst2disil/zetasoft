@@ -24,8 +24,8 @@
                 </div>
                 <div class="cols__item cols__item--list">
                   <div class="vacancies__title">Открытые вакансии</div>
-                  <a href="#" class="vacancies__link">Маркетолог</a>
-                  <a href="#" class="vacancies__link">PR-специалист</a>
+                  <a href="/vacancy.html" class="vacancies__link">Маркетолог</a>
+                  <a href="/vacancy.html" class="vacancies__link">PR-специалист</a>
                   <img src="./dist/img/icons/003-diagram.svg?1" alt="" class="vacancies__img">
                 </div>
               </div>
@@ -35,7 +35,7 @@
               <div class="panel__content cols">
                 <div class="cols__item cols__item--list">
                   <div class="vacancies__title">Открытые вакансии</div>
-                  <a href="#" class="vacancies__link">Менеджер по продажам</a>
+                  <a href="/vacancy.html" class="vacancies__link">Менеджер по продажам</a>
                   <img src="./dist/img/icons/023-team work.svg?1" alt="" class="vacancies__img">
                 </div>
                 <div class="cols__item">
@@ -53,7 +53,7 @@
                 </div>
                 <div class="cols__item cols__item--list">
                   <div class="vacancies__title">Открытые вакансии</div>
-                  <a href="#" class="vacancies__link">Аналитик</a>
+                  <a href="/vacancy.html" class="vacancies__link">Аналитик</a>
                   <img src="./dist/img/icons/031-statistics.svg?1" alt="" class="vacancies__img">
                 </div>
               </div>
@@ -63,7 +63,7 @@
               <div class="panel__content cols">
                 <div class="cols__item cols__item--list">
                   <div class="vacancies__title">Открытые вакансии</div>
-                  <a href="#" class="vacancies__link">Консультант</a>
+                  <a href="/vacancy.html" class="vacancies__link">Консультант</a>
                   <img src="./dist/img/icons/011-product management.svg?1" alt="" class="vacancies__img">
                 </div>
                 <div class="cols__item">
@@ -81,7 +81,7 @@
                 </div>
                 <div class="cols__item cols__item--list">
                   <div class="vacancies__title">Открытые вакансии</div>
-                  <a href="#" class="vacancies__link">Разработчик 1С (Middle)</a>
+                  <a href="/vacancy.html" class="vacancies__link">Разработчик 1С (Middle)</a>
                   <img src="./dist/img/icons/045-data management.svg?1" alt="" class="vacancies__img">
                 </div>
               </div>

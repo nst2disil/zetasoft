@@ -14,7 +14,6 @@
   }
 }
 .vacancies__text {
-  margin-top: auto;
   font-size: 20px;
 }
 @media screen and (max-width: 1439px) {
@@ -72,13 +71,12 @@
   .vacancies .cols {
     gap: 40px;
   }
-  .vacancies .cols__item {
-    min-height: 200px;
-  }
 }
 
-.vacancies__item {
-  min-height: 312px;
+@media screen and (min-width: 880px) {
+  .vacancies__item {
+    min-height: 312px;
+  }
 }
 .vacancies__item .cols {
   gap: 64px;

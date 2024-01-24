@@ -28,7 +28,7 @@
           </h2>
           <div class="swiper swiper--m" data-swiper-id="products">
             <div class="products swiper-wrapper">
-              <a href="#" class="swiper-slide products__item panel panel--grey">
+              <a href="#" class="swiper-slide products__item panel products__item--cross panel--shadow-red">
                 <div class="panel__content">
                   <div class="products__top">
                     <div class="products__name products__name--red">ЗетаВеб</div>
@@ -37,11 +37,10 @@
                   <div class="products__text">Уникальный программный комплекс, предназначенный для управления интернет-магазином непосредственно из среды «1С: Предприятие»</div>
                   <div class="products__bottom">
                     <div class="panel__link">Подробнее</div>
-                    <img src="./dist/img/panel-zeta.svg" alt="" class="products__logo">
                   </div>
                 </div>
               </a>
-              <a href="#" class="swiper-slide products__item panel panel--white">
+              <a href="#" class="swiper-slide products__item panel products__item--cross panel--shadow-blue">
                 <div class="panel__content">
                   <div class="products__top">
                     <div class="products__name products__name--blue">Атол</div>
@@ -50,11 +49,10 @@
                   <div class="products__text">Удобный интерфейс для подбора товаров и создания заказа, используя собственные остатки, прайс-листы и веб-сервисы поставщиков</div>
                   <div class="products__bottom">
                     <div class="panel__link">Подробнее</div>
-                    <img src="./dist/img/panel-zeta.svg" alt="" class="products__logo">
                   </div>
                 </div>
               </a>
-              <a href="#" class="swiper-slide products__item panel panel--white">
+              <a href="#" class="swiper-slide products__item panel products__item--cross  panel--shadow-yellow">
                 <div class="panel__content">
                   <div class="products__top">
                     <div class="products__name products__name--yellow">Виртуальный склад</div>
@@ -63,11 +61,10 @@
                   <div class="products__text">Загружайте прайс-листы поставщиков и пользуйтесь ими, как своими собственными товарами.</div>
                   <div class="products__bottom">
                     <div class="panel__link">Подробнее</div>
-                    <img src="./dist/img/panel-zeta.svg" alt="" class="products__logo">
                   </div>
                 </div>
               </a>
-              <a href="#" class="swiper-slide products__item panel panel--grey">
+              <a href="#" class="swiper-slide products__item panel products__item--cross">
                 <div class="panel__content">
                   <div class="products__top">
                     <div class="products__name products__name--blue">Веб-сервисы</div>
@@ -76,11 +73,10 @@
                   <div class="products__text">Подключение множества поставщиков через один общий шлюз по веб-сервису. Простой и понятный интерфейс: очистка недостоверной информации, «эталонные» бренды</div>
                   <div class="products__bottom">
                     <div class="panel__link">Подробнее</div>
-                    <img src="./dist/img/panel-zeta.svg" alt="" class="products__logo">
                   </div>
                 </div>
               </a>
-              <a href="#" class="swiper-slide products__item panel panel--grey">
+              <a href="#" class="swiper-slide products__item panel products__item--cross">
                 <div class="panel__content">
                   <div class="products__top">
                     <div class="products__name products__name--green">Вендинг</div>
@@ -89,11 +85,10 @@
                   <div class="products__text">Комплексный программный продукт для автоматизации работы вендинговых компаний</div>
                   <div class="products__bottom">
                     <div class="panel__link">Подробнее</div>
-                    <img src="./dist/img/panel-zeta.svg" alt="" class="products__logo">
                   </div>
                 </div>
               </a>
-              <a href="#" class="swiper-slide products__item panel panel--white">
+              <a href="#" class="swiper-slide products__item panel products__item--cross  panel--shadow-red">
                 <div class="panel__content">
                   <div class="products__top">
                     <div class="products__name products__name--red">ТекДок</div>
@@ -102,11 +97,10 @@
                   <div class="products__text">Продукт для&nbsp;повременного учёта работы ваших сотрудников. Для&nbsp;компаний, оказывающих услуги консалтинга, юридические, </div>
                   <div class="products__bottom">
                     <div class="panel__link">Подробнее</div>
-                    <img src="./dist/img/panel-zeta.svg" alt="" class="products__logo">
                   </div>
                 </div>
               </a>
-              <a href="#" class="swiper-slide products__item panel panel--white">
+              <a href="#" class="swiper-slide products__item panel products__item--cross  panel--shadow-yellow">
                 <div class="panel__content">
                   <div class="products__top">
                     <div class="products__name products__name--red">Универсальный отчет</div>
@@ -115,7 +109,6 @@
                   <div class="products__text">Уникальный программный комплекс, предназначенный для управления интернет-магазином непосредственно из среды «1С: Предприятие»</div>
                   <div class="products__bottom">
                     <div class="panel__link">Подробнее</div>
-                    <img src="./dist/img/panel-zeta.svg" alt="" class="products__logo">
                   </div>
                 </div>
               </a>
@@ -131,7 +124,7 @@
           </h2>
           <div class="swiper swiper--m" data-swiper-id="systems">
             <div class="products swiper-wrapper">
-              <a href="#" class="swiper-slide products__item panel panel--white panel--shadow-blue">
+              <a href="#" class="swiper-slide products__item panel products__item--zeta panel--shadow-yellow">
                 <div class="panel__content">
                   <div class="products__top">
                     <div class="products__name products__name--red">Учёт времени</div>
@@ -140,11 +133,10 @@
                   <div class="products__text">Продукт для&nbsp;повременного учёта работы ваших сотрудников. Для&nbsp;компаний, оказывающих услуги консалтинга, юридические, бухгалтерские и&nbsp;другие услуги, где&nbsp;принята почасовая оплата.</div>
                   <div class="products__bottom">
                     <div class="panel__link">Подробнее</div>
-                    <img src="./dist/img/panel-zeta.svg" alt="" class="products__logo">
                   </div>
                 </div>
               </a>
-              <a href="#" class="swiper-slide products__item panel panel--white panel--shadow-blue">
+              <a href="#" class="swiper-slide products__item panel products__item--zeta panel--shadow-blue">
                 <div class="panel__content">
                   <div class="products__top">
                     <div class="products__name products__name--blue">Авторазборка</div>
@@ -153,11 +145,10 @@
                   <div class="products__text">Удобный интерфейс для подбора товаров и создания заказа, используя собственные остатки, прайс-листы и веб-сервисы поставщиков</div>
                   <div class="products__bottom">
                     <div class="panel__link">Подробнее</div>
-                    <img src="./dist/img/panel-zeta.svg" alt="" class="products__logo">
                   </div>
                 </div>
               </a>
-              <a href="#" class="swiper-slide products__item panel panel--white panel--shadow-blue">
+              <a href="#" class="swiper-slide products__item panel products__item--zeta panel--shadow-red">
                 <div class="panel__content">
                   <div class="products__top">
                     <div class="products__name products__name--yellow">Управление ТК</div>
@@ -166,7 +157,6 @@
                   <div class="products__text">Загружайте прайс-листы поставщиков и пользуйтесь ими, как своими собственными товарами.</div>
                   <div class="products__bottom">
                     <div class="panel__link">Подробнее</div>
-                    <img src="./dist/img/panel-zeta.svg" alt="" class="products__logo">
                   </div>
                 </div>
               </a>

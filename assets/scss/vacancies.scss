@@ -13,7 +13,6 @@
     }
   }
   &__text {
-    margin-top: auto;
     font-size: 20px;
     @include media-down($screen-lg) {
       font-size: 16px;
@@ -62,16 +61,15 @@
   @include media-down($screen-md) {
     .cols {
       gap: 40px;
-      &__item {
-        min-height: 200px;
-      }
     }
   }
   
 }
 
 .vacancies__item {
-  min-height: 312px;
+  @include media-up($screen-md) {
+    min-height: 312px;
+  }
   .cols {
     gap: 64px;
     @include media-down($screen-md) {

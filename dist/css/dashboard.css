@@ -1,6 +1,11 @@
 .dashboard {
   display: flex;
-  gap: 24px;
+  gap: 48px;
+}
+@media screen and (max-width: 1439px) {
+  .dashboard {
+    gap: 32px;
+  }
 }
 @media screen and (max-width: 879px) {
   .dashboard {
@@ -30,12 +35,12 @@
 }
 @media screen and (min-width: 1440px) {
   .dashboard__aside {
-    max-width: 436px;
+    max-width: 412px;
   }
 }
 @media screen and (min-width: 880px) and (max-width: 1439px) {
   .dashboard__aside {
-    max-width: 312px;
+    max-width: 298px;
   }
 }
 
@@ -189,10 +194,11 @@
 .products__link {
   color: var(--color-blue);
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
+  text-decoration: underline;
 }
 .products__link:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 .products__subscribe {
   margin-left: auto;
@@ -254,7 +260,7 @@
 .aside__logout {
   align-self: flex-end;
   font-size: 24px;
-  margin: 12px 0;
+  margin: 10px 0;
 }
 @media screen and (max-width: 1439px) {
   .aside__logout {

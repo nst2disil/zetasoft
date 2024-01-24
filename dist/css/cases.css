@@ -7,7 +7,6 @@
 }
 @media screen and (min-width: 880px) {
   .cases__item {
-    aspect-ratio: 1/1;
     max-height: 436px;
   }
 }
@@ -49,15 +48,15 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 24px;
+  gap: 16px;
 }
 @media screen and (max-width: 1024px) {
   .case {
-    gap: 18px;
+    gap: 12px;
   }
 }
 .case__title {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 600;
   line-height: 130%;
   flex: 1;

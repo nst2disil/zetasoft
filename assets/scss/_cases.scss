@@ -10,7 +10,6 @@
   }
   &__item {
     @include media-up($screen-md) {
-      aspect-ratio: 1/1;
       max-height: 436px;
     }
     @include media-up($screen-sm) {
@@ -40,12 +39,12 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 24px;
+  gap: 16px;
   @include media-down($screen-bg) {
-    gap: 18px;
+    gap: 12px;
   }
   &__title {
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 600;
     line-height: 130%;
     flex: 1;
