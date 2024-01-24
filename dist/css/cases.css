@@ -5,9 +5,14 @@
     gap: 18px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .cases__item {
+    height: 288px;
+  }
+}
 @media screen and (min-width: 880px) {
   .cases__item {
-    max-height: 436px;
+    height: 266px;
   }
 }
 @media screen and (min-width: 375px) {
@@ -122,11 +127,9 @@
 @media screen and (min-width: 880px) {
   .cases-wrapper:nth-child(odd) .cases__item:nth-child(1) {
     width: calc(66.6666666667% - 6px);
-    aspect-ratio: 2/1;
   }
   .cases-wrapper:nth-child(even) .cases__item:nth-child(5) {
     width: calc(66.6666666667% - 6px);
-    aspect-ratio: 2/1;
   }
 }
 .cases-wrapper:nth-child(even) {

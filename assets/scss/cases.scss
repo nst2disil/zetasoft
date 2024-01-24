@@ -37,12 +37,10 @@
 @include media-up($screen-md) {
   .cases-wrapper:nth-child(odd) .cases__item:nth-child(1) {
     width: calc(100%/3*2 - 6px);
-    aspect-ratio: 2/1;
   }
   .cases-wrapper:nth-child(even) {
     .cases__item:nth-child(5) {
       width: calc(100%/3*2 - 6px);
-      aspect-ratio: 2/1;
     }
   }
 }

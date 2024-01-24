@@ -4,16 +4,16 @@
   @include media-up($screen-md) {
     display: flex;
     flex-wrap: wrap;
-    //display: grid;
-    //grid-template: '1fr 1fr 1fr';
     gap: 18px;
   }
   &__item {
+    @include media-up($screen-lg) {
+      height: 288px;
+    }
     @include media-up($screen-md) {
-      max-height: 436px;
+      height: 266px;
     }
     @include media-up($screen-sm) {
-      //max-height: 312px;
       width: calc(100%/3 - 12px);
     }
   }

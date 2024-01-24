@@ -6,9 +6,14 @@
     gap: 18px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .cases__item {
+    height: 288px;
+  }
+}
 @media screen and (min-width: 880px) {
   .cases__item {
-    max-height: 436px;
+    height: 266px;
   }
 }
 @media screen and (min-width: 375px) {
