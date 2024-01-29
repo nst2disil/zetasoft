@@ -53,3 +53,18 @@
     background-color: var(--color-blue-dark);
   }
 }
+
+@include media-down($screen-md) {
+  .checkbox__label {
+    padding-right: 0;
+    padding-left: 40px;
+  }
+  .checkbox__label::before {
+    right: unset;
+    left: 0;
+  }
+  .checkbox__label::after {
+    right: unset;
+    left: 16px;
+  }
+}

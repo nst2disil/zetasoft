@@ -87,7 +87,7 @@
             Заполнить настройки АТОЛ Онлайн;<br>
             В зависимости от конфигурации 1С и используемых документов настроить контроль оплаты.
           </div>
-          <div class="swiper" data-swiper-id="case-screenshots">
+          <div class="swiper swiper--screenshots" data-swiper-id="case-screenshots">
             <div class="screenshots swiper-wrapper">
               <a href="./dist/img/menyu-atol-onlain 1.jpg" target="_blank" class="swiper-slide screenshots__item">
                 <img src="./dist/img/menyu-atol-onlain 1.jpg" alt="screenshot 1" class="screenshots__img">
@@ -108,7 +108,7 @@
           <h2 class="section__title">Посмотрите другие кейсы</h2>
           <div class="swiper" data-swiper-id="cases">
             <div class="cases js-cases swiper-wrapper">
-              <a href="#" class="swiper-slide cases__item panel panel--decoration-green" data-case-category="green">
+              <a href="./cases.html" class="swiper-slide cases__item panel panel--decoration-green" data-case-category="green">
                 <div class="panel__head">
                 <img src="./dist/img/panel-zeta.svg" alt="zeta logo" class="case__image">
                 </div>
@@ -117,7 +117,7 @@
                   <div class="case__text">Подсистема предназначена для компаний, работающих в 1С и использующих онлайн-кассы АТОЛ Онлайн</div>
                 </div>
               </a>
-              <a href="#" class="swiper-slide cases__item panel panel--decoration-blue" data-case-category="blue">
+              <a href="./cases.html" class="swiper-slide cases__item panel panel--decoration-blue" data-case-category="blue">
                 <div class="panel__head">
                 <img src="./dist/img/panel-zeta.svg" alt="zeta logo" class="case__image">
                 </div>
@@ -126,7 +126,7 @@
                   <div class="case__text">Подсистема предназначена для компаний, работающих в 1С и использующих онлайн-кассы АТОЛ Онлайн</div>
                 </div>
               </a>
-              <a href="#" class="swiper-slide cases__item panel panel--decoration-yellow" data-case-category="yellow">
+              <a href="./cases.html" class="swiper-slide cases__item panel panel--decoration-yellow" data-case-category="yellow">
                 <div class="panel__head">
                 <img src="./dist/img/panel-1c.svg" alt="zeta logo" class="case__image">
                 </div>

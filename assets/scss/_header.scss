@@ -37,11 +37,18 @@
     margin-left: auto;
     display: flex;
     align-self: center;
+    transform: translateY(-1px);
   }
   &__controls {
     display: flex;
     gap: 12px;
     line-height: 24px;
+    .button__text {
+      transform: translateY(-2px);
+    }
+  }
+  &__menu {
+    transform: translateY(-2px);
   }
   
   .wrapper {
@@ -50,10 +57,10 @@
     justify-content: space-between;
     gap: 16px;
     height: 100%;
-    --logo-width: 240px;
+    --logo-width: 270px;
     background: url('../img/header-bg.svg') no-repeat var(--logo-width);
     @include media-down($screen-lg) {
-      --logo-width: 213px
+      --logo-width: 250px
     }
     @include media-down($screen-bg) {
       --logo-width: 161px;
@@ -61,6 +68,19 @@
     @include media-down($screen-md) {
       --logo-width: 151px;
     }
+  }
+}
+
+
+.container {
+  &__header {
+    position: fixed;
+    z-index: 30;
+    left: 0;
+    right: 0;
+  }
+  &__content {
+    margin-top: var(--header-height);
   }
 }
 

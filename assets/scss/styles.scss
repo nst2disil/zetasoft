@@ -226,6 +226,15 @@ img {
   }
 }
 
+.section--collapsed {
+  padding-bottom: 0;
+  & + .section {
+    @include media-down($screen-md) {
+      padding-top: 0;
+    }
+  }
+} 
+
 .panel {
   display: flex;
   flex-direction: column;
@@ -379,14 +388,10 @@ img {
       width: 100%;
     }
   }
-
-
   &--yellow { background: var(--color-yellow) }
   &--blue { background: var(--color-blue) }
   &--red { background: var(--color-red) }
   &--grey { background: var(--color-grey) }
-
-
   &--black {
     background: var(--color-black);
     color: #fff;
@@ -402,11 +407,24 @@ img {
   &--shadow-blue { box-shadow: 4px 4px 0px 0px var(--color-blue); }
   &--shadow-yellow { box-shadow: 4px 4px 0px 0px var(--color-yellow); }
   &--shadow-red { box-shadow: 4px 4px 0px 0px var(--color-red); }
+  .hide-md-up {
+    @include media-up($screen-md) {
+      display: none;
+    }
+  }
+  .hide-md-down {
+    @include media-down($screen-md) {
+      display: none;
+    }
+  }
 }
 
 a.panel:hover {
   box-shadow: none;
   cursor: pointer;
+  .panel__link {
+    text-decoration: none;
+  }
 }
 
 .button-panel {

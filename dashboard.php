@@ -16,8 +16,8 @@
                 <div class="products__block-title">
                   Продукты
                   <div class="checkbox">
-                    <input type="checkbox" checked="checked" id="hideinactive2" class="checkbox__input js-toggle-show-active">
-                    <label for="hideinactive2" class="checkbox__label">Скрыть неактивные</label>
+                    <input type="checkbox" id="hideinactive2" class="checkbox__input js-toggle-show-active">
+                    <label for="hideinactive2" class="checkbox__label">Показать неактивные</label>
                   </div>
                 </div>
                 <div class="products__list js-products-list">
@@ -66,8 +66,8 @@
                 <div class="products__block-title">
                   Сервисы
                   <div class="checkbox">
-                    <input type="checkbox" checked="checked" id="hideinactive1" class="checkbox__input js-toggle-show-active">
-                    <label for="hideinactive1" class="checkbox__label">Скрыть неактивные</label>
+                    <input type="checkbox" id="hideinactive1" class="checkbox__input js-toggle-show-active">
+                    <label for="hideinactive1" class="checkbox__label">Показать неактивные</label>
                   </div>
                 </div>
                 <div class="products__list js-products-list">

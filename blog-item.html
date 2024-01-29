@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" type="image/x-icon" href="/i/favicon.ico" />
+  <link rel="shortcut icon" type="image/x-icon" href="./i/favicon.ico" />
   <meta name="description" content="Продукты компаний ЗетаСофт и 1С - современные решения для автоматизации бизнеса и бизнес-процессов." />
   <meta name="keywords" />
   <meta name="Content-Type" content="text/html; charset=utf-8" />
-  <link rel="stylesheet" href="./dist/css/styles.css?cache=2024-01-24">
-  <link rel="stylesheet" href="./dist/css/swiper-bundle.min.css?cache=2024-01-24">
-  <link rel="stylesheet" href="./dist/css/blog-item.css?cache=2024-01-24">
-  <link rel="stylesheet" href="./dist/css/swiper.css?cache=2024-01-24">
-  <script defer src="./dist/js/filler.class.js?cache=2024-01-24"></script>
-  <script defer src="./dist/js/main.js?cache=2024-01-24"></script>
-  <script defer src="./dist/js/swiper-bundle.min.js?cache=2024-01-24"></script>
+  <link rel="stylesheet" href="./dist/css/swiper-bundle.min.css?cache=2024-02-05">
+  <link rel="stylesheet" href="./dist/css/swiper.css?cache=2024-02-05">
+  <link rel="stylesheet" href="./dist/css/styles.css?cache=2024-02-05">
+  <link rel="stylesheet" href="./dist/css/blog-item.css?cache=2024-02-05">
+  <script defer src="./dist/js/filler.class.js?cache=2024-02-05"></script>
+  <script defer src="./dist/js/main.js?cache=2024-02-05"></script>
+  <script defer src="./dist/js/swiper-bundle.min.js?cache=2024-02-05"></script>
   <title>Автоматизация онлайн-продаж и учёта в 1С | Компания "ЗетаСофт"</title></head>
 <body>
   <div class="container">
@@ -39,39 +39,14 @@
       <span class="icon icon--phone show-sm"></span>
     </a>
     <div class="header__controls">
-      <button class="button button--link button--no-decoration header__link">Войти<span class="icon icon--login"></span></button>
+      <button class="button button--link button--no-decoration header__link">
+        <div class="button__text">Войти</div>
+        <span class="icon icon--login"></span>
+      </button>
       <button class="burger show-md" data-modal="popup-menu"></button>
     </div>
   </div>
 </header>
-
-<div class="popup-menu" id="popup-menu">
-  <div class="wrapper">
-    <nav class="links">
-      <ul class="links__col">
-        <a href="./services.html" class="links__item">Услуги</a>
-        <a href="./products.html" class="links__item">Продукты</a>
-        <a href="./competitions.html" class="links__item">Компетенции</a>
-        <a href="./cases.html" class="links__item">Кейсы</a>
-        <a href="./blog.html" class="links__item">Блог</a>
-        <a href="./vacancies.html" class="links__item">Вакансии</a>
-        <a href="./about.html" class="links__item">Контакты</a>
-      </ul>
-      <ul class="links__col">
-        <a href="#" class="links__item">Продукты фирмы ЗетаСофт</a>
-        <a href="#" class="links__item">Продукты фирмы 1С</a>
-      </ul>
-      <ul class="links__col">
-        <a href="#" class="links__item">Наши вакансии</a>
-        <a href="#" class="links__item">Лицензии и&nbsp;сертификаты</a>
-        <a href="#" class="links__item">Контакты и&nbsp;реквизиты</a>
-      </ul>
-    </nav>
-    <a href="tel:+78124906789" class="popup-menu__phone links__item">+7&nbsp;812&nbsp;490-67-89</a>
-    <button class="popup-menu__contact-button button button--bg  button--yellow" data-modal="contact-form">Оставить&nbsp;заявку</button>
-  </div>
-  
-</div>
 </div>
     <div class="container__content">
       <section class="section">
@@ -191,7 +166,9 @@
       <div class="footer-menu__logos logos">
         <img src="./dist/img/1c-logo.svg?1" alt="1c logo" class="logos__item">
         <img src="./dist/img/cra-logo.svg?1" alt="cra logo" class="logos__item">
-        <img src="./dist/img/logo-white.svg?1" alt="zeta logo" class="logos__item">
+        <a href="./" class="logos__item footer-logo">
+          <img src="./dist/img/logo-white.svg?1" alt="zeta logo">
+        </a>
       </div>
     </div>
     <footer class="credits">
@@ -215,11 +192,39 @@
       <input type="text" name="phone" placeholder="+7" class="input" required>
       <input type="text" name="email" placeholder="E-mail" class="input" required>
       <textarea class="input form__textarea" name="comment" placeholder="Комментарий" rows="10"></textarea>
-      <input type="submit" value="Отправить" class="form__submit button button--block button--big button--yellow">
+      <input type="submit" value="Отправить" class="form__submit button button--block button--bg button--yellow">
       <span class="form__tip">Нажимая на кнопку «Отправить», я <a class="form__link" href="#">даю согласие</a> на обработку персональных данных</span>
     </form>
   </div>
-</div></div>
+</div>
+
+<div class="popup-menu" id="popup-menu">
+  <div class="wrapper">
+    <nav class="links">
+      <ul class="links__col">
+        <a href="./services.html" class="links__item">Услуги</a>
+        <a href="./products.html" class="links__item">Продукты</a>
+        <a href="./competitions.html" class="links__item">Компетенции</a>
+        <a href="./cases.html" class="links__item">Кейсы</a>
+        <a href="./blog.html" class="links__item">Блог</a>
+        <a href="./vacancies.html" class="links__item">Вакансии</a>
+        <a href="./about.html" class="links__item">Контакты</a>
+      </ul>
+      <ul class="links__col">
+        <a href="#" class="links__item">Продукты фирмы ЗетаСофт</a>
+        <a href="#" class="links__item">Продукты фирмы 1С</a>
+      </ul>
+      <ul class="links__col">
+        <a href="#" class="links__item">Наши вакансии</a>
+        <a href="#" class="links__item">Лицензии и&nbsp;сертификаты</a>
+        <a href="#" class="links__item">Контакты и&nbsp;реквизиты</a>
+      </ul>
+    </nav>
+    <a href="tel:+78124906789" class="popup-menu__phone links__item">+7&nbsp;812&nbsp;490-67-89</a>
+    <button class="popup-menu__contact-button button button--bg  button--yellow" data-modal="contact-form">Оставить&nbsp;заявку</button>
+  </div>
+</div>
+</div>
   </div>
 </body>
 </html>

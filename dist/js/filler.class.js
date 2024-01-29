@@ -79,7 +79,7 @@ function getRandomInt(min, max) {
 }
 
 function getRandomColor() {
-  const colors = ['blue', 'blue-dark', 'red', 'green', 'yellow', 'grey'];
+  const colors = ['blue', 'blue-dark', 'red', 'green', 'yellow'];
   const randomIndex = Math.floor(Math.random() * colors.length);
   return colors[randomIndex];
 }

@@ -117,7 +117,7 @@ function initDashboardToggleds() {
     const productsList = checkbox.closest(".js-products-block").querySelector(".js-products-list");
 
     checkbox.addEventListener("change", function () {
-      if (checkbox.checked) {
+      if (!checkbox.checked) {
         productsList.classList.remove("products__list--show-inactive");
       } else {
         productsList.classList.add("products__list--show-inactive");
@@ -158,7 +158,7 @@ const defaultSwiperOptions = {
   direction: 'horizontal',
   slidesPerView: 'auto',
   centeredSlides: true,
-  spaceBetween: 8,
+  spaceBetween: 16,
   pagination: {
     el: '.swiper-pagination',
     clickable: true,
@@ -190,9 +190,17 @@ function initServicesHints() {
   const $body = document.querySelector('.js-body');
   const $hints = document.querySelectorAll('.js-service-hint');
   if (!$servicesWithHintsWraps) return;
+
+  function closeAllHitns() {
+    $body.classList.remove('shadowed');
+    $hints.forEach(($hint) => {
+      $hint.classList.remove('services__item--detail--show');
+    });
+  }
+
   $servicesWithHintsWraps.forEach(($hintWrap) => {
     const $hint = $hintWrap.querySelector('.js-service-hint');
-    const $hintClose = $hintWrap.querySelector('.js-service-hint-close');
+    const $hintClose = $hintWrap.querySelectorAll('.js-service-hint-close');
     const $hintShow = $hintWrap.querySelector('.js-service-hint-show');
 
     $hintShow.addEventListener('click', function() {
@@ -202,22 +210,24 @@ function initServicesHints() {
       $hint.classList.add('services__item--detail--show');
       $body.classList.add('shadowed');
     });
-    $hintClose.addEventListener('click', function() {
-      $body.classList.remove('shadowed');
-      $hints.forEach(($hint) => {
-        $hint.classList.remove('services__item--detail--show');
-      });
-    });
-  }
-  )
+    $hintClose.forEach($item => $item.addEventListener('click', function() {
+      closeAllHitns();
+    }));
+  });
+  $body.addEventListener('click', (e) => {
+    e.stopPropagation();
+    if (e.target.classList.contains('shadowed')) {
+      closeAllHitns();
+    }
+  })
 }
 
 const SWIPERS = {
-  'case-screenshots': {
+  /*'case-screenshots': {
     config: {
-      autoHeight: true
+      //autoHeight: true
     }
-  }
+  }*/
 }
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -229,6 +239,8 @@ document.addEventListener('DOMContentLoaded', () => {
   initCustomSelects();
   initServicesHints();
 });
+
+// function to show alert after 10 seconds after page loaded
 
 window.addEventListener('resize', () => {
   initSwipers();

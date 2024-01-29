@@ -19,36 +19,11 @@
       <span class="icon icon--phone show-sm"></span>
     </a>
     <div class="header__controls">
-      <button class="button button--link button--no-decoration header__link">Войти<span class="icon icon--login"></span></button>
+      <button class="button button--link button--no-decoration header__link">
+        <div class="button__text">Войти</div>
+        <span class="icon icon--login"></span>
+      </button>
       <button class="burger show-md" data-modal="popup-menu"></button>
     </div>
   </div>
 </header>
-
-<div class="popup-menu" id="popup-menu">
-  <div class="wrapper">
-    <nav class="links">
-      <ul class="links__col">
-        <a href="./services.html" class="links__item">Услуги</a>
-        <a href="./products.html" class="links__item">Продукты</a>
-        <a href="./competitions.html" class="links__item">Компетенции</a>
-        <a href="./cases.html" class="links__item">Кейсы</a>
-        <a href="./blog.html" class="links__item">Блог</a>
-        <a href="./vacancies.html" class="links__item">Вакансии</a>
-        <a href="./about.html" class="links__item">Контакты</a>
-      </ul>
-      <ul class="links__col">
-        <a href="#" class="links__item">Продукты фирмы ЗетаСофт</a>
-        <a href="#" class="links__item">Продукты фирмы 1С</a>
-      </ul>
-      <ul class="links__col">
-        <a href="#" class="links__item">Наши вакансии</a>
-        <a href="#" class="links__item">Лицензии и&nbsp;сертификаты</a>
-        <a href="#" class="links__item">Контакты и&nbsp;реквизиты</a>
-      </ul>
-    </nav>
-    <a href="tel:+78124906789" class="popup-menu__phone links__item">+7&nbsp;812&nbsp;490-67-89</a>
-    <button class="popup-menu__contact-button button button--bg  button--yellow" data-modal="contact-form">Оставить&nbsp;заявку</button>
-  </div>
-  
-</div>

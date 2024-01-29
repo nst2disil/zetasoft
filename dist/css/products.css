@@ -64,6 +64,7 @@
 @media screen and (max-width: 1439px) {
   .our-products__button-title {
     font-size: 16px;
+    line-height: 26px;
   }
 }
 @media screen and (max-width: 879px) {
@@ -112,6 +113,11 @@
 .products .panel__content {
   gap: 24px;
 }
+@media screen and (max-width: 879px) {
+  .products .panel__content {
+    gap: 8px;
+  }
+}
 .products__top, .products__bottom {
   display: flex;
   justify-content: space-between;
@@ -140,6 +146,9 @@
   align-items: flex-end;
   overflow: hidden;
   flex-wrap: wrap;
+}
+.products__bottom .panel__link + .products__price {
+  margin-top: 8px;
 }
 .products__title, .products__name {
   font-size: 24px;

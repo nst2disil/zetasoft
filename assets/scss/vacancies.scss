@@ -11,6 +11,9 @@
       font-size: 24px;
       margin-right: 84px;
     }
+    @include media-down($screen-md) {
+      margin-bottom: 16px;
+    }
   }
   &__text {
     font-size: 20px;
@@ -89,6 +92,10 @@
     &--list {
       @include media-down($screen-md) {
         order: 2;
+        margin-bottom: 12px;
+        .vacancies__title {
+          margin-right: 0;
+        }
       }
     }
   }

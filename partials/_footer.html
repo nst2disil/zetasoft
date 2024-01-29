@@ -31,7 +31,9 @@
       <div class="footer-menu__logos logos">
         <img src="./dist/img/1c-logo.svg?1" alt="1c logo" class="logos__item">
         <img src="./dist/img/cra-logo.svg?1" alt="cra logo" class="logos__item">
-        <img src="./dist/img/logo-white.svg?1" alt="zeta logo" class="logos__item">
+        <a href="./" class="logos__item footer-logo">
+          <img src="./dist/img/logo-white.svg?1" alt="zeta logo">
+        </a>
       </div>
     </div>
     <footer class="credits">
@@ -55,8 +57,35 @@
       <input type="text" name="phone" placeholder="+7" class="input" required>
       <input type="text" name="email" placeholder="E-mail" class="input" required>
       <textarea class="input form__textarea" name="comment" placeholder="Комментарий" rows="10"></textarea>
-      <input type="submit" value="Отправить" class="form__submit button button--block button--big button--yellow">
+      <input type="submit" value="Отправить" class="form__submit button button--block button--bg button--yellow">
       <span class="form__tip">Нажимая на кнопку «Отправить», я <a class="form__link" href="#">даю согласие</a> на обработку персональных данных</span>
     </form>
+  </div>
+</div>
+
+<div class="popup-menu" id="popup-menu">
+  <div class="wrapper">
+    <nav class="links">
+      <ul class="links__col">
+        <a href="./services.html" class="links__item">Услуги</a>
+        <a href="./products.html" class="links__item">Продукты</a>
+        <a href="./competitions.html" class="links__item">Компетенции</a>
+        <a href="./cases.html" class="links__item">Кейсы</a>
+        <a href="./blog.html" class="links__item">Блог</a>
+        <a href="./vacancies.html" class="links__item">Вакансии</a>
+        <a href="./about.html" class="links__item">Контакты</a>
+      </ul>
+      <ul class="links__col">
+        <a href="#" class="links__item">Продукты фирмы ЗетаСофт</a>
+        <a href="#" class="links__item">Продукты фирмы 1С</a>
+      </ul>
+      <ul class="links__col">
+        <a href="#" class="links__item">Наши вакансии</a>
+        <a href="#" class="links__item">Лицензии и&nbsp;сертификаты</a>
+        <a href="#" class="links__item">Контакты и&nbsp;реквизиты</a>
+      </ul>
+    </nav>
+    <a href="tel:+78124906789" class="popup-menu__phone links__item">+7&nbsp;812&nbsp;490-67-89</a>
+    <button class="popup-menu__contact-button button button--bg  button--yellow" data-modal="contact-form">Оставить&nbsp;заявку</button>
   </div>
 </div>

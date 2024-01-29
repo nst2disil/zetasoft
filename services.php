@@ -22,9 +22,9 @@
                 </div>
               </div>
               <div class="panel panel--decoration-blue services__item--detail js-service-hint">
-                <div class="panel__head">
+                <div class="panel__head js-service-hint-close">
                   <img src="./dist/img/icons/042-data-storage.svg" alt="graphic" class="panel__head-icon">
-                  <button class="panel__close button button--no-decoration js-service-hint-close"><span class="icon icon--cross icon--black"></span></button>
+                  <button class="panel__close button button--no-decoration"><span class="icon icon--cross icon--black"></span></button>
                 </div>
                 <div class="panel__content">
                   <div class="panel__text">пример любого другого длинного текста, не важно, что это, как и где, в конечном счете мы просто космическая случайность на голубой песчинке</div>
@@ -41,9 +41,9 @@
                 </div>
               </div>
               <div class="panel panel--decoration-blue-dark services__item--detail js-service-hint">
-                <div class="panel__head">
+                <div class="panel__head js-service-hint-close">
                 <img src="./dist/img/icons/039-file.svg" alt="graphic" class="panel__head-icon">
-                <button class="panel__close button button--no-decoration js-service-hint-close"><span class="icon icon--cross icon--black"></span></button>
+                <button class="panel__close button button--no-decoration"><span class="icon icon--cross icon--black"></span></button>
                 </div>
                 <div class="panel__content">
                   <div class="panel__text">пример любого другого длинного текста, не важно, что это, как и где, в конечном счете мы просто космическая случайность на голубой песчинке</div>
@@ -60,9 +60,9 @@
                 </div>
               </div>
               <div class="panel panel--decoration-red services__item--detail js-service-hint">
-                <div class="panel__head">
+                <div class="panel__head js-service-hint-close">
                   <img src="./dist/img/icons/017-time.svg" alt="graphic" class="panel__head-icon">
-                  <button class="panel__close button button--no-decoration js-service-hint-close"><span class="icon icon--cross icon--black"></span></button>
+                  <button class="panel__close button button--no-decoration"><span class="icon icon--cross icon--black"></span></button>
                 </div>
                 <div class="panel__content">
                   <div class="panel__text">пример любого другого длинного текста, не важно, что это, как и где, в конечном счете мы просто космическая случайность на голубой песчинке</div>
@@ -79,9 +79,9 @@
                 </div>
               </div>
               <div class="panel panel--decoration-yellow services__item--detail js-service-hint">
-                <div class="panel__head">
+                <div class="panel__head js-service-hint-close">
                   <img src="./dist/img/icons/003-analytics.svg" alt="graphic" class="panel__head-icon">
-                  <button class="panel__close button button--no-decoration js-service-hint-close"><span class="icon icon--cross icon--black"></span></button>
+                  <button class="panel__close button button--no-decoration"><span class="icon icon--cross icon--black"></span></button>
                 </div>
                 <div class="panel__content">
                   <div class="panel__text">прогноз основывается на заданных показателях, оптимизирует ресурсы, составляет сценарии «что-если», формируется одним кликом</div>
@@ -205,14 +205,14 @@
               <div class="panel__content">
                 <div class="panel__title">Проект</div>
                 <div class="panel__text">Оценим стоимость и предоставим коммерческое предложение после описания задачи, написания сценариев и составления архитектуры</div>
-                <div class="panel__link">рассчитать проект<img src="./dist/img/panel-pricing1.svg" alt="" class="panel__image"></div>
+                <div class="panel__link">Рассчитать проект<img src="./dist/img/panel-pricing1.svg" alt="" class="panel__image"></div>
               </div>
             </a>
             <a href="#" class="pricing__item panel panel--white panel--shadow-blue">
               <div class="panel__content">
                 <div class="panel__title">Почасовая оплата</div>
                 <div class="panel__text">Используем для&nbsp;консультаций, доработок и&nbsp;разработки, не&nbsp;требующей сценариев</div>
-                <div class="panel__link">ПОСМОТРЕТЬ ПРАЙС<img src="./dist/img/panel-pricing2.svg" alt="" class="panel__image"></div>
+                <div class="panel__link">Посмотреть прайс<img src="./dist/img/panel-pricing2.svg" alt="" class="panel__image"></div>
               </div>
             </a>
           </div>

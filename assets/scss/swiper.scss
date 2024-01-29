@@ -23,12 +23,6 @@
 @include media-down($screen-md) {
   .swiper {
     width: 100%;
-    &:not(.swiper-autoheight) {
-      height: 340px;
-      .swiper-wrapper {
-        height: 312px;
-      }
-    }
     &.swiper-autoheight {
       padding-bottom: 26px;
     }
@@ -50,6 +44,23 @@
       .swiper-wrapper {
         height: 400px;
         margin-left: 0;
+      }
+    }
+    /*&--screenshots {
+      height: 190px;
+      .swiper-slide {
+        //width: 344px;
+      }
+      .swiper-wrapper {
+        height: 210px;
+        margin-left: 0;
+      }
+    }*/
+    &:not(.swiper-autoheight) {
+      //height: 280px;
+      padding-bottom: 30px;
+      .swiper-wrapper {
+        //height: 256px;
       }
     }
     &-slide {

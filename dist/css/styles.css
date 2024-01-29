@@ -147,11 +147,18 @@ a:hover > .icon.icon--black,
   margin-left: auto;
   display: flex;
   align-self: center;
+  transform: translateY(-1px);
 }
 .header__controls {
   display: flex;
   gap: 12px;
   line-height: 24px;
+}
+.header__controls .button__text {
+  transform: translateY(-2px);
+}
+.header__menu {
+  transform: translateY(-2px);
 }
 .header .wrapper {
   display: flex;
@@ -176,6 +183,16 @@ a:hover > .icon.icon--black,
   .header .wrapper {
     --logo-width: 151px;
   }
+}
+
+.container__header {
+  position: fixed;
+  z-index: 30;
+  left: 0;
+  right: 0;
+}
+.container__content {
+  margin-top: var(--header-height);
 }
 
 .menu {
@@ -303,6 +320,13 @@ a:hover > .icon.icon--black,
   }
 }
 
+.footer-logo {
+  transition: opacity var(--animation-duration);
+}
+.footer-logo:hover {
+  opacity: 0.8;
+}
+
 .footer-menu {
   background-color: var(--color-black);
   color: #fff;
@@ -392,10 +416,15 @@ a:hover > .icon.icon--black,
 }
 @media screen and (max-width: 1024px) {
   .credits {
+    justify-content: left;
+    padding: 32px 20px;
+  }
+}
+@media screen and (max-width: 879px) {
+  .credits {
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
-    padding: 32px 20px;
   }
 }
 .credits__link {
@@ -406,6 +435,15 @@ a:hover > .icon.icon--black,
 }
 .credits__link:hover {
   text-decoration: underline;
+}
+.credits__item {
+  flex: 1;
+}
+@media screen and (max-width: 1024px) {
+  .credits__item {
+    flex: 1 0 100%;
+    order: 2;
+  }
 }
 
 @font-face {
@@ -1118,6 +1156,15 @@ img {
   flex: 1;
 }
 
+.section--collapsed {
+  padding-bottom: 0;
+}
+@media screen and (max-width: 879px) {
+  .section--collapsed + .section {
+    padding-top: 0;
+  }
+}
+
 .panel {
   display: flex;
   flex-direction: column;
@@ -1377,10 +1424,23 @@ img {
 .panel--shadow-red {
   box-shadow: 4px 4px 0px 0px var(--color-red);
 }
+@media screen and (min-width: 880px) {
+  .panel .hide-md-up {
+    display: none;
+  }
+}
+@media screen and (max-width: 879px) {
+  .panel .hide-md-down {
+    display: none;
+  }
+}
 
 a.panel:hover {
   box-shadow: none;
   cursor: pointer;
+}
+a.panel:hover .panel__link {
+  text-decoration: none;
 }
 
 .button-panel {

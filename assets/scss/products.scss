@@ -48,6 +48,7 @@
     font-size: 20px;
     @include media-down($screen-lg) {
       font-size: 16px;
+      line-height: 26px;
     }
     @include media-down($screen-md) {
       margin-bottom: 24px;
@@ -86,6 +87,9 @@
   }
   .panel__content {
     gap: 24px;
+    @include media-down($screen-md) {
+      gap: 8px;
+    }
   }
   &__top,
   &__bottom {
@@ -112,6 +116,9 @@
     align-items: flex-end;
     overflow: hidden;
     flex-wrap: wrap;
+    .panel__link + .products__price {
+      margin-top: 8px;
+    }
   }
   &__title,
   &__name {

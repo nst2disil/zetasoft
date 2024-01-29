@@ -125,10 +125,14 @@
 
 .screenshots {
   margin-top: 64px;
+  align-items: center;
   &__item {
     border-radius: 8px;
     overflow: hidden;
     border: 3px solid var(--color-black);
+  }
+  img {
+
   }
   @include media-up($screen-md) {
     display: grid;

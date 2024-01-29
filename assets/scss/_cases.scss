@@ -7,15 +7,20 @@
     gap: 18px;
   }
   &__item {
-    @include media-up($screen-lg) {
-      height: 288px;
+    min-height: 288px;
+    @include media-down($screen-lg) {
+      min-height: 266px;
     }
     @include media-up($screen-md) {
-      height: 266px;
-    }
-    @include media-up($screen-sm) {
       width: calc(100%/3 - 12px);
     }
+  }
+}
+
+.swiper .cases__item {
+  @include media-down($screen-md) {
+    width: 100%;
+    max-width: 344px;
   }
 }
 
@@ -47,7 +52,6 @@
     font-size: 24px;
     font-weight: 600;
     line-height: 130%;
-    flex: 1;
     @include media-down($screen-lg) {
       font-size: 20px;
     }

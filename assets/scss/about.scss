@@ -16,7 +16,7 @@
     @include media-down($screen-bg) {
       max-width: 312px;
     }
-    @include media-down($screen-md) {
+    @include media-down($screen-bg) {
       max-width: unset;
     }
     &-text {

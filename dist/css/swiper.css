@@ -19,12 +19,16 @@
 @media screen and (max-width: 879px) {
   .swiper {
     width: 100%;
-  }
-  .swiper:not(.swiper-autoheight) {
-    height: 340px;
-  }
-  .swiper:not(.swiper-autoheight) .swiper-wrapper {
-    height: 312px;
+    /*&--screenshots {
+      height: 190px;
+      .swiper-slide {
+        //width: 344px;
+      }
+      .swiper-wrapper {
+        height: 210px;
+        margin-left: 0;
+      }
+    }*/
   }
   .swiper.swiper-autoheight {
     padding-bottom: 26px;
@@ -48,6 +52,9 @@
   .swiper--l .swiper-wrapper {
     height: 400px;
     margin-left: 0;
+  }
+  .swiper:not(.swiper-autoheight) {
+    padding-bottom: 30px;
   }
   .swiper-slide {
     display: flex;

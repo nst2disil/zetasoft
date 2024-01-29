@@ -23,39 +23,87 @@
         <div class="js-cases">
           <div class="cases-wrapper">
             <div class="wrapper cases">
-              <a href="#" class="cases__item panel" data-fill="data-case-category; getRandomColor" data-html-repeat="5">
+
+          
+
+          
+          
+          
+              <a href="./case.html" class="cases__item panel panel--decoration-red" data-case-category="red">
                 <div class="panel__head">
-                  <img src="./dist/img/panel-1c.svg" alt="1c logo" class="case__image" data-fill="src; getPanelLogo">
+                  <img src="./dist/img/panel-1c.svg" alt="1c logo" class="case__image">
                 </div>
                 <div class="panel__content case">
-                  <div class="case__title" data-fill="innerText; generateLoremIpsumString; [5, 12]"></div>
-                  <div class="case__text" data-fill="innerText; generateLoremIpsumString; [10, 20]"></div>
+                  <div class="case__title">АТОЛ Онлайн и 1С: готовое решение для интеграции</div>
+                  <div class="case__text">Для компаний, работающих в 1С и использующих онлайн-кассы АТОЛ Онлайн</div>
                 </div>
               </a>
+              <a href="./case.html" class="cases__item panel panel--decoration-red" data-case-category="red">
+                <div class="panel__head">
+                  <img src="./dist/img/panel-1c.svg" alt="1c logo" class="case__image">
+                </div>
+                <div class="panel__content case">
+                  <div class="case__title">Подсистема учета б/у запчастей в торговой конфигурации 1С</div>
+                  <div class="case__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+                </div>
+              </a>
+              <a href="./case.html" class="cases__item panel panel--decoration-red" data-case-category="red">
+                <div class="panel__head">
+                  <img src="./dist/img/panel-1c.svg" alt="1c logo" class="case__image">
+                </div>
+                <div class="panel__content case">
+                  <div class="case__title">Учет в вендинговом бизнесе</div>
+                  <div class="case__text">Определили наименее прибыльные товары и, заменив их на другие, увеличили выручку с автоматов на 25%</div>
+                </div>
+              </a>
+              <a href="./case.html" class="cases__item panel panel--decoration-red" data-case-category="red">
+                <div class="panel__head">
+                  <img src="./dist/img/panel-1c.svg" alt="1c logo" class="case__image">
+                </div>
+                <div class="panel__content case">
+                  <div class="case__title">Кеско групп</div>
+                  <div class="case__text">Бухгалтерское взаимодействие в рамках холдинга или других компаниях со сложной организационной структурой</div>
+                </div>
+              </a>
+              <a href="./case.html" class="cases__item panel panel--decoration-red" data-case-category="red">
+                <div class="panel__head">
+                  <img src="./dist/img/panel-1c.svg" alt="1c logo" class="case__image">
+                </div>
+                <div class="panel__content case">
+                  <div class="case__title">Авансовые отчеты </div>
+                  <div class="case__text">Снижение затрат клиента и, в свою очередь, его клиентов. Порядок в документообороте: корректность и своевременность ввода</div>
+                </div>
+              </a>
+
             </div>
           </div>
           <div class="cases-wrapper">
             <div class="wrapper cases">
-              <a href="#" class="cases__item panel" data-fill="data-case-category; getRandomColor" data-html-repeat="5">
+              <a href="./case.html" class="cases__item panel panel--decoration-red" data-case-category="red">
                 <div class="panel__head">
-                  <img src="./dist/img/panel-1c.svg" alt="1c logo" class="case__image" data-fill="src; getPanelLogo">
+                  <img src="./dist/img/panel-1c.svg" alt="1c logo" class="case__image">
                 </div>
                 <div class="panel__content case">
-                  <div class="case__title" data-fill="innerText; generateLoremIpsumString; [5, 12]"></div>
-                  <div class="case__text" data-fill="innerText; generateLoremIpsumString; [10, 20]"></div>
+                  <div class="case__title">Оптимизация производительности в УТ 11.1</div>
+                  <div class="case__text">Внедрение APDEX, международного стандарта оценки производительности информационных систем</div>
                 </div>
               </a>
-            </div>
-          </div>
-          <div class="cases-wrapper">
-            <div class="wrapper cases">
-              <a href="#" class="cases__item panel" data-fill="data-case-category; getRandomColor" data-html-repeat="5">
+              <a href="./case.html" class="cases__item panel panel--decoration-red" data-case-category="red">
                 <div class="panel__head">
-                  <img src="./dist/img/panel-1c.svg" alt="1c logo" class="case__image" data-fill="src; getPanelLogo">
+                  <img src="./dist/img/panel-1c.svg" alt="1c logo" class="case__image">
                 </div>
                 <div class="panel__content case">
-                  <div class="case__title" data-fill="innerText; generateLoremIpsumString; [5, 12]"></div>
-                  <div class="case__text" data-fill="innerText; generateLoremIpsumString; [10, 20]"></div>
+                  <div class="case__title">GTD</div>
+                  <div class="case__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+                </div>
+              </a>
+              <a href="./case.html" class="cases__item panel panel--decoration-red" data-case-category="red">
+                <div class="panel__head">
+                  <img src="./dist/img/panel-1c.svg" alt="1c logo" class="case__image">
+                </div>
+                <div class="panel__content case">
+                  <div class="case__title">Проектное решение для ООО «Оптима»</div>
+                  <div class="case__text">Выявили недобросовестного оператора, который уменьшал выручку компании</div>
                 </div>
               </a>
             </div>
