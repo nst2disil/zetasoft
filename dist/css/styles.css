@@ -1907,3 +1907,8 @@ ul.ul li::before {
     display: none !important;
   }
 }
+
+.anchor {
+  padding-top: 50px;
+  margin-top: -50px;
+}

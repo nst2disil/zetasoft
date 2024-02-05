@@ -8,6 +8,7 @@
   <div class="container">
     <div class="container__header"><?php include './partials/_header.php'; ?></div>
     <div class="container__content">
+      <!-- до лучших времен
       <section class="section section--collapsed">
         <div class="wrapper">
           <h2 class="section__title">Наши продукты</h1>
@@ -20,7 +21,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section>-->
       <section class="section">
         <div class="wrapper">
           <h2 class="section__title">
@@ -141,7 +142,7 @@
       <section class="section section--black">
         <div class="wrapper">
           <h2 class="section__title">
-            Системы на основе базовых модулей
+            Платформы для решений
           </h2>
           <div class="swiper swiper--m" data-swiper-id="systems">
             <div class="products swiper-wrapper">

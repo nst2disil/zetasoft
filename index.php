@@ -146,7 +146,7 @@
               <div class="panel__content">Систематическая доработка и&nbsp;модернизация архитектуры 1С по&nbsp;мере накопления запросов пользователей</div>
               <img src="./dist/img/icons/analytics-w/016-effective.svg" alt="иллюстрация" class="panel__image">
             </div>
-            <a class="block-group__item panel panel--blue" href="#">
+            <a class="block-group__item panel panel--blue" href="./services.html#big-business">
               <div class="panel__content">
                 <div class="">Разработка информационной системы с&nbsp;выделенным ИТ&nbsp;директором от&nbsp;проекта до&nbsp;эффективной рабочей версии. Система масштабируется параллельно с&nbsp;ростом вашего бизнеса</div>
                 <div class="panel__link">Подробнее</div>

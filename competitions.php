@@ -42,6 +42,7 @@
           </div>
         </div>
       </section>
+      <div class="anchor" id="autobusiness"></div>
       <section class="section" id="autobusiness">
         <div class="wrapper">
           <h2 class="section__title section__title--with-button">Автобизнес
@@ -128,6 +129,7 @@
           </div>
         </div>
       </section>
+      <div class="anchor" id="vending"></div>
       <section class="section" id="vending">
         <div class="wrapper">
           <h2 class="section__title section__title--with-button">Вендинг
@@ -212,6 +214,7 @@
           </div>
         </div>
       </section>
+      <div class="anchor" id="services"></div>
       <section class="section" id="services">
         <div class="wrapper">
           <h2 class="section__title section__title--with-button">Повременные услуги

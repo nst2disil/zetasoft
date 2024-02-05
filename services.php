@@ -8,7 +8,7 @@
   <div class="container">
     <div class="container__header"><?php include './partials/_header.php'; ?></div>
     <div class="container__content">
-      <section class="section section--main">
+      <section class="section section--main section--black">
         <div class="wrapper wrapper--services-bg">
           <h1 class="section__title">Автоматизируем любые бизнес-процессы</h1>
           <div class="services js-services-with-hint">
@@ -90,45 +90,8 @@
             </div>
           </div>
         </div>
-      <div class="fixed-panel-cover"></div>
+        <div class="fixed-panel-cover"></div>
       </section>
-      <section class="section section--black section--two-cols">
-        <div class="wrapper">
-          <div class="section__col">
-            <h2 class="section__title">Чем&nbsp;мы отличаемся от&nbsp;большинства франчайзи 1С в&nbsp;России?</h2>
-            <img class="section__image" src="./dist/img/section-report.svg" alt="illustration">
-          </div>
-          <div class="section__col">
-            <div class="diffs">
-              <div class="diffs__item panel panel--white panel--no-shadow">
-                <div class="panel__content">
-                  <div class="panel__title">Процесс работы над&nbsp;задачей</div>
-                  <div class="panel__text">Каждый этап выполняется в&nbsp;соответствии с&nbsp;высоким стандартом, мониторинг</div>
-                </div>
-              </div>
-              <div class="diffs__item panel panel--white panel--no-shadow">
-                <div class="panel__content">
-                  <div class="panel__title">Квалификация сотрудников</div>
-                  <div class="panel__text">Каждый специалист, будучи экспертом в&nbsp;своей области, гарантирует высокий стандарт результата</div>
-                </div>
-              </div>
-              <div class="diffs__item panel panel--blue panel--no-shadow">
-                <div class="panel__content">
-                  <div class="panel__title">Глубокая отраслевая экспертиза</div>
-                  <ul class="ul panel__list">
-                    <li>Вендинг</li>
-                    <li>Автобизнес</li>
-                    <li>Торговый бизнес</li>
-                    <li>ТРК и БЦ</li>
-                  </ul>
-                  <div class="panel__text">Сэкономим время на&nbsp;погружение команды в&nbsp;тему и&nbsp;предложим способы оптимизации бизнес-процессов</div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
       <section class="section">
         <div class="wrapper">
           <h2 class="section__title">Ваша задача разработки в&nbsp;1С проходит следующие этапы</h2>
@@ -197,27 +160,44 @@
           </div>
         </div>
       </section>
-      <section class="section section--black">
+      <section class="section section--black section--two-cols">
         <div class="wrapper">
-          <h2 class="section__title">Сколько стоит?</h2>
-          <div class="pricing">
-            <a href="#" class="pricing__item panel panel--white panel--shadow-blue">
-              <div class="panel__content">
-                <div class="panel__title">Проект</div>
-                <div class="panel__text">Оценим стоимость и предоставим коммерческое предложение после описания задачи, написания сценариев и составления архитектуры</div>
-                <div class="panel__link">Рассчитать проект<img src="./dist/img/panel-pricing1.svg" alt="" class="panel__image"></div>
-              </div>
-            </a>
-            <a href="#" class="pricing__item panel panel--white panel--shadow-blue">
-              <div class="panel__content">
-                <div class="panel__title">Почасовая оплата</div>
-                <div class="panel__text">Используем для&nbsp;консультаций, доработок и&nbsp;разработки, не&nbsp;требующей сценариев</div>
-                <div class="panel__link">Посмотреть прайс<img src="./dist/img/panel-pricing2.svg" alt="" class="panel__image"></div>
-              </div>
-            </a>
+          <div class="section__col">
+            <h2 class="section__title">Чем&nbsp;мы отличаемся от&nbsp;большинства франчайзи 1С в&nbsp;России?</h2>
+            <img class="section__image" src="./dist/img/section-report.svg" alt="illustration">
           </div>
+          <div class="section__col">
+            <div class="diffs">
+              <div class="diffs__item panel panel--white panel--no-shadow">
+                <div class="panel__content">
+                  <div class="panel__title">Процесс работы над&nbsp;задачей</div>
+                  <div class="panel__text">Каждый этап выполняется в&nbsp;соответствии с&nbsp;высоким стандартом, мониторинг</div>
+                </div>
+              </div>
+              <div class="diffs__item panel panel--white panel--no-shadow">
+                <div class="panel__content">
+                  <div class="panel__title">Квалификация сотрудников</div>
+                  <div class="panel__text">Каждый специалист, будучи экспертом в&nbsp;своей области, гарантирует высокий стандарт результата</div>
+                </div>
+              </div>
+              <div class="diffs__item panel panel--blue panel--no-shadow">
+                <div class="panel__content">
+                  <div class="panel__title">Глубокая отраслевая экспертиза</div>
+                  <ul class="ul panel__list">
+                    <li>Вендинг</li>
+                    <li>Автобизнес</li>
+                    <li>Торговый бизнес</li>
+                    <li>ТРК и БЦ</li>
+                  </ul>
+                  <div class="panel__text">Сэкономим время на&nbsp;погружение команды в&nbsp;тему и&nbsp;предложим способы оптимизации бизнес-процессов</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
-      </section>
+      </div>
+      <div class="anchor" id="big-business"></div>
       <section class="section">
         <div class="wrapper">
           <h2 class="section__title">Драйвер развития большого бизнеса</h2>
@@ -259,6 +239,27 @@
                 <img src="./dist/img/panel-business-tip4.svg" alt="" class="panel__image">
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section--black section--collapsed">
+        <div class="wrapper">
+          <h2 class="section__title">Сколько стоит?</h2>
+          <div class="pricing">
+            <a href="#" class="pricing__item panel panel--white panel--shadow-blue">
+              <div class="panel__content">
+                <div class="panel__title">Проект</div>
+                <div class="panel__text">Оценим стоимость и предоставим коммерческое предложение после описания задачи, написания сценариев и составления архитектуры</div>
+                <div class="panel__link">Рассчитать проект<img src="./dist/img/panel-pricing1.svg" alt="" class="panel__image"></div>
+              </div>
+            </a>
+            <a href="#" class="pricing__item panel panel--white panel--shadow-blue">
+              <div class="panel__content">
+                <div class="panel__title">Почасовая оплата</div>
+                <div class="panel__text">Используем для&nbsp;консультаций, доработок и&nbsp;разработки, не&nbsp;требующей сценариев</div>
+                <div class="panel__link">Посмотреть прайс<img src="./dist/img/panel-pricing2.svg" alt="" class="panel__image"></div>
+              </div>
+            </a>
           </div>
         </div>
       </section>

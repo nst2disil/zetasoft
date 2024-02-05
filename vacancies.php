@@ -11,10 +11,6 @@
       <section class="section">
         <div class="wrapper">
           <h2 class="section__title">Кто мы, что делаем, какие профессионалы нам нужны</h2>
-          <div class="cols">
-            <div class="cols__item"><div class="section__subtitle">На&nbsp;этой странице описаны рабочие процессы и&nbsp;актуальные вакансии нашей компании </div></div>
-            <div class="cols__item"></div>
-          </div>
           <div class="vacancies">
             <div class="vacancies__item panel panel--white panel--no-shadow">
               <div class="panel__content cols">
