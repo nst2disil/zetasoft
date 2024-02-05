@@ -15,7 +15,7 @@
             <div class="our-products__title">При&nbsp;покупке решения для&nbsp;интеграции АТОЛ и&nbsp;1С подписка на&nbsp;6&nbsp;месяцев обновлений бесплатно</div>
             <img src="./dist/img/tip-arrow.svg" alt="arrow" class="our-products__arrow">
             <div class="our-products__button-container">
-              <div class="our-products__button-title">Наши продукты зарегистрированы в реестре ПО</div>
+              <div class="our-products__button-title">Наши продукты зарегистрированы в&nbsp;реестре ПО</div>
               <button class="button  button--bg button--mobile-full-width button--blue our-products__button" data-modal="contact-form">подписка на продукты Зетасофт</button>
             </div>
           </div>

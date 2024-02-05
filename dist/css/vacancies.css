@@ -13,6 +13,11 @@
     margin-right: 84px;
   }
 }
+@media screen and (max-width: 879px) {
+  .vacancies__title {
+    margin-bottom: 16px;
+  }
+}
 .vacancies__text {
   font-size: 20px;
 }
@@ -104,5 +109,9 @@
 @media screen and (max-width: 879px) {
   .vacancies__item .cols__item--list {
     order: 2;
+    margin-bottom: 12px;
+  }
+  .vacancies__item .cols__item--list .vacancies__title {
+    margin-right: 0;
   }
 }

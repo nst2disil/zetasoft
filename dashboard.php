@@ -27,7 +27,7 @@
                         <div class="products__title">ERP 2.5 (УТ&nbsp;11.5, КА&nbsp;2.5). Модуль отправки чеков в&nbsp;АТОЛ</div>
                         <div class="products__status-info">
                           <div class="products__status products__status--active">Подключён</div>
-                          <div class="products__date">Актуальная версия<br>1.3.2.0 от 25.03.2023 г.</div>
+                          <div class="products__date">Актуальная версия<br>1.3.2.0 от&nbsp;25.03.2023 г.</div>
                         </div>
                       </div>
                       <div class="products__bottom">
@@ -44,7 +44,7 @@
                   <div class="products__item panel panel--white inactive">
                     <div class="panel__content">
                       <div class="products__top">
-                        <div class="products__title">УПП 1.3. Модуль отправки чеков в АТОЛ</div>
+                        <div class="products__title">УПП 1.3. Модуль отправки чеков в&nbsp;АТОЛ</div>
                         <div class="products__status-info">
                           <div class="products__status products__status--inactive">Не подключен</div>
                         
@@ -77,7 +77,7 @@
                         <div class="products__title">ERP 2.5 (УТ&nbsp;11.5, КА&nbsp;2.5). Модуль отправки чеков в&nbsp;АТОЛ</div>
                         <div class="products__status-info">
                           <div class="products__status products__status--active">Подключён</div>
-                          <div class="products__date">Актуальная версия<br>1.3.2.0 от 25.03.2023 г.</div>
+                          <div class="products__date">Актуальная версия<br>1.3.2.0 от&nbsp;25.03.2023 г.</div>
                         </div>
                       </div>
                       <div class="products__bottom">
@@ -94,7 +94,7 @@
                   <div class="products__item panel panel--white inactive">
                     <div class="panel__content">
                       <div class="products__top">
-                        <div class="products__title">УПП 1.3. Модуль отправки чеков в АТОЛ</div>
+                        <div class="products__title">УПП 1.3. Модуль отправки чеков в&nbsp;АТОЛ</div>
                         <div class="products__status-info">
                           <div class="products__status products__status--inactive">Не подключен</div>
                         
@@ -171,7 +171,7 @@
       <div class="modal__container">
         <button class="modal__close js-modal-exit"></button>
         <div class="modal__title js-title">
-          Внесите изменения в персональные данные
+          Внесите изменения в&nbsp;персональные данные
         </div>
         <form class="modal__form form">
           <input type="text" name="name" placeholder="Иванов Иван Иванович" class="input" required>

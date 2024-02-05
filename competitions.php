@@ -95,7 +95,7 @@
                 </div>
                 <div class="panel__content case">
                   <div class="case__title">АТОЛ онлайн и&nbsp;1С: готовое решение для&nbsp;интеграции</div>
-                  <div class="case__text">Подсистема предназначена для компаний, работающих в 1С и использующих онлайн-кассы АТОЛ Онлайн</div>
+                  <div class="case__text">Подсистема предназначена для компаний, работающих в&nbsp;1С и использующих онлайн-кассы АТОЛ Онлайн</div>
                 </div>
               </a>
               <a href="./case.html" class="swiper-slide cases__item panel panel--shadow-yellow panel--white">
@@ -105,7 +105,7 @@
                 </div>
                 <div class="panel__content case">
                   <div class="case__title">Проектное решение<br/>«Продажа автозапчастей»</div>
-                  <div class="case__text">Подсистема предназначена для компаний, работающих в 1С и использующих онлайн-кассы АТОЛ Онлайн</div>
+                  <div class="case__text">Подсистема предназначена для компаний, работающих в&nbsp;1С и использующих онлайн-кассы АТОЛ Онлайн</div>
                 </div>
               </a>
               <a href="./case.html" class="swiper-slide cases__item panel panel--shadow-yellow panel--white">
@@ -114,8 +114,8 @@
 
                 </div>
                 <div class="panel__content case">
-                  <div class="case__title">Подсистема учета б/у запчастей в торговой конфигурации 1С</div>
-                  <div class="case__text">Подсистема предназначена для компаний, работающих в 1С и использующих онлайн-кассы АТОЛ Онлайн</div>
+                  <div class="case__title">Подсистема учета б/у запчастей в&nbsp;торговой конфигурации 1С</div>
+                  <div class="case__text">Подсистема предназначена для компаний, работающих в&nbsp;1С и использующих онлайн-кассы АТОЛ Онлайн</div>
                 </div>
               </a>
 
@@ -139,7 +139,7 @@
             </div>
             <div class="cols__item">
               <ul class="ul">
-                <li>Обслуживаем автоматы в электронном виде</li>
+                <li>Обслуживаем автоматы в&nbsp;электронном виде</li>
                 <li>Контролируем работу операторов, обслуживающих аппараты</li>
                 <li>Осуществляем мониторинг и планирование загрузки</li>
                 <li>Настраиваем интеграцию с внешними сервисами и системами</li>
@@ -180,7 +180,7 @@
                 </div>
                 <div class="panel__content case">
                   <div class="case__title">Проектное решение<br/>«Учёт в&nbsp;вендинговом бизнесе»</div>
-                  <div class="case__text">Подсистема предназначена для компаний, работающих в 1С и использующих онлайн-кассы АТОЛ Онлайн</div>
+                  <div class="case__text">Подсистема предназначена для компаний, работающих в&nbsp;1С и использующих онлайн-кассы АТОЛ Онлайн</div>
                 </div>
               </a>
               <a href="./case.html" class="swiper-slide cases__item panel panel--shadow-red panel--white">
@@ -190,7 +190,7 @@
                 </div>
                 <div class="panel__content case">
                   <div class="case__title">Проектное решение для ООО «Оптима»</div>
-                  <div class="case__text">Подсистема предназначена для компаний, работающих в 1С и использующих онлайн-кассы АТОЛ Онлайн</div>
+                  <div class="case__text">Подсистема предназначена для компаний, работающих в&nbsp;1С и использующих онлайн-кассы АТОЛ Онлайн</div>
                 </div>
               </a>
               <a href="./case.html" class="swiper-slide cases__item panel panel--shadow-red panel--white">
@@ -200,7 +200,7 @@
                 </div>
                 <div class="panel__content case">
                   <div class="case__title">Проектное решение<br/>«Учёт в&nbsp;вендинговом бизнесе»</div>
-                  <div class="case__text">Подсистема предназначена для компаний, работающих в 1С и использующих онлайн-кассы АТОЛ Онлайн</div>
+                  <div class="case__text">Подсистема предназначена для компаний, работающих в&nbsp;1С и использующих онлайн-кассы АТОЛ Онлайн</div>
                 </div>
               </a>
             </div>
@@ -252,7 +252,7 @@
                   <div class="panel__title">Создание прозрачного процесса определения себестоимости</div>
                   <img src="./dist/img/anchor-time.svg" alt="" class="panel__image">
                 </div>
-                <div class="panel__text">а также ценообразования с последующим попаданием в акты оказанных услуг </div>
+                <div class="panel__text">а также ценообразования с последующим попаданием в&nbsp;акты оказанных услуг </div>
               </div>
             </div>
         </div>
@@ -270,7 +270,7 @@
                 </div>
                 <div class="panel__content case">
                   <div class="case__title">Автоматизация учета кадровых ресурсов на основе подхода GTD</div>
-                  <div class="case__text">Подсистема предназначена для компаний, работающих в 1С и использующих онлайн-кассы АТОЛ Онлайн</div>
+                  <div class="case__text">Подсистема предназначена для компаний, работающих в&nbsp;1С и использующих онлайн-кассы АТОЛ Онлайн</div>
                 </div>
               </a>
               <a href="./case.html" class="swiper-slide cases__item panel panel--shadow-blue panel--white">
@@ -280,7 +280,7 @@
                 </div>
                 <div class="panel__content case">
                   <div class="case__title">Кейс Кеско Групп</div>
-                  <div class="case__text">Подсистема предназначена для компаний, работающих в 1С и использующих онлайн-кассы АТОЛ Онлайн</div>
+                  <div class="case__text">Подсистема предназначена для компаний, работающих в&nbsp;1С и использующих онлайн-кассы АТОЛ Онлайн</div>
                 </div>
               </a>
               <a href="./case.html" class="swiper-slide cases__item panel panel--shadow-blue panel--white">
@@ -290,7 +290,7 @@
                 </div>
                 <div class="panel__content case">
                   <div class="case__title">Управлении консалтинговой компанией</div>
-                  <div class="case__text">Подсистема предназначена для компаний, работающих в 1С и использующих онлайн-кассы АТОЛ Онлайн</div>
+                  <div class="case__text">Подсистема предназначена для компаний, работающих в&nbsp;1С и использующих онлайн-кассы АТОЛ Онлайн</div>
                 </div>
               </a>
             </div>

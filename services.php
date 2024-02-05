@@ -27,7 +27,7 @@
                   <button class="panel__close button button--no-decoration"><span class="icon icon--cross icon--black"></span></button>
                 </div>
                 <div class="panel__content">
-                  <div class="panel__text">пример любого другого длинного текста, не важно, что это, как и где, в конечном счете мы просто космическая случайность на голубой песчинке</div>
+                  <div class="panel__text">пример любого другого длинного текста, не важно, что это, как и где, в&nbsp;конечном счете мы просто космическая случайность на голубой песчинке</div>
                 </div>
               </div>
             </div>
@@ -46,7 +46,7 @@
                 <button class="panel__close button button--no-decoration"><span class="icon icon--cross icon--black"></span></button>
                 </div>
                 <div class="panel__content">
-                  <div class="panel__text">пример любого другого длинного текста, не важно, что это, как и где, в конечном счете мы просто космическая случайность на голубой песчинке</div>
+                  <div class="panel__text">пример любого другого длинного текста, не важно, что это, как и где, в&nbsp;конечном счете мы просто космическая случайность на голубой песчинке</div>
                 </div>
               </div>
             </div>
@@ -65,7 +65,7 @@
                   <button class="panel__close button button--no-decoration"><span class="icon icon--cross icon--black"></span></button>
                 </div>
                 <div class="panel__content">
-                  <div class="panel__text">пример любого другого длинного текста, не важно, что это, как и где, в конечном счете мы просто космическая случайность на голубой песчинке</div>
+                  <div class="panel__text">пример любого другого длинного текста, не важно, что это, как и где, в&nbsp;конечном счете мы просто космическая случайность на голубой песчинке</div>
                 </div>
               </div>
             </div>
@@ -131,7 +131,7 @@
       </div>
       <section class="section">
         <div class="wrapper">
-          <h2 class="section__title">Ваша задача разработки в 1С проходит следующие этапы</h2>
+          <h2 class="section__title">Ваша задача разработки в&nbsp;1С проходит следующие этапы</h2>
           <div class="stages">
             <div class="stages__item">
               <div class="panel">
@@ -223,7 +223,7 @@
           <h2 class="section__title">Драйвер развития большого бизнеса</h2>
           <div class="cols">
             <div class="cols__item">
-              <div class="section__subtitle">С затратами на ИТ от 0,9&nbsp;млн<br/>рублей в месяц</div>
+              <div class="section__subtitle">С затратами на ИТ от&nbsp;0,9&nbsp;млн<br/>рублей в&nbsp;месяц</div>
             </div>
             <div class="cols__item">
               <ul class="ul">

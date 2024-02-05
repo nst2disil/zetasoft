@@ -166,12 +166,12 @@ a:hover > .icon.icon--black,
   justify-content: space-between;
   gap: 16px;
   height: 100%;
-  --logo-width: 240px;
+  --logo-width: 270px;
   background: url("../img/header-bg.svg") no-repeat var(--logo-width);
 }
 @media screen and (max-width: 1439px) {
   .header .wrapper {
-    --logo-width: 213px ;
+    --logo-width: 250px ;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -557,7 +557,7 @@ a:hover > .icon.icon--black,
 }
 .button--bg {
   padding: 18px 30px;
-  min-width: 270px;
+  min-width: 255px;
   justify-content: center;
   text-transform: uppercase;
   font-size: 16px;
@@ -641,6 +641,20 @@ a:hover > .icon.icon--black,
   background-color: var(--color-blue-dark);
 }
 
+@media screen and (max-width: 879px) {
+  .checkbox__label {
+    padding-right: 0;
+    padding-left: 40px;
+  }
+  .checkbox__label::before {
+    right: unset;
+    left: 0;
+  }
+  .checkbox__label::after {
+    right: unset;
+    left: 16px;
+  }
+}
 .custom-select {
   position: relative;
   display: inline-block;

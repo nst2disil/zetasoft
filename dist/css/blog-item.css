@@ -196,3 +196,11 @@
   max-width: 100%;
   max-height: 100%;
 }
+.post__content p + img {
+  margin-top: 48px;
+}
+@media screen and (max-width: 1024px) {
+  .post__content p + img {
+    margin-top: 40px;
+  }
+}
