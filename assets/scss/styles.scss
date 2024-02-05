@@ -407,16 +407,6 @@ img {
   &--shadow-blue { box-shadow: 4px 4px 0px 0px var(--color-blue); }
   &--shadow-yellow { box-shadow: 4px 4px 0px 0px var(--color-yellow); }
   &--shadow-red { box-shadow: 4px 4px 0px 0px var(--color-red); }
-  .hide-md-up {
-    @include media-up($screen-md) {
-      display: none;
-    }
-  }
-  .hide-md-down {
-    @include media-down($screen-md) {
-      display: none;
-    }
-  }
 }
 
 a.panel:hover {
@@ -812,5 +802,16 @@ ul.ul {
     &::-ms-expand {
       display: none;
     }
+  }
+}
+
+.hide-md-up {
+  @include media-up($screen-md) {
+    display: none !important;
+  }
+}
+.hide-md-down {
+  @include media-down($screen-md) {
+    display: none !important;
   }
 }

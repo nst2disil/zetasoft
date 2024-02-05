@@ -258,6 +258,16 @@ a:hover > .icon.icon--black,
   background: #fff;
   overflow: auto;
 }
+@media screen and (min-width: 880px) {
+  .popup-menu {
+    border: 1px solid #000;
+    height: auto;
+    padding: 24px 48px 28px 24px;
+    right: -169px;
+    width: 169px;
+    height: auto;
+  }
+}
 @media screen and (min-width: 1240px) {
   .popup-menu {
     display: none;
@@ -268,6 +278,12 @@ a:hover > .icon.icon--black,
   opacity: 1;
   transition-delay: 0s;
   width: 100vw;
+}
+@media screen and (min-width: 880px) {
+  .popup-menu.open {
+    right: 0;
+    width: 169px;
+  }
 }
 .popup-menu .links {
   font-size: 16px;
@@ -1438,16 +1454,6 @@ img {
 .panel--shadow-red {
   box-shadow: 4px 4px 0px 0px var(--color-red);
 }
-@media screen and (min-width: 880px) {
-  .panel .hide-md-up {
-    display: none;
-  }
-}
-@media screen and (max-width: 879px) {
-  .panel .hide-md-down {
-    display: none;
-  }
-}
 
 a.panel:hover {
   box-shadow: none;
@@ -1888,4 +1894,16 @@ ul.ul li::before {
 }
 .select select::-ms-expand {
   display: none;
+}
+
+@media screen and (min-width: 880px) {
+  .hide-md-up {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 879px) {
+  .hide-md-down {
+    display: none !important;
+  }
 }

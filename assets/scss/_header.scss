@@ -152,6 +152,14 @@
   color: var(--color-black);
   background: #fff;
   overflow: auto;
+  @include media-up($screen-md) {
+    border: 1px solid #000;
+    height: auto;
+    padding: 24px 48px 28px 24px;
+    right: -169px;
+    width: 169px;
+    height: auto;
+  }
   @include media-up($header-bg) {
     display: none;
   }
@@ -160,6 +168,10 @@
     opacity: 1;
     transition-delay: 0s;
     width: 100vw;
+    @include media-up($screen-md) {
+      right: 0;
+      width: 169px;
+    }
   }
   .links {
     font-size: 16px;
