@@ -1,0 +1,49 @@
+@import './_mixins';
+
+.anchors {
+  display: flex;
+  align-items: stretch;
+  gap: 22px;
+  margin-top: auto;
+  @include media-down($screen-lg) {
+    gap: 18px;
+  }
+  @include media-down($screen-md) {
+    gap: 16px;
+    flex-direction: column;
+    margin-top: 56px;
+
+  }
+  &__item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 164px;
+    .panel__content {
+      --panel-content-padding: 24px;
+    }
+  }
+  &__image {
+    height: 56px;
+    width: 56px;
+  }
+  &__bottom {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  &__title {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 130%;
+    @include media-down($screen-lg) {
+      font-size: 24px;
+    }
+  }
+  &__arrow {
+    height: 40px;
+    width: 40px;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none"><path d="M20 8.33325V31.6666" stroke="%23231F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M31.6673 20L20.0007 31.6667L8.33398 20" stroke="%23231F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>') center no-repeat;
+  }
+}

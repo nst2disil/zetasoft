@@ -185,43 +185,6 @@ function initSwipers() {
 }
 
 
-function initServicesHints() {
-  const $servicesWithHintsWraps = document.querySelectorAll('.js-service-hint-wrap');
-  const $body = document.querySelector('.js-body');
-  const $hints = document.querySelectorAll('.js-service-hint');
-  if (!$servicesWithHintsWraps) return;
-
-  function closeAllHitns() {
-    $body.classList.remove('shadowed');
-    $hints.forEach(($hint) => {
-      $hint.classList.remove('services__item--detail--show');
-    });
-  }
-
-  $servicesWithHintsWraps.forEach(($hintWrap) => {
-    const $hint = $hintWrap.querySelector('.js-service-hint');
-    const $hintClose = $hintWrap.querySelectorAll('.js-service-hint-close');
-    const $hintShow = $hintWrap.querySelector('.js-service-hint-show');
-
-    $hintShow.addEventListener('click', function() {
-      $hints.forEach(($hint) => {
-        $hint.classList.remove('services__item--detail--show');
-      });
-      $hint.classList.add('services__item--detail--show');
-      $body.classList.add('shadowed');
-    });
-    $hintClose.forEach($item => $item.addEventListener('click', function() {
-      closeAllHitns();
-    }));
-  });
-  $body.addEventListener('click', (e) => {
-    e.stopPropagation();
-    if (e.target.classList.contains('shadowed')) {
-      closeAllHitns();
-    }
-  })
-}
-
 const SWIPERS = {
   /*'case-screenshots': {
     config: {
@@ -237,7 +200,6 @@ document.addEventListener('DOMContentLoaded', () => {
   initCases();
   initDashboardToggleds();
   initCustomSelects();
-  initServicesHints();
 });
 
 // function to show alert after 10 seconds after page loaded
