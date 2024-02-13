@@ -44,10 +44,10 @@
                   </div>
                 </div>
               </a>
-              <a href="#" class="swiper-slide products__item panel products__item--cross panel--shadow-blue">
+              <a href="#" class="swiper-slide products__item panel products__item--cross panel--shadow-yellow">
                 <div class="panel__content">
                   <div class="products__top">
-                    <div class="products__name products__name--blue">Атол</div>
+                    <div class="products__name products__name--yellow">Атол</div>
                     <div class="products__price hide-md-down">От 1000 ₽/месяц</div>
                   </div>
                   <div class="products__text">Удобный интерфейс для подбора товаров и создания заказа, используя собственные остатки, прайс-листы и веб-сервисы поставщиков</div>
@@ -59,7 +59,7 @@
                   </div>
                 </div>
               </a>
-              <a href="#" class="swiper-slide products__item panel products__item--cross  panel--shadow-yellow">
+              <a href="#" class="swiper-slide products__item panel products__item--cross panel--shadow-yellow">
                 <div class="panel__content">
                   <div class="products__top">
                     <div class="products__name products__name--yellow">Виртуальный склад</div>
@@ -74,7 +74,7 @@
                   </div>
                 </div>
               </a>
-              <a href="#" class="swiper-slide products__item panel products__item--cross">
+              <a href="#" class="swiper-slide products__item panel products__item--cross panel--shadow-red">
                 <div class="panel__content">
                   <div class="products__top">
                     <div class="products__name products__name--blue">Веб-сервисы</div>
@@ -89,7 +89,7 @@
                   </div>
                 </div>
               </a>
-              <a href="#" class="swiper-slide products__item panel products__item--cross">
+              <a href="#" class="swiper-slide products__item panel products__item--cross panel--shadow-red">
                 <div class="panel__content">
                   <div class="products__top">
                     <div class="products__name products__name--green">Вендинг</div>
