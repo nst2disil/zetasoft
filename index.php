@@ -6,8 +6,13 @@
 </head>
 <body>
   <div class="container">
-    <div class="container__header"><?php include './partials/_header.php'; ?></div>
+    <div class="container__header">
+      <!-- copy inside <header id="ccphupper" -->
+      <?php include './partials/_header.php'; ?>
+      <!-- end copy inside <header id="ccphupper" -->
+    </div>
     <div class="container__content">
+      <!-- copy inside <section id="ccphworkarea" class="page_full-width"> -->
       <section class="section section--main">
         <div class="wrapper wrapper--main-bg-image">
           <h1 class="section__title">Автоматизируем бизнес-процессы с&nbsp;помощью собственных IT-решений и&nbsp;продуктов 1С</h1>
@@ -325,8 +330,14 @@
           </div>
         </div>
       </section>
+      <!-- end copy inside <section id="ccphworkarea" class="page_full-width"> -->
+
     </div>
-    <div class="container__footer"><?php include './partials/_footer.html'?></div>
+    <div class="container__footer">
+      <!-- copy inside <footer id="ccphbottom" class="footer"> -->
+      <?php include './partials/_footer.html'?>
+      <!-- end copy inside <footer id="ccphbottom" class="footer"> -->
+    </div>
   </div>
 </body>
 </html>
