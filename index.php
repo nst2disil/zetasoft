@@ -95,37 +95,37 @@
             <div class="steps__item">
               <div class="steps__item-number">1</div>
               <div class="steps__item-text">Принимаем задачу в&nbsp;виде бизнес-потребности</div>
-              <img class="steps__item-image" alt="step illustration" src="./dist/img/icons/analytics-b/037-data analysis.svg">
+              <img class="steps__item-image" alt="step illustration" src="./dist/img/icons/037-data analysis.svg">
             </div>
             <div class="steps__item">
               <div class="steps__item-number">2</div>
               <div class="steps__item-text">Аналитик вместе с&nbsp;клиентом превращают потребность в&nbsp;сценарий действий по&nbsp;определённой методике</div>
-              <img class="steps__item-image" alt="step illustration" src="./dist/img/icons/analytics-b/022-iteration.svg">
+              <img class="steps__item-image" alt="step illustration" src="./dist/img/icons/022-iteration.svg">
             </div>
             <div class="steps__item">
               <div class="steps__item-number">3</div>
               <div class="steps__item-text">Утверждаем сценарий и&nbsp;передаём его&nbsp;архитектору для&nbsp;выбора наилучшего варианта решения</div>
-              <img class="steps__item-image" alt="step illustration" src="./dist/img/icons/analytics-b/006-confirmation.svg">
+              <img class="steps__item-image" alt="step illustration" src="./dist/img/icons/006-confirmation.svg">
             </div>
             <div class="steps__item">
               <div class="steps__item-number">4</div>
               <div class="steps__item-text">Формируем бюджет решения и&nbsp;передаём в&nbsp;разработку</div>
-              <img class="steps__item-image" alt="step illustration" src="./dist/img/icons/analytics-b/011-calculator.svg">
+              <img class="steps__item-image" alt="step illustration" src="./dist/img/icons/011-calculator.svg">
             </div>
             <div class="steps__item">
               <div class="steps__item-number">5</div>
               <div class="steps__item-text">Наши разработчики пишут профессиональный&nbsp;код</div>
-              <img class="steps__item-image" alt="step illustration" src="./dist/img/icons/analytics-b/031-statistics.svg">
+              <img class="steps__item-image" alt="step illustration" src="./dist/img/icons/031-statistics.svg">
             </div>
             <div class="steps__item">
               <div class="steps__item-number">6</div>
               <div class="steps__item-text">Внедряем результат совместно с&nbsp;клиентом и&nbsp;аналитиком</div>
-              <img class="steps__item-image" alt="step illustration" src="./dist/img/icons/analytics-b/017-light bulb.svg">
+              <img class="steps__item-image" alt="step illustration" src="./dist/img/icons/017-light bulb.svg">
             </div>
             <div class="steps__item">
               <div class="steps__item-number">7</div>
               <div class="steps__item-text">Описываем бизнес-процесс и&nbsp;прикладные инструкции в&nbsp;базе знаний</div>
-              <img class="steps__item-image" alt="step illustration" src="./dist/img/icons/analytics-b/042-data storage.svg">
+              <img class="steps__item-image" alt="step illustration" src="./dist/img/icons/042-data storage.svg">
             </div>
           </div>
 
@@ -145,17 +145,17 @@
           <div class="block-group block-group--3">
             <div class="block-group__item panel panel--no-shadow">
               <div class="panel__content">Сбор и анализ Big Data</div>
-              <img src="./dist/img/icons/analytics-b/032-data visualization.svg" alt="иллюстрация" class="panel__image">
+              <img src="./dist/img/icons/032-data visualization.svg" alt="иллюстрация" class="panel__image">
             </div>
             <div class="block-group__item panel panel--black panel--no-shadow">
               <div class="panel__content">Систематическая доработка и&nbsp;модернизация архитектуры 1С по&nbsp;мере накопления запросов пользователей</div>
-              <img src="./dist/img/icons/analytics-w/016-effective.svg" alt="иллюстрация" class="panel__image">
+              <img src="./dist/img/icons/016-effective.svg" alt="иллюстрация" class="panel__image">
             </div>
             <a class="block-group__item panel panel--blue" href="./services.html#big-business">
               <div class="panel__content">
                 <div class="">Разработка информационной системы с&nbsp;выделенным ИТ&nbsp;директором от&nbsp;проекта до&nbsp;эффективной рабочей версии. Система масштабируется параллельно с&nbsp;ростом вашего бизнеса</div>
                 <div class="panel__link">Подробнее</div>
-                <img src="./dist/img/icons/analytics-b/025-structured data.svg" alt="иллюстрация" class="panel__image">
+                <img src="./dist/img/icons/025-structured data.svg" alt="иллюстрация" class="panel__image">
               </div>
             </a>
         </div>
@@ -274,7 +274,7 @@
                   <div class="panel__title help__title">Проанализировать код</div>
                   <div class="panel__text help__text">с точки зрения его технической реализации и оформления </div>
                 </div>
-                <img src="./dist/img/icons/business-b/039-research and development.svg" alt="иллюстрация" class="help__image panel__image">
+                <img src="./dist/img/icons/039-research and development.svg" alt="иллюстрация" class="help__image panel__image">
               </div>
             </div>
             <div class="help__item panel panel--white panel--no-shadow">
@@ -283,7 +283,7 @@
                   <div class="panel__title help__title">Оценить скорость 1С с&nbsp;методикой&nbsp;APDEX</div>
                   <div class="panel__text help__text">с точки зрения его технической реализации и оформления </div>
                 </div>
-                <img src="./dist/img/icons/business-b/046-profit.svg" alt="иллюстрация" class="help__image panel__image">
+                <img src="./dist/img/icons/046-profit.svg" alt="иллюстрация" class="help__image panel__image">
               </div>
             </div>
             <div class="help__item panel panel--white panel--no-shadow">
@@ -292,7 +292,7 @@
                   <div class="panel__title help__title">Показать подход и совместно описать ваши бизнес-процессы</div>
                   <div class="panel__text help__text">чтобы&nbsp;снизить зависимость от&nbsp;«сотрудников на&nbsp;местах»</div>
                 </div>
-                <img src="./dist/img/icons/business-b/019-effort.svg" alt="иллюстрация" class="help__image panel__image">
+                <img src="./dist/img/icons/019-effort.svg" alt="иллюстрация" class="help__image panel__image">
               </div>
             </div>
             <div class="help__item panel panel--white panel--no-shadow">
@@ -301,7 +301,7 @@
                   <div class="panel__title help__title">Расставить метрики</div>
                   <div class="panel__text help__text">чтобы посмотреть, сколько времени занимает каждая операция</div>
                 </div>
-                <img src="./dist/img/icons/business-b/005-analytics.svg" alt="иллюстрация" class="help__image panel__image">
+                <img src="./dist/img/icons/005-analytics.svg" alt="иллюстрация" class="help__image panel__image">
               </div>
             </div>
             <div class="help__item panel panel--white panel--no-shadow">
@@ -310,7 +310,7 @@
                   <div class="panel__title help__title">Применить методы глубокой автоматизации</div>
                   <div class="panel__text help__text">на основе детальных бизнес-процессов</div>
                 </div>
-                <img src="./dist/img/icons/business-b/009-concentrate.svg" alt="иллюстрация" class="help__image panel__image">
+                <img src="./dist/img/icons/009-concentrate2.svg" alt="иллюстрация" class="help__image panel__image">
               </div>
             </div>
             <div class="help__item panel panel--white panel--no-shadow">
@@ -319,7 +319,7 @@
                   <div class="panel__title help__title">Обсудить и настроить основные управленческие отчеты</div>
                   <div class="panel__text help__text">кэш-фло, прибыли и убытки, баланс</div>
                 </div>
-                <img src="./dist/img/icons/business-b/038-agreement.svg" alt="иллюстрация" class="help__image panel__image">
+                <img src="./dist/img/icons/038-agreement.svg" alt="иллюстрация" class="help__image panel__image">
               </div>
             </div>
           </div>
