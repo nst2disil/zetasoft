@@ -175,8 +175,8 @@
   position: absolute;
   left: calc(100% + 40px);
   bottom: 30px;
-  -webkit-mask: url("../img/tip-arrow.svg") center no-repeat;
-          mask: url("../img/tip-arrow.svg") center no-repeat;
+  -webkit-mask: url("../i/tip-arrow.svg") center no-repeat;
+          mask: url("../i/tip-arrow.svg") center no-repeat;
   -webkit-mask-size: contain;
           mask-size: contain;
   background-color: var(--color-yellow);
@@ -323,8 +323,8 @@
   left: -150px;
   transform: rotate(135deg);
   top: -20px;
-  -webkit-mask: url("../img/tip-arrow.svg") center no-repeat;
-          mask: url("../img/tip-arrow.svg") center no-repeat;
+  -webkit-mask: url("../i/tip-arrow.svg") center no-repeat;
+          mask: url("../i/tip-arrow.svg") center no-repeat;
   -webkit-mask-size: contain;
           mask-size: contain;
   background-color: var(--color-blue);
@@ -368,8 +368,8 @@
   position: absolute;
   right: -80px;
   top: -20px;
-  -webkit-mask: url("../img/tip-arrow.svg") center no-repeat;
-          mask: url("../img/tip-arrow.svg") center no-repeat;
+  -webkit-mask: url("../i/tip-arrow.svg") center no-repeat;
+          mask: url("../i/tip-arrow.svg") center no-repeat;
   -webkit-mask-size: contain;
           mask-size: contain;
   background-color: var(--color-yellow);
@@ -473,6 +473,6 @@
 
 @media screen and (min-width: 1440px) {
   .wrapper--main-bg-image {
-    background: url("../img/main-graphic.svg") center no-repeat;
+    background: url("../i/main-graphic.svg") center no-repeat;
   }
 }
