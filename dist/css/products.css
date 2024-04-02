@@ -192,20 +192,20 @@
   color: var(--color-white, #fff);
 }
 .products__item.products__item--cross:nth-child(4n-3) .panel__content, .products__item.products__item--cross:nth-child(4n-4) .panel__content {
-  background: url("../i/panel-zeta_white.svg") right var(--panel-content-padding) bottom var(--panel-content-padding) no-repeat;
+  background: url("../img/panel-zeta_white.svg") right var(--panel-content-padding) bottom var(--panel-content-padding) no-repeat;
 }
 .products__item.products__item--cross:nth-child(4n-2), .products__item.products__item--cross:nth-child(4n-1) {
   background-color: var(--color-white, #fff);
   color: var(--color-black);
 }
 .products__item.products__item--cross:nth-child(4n-2) .panel__content, .products__item.products__item--cross:nth-child(4n-1) .panel__content {
-  background: url("../i/panel-zeta.svg") right var(--panel-content-padding) bottom var(--panel-content-padding) no-repeat;
+  background: url("../img/panel-zeta.svg") right var(--panel-content-padding) bottom var(--panel-content-padding) no-repeat;
 }
 .products__item.products__item--zeta .panel__content {
-  background: url("../i/panel-zeta.svg") right var(--panel-content-padding) bottom var(--panel-content-padding) no-repeat;
+  background: url("../img/panel-zeta.svg") right var(--panel-content-padding) bottom var(--panel-content-padding) no-repeat;
 }
 .products__item.products__item--1с .panel__content {
-  background: url("../i/panel-1c.svg") right var(--panel-content-padding) bottom var(--panel-content-padding) no-repeat;
+  background: url("../img/panel-1c.svg") right var(--panel-content-padding) bottom var(--panel-content-padding) no-repeat;
 }
 
 .button-panel {

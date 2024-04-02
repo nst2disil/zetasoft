@@ -78,16 +78,16 @@ textarea {
           mask-position: center;
 }
 .icon--phone {
-  -webkit-mask-image: url("../i/icons/phone.svg");
-          mask-image: url("../i/icons/phone.svg");
+  -webkit-mask-image: url("../img/icons/phone.svg");
+          mask-image: url("../img/icons/phone.svg");
 }
 .icon--login {
-  -webkit-mask-image: url("../i/icons/login.svg");
-          mask-image: url("../i/icons/login.svg");
+  -webkit-mask-image: url("../img/icons/login.svg");
+          mask-image: url("../img/icons/login.svg");
 }
 .icon--cross {
-  -webkit-mask-image: url("../i/icons/cross.svg");
-          mask-image: url("../i/icons/cross.svg");
+  -webkit-mask-image: url("../img/icons/cross.svg");
+          mask-image: url("../img/icons/cross.svg");
 }
 .icon:hover {
   border: unset;
@@ -167,7 +167,7 @@ a:hover > .icon.icon--black,
   gap: 16px;
   height: 100%;
   --logo-width: 270px;
-  background: url("../i/header-bg.svg") no-repeat var(--logo-width);
+  background: url("../img/header-bg.svg") no-repeat var(--logo-width);
 }
 @media screen and (max-width: 1439px) {
   .header .wrapper {
@@ -464,11 +464,11 @@ a:hover > .icon.icon--black,
 
 @font-face {
   font-family: "Quantico";
-  src: local("Quantico"), url("../f/Quantico-Regular.ttf") format("truetype");
+  src: local("Quantico"), url("../fonts/Quantico-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Mulish";
-  src: local("Mulish"), url("../f/Mulish-VariableFont_wght.ttf") format("truetype");
+  src: local("Mulish"), url("../fonts/Mulish-VariableFont_wght.ttf") format("truetype");
 }
 .button {
   display: flex;
@@ -717,8 +717,8 @@ a:hover > .icon.icon--black,
 }
 .custom-select__arrow::before {
   content: "";
-  -webkit-mask: url("../i/icons/arrow-select.svg") center no-repeat;
-          mask: url("../i/icons/arrow-select.svg") center no-repeat;
+  -webkit-mask: url("../img/icons/arrow-select.svg") center no-repeat;
+          mask: url("../img/icons/arrow-select.svg") center no-repeat;
   background-color: #fff;
   height: 100%;
   width: 100%;
@@ -785,8 +785,8 @@ a:hover > .icon.icon--black,
   }
   .paginator__first::before, .paginator__last::before {
     content: "";
-    -webkit-mask: url("../i/icons/paginator-chevron.svg") center no-repeat;
-            mask: url("../i/icons/paginator-chevron.svg") center no-repeat;
+    -webkit-mask: url("../img/icons/paginator-chevron.svg") center no-repeat;
+            mask: url("../img/icons/paginator-chevron.svg") center no-repeat;
     background-color: #fff;
     height: 32px;
     width: 32px;
@@ -862,8 +862,8 @@ a:hover > .icon.icon--black,
 }
 .search__submit::before {
   content: "";
-  -webkit-mask: url("../i/icons/search.svg") center no-repeat;
-          mask: url("../i/icons/search.svg") center no-repeat;
+  -webkit-mask: url("../img/icons/search.svg") center no-repeat;
+          mask: url("../img/icons/search.svg") center no-repeat;
   background-color: #fff;
   height: 100%;
   width: 100%;
@@ -1571,8 +1571,8 @@ a.panel:hover .panel__link {
   cursor: pointer;
   transition: background-color 0.2s;
   background-color: #231F20;
-  -webkit-mask: url("../i/icons/modal-cross.svg");
-          mask: url("../i/icons/modal-cross.svg");
+  -webkit-mask: url("../img/icons/modal-cross.svg");
+          mask: url("../img/icons/modal-cross.svg");
 }
 .modal__close:hover {
   background-color: var(--color-yellow);

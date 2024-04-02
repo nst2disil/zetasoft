@@ -49,6 +49,9 @@ function ininPopups() {
     trigger.addEventListener('click', function (event) {
       event.preventDefault();
       const modal = document.getElementById(trigger.dataset.modal);
+      if (!modal) {
+        throw new Error(`Модальное окно #${trigger.dataset.modal} не найдено`);
+      }
       if (modal.classList.contains('open')) {
         modal.classList.remove('open');
         trigger.classList.remove('active');

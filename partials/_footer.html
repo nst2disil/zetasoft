@@ -63,6 +63,19 @@
   </div>
 </div>
 
+<div class="modal" id="login-form">
+  <div class="modal__bg js-modal-exit"></div>
+  <div class="modal__container">
+    <button class="modal__close js-modal-exit"></button>
+    <div class="modal__title js-title"></div>
+    <form class="modal__form form" action="/login" method="POST">
+      <input type="text" name="login" placeholder="Почта / логин" class="input" required>
+      <input type="password" name="password" placeholder="Пароль" class="input" required>
+      <input type="submit" value="Войти" class="form__submit button button--block button--bg button--yellow">
+    </form>
+  </div>
+</div>
+
 <div class="popup-menu" id="popup-menu">
   <div class="wrapper hide-md-up">
     <nav class="links">
