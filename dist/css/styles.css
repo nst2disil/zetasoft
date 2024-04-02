@@ -402,6 +402,7 @@ a:hover > .icon.icon--black,
   display: flex;
   justify-content: flex-end;
   gap: 24px;
+  height: 50px;
 }
 @media screen and (max-width: 879px) {
   .footer-menu .logos {
