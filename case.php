@@ -17,12 +17,12 @@
             <div class="case-info__logos">
               <div class="case-info__logos-list">
 
-                <img src="./dist/img/atol_logo.png" alt="atol logo">
-                <img src="./dist/img/panel-1c.svg" alt="online test amico">
+                <img src="./i/atol_logo.png" alt="atol logo">
+                <img src="./i/panel-1c.svg" alt="online test amico">
               </div>
             </div>
             <div class="case-info__img">
-              <img src="./dist/img/Online test-amico 1.svg" alt="online test amico">
+              <img src="./i/Online test-amico 1.svg" alt="online test amico">
             </div>
 
           </div>
@@ -45,7 +45,7 @@
                 Клиент оформил заказ на&nbsp;сайте и&nbsp;оплатил банковской картой
               </div>
             </div>
-            <img src="./dist/img/atol-diagram.svg" alt="atol diagram">
+            <img src="./i/atol-diagram.svg" alt="atol diagram">
           </div>
           <div class="text-wrapper">
             <div class="case__subtitle">Как это работает?</div>
@@ -89,14 +89,14 @@
           </div>
           <div class="swiper swiper--screenshots" data-swiper-id="case-screenshots">
             <div class="screenshots swiper-wrapper">
-              <a href="./dist/img/menyu-atol-onlain 1.jpg" target="_blank" class="swiper-slide screenshots__item">
-                <img src="./dist/img/menyu-atol-onlain 1.jpg" alt="screenshot 1" class="screenshots__img">
+              <a href="./i/menyu-atol-onlain 1.jpg" target="_blank" class="swiper-slide screenshots__item">
+                <img src="./i/menyu-atol-onlain 1.jpg" alt="screenshot 1" class="screenshots__img">
               </a>
-              <a href="./dist/img/menyu-atol-onlain 2.jpg" target="_blank" class="swiper-slide screenshots__item">
-                <img src="./dist/img/menyu-atol-onlain 2.jpg" alt="screenshot 2" class="screenshots__img">
+              <a href="./i/menyu-atol-onlain 2.jpg" target="_blank" class="swiper-slide screenshots__item">
+                <img src="./i/menyu-atol-onlain 2.jpg" alt="screenshot 2" class="screenshots__img">
               </a>
-              <a href="./dist/img/menyu-atol-onlain 3.jpg" target="_blank" class="swiper-slide screenshots__item">
-                <img src="./dist/img/menyu-atol-onlain 3.jpg" alt="screenshot 3" class="screenshots__img">
+              <a href="./i/menyu-atol-onlain 3.jpg" target="_blank" class="swiper-slide screenshots__item">
+                <img src="./i/menyu-atol-onlain 3.jpg" alt="screenshot 3" class="screenshots__img">
               </a>
             </div>
             <div class="swiper-pagination"></div>
@@ -110,7 +110,7 @@
             <div class="cases js-cases swiper-wrapper">
               <a href="./cases.html" class="swiper-slide cases__item panel panel--decoration-green" data-case-category="green">
                 <div class="panel__head">
-                <img src="./dist/img/panel-zeta.svg" alt="zeta logo" class="case__image">
+                <img src="./i/panel-zeta.svg" alt="zeta logo" class="case__image">
                 </div>
                 <div class="panel__content case">
                   <div class="case__title">Проектное решение<br/>«Учёт в&nbsp;вендинговом бизнесе»</div>
@@ -119,7 +119,7 @@
               </a>
               <a href="./cases.html" class="swiper-slide cases__item panel panel--decoration-blue" data-case-category="blue">
                 <div class="panel__head">
-                <img src="./dist/img/panel-zeta.svg" alt="zeta logo" class="case__image">
+                <img src="./i/panel-zeta.svg" alt="zeta logo" class="case__image">
                 </div>
                 <div class="panel__content case">
                   <div class="case__title">Проектное решение<br/>«Управление торговым комплексом»</div>
@@ -128,7 +128,7 @@
               </a>
               <a href="./cases.html" class="swiper-slide cases__item panel panel--decoration-blue" data-case-category="blue">
                 <div class="panel__head">
-                <img src="./dist/img/panel-1c.svg" alt="zeta logo" class="case__image">
+                <img src="./i/panel-1c.svg" alt="zeta logo" class="case__image">
                 </div>
                 <div class="panel__content case">
                   <div class="case__title">Подсистема учета б/у запчастей в&nbsp;торговой конфигурации 1С</div>

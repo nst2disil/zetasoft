@@ -7,13 +7,13 @@
   mask-repeat: no-repeat;
   mask-position: center;
   &--phone {
-    mask-image: url('../img/icons/phone.svg');
+    mask-image: url('../i/phone.svg');
   }
   &--login {
-    mask-image: url('../img/icons/login.svg');
+    mask-image: url('../i/login.svg');
   }
   &--cross {
-    mask-image: url('../img/icons/cross.svg');
+    mask-image: url('../i/cross.svg');
   }
   &:hover {
     border: unset;

@@ -64,7 +64,7 @@
     position: absolute;
     left: calc(100% + 40px);
     bottom: 30px;
-    mask: url('../img/tip-arrow.svg') center no-repeat;
+    mask: url('../i/tip-arrow.svg') center no-repeat;
     mask-size: contain;
     background-color: var(--color-yellow);
     @include media-down($screen-lg) {
@@ -183,7 +183,7 @@
     left: -150px;
     transform: rotate(135deg);
     top: -20px;
-    mask: url('../img/tip-arrow.svg') center no-repeat;
+    mask: url('../i/tip-arrow.svg') center no-repeat;
     mask-size: contain;
     background-color: var(--color-blue);
     @include media-down($screen-md) {
@@ -218,7 +218,7 @@
     position: absolute;
     right: -80px;
     top: -20px;
-    mask: url('../img/tip-arrow.svg') center no-repeat;
+    mask: url('../i/tip-arrow.svg') center no-repeat;
     mask-size: contain;
     background-color: var(--color-yellow);
     @include media-down($screen-md) {
@@ -308,6 +308,6 @@
 
 @include media-up($screen-lg) {
   .wrapper--main-bg-image {
-    background: url('../img/main-graphic.svg') center no-repeat;
+    background: url('../i/main-graphic.svg') center no-repeat;
   }
 }

@@ -14,7 +14,7 @@
           <div class="anchors">
             <a href="#autobusiness" class="anchors__item panel panel--yellow">
               <div class="panel__content">
-                <img src="./dist/img/anchor-car.svg" alt="" class="anchors__image">
+                <img src="./i/anchor-car.svg" alt="" class="anchors__image">
                 <div class="anchors__bottom">
                   <div class="anchors__title">Автобизнес</div>
                   <div class="anchors__arrow"></div>
@@ -23,7 +23,7 @@
             </a>
             <a href="#vending" class="anchors__item panel panel--red">
               <div class="panel__content">
-                <img src="./dist/img/anchor-vending.svg" alt="" class="anchors__image">
+                <img src="./i/anchor-vending.svg" alt="" class="anchors__image">
                 <div class="anchors__bottom">
                   <div class="anchors__title">Вендинг</div>
                   <div class="anchors__arrow"></div>
@@ -32,7 +32,7 @@
             </a>
             <a href="#services" class="anchors__item panel panel--blue">
               <div class="panel__content">
-                <img src="./dist/img/anchor-time.svg" alt="" class="anchors__image">
+                <img src="./i/anchor-time.svg" alt="" class="anchors__image">
                 <div class="anchors__bottom">
                   <div class="anchors__title">Повременные услуги</div>
                   <div class="anchors__arrow"></div>
@@ -77,7 +77,7 @@
               <div class="panel__content">
                 <div class="panel__top">
                   <div class="panel__title">Оптимизация складских ресурсов</div>
-                  <img src="./dist/img/anchor-car.svg" alt="" class="panel__image">
+                  <img src="./i/anchor-car.svg" alt="" class="panel__image">
                 </div>
                 <div class="panel__text">сбыт в&nbsp;первую очередь чужих остатков, неликвидных позиций, контроль наличия маржинальных и&nbsp;частотных позиций</div>
               </div>
@@ -92,7 +92,7 @@
             <div class="cases swiper-wrapper">
               <a href="./case.html" class="swiper-slide cases__item panel panel--shadow-yellow panel--white">
                 <div class="panel__head panel__head--yellow">
-                <img src="./dist/img/panel-1c.svg" alt="1c logo" class="case__image">
+                <img src="./i/panel-1c.svg" alt="1c logo" class="case__image">
                 </div>
                 <div class="panel__content case">
                   <div class="case__title">АТОЛ онлайн и&nbsp;1С: готовое решение для&nbsp;интеграции</div>
@@ -101,7 +101,7 @@
               </a>
               <a href="./case.html" class="swiper-slide cases__item panel panel--shadow-yellow panel--white">
                 <div class="panel__head panel__head--yellow">
-                <img src="./dist/img/panel-zeta.svg" alt="zeta logo" class="case__image">
+                <img src="./i/panel-zeta.svg" alt="zeta logo" class="case__image">
 
                 </div>
                 <div class="panel__content case">
@@ -111,7 +111,7 @@
               </a>
               <a href="./case.html" class="swiper-slide cases__item panel panel--shadow-yellow panel--white">
                 <div class="panel__head panel__head--yellow">
-                <img src="./dist/img/panel-1c.svg" alt="1c logo" class="case__image">
+                <img src="./i/panel-1c.svg" alt="1c logo" class="case__image">
 
                 </div>
                 <div class="panel__content case">
@@ -154,7 +154,7 @@
               <div class="panel__content">
                 <div class="panel__title">Установка комплексного продукта собственной разработки ZETA вендинг</div>
                 <div class="panel__link">Узнать о продукте</div>
-                <img src="./dist/img/panel-zeta.svg" alt="иллюстрация" class="panel__image">
+                <img src="./i/panel-zeta.svg" alt="иллюстрация" class="panel__image">
 
               </div>
             </a>
@@ -162,7 +162,7 @@
               <div class="panel__content">
                 <div class="panel__top">
                   <div class="panel__title">Разработка ИТ-системы с нуля</div>
-                  <img src="./dist/img/anchor-vending.svg" alt="" class="panel__image">
+                  <img src="./i/anchor-vending.svg" alt="" class="panel__image">
                 </div>
                 <div class="panel__text">или&nbsp;отдельного сервиса для&nbsp;контроля за&nbsp;определёнными этапами бизнес-процесса</div>
               </div>
@@ -177,7 +177,7 @@
             <div class="cases swiper-wrapper">
               <a href="./case.html" class="swiper-slide cases__item panel panel--shadow-red panel--white">
                 <div class="panel__head panel__head--red">
-                <img src="./dist/img/panel-1c.svg" alt="1c logo" class="case__image">
+                <img src="./i/panel-1c.svg" alt="1c logo" class="case__image">
 
                 </div>
                 <div class="panel__content case">
@@ -187,7 +187,7 @@
               </a>
               <a href="./case.html" class="swiper-slide cases__item panel panel--shadow-red panel--white">
                 <div class="panel__head panel__head--red">
-                <img src="./dist/img/panel-zeta.svg" alt="zeta logo" class="case__image">
+                <img src="./i/panel-zeta.svg" alt="zeta logo" class="case__image">
 
                 </div>
                 <div class="panel__content case">
@@ -197,7 +197,7 @@
               </a>
               <a href="./case.html" class="swiper-slide cases__item panel panel--shadow-red panel--white">
                 <div class="panel__head panel__head--red">
-                <img src="./dist/img/panel-1c.svg" alt="1c logo" class="case__image">
+                <img src="./i/panel-1c.svg" alt="1c logo" class="case__image">
 
                 </div>
                 <div class="panel__content case">
@@ -253,7 +253,7 @@
               <div class="panel__content">
                 <div class="panel__top">
                   <div class="panel__title">Создание прозрачного процесса определения себестоимости</div>
-                  <img src="./dist/img/anchor-time.svg" alt="" class="panel__image">
+                  <img src="./i/anchor-time.svg" alt="" class="panel__image">
                 </div>
                 <div class="panel__text">а также ценообразования с последующим попаданием в&nbsp;акты оказанных услуг </div>
               </div>
@@ -268,7 +268,7 @@
             <div class="cases swiper-wrapper">
               <a href="./case.html" class="swiper-slide cases__item panel panel--shadow-blue panel--white">
                 <div class="panel__head panel__head--blue">
-                <img src="./dist/img/panel-1c.svg" alt="1c logo" class="case__image">
+                <img src="./i/panel-1c.svg" alt="1c logo" class="case__image">
 
                 </div>
                 <div class="panel__content case">
@@ -278,7 +278,7 @@
               </a>
               <a href="./case.html" class="swiper-slide cases__item panel panel--shadow-blue panel--white">
                 <div class="panel__head panel__head--blue">
-                <img src="./dist/img/panel-zeta.svg" alt="zeta logo" class="case__image">
+                <img src="./i/panel-zeta.svg" alt="zeta logo" class="case__image">
 
                 </div>
                 <div class="panel__content case">
@@ -288,7 +288,7 @@
               </a>
               <a href="./case.html" class="swiper-slide cases__item panel panel--shadow-blue panel--white">
                 <div class="panel__head panel__head--blue">
-                <img src="./dist/img/panel-1c.svg" alt="1c logo" class="case__image">
+                <img src="./i/panel-1c.svg" alt="1c logo" class="case__image">
 
                 </div>
                 <div class="panel__content case">

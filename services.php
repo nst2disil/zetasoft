@@ -15,7 +15,7 @@
           <div class="anchors anchors--service">
             <a href="#issues" class="anchors__item panel panel--yellow">
               <div class="panel__content">
-                <img src="./dist/img/anchor-issue.svg" alt="" class="anchors__image">
+                <img src="./i/anchor-issue.svg" alt="" class="anchors__image">
                 <div class="anchors__bottom">
                   <div class="anchors__title">По задачам</div>
                   <div class="anchors__arrow"></div>
@@ -24,7 +24,7 @@
             </a>
             <a href="#projects" class="anchors__item panel panel--red">
               <div class="panel__content">
-                <img src="./dist/img/anchor-project.svg" alt="" class="anchors__image">
+                <img src="./i/anchor-project.svg" alt="" class="anchors__image">
                 <div class="anchors__bottom">
                   <div class="anchors__title">По проектам</div>
                   <div class="anchors__arrow"></div>
@@ -33,7 +33,7 @@
             </a>
             <a href="#big-business" class="anchors__item panel panel--blue">
               <div class="panel__content">
-                <img src="./dist/img/anchor-bb.svg" alt="" class="anchors__image">
+                <img src="./i/anchor-bb.svg" alt="" class="anchors__image">
                 <div class="anchors__bottom">
                   <div class="anchors__title">С большим бизнесом</div>
                   <div class="anchors__arrow"></div>
@@ -118,7 +118,7 @@
         <div class="wrapper">
           <div class="section__col">
             <h2 class="section__title">Чем&nbsp;мы отличаемся от&nbsp;большинства франчайзи 1С в&nbsp;России?</h2>
-            <img class="section__image" src="./dist/img/section-report.svg" alt="illustration">
+            <img class="section__image" src="./i/section-report.svg" alt="illustration">
           </div>
           <div class="section__col">
             <div class="diffs">
@@ -171,26 +171,26 @@
             <div class="business-tips__item panel panel--no-shadow panel--black">
               <div class="panel__content">
                 <div class="panel__title">С помощью цифровой модели компании</div>
-                <img src="./dist/img/panel-business-tip1.svg" alt="" class="panel__image hide-sm hide-md">
-                <img src="./dist/img/panel-business-tip1m.svg" alt="" class="panel__image show-sm">
+                <img src="./i/panel-business-tip1.svg" alt="" class="panel__image hide-sm hide-md">
+                <img src="./i/panel-business-tip1m.svg" alt="" class="panel__image show-sm">
               </div>
             </div>
             <div class="business-tips__item panel panel--no-shadow">
               <div class="panel__content">
                 <div class="panel__text">исключим проседание процессов в&nbsp;случае ухода ключевых сотрудников</div>
-                <img src="./dist/img/panel-business-tip2.svg" alt="" class="panel__image">
+                <img src="./i/panel-business-tip2.svg" alt="" class="panel__image">
               </div>
             </div>
             <div class="business-tips__item panel panel--no-shadow">
               <div class="panel__content">
                 <div class="panel__text">выявим слабые места в&nbsp;бизнес-процессах, которые необходимо оптимизировать</div>
-                <img src="./dist/img/panel-business-tip3.svg" alt="" class="panel__image">
+                <img src="./i/panel-business-tip3.svg" alt="" class="panel__image">
               </div>
             </div>
             <div class="business-tips__item panel panel--no-shadow panel--blue">
               <div class="panel__content">
                 <div class="panel__text">спрогнозируем результат внедрения управленческих решений</div>
-                <img src="./dist/img/panel-business-tip4.svg" alt="" class="panel__image">
+                <img src="./i/panel-business-tip4.svg" alt="" class="panel__image">
               </div>
             </div>
           </div>
@@ -204,14 +204,14 @@
               <div class="panel__content">
                 <div class="panel__title">Проект</div>
                 <div class="panel__text">Оценим стоимость и предоставим коммерческое предложение после описания задачи, написания сценариев и составления архитектуры</div>
-                <div class="panel__link">Рассчитать проект<img src="./dist/img/panel-pricing1.svg" alt="" class="panel__image"></div>
+                <div class="panel__link">Рассчитать проект<img src="./i/panel-pricing1.svg" alt="" class="panel__image"></div>
               </div>
             </a>
             <a href="#" class="pricing__item panel panel--white panel--shadow-blue">
               <div class="panel__content">
                 <div class="panel__title">Почасовая оплата</div>
                 <div class="panel__text">Используем для&nbsp;консультаций, доработок и&nbsp;разработки, не&nbsp;требующей сценариев</div>
-                <div class="panel__link">Посмотреть прайс<img src="./dist/img/panel-pricing2.svg" alt="" class="panel__image"></div>
+                <div class="panel__link">Посмотреть прайс<img src="./i/panel-pricing2.svg" alt="" class="panel__image"></div>
               </div>
             </a>
           </div>
@@ -222,7 +222,7 @@
           <div class="contact-big">
             <div class="contact-big__title">Остались еще вопросы?</div>
             <div class="contact-big__text">Если&nbsp;у&nbsp;вас появились вопросы по&nbsp;услугам, вы&nbsp;всегда можете задать их&nbsp;нашим специалистам</div>
-            <img src="./dist/img/panel-contact-big.svg" alt="иллюстрация" class="contact-big__image">
+            <img src="./i/panel-contact-big.svg" alt="иллюстрация" class="contact-big__image">
             <button class="button button--white button--bg contact-big__button" data-modal="contact-form">да, хочу задать</button>
           </div>
         </div>

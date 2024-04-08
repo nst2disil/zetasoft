@@ -14,7 +14,7 @@
           <h2 class="section__title">Наши продукты</h1>
           <div class="our-products">
             <div class="our-products__title">При&nbsp;покупке решения для&nbsp;интеграции АТОЛ и&nbsp;1С подписка на&nbsp;6&nbsp;месяцев обновлений бесплатно</div>
-            <img src="./dist/img/tip-arrow.svg" alt="arrow" class="our-products__arrow">
+            <img src="./i/tip-arrow.svg" alt="arrow" class="our-products__arrow">
             <div class="our-products__button-container">
               <div class="our-products__button-title">Наши продукты зарегистрированы в&nbsp;реестре ПО</div>
               <button class="button  button--bg button--mobile-full-width button--blue our-products__button" data-modal="contact-form">подписка на продукты Зетасофт</button>
@@ -187,7 +187,7 @@
           </div>
           <div class="button-panel panel panel--yellow panel--no-shadow">
             <div class="button-panel__text">
-              <img src="./dist/img/panel-1c.svg" alt="1c logo" class="button-panel__image">
+              <img src="./i/panel-1c.svg" alt="1c logo" class="button-panel__image">
               Продукты 1С
             </div>
             <a href="./products1c.html" class="button-panel__button button button--white button--bg">Выбрать продукт</a>

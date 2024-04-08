@@ -155,7 +155,7 @@
   &__item.products__item--cross {
     &:nth-child(4n - 3), &:nth-child(4n - 4) {
       .panel__content {
-        background: url('../img/panel-zeta_white.svg') right var(--panel-content-padding) bottom var(--panel-content-padding) no-repeat;
+        background: url('../i/panel-zeta_white.svg') right var(--panel-content-padding) bottom var(--panel-content-padding) no-repeat;
       }
       background-color: var(--color-black);
       color: var(--color-white, #fff);
@@ -163,17 +163,17 @@
     }
     &:nth-child(4n - 2), &:nth-child(4n - 1) {
       .panel__content {
-        background: url('../img/panel-zeta.svg') right var(--panel-content-padding) bottom var(--panel-content-padding) no-repeat;
+        background: url('../i/panel-zeta.svg') right var(--panel-content-padding) bottom var(--panel-content-padding) no-repeat;
       }
       background-color: var(--color-white, #fff);
       color: var(--color-black);
     }
   }
   &__item.products__item--zeta .panel__content {
-    background: url('../img/panel-zeta.svg') right var(--panel-content-padding) bottom var(--panel-content-padding) no-repeat;
+    background: url('../i/panel-zeta.svg') right var(--panel-content-padding) bottom var(--panel-content-padding) no-repeat;
   }
   &__item.products__item--1с .panel__content {
-    background: url('../img/panel-1c.svg') right var(--panel-content-padding) bottom var(--panel-content-padding) no-repeat;
+    background: url('../i/panel-1c.svg') right var(--panel-content-padding) bottom var(--panel-content-padding) no-repeat;
   }
 }
 

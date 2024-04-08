@@ -13,7 +13,7 @@
           <h2 class="section__title">Продукты 1С</h1>
           <div class="our-products">
             <div class="our-products__title">При&nbsp;покупке программы 1C бесплатная подписка на&nbsp;сервис в&nbsp;подарок</div>
-            <img src="./dist/img/tip-arrow_yellow.svg" alt="arrow" class="our-products__arrow">
+            <img src="./i/tip-arrow_yellow.svg" alt="arrow" class="our-products__arrow">
             <div class="our-products__button-container">
               <div class="our-products__button-title">С&nbsp;2006&nbsp;года являемся официальным партнёром фирмы 1С </div>
               <a class="button button--bg button--mobile-full-width button--yellow our-products__button" href="./services1c.html">подписка на продукты 1С</a>
@@ -266,7 +266,7 @@
 
           <div class="button-panel panel panel--blue">
             <div class="button-panel__text">
-              <img src="./dist/img/panel-zeta__black.svg" alt="zetasoft logo" class="button-panel__image">
+              <img src="./i/panel-zeta__black.svg" alt="zetasoft logo" class="button-panel__image">
               Продукты Зетасофт
             </div>
             <a href="./products.html" class="button-panel__button button button--white button--bg">Выбрать продукт</a>
@@ -277,7 +277,7 @@
         <div class="wrapper">
           <div class="contact-big">
             <div class="contact-big__title">Напишите нам&nbsp;чтобы&nbsp;заказать или&nbsp;получить полный перечень продуктов 1С</div>
-            <img src="./dist/img/panel-contact-big.svg" alt="иллюстрация" class="contact-big__image">
+            <img src="./i/panel-contact-big.svg" alt="иллюстрация" class="contact-big__image">
             <button class="button button--bg button--white contact-big__button" data-modal="contact-form">оставить заявку</button>
           </div>
         </div>

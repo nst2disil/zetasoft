@@ -31,7 +31,7 @@
           
               <a href="./case.html" class="cases__item panel panel--decoration-red" data-case-category="red">
                 <div class="panel__head">
-                  <img src="./dist/img/panel-1c.svg" alt="1c logo" class="case__image">
+                  <img src="./i/panel-1c.svg" alt="1c logo" class="case__image">
                 </div>
                 <div class="panel__content case">
                   <div class="case__title">АТОЛ Онлайн и 1С: готовое решение для интеграции</div>
@@ -40,7 +40,7 @@
               </a>
               <a href="./case.html" class="cases__item panel panel--decoration-blue" data-case-category="blue">
                 <div class="panel__head">
-                  <img src="./dist/img/panel-1c.svg" alt="1c logo" class="case__image">
+                  <img src="./i/panel-1c.svg" alt="1c logo" class="case__image">
                 </div>
                 <div class="panel__content case">
                   <div class="case__title">Подсистема учета б/у запчастей в&nbsp;торговой конфигурации 1С</div>
@@ -49,7 +49,7 @@
               </a>
               <a href="./case.html" class="cases__item panel panel--decoration-green" data-case-category="green">
                 <div class="panel__head">
-                  <img src="./dist/img/panel-1c.svg" alt="1c logo" class="case__image">
+                  <img src="./i/panel-1c.svg" alt="1c logo" class="case__image">
                 </div>
                 <div class="panel__content case">
                   <div class="case__title">Учет в&nbsp;вендинговом бизнесе</div>
@@ -58,7 +58,7 @@
               </a>
               <a href="./case.html" class="cases__item panel panel--decoration-red" data-case-category="red">
                 <div class="panel__head">
-                  <img src="./dist/img/panel-1c.svg" alt="1c logo" class="case__image">
+                  <img src="./i/panel-1c.svg" alt="1c logo" class="case__image">
                 </div>
                 <div class="panel__content case">
                   <div class="case__title">Кеско групп</div>
@@ -67,7 +67,7 @@
               </a>
               <a href="./case.html" class="cases__item panel panel--decoration-blue" data-case-category="blue">
                 <div class="panel__head">
-                  <img src="./dist/img/panel-1c.svg" alt="1c logo" class="case__image">
+                  <img src="./i/panel-1c.svg" alt="1c logo" class="case__image">
                 </div>
                 <div class="panel__content case">
                   <div class="case__title">Авансовые отчеты </div>
@@ -81,7 +81,7 @@
             <div class="wrapper cases">
               <a href="./case.html" class="cases__item panel panel--decoration-red" data-case-category="red">
                 <div class="panel__head">
-                  <img src="./dist/img/panel-1c.svg" alt="1c logo" class="case__image">
+                  <img src="./i/panel-1c.svg" alt="1c logo" class="case__image">
                 </div>
                 <div class="panel__content case">
                   <div class="case__title">Оптимизация производительности в&nbsp;УТ 11.1</div>
@@ -90,7 +90,7 @@
               </a>
               <a href="./case.html" class="cases__item panel panel--decoration-yellow" data-case-category="yellow">
                 <div class="panel__head">
-                  <img src="./dist/img/panel-1c.svg" alt="1c logo" class="case__image">
+                  <img src="./i/panel-1c.svg" alt="1c logo" class="case__image">
                 </div>
                 <div class="panel__content case">
                   <div class="case__title">GTD</div>
@@ -99,7 +99,7 @@
               </a>
               <a href="./case.html" class="cases__item panel panel--decoration-green" data-case-category="green">
                 <div class="panel__head">
-                  <img src="./dist/img/panel-1c.svg" alt="1c logo" class="case__image">
+                  <img src="./i/panel-1c.svg" alt="1c logo" class="case__image">
                 </div>
                 <div class="panel__content case">
                   <div class="case__title">Проектное решение для ООО «Оптима»</div>

@@ -58,7 +58,7 @@
     gap: 16px;
     height: 100%;
     --logo-width: 270px;
-    background: url('../img/header-bg.svg') no-repeat var(--logo-width);
+    background: url('../i/header-bg.svg') no-repeat var(--logo-width);
     @include media-down($screen-lg) {
       --logo-width: 250px
     }

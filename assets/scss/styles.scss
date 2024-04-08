@@ -520,7 +520,7 @@ a.panel:hover {
     cursor: pointer;
     transition: background-color .2s;
     background-color: #231F20;
-    mask: url('../img/icons/modal-cross.svg');
+    mask: url('../i/modal-cross.svg');
     &:hover {
       background-color: var(--color-yellow);
     }

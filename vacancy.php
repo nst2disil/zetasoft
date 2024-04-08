@@ -14,9 +14,9 @@
             <h1 class="section__title">
               <span>Разработчик 1С (Middle)</span>
               <div class="vacancy-info__stack stack">
-                <img src="./dist/img/stack_c.png" alt="C++ icon" title="C++" class="stack__item">
-                <img src="./dist/img/stack_c.png" alt="C++ icon" title="C++" class="stack__item">
-                <img src="./dist/img/stack_c.png" alt="C++ icon" title="C++" class="stack__item">
+                <img src="./i/stack_c.png" alt="C++ icon" title="C++" class="stack__item">
+                <img src="./i/stack_c.png" alt="C++ icon" title="C++" class="stack__item">
+                <img src="./i/stack_c.png" alt="C++ icon" title="C++" class="stack__item">
               </div>
             </h1>
             <div class="section__subtitle">от 150 000 до 200 000 руб. на руки</div>
