@@ -1612,6 +1612,12 @@ a.panel:hover .panel__link {
 .modal .form__textarea {
   height: 110px;
 }
+.modal .form__line {
+  align-self: center;
+}
+.modal .form__line a {
+  color: var(--color-blue);
+}
 
 .input,
 .select {
@@ -1668,6 +1674,7 @@ a.panel:hover .panel__link {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  line-height: 1.5em;
 }
 @media screen and (max-width: 879px) {
   .links__col {

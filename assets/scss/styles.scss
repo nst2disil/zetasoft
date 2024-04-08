@@ -556,6 +556,12 @@ a.panel:hover {
     &__textarea {
       height: 110px;
     }
+    &__line {
+      align-self: center;
+      a {
+        color: var(--color-blue);
+      }
+    }
   }
   
 }
@@ -599,6 +605,7 @@ a.panel:hover {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    line-height: 1.5em;
     @include media-down($screen-md) {
       gap: 12px;
       line-height: normal;

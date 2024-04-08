@@ -42,6 +42,15 @@ function setupToolToggler() {
   });
 }
 
+function removeOpenClassFromModals() {
+  const modals = document.querySelectorAll('.modal.open');
+  if (modals.length > 0) {
+      modals.forEach(modal => {
+          modal.classList.remove('open');
+      });
+  }
+}
+
 function ininPopups() {
   const modals = document.querySelectorAll('[data-modal]');
 
@@ -51,6 +60,9 @@ function ininPopups() {
       const modal = document.getElementById(trigger.dataset.modal);
       if (!modal) {
         throw new Error(`Модальное окно #${trigger.dataset.modal} не найдено`);
+      }
+      if (trigger.dataset.closeOpenedModals) {
+        removeOpenClassFromModals();
       }
       if (modal.classList.contains('open')) {
         modal.classList.remove('open');
@@ -196,6 +208,15 @@ const SWIPERS = {
   }*/
 }
 
+function initPhoneMask() {
+  const phoneInput$ = document.querySelector('.js-phone-mask');
+  if (!phoneInput$) return;
+  phoneInput$.addEventListener('blur', function (e) {
+    var x = e.target.value.replace(/\D/g, '').match(/(\d{3})(\d{3})(\d{4})/);
+    e.target.value = '(' + x[1] + ') ' + x[2] + '-' + x[3];
+  });
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   setupToolToggler();
   ininPopups();
@@ -203,6 +224,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initCases();
   initDashboardToggleds();
   initCustomSelects();
+  initPhoneMask();
 });
 
 // function to show alert after 10 seconds after page loaded

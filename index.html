@@ -10,11 +10,11 @@
   <meta name="description" content="Продукты компаний ЗетаСофт и 1С - современные решения для автоматизации бизнеса и бизнес-процессов." />
   <meta name="keywords" />
   <meta name="Content-Type" content="text/html; charset=utf-8" />
-  <link rel="stylesheet" href="./dist/css/swiper-bundle.min.css?cache=2024-04-02">
-    <link rel="stylesheet" href="./dist/css/super-styles.css?cache=2024-04-02">
-  <script defer src="./dist/js/filler.class.js?cache=2024-04-02"></script>
-  <script defer src="./dist/js/main.js?cache=2024-04-02"></script>
-  <script defer src="./dist/js/swiper-bundle.min.js?cache=2024-04-02"></script>
+  <link rel="stylesheet" href="./dist/css/swiper-bundle.min.css?cache=2024-04-08">
+    <link rel="stylesheet" href="./dist/css/super-styles.css?cache=2024-04-08">
+  <script defer src="./dist/js/filler.class.js?cache=2024-04-08"></script>
+  <script defer src="./dist/js/main.js?cache=2024-04-08"></script>
+  <script defer src="./dist/js/swiper-bundle.min.js?cache=2024-04-08"></script>
   <title>Автоматизация онлайн-продаж и учёта в 1С | Компания "ЗетаСофт"</title></head>
 <body>
   <div class="container">
@@ -41,7 +41,7 @@
       <span class="icon icon--phone show-sm"></span>
     </a>
     <div class="header__controls">
-      <button class="button button--link button--no-decoration header__link" data-modal="login-form" data-modal-title="Авторизация">
+      <button class="button button--link button--no-decoration header__link" data-modal="login-form">
         <div class="button__text">Войти</div>
         <span class="icon icon--login"></span>
       </button>
@@ -444,14 +444,30 @@
   <div class="modal__bg js-modal-exit"></div>
   <div class="modal__container">
     <button class="modal__close js-modal-exit"></button>
-    <div class="modal__title js-title"></div>
+    <div class="modal__title js-title">Авторизация</div>
     <form class="modal__form form" action="/login" method="POST">
       <input type="text" name="login" placeholder="Почта / логин" class="input" required>
       <input type="password" name="password" placeholder="Пароль" class="input" required>
+      <button class="button button--link button--no-decoration" type="button" data-modal="recovery-form" data-close-opened-modals="true">Забыл пароль</button>
+      <div class="form__line">Нет аккаунта? <a href="/reg.html">Зарегистрироваться</a></div>
       <input type="submit" value="Войти" class="form__submit button button--block button--bg button--yellow">
     </form>
   </div>
 </div>
+
+<div class="modal" id="recovery-form">
+  <div class="modal__bg js-modal-exit"></div>
+  <div class="modal__container">
+    <button class="modal__close js-modal-exit"></button>
+    <div class="modal__title js-title">Восстановление пароля</div>
+    <form class="modal__form form" action="/password-recovery" method="POST">
+      <input type="text" name="login" placeholder="Почта / логин" class="input" required>
+      <button class="button button--link button--no-decoration" type="button" data-modal="login-form" data-close-opened-modals="true">Войти</button>
+      <input type="submit" value="Отправить" class="form__submit button button--block button--bg button--yellow">
+    </form>
+  </div>
+</div>
+
 
 <div class="popup-menu" id="popup-menu">
   <div class="wrapper hide-md-up">

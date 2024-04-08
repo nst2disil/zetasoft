@@ -19,7 +19,7 @@
       <span class="icon icon--phone show-sm"></span>
     </a>
     <div class="header__controls">
-      <button class="button button--link button--no-decoration header__link" data-modal="login-form" data-modal-title="Авторизация">
+      <button class="button button--link button--no-decoration header__link" data-modal="login-form">
         <div class="button__text">Войти</div>
         <span class="icon icon--login"></span>
       </button>
