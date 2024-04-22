@@ -44,7 +44,7 @@
   <script src="/f/common.js?v=202201131105"></script>
 
   <!-- /scripts -->
-  <form method="post" action="/" id="form1" novalidate="novalidate">
+  <div data-form="true" method="post" action="/" id="form1" novalidate="novalidate">
     <div class="aspNetHidden">
       <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="" />
     </div>
@@ -395,7 +395,7 @@
 
     </div>
     <!-- end of wrapper -->
-  </form>
+  </div>
   <!-- fancybox.js -->
   <script src="/f/fancyboxumd.js?v=202207083923"></script>
   <script src="https://www.google.com/recaptcha/api.js?onload=globalRecaptchaOnLoad&render=explicit" defer

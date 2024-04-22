@@ -16,7 +16,7 @@
       <section class="section section--reg">
         <div class="wrapper">
           <h1 class="section__title">Регистрация</h1>
-          <form class="reg-form" action="/reg" method="POST">
+          <div data-form="true" class="reg-form" action="/reg" method="POST">
             <div class="reg-form__tip">Заполните, пожалуйста, форму, чтобы получить доступ в личный кабинет</div>
             <input type="text" name="login" placeholder="ФИО" class="input" required>
             <input type="text" name="company" placeholder="Организация" class="input">
@@ -27,7 +27,7 @@
             <textarea name="" id="" cols="30" rows="5" placeholder="Комментарий" class="textarea"></textarea>
             <span class="reg-form__tip">Нажимая на кнопку «Отправить», я <a class="reg-form__link" href="#">даю согласие</a> на обработку персональных данных</span>
             <input type="submit" value="Отправить" class="reg-form__submit button button--block button--bg button--yellow">
-          </form>
+          </div>
         </div>
       </section>
       <!-- end copy inside <section id="ccphworkarea" class="page_full-width"> -->

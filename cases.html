@@ -222,14 +222,14 @@
     <div class="modal__title js-title">
       Заполните данные для бесплатной консультации
     </div>
-    <form class="modal__form form">
+    <div data-form="true" class="modal__form form">
       <input type="text" name="name" placeholder="Имя" class="input" required>
       <input type="text" name="phone" placeholder="+7" class="input" required>
       <input type="text" name="email" placeholder="E-mail" class="input" required>
       <textarea class="input form__textarea" name="comment" placeholder="Комментарий" rows="10"></textarea>
       <input type="submit" value="Отправить" class="form__submit button button--block button--bg button--yellow">
       <span class="form__tip">Нажимая на кнопку «Отправить», я <a class="form__link" href="#">даю согласие</a> на обработку персональных данных</span>
-    </form>
+    </div>
   </div>
 </div>
 
@@ -238,13 +238,13 @@
   <div class="modal__container">
     <button class="modal__close js-modal-exit"></button>
     <div class="modal__title js-title">Авторизация</div>
-    <form class="modal__form form" action="/login" method="POST">
+    <div data-form="true" class="modal__form form" action="/login" method="POST">
       <input type="text" name="login" placeholder="Почта / логин" class="input" required>
       <input type="password" name="password" placeholder="Пароль" class="input" required>
       <button class="button button--link button--no-decoration" type="button" data-modal="recovery-form" data-close-opened-modals="true">Забыл пароль</button>
       <div class="form__line">Нет аккаунта? <a href="/reg.html">Зарегистрироваться</a></div>
       <input type="submit" value="Войти" class="form__submit button button--block button--bg button--yellow">
-    </form>
+    </div>
   </div>
 </div>
 
@@ -253,11 +253,11 @@
   <div class="modal__container">
     <button class="modal__close js-modal-exit"></button>
     <div class="modal__title js-title">Восстановление пароля</div>
-    <form class="modal__form form" action="/password-recovery" method="POST">
+    <div data-form="true" class="modal__form form" action="/password-recovery" method="POST">
       <input type="text" name="login" placeholder="Почта / логин" class="input" required>
       <button class="button button--link button--no-decoration" type="button" data-modal="login-form" data-close-opened-modals="true">Войти</button>
       <input type="submit" value="Отправить" class="form__submit button button--block button--bg button--yellow">
-    </form>
+    </div>
   </div>
 </div>
 

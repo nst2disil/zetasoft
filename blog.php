@@ -12,10 +12,10 @@
         <div class="wrapper">
           <h2 class="section__title section__title--search">
             Блог
-            <form class="search" action="">
+            <div data-form="true" class="search" action="">
               <input type="text" class="search__input" name="q" placeholder="Введите ключевое слово">
               <button type="submit" class="search__submit"></button>
-            </form>
+            </div>
           </h2>
           <div class="blog">
             <ul class="tags__list tags__list--top js-tag-list">

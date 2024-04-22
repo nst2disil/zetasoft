@@ -173,13 +173,13 @@
         <div class="modal__title js-title">
           Внесите изменения в&nbsp;персональные данные
         </div>
-        <form class="modal__form form">
+        <div data-form="true" class="modal__form form">
           <input type="text" name="name" placeholder="Иванов Иван Иванович" class="input" required>
           <input type="text" name="phone" placeholder="+7 999 112-23-33|" class="input" required>
           <input type="text" name="email" placeholder="info@kiviniemi.ru" class="input" required>
           <input type="submit" value="Сохранить" class="form__submit button  button--bg button--yellow">
           <span class="form__tip">Нажимая на кнопку «Сохранить», я <a class="form__link" href="#">даю согласие</a> на обработку персональных данных</span>
-        </form>
+        </div>
       </div>
     </div>
     <div class="container__footer"><?php include './partials/_footer.html'?></div>
@@ -191,7 +191,7 @@
     <div class="modal__title js-title">
       Заполните данные для продления подписки
     </div>
-    <form class="modal__form form">
+    <div data-form="true" class="modal__form form">
       <div class="select">
         <select>
           <option value="option1">Учёт времени</option>
@@ -203,7 +203,7 @@
       <input type="text" name="companyName" placeholder="Имя компании" class="input" value="ООО «Кивиниеми»" required readonly>
       <input type="submit" value="Отправить" class="form__submit button button--bg button--yellow">
       <span class="form__tip">Нажимая на кнопку «Отправить», я <a class="form__link" href="#">даю согласие</a> на обработку персональных данных</span>
-    </form>
+    </div>
   </div>
 </div>
 </body>
