@@ -13,10 +13,11 @@
     </div>
     <div class="container__content">
       <!-- copy inside <section id="ccphworkarea" class="page_full-width"> -->
-      <section class="section section--main">
+      <section class="section section--reg">
         <div class="wrapper">
           <h1 class="section__title">Регистрация</h1>
           <form class="reg-form" action="/reg" method="POST">
+            <div class="reg-form__tip">Заполните, пожалуйста, форму, чтобы получить доступ в личный кабинет</div>
             <input type="text" name="login" placeholder="ФИО" class="input" required>
             <input type="text" name="company" placeholder="Организация" class="input">
             <input type="text" name="email" placeholder="Почта" data-mask="\S*@?\S*$" class="input" required>
