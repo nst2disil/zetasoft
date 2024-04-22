@@ -53,6 +53,7 @@
   }
   &__arrow {
     margin: 0 auto;
+    max-width: 135px;
     &--right {
       transform: scaleY(-1) rotate(-55deg);
     }

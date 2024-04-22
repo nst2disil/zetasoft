@@ -15,4 +15,5 @@
   <script defer src="./f/filler.class.js?cache=<?php echo date("Y-m-d")?>"></script>
   <script defer src="./f/main.js?cache=<?php echo date("Y-m-d")?>"></script>
   <script defer src="./f/swiper-bundle.min.js?cache=<?php echo date("Y-m-d")?>"></script>
+  <script defer src="./f/imask-7.6.0.js?cache=<?php echo date("Y-m-d")?>"></script>
   <title>Автоматизация онлайн-продаж и учёта в 1С | Компания "ЗетаСофт"</title>

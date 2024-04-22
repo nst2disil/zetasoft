@@ -208,13 +208,15 @@ const SWIPERS = {
   }*/
 }
 
-function initPhoneMask() {
-  const phoneInput$ = document.querySelector('.js-phone-mask');
-  if (!phoneInput$) return;
-  phoneInput$.addEventListener('blur', function (e) {
-    var x = e.target.value.replace(/\D/g, '').match(/(\d{3})(\d{3})(\d{4})/);
-    e.target.value = '(' + x[1] + ') ' + x[2] + '-' + x[3];
-  });
+function initInputsMask() {
+  document.querySelectorAll('[data-mask]').forEach(item => {
+    try {
+      const re = new RegExp(item.dataset.mask);
+      IMask(item, re);
+    } catch (e) {
+      IMask(item, item.dataset.mask);
+    }
+  })
 }
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -224,7 +226,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initCases();
   initDashboardToggleds();
   initCustomSelects();
-  initPhoneMask();
+  initInputsMask();
 });
 
 // function to show alert after 10 seconds after page loaded

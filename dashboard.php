@@ -201,7 +201,7 @@
         </select>
       </div>
       <input type="text" name="companyName" placeholder="Имя компании" class="input" value="ООО «Кивиниеми»" required readonly>
-      <input type="submit" value="Отправить" class="form__submit button  button--bg button--yellow">
+      <input type="submit" value="Отправить" class="form__submit button button--bg button--yellow">
       <span class="form__tip">Нажимая на кнопку «Отправить», я <a class="form__link" href="#">даю согласие</a> на обработку персональных данных</span>
     </form>
   </div>

@@ -16,17 +16,16 @@
       <section class="section section--main">
         <div class="wrapper">
           <h1 class="section__title">Регистрация</h1>
-          <div class="reg-form">
-          </div>
           <form class="reg-form" action="/reg" method="POST">
             <input type="text" name="login" placeholder="ФИО" class="input" required>
-            <input type="text" name="login" placeholder="Организация" class="input">
-            <input type="text" name="login" placeholder="Почта" class="input" required>
+            <input type="text" name="company" placeholder="Организация" class="input">
+            <input type="text" name="email" placeholder="Почта" data-mask="\S*@?\S*$" class="input" required>
             <input type="password" name="password" placeholder="Пароль" class="input" required>
             <input type="password" name="password" placeholder="Подтверждение пароля" class="input" required>
-            <input type="text" name="phone" placeholder="ФИО" class="input" required>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-            <input type="submit" value="Отправить" class="form__submit button button--block button--bg button--yellow">
+            <input type="text" name="phone" placeholder="+7(000)000-00-00" data-mask="+{7}(000)000-00-00" class="input js-phone-mask" required>
+            <textarea name="" id="" cols="30" rows="5" placeholder="Комментарий" class="textarea"></textarea>
+            <span class="reg-form__tip">Нажимая на кнопку «Отправить», я <a class="reg-form__link" href="#">даю согласие</a> на обработку персональных данных</span>
+            <input type="submit" value="Отправить" class="reg-form__submit button button--block button--bg button--yellow">
           </form>
         </div>
       </section>

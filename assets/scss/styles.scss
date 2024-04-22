@@ -1,11 +1,4 @@
-@import './reset';
 @import './_mixins';
-@import './_icons';
-@import './_header';
-@import './_footer';
-@import './fonts';
-
-@import './components/_components';
 
 
 html {
@@ -567,7 +560,8 @@ a.panel:hover {
 }
 
 .input,
-.select {
+.select,
+.textarea {
   padding: 18px 24px;
   color: inherit;
   font-family: inherit;

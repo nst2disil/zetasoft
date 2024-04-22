@@ -156,6 +156,7 @@
     &:nth-child(4n - 3), &:nth-child(4n - 4) {
       .panel__content {
         background: url('../i/panel-zeta_white.svg') right var(--panel-content-padding) bottom var(--panel-content-padding) no-repeat;
+        background-size: 72px 20px;
       }
       background-color: var(--color-black);
       color: var(--color-white, #fff);
@@ -164,6 +165,7 @@
     &:nth-child(4n - 2), &:nth-child(4n - 1) {
       .panel__content {
         background: url('../i/panel-zeta.svg') right var(--panel-content-padding) bottom var(--panel-content-padding) no-repeat;
+        background-size: 72px 20px;
       }
       background-color: var(--color-white, #fff);
       color: var(--color-black);
