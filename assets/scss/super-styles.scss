@@ -36,6 +36,9 @@
   justify-content: stretch;
   padding: 60px 40px;
   box-sizing: content-box;
+  @include media-down($screen-md) {
+    padding: 0;
+  }
   &__tip {
     font-size: 16px;
     font-weight: 400;
