@@ -16,7 +16,6 @@
             </h1>
             <div class="case-info__logos">
               <div class="case-info__logos-list">
-
                 <img src="./i/atol_logo.png" alt="atol logo">
                 <img src="./i/panel-1c.svg" alt="online test amico">
               </div>
@@ -89,13 +88,13 @@
           </div>
           <div class="swiper swiper--screenshots" data-swiper-id="case-screenshots">
             <div class="screenshots swiper-wrapper">
-              <a href="./i/menyu-atol-onlain 1.jpg" target="_blank" class="swiper-slide screenshots__item">
+              <a href="./i/menyu-atol-onlain 1.jpg" data-fancybox="screenshots" class="swiper-slide screenshots__item">
                 <img src="./i/menyu-atol-onlain 1.jpg" alt="screenshot 1" class="screenshots__img">
               </a>
-              <a href="./i/menyu-atol-onlain 2.jpg" target="_blank" class="swiper-slide screenshots__item">
+              <a href="./i/menyu-atol-onlain 2.jpg" data-fancybox="screenshots" class="swiper-slide screenshots__item">
                 <img src="./i/menyu-atol-onlain 2.jpg" alt="screenshot 2" class="screenshots__img">
               </a>
-              <a href="./i/menyu-atol-onlain 3.jpg" target="_blank" class="swiper-slide screenshots__item">
+              <a href="./i/menyu-atol-onlain 3.jpg" data-fancybox="screenshots" class="swiper-slide screenshots__item">
                 <img src="./i/menyu-atol-onlain 3.jpg" alt="screenshot 3" class="screenshots__img">
               </a>
             </div>

@@ -227,6 +227,14 @@ document.addEventListener('DOMContentLoaded', () => {
   initDashboardToggleds();
   initCustomSelects();
   initInputsMask();
+  Fancybox.bind('[data-fancybox]', {
+    Toolbar: {
+      display: {
+        left: ["infobar"],
+        right: ["close"],
+      },
+    },
+  });  
 });
 
 // function to show alert after 10 seconds after page loaded
