@@ -23,6 +23,7 @@
         <div class="button__text">Войти</div>
         <span class="icon icon--login"></span>
       </button>
+      <a class="header__user" href="./dashboard.html"></a>
       <button class="burger show-md" data-modal="popup-menu"></button>
     </div>
   </div>

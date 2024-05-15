@@ -143,6 +143,9 @@ a:hover > .icon.icon--black,
 .header__logo:hover {
   opacity: 0.8;
 }
+.header__link {
+  display: flex;
+}
 .header__link:hover, .header__link--active {
   color: var(--color-yellow);
   font-weight: 500;
@@ -154,6 +157,16 @@ a:hover > .icon.icon--black,
   display: flex;
   align-self: center;
   transform: translateY(-1px);
+}
+.header__user {
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  background: url("../i/user.svg") center no-repeat #F2F2F2;
+  transition: background-color var(--animation-duration);
+}
+.header__user:hover {
+  background-color: var(--color-yellow);
 }
 .header__controls {
   display: flex;
