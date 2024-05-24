@@ -56,6 +56,7 @@
   }
   &__controls {
     display: flex;
+    align-items: center;
     gap: 12px;
     line-height: 24px;
     .button__text {
@@ -137,13 +138,6 @@
   &::after {
     bottom: -8px;
     background-color: var(--color-blue);
-  }
-  &:hover {
-    &,
-    &::before,
-    &::after {
-      background-color: var(--color-yellow);
-    }
   }
   &.active {
     background-color: var(--color-black);

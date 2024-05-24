@@ -100,11 +100,11 @@
   margin-bottom: 8px;
 }
 
-.cases {
+.wrapper.cases {
   flex-direction: row !important;
 }
 @media screen and (max-width: 879px) {
-  .cases {
+  .wrapper.cases {
     display: flex;
     flex-direction: column !important;
     justify-content: stretch;
@@ -112,15 +112,15 @@
   }
 }
 @media screen and (max-width: 879px) {
-  .cases__item {
+  .wrapper.cases__item {
     width: 100%;
     flex: 1;
   }
 }
-.cases--filtered .button-panel {
+.wrapper.cases--filtered .button-panel {
   display: none;
 }
-.cases .button-panel {
+.wrapper.cases .button-panel {
   width: 100%;
 }
 

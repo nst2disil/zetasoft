@@ -187,12 +187,8 @@
     max-height: 39px;
   }
 }
-.products__item.products__item--cross:nth-child(4n-3), .products__item.products__item--cross:nth-child(4n-4) {
-  background-color: var(--color-black);
-  color: var(--color-white, #fff);
-}
 .products__item.products__item--cross:nth-child(4n-3) .panel__content, .products__item.products__item--cross:nth-child(4n-4) .panel__content {
-  background: url("../i/panel-zeta_white.svg") right var(--panel-content-padding) bottom var(--panel-content-padding) no-repeat;
+  background: url("../i/panel-zeta.svg") right var(--panel-content-padding) bottom var(--panel-content-padding) no-repeat;
   background-size: 72px 20px;
 }
 .products__item.products__item--cross:nth-child(4n-2), .products__item.products__item--cross:nth-child(4n-1) {
@@ -205,9 +201,11 @@
 }
 .products__item.products__item--zeta .panel__content {
   background: url("../i/panel-zeta.svg") right var(--panel-content-padding) bottom var(--panel-content-padding) no-repeat;
+  background-size: 72px 20px;
 }
 .products__item.products__item--1с .panel__content {
   background: url("../i/panel-1c.svg") right var(--panel-content-padding) bottom var(--panel-content-padding) no-repeat;
+  background-size: 39px 23px;
 }
 
 .button-panel {

@@ -204,3 +204,15 @@
     margin-top: 40px;
   }
 }
+
+.post__content h3,
+.post__content b,
+.post__content .post__content__price {
+  font-weight: bold;
+}
+.post__content i {
+  font-style: italic;
+}
+.post__content h3 {
+  font-size: 28px;
+}

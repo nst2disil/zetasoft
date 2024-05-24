@@ -45,3 +45,17 @@
   }
 
 }
+
+.post__content {
+  h3,
+  b,
+  .post__content__price {
+    font-weight: bold;
+  }
+  i {
+    font-style: italic;
+  }
+  h3 {
+    font-size: 28px;
+  }
+}

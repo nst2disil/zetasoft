@@ -337,6 +337,9 @@
     padding-left: 100%;
   }
 }
+.business-tip + .block-group {
+  margin-top: 0;
+}
 
 .accounting-tip {
   font-size: 32px;
@@ -474,5 +477,6 @@
 @media screen and (min-width: 1440px) {
   .wrapper--main-bg-image {
     background: url("../i/main-graphic.svg") center no-repeat;
+    min-height: calc(720px - var(--header-height));
   }
 }
