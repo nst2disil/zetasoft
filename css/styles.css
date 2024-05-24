@@ -188,6 +188,12 @@ img {
 .section--black {
   background-color: var(--color-black);
 }
+.section--orange {
+  background-color: var(--color-orange);
+}
+.section--green {
+  background-color: var(--color-green);
+}
 .section--black {
   background-color: var(--color-black);
   color: #fff;
@@ -327,6 +333,12 @@ img {
 .panel--decoration-black .panel__head::before {
   border-top-color: var(--color-black);
 }
+.panel--decoration-orange .panel__head::before {
+  border-top-color: var(--color-orange);
+}
+.panel--decoration-green .panel__head::before {
+  border-top-color: var(--color-green);
+}
 .panel__head {
   height: var(--head-height);
   position: relative;
@@ -381,6 +393,12 @@ img {
 }
 .panel__head--black::before {
   border-top-color: var(--color-black);
+}
+.panel__head--orange::before {
+  border-top-color: var(--color-orange);
+}
+.panel__head--green::before {
+  border-top-color: var(--color-green);
 }
 .panel__head--black::before {
   border-top-color: var(--color-black);

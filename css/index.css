@@ -51,6 +51,12 @@
 .cases--filtered[data-filtered-by=black] .cases__item:not([data-case-category=black]) {
   display: none;
 }
+.cases--filtered[data-filtered-by=orange] .cases__item:not([data-case-category=orange]) {
+  display: none;
+}
+.cases--filtered[data-filtered-by=green] .cases__item:not([data-case-category=green]) {
+  display: none;
+}
 .cases .panel__head {
   --head-height: 52px;
 }

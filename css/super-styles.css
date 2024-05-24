@@ -624,6 +624,12 @@ a:hover > .icon.icon--black,
 .button--black {
   background: var(--color-black);
 }
+.button--orange {
+  background: var(--color-orange);
+}
+.button--green {
+  background: var(--color-green);
+}
 .button--active-blue.button--active, .button--active-blue:hover {
   background: var(--color-blue);
 }
@@ -645,6 +651,12 @@ a:hover > .icon.icon--black,
 .button--active-black.button--active, .button--active-black:hover {
   background: var(--color-black);
 }
+.button--active-orange.button--active, .button--active-orange:hover {
+  background: var(--color-orange);
+}
+.button--active-green.button--active, .button--active-green:hover {
+  background: var(--color-green);
+}
 .button--white {
   background: #fff;
   color: var(--color-black);
@@ -652,11 +664,6 @@ a:hover > .icon.icon--black,
 .button--black {
   background: var(--color-black);
   color: #fff;
-}
-.button--black:hover {
-  background: var(--color-yellow);
-  color: #000;
-  border-color: var(--color-yellow);
 }
 .button--bg {
   padding: 18px 30px;
@@ -1201,6 +1208,12 @@ img {
 .section--black {
   background-color: var(--color-black);
 }
+.section--orange {
+  background-color: var(--color-orange);
+}
+.section--green {
+  background-color: var(--color-green);
+}
 .section--black {
   background-color: var(--color-black);
   color: #fff;
@@ -1340,6 +1353,12 @@ img {
 .panel--decoration-black .panel__head::before {
   border-top-color: var(--color-black);
 }
+.panel--decoration-orange .panel__head::before {
+  border-top-color: var(--color-orange);
+}
+.panel--decoration-green .panel__head::before {
+  border-top-color: var(--color-green);
+}
 .panel__head {
   height: var(--head-height);
   position: relative;
@@ -1394,6 +1413,12 @@ img {
 }
 .panel__head--black::before {
   border-top-color: var(--color-black);
+}
+.panel__head--orange::before {
+  border-top-color: var(--color-orange);
+}
+.panel__head--green::before {
+  border-top-color: var(--color-green);
 }
 .panel__head--black::before {
   border-top-color: var(--color-black);
@@ -2585,6 +2610,12 @@ ul.ul li::before {
 .cases--filtered[data-filtered-by=black] .cases__item:not([data-case-category=black]) {
   display: none;
 }
+.cases--filtered[data-filtered-by=orange] .cases__item:not([data-case-category=orange]) {
+  display: none;
+}
+.cases--filtered[data-filtered-by=green] .cases__item:not([data-case-category=green]) {
+  display: none;
+}
 .cases .panel__head {
   --head-height: 52px;
 }
@@ -2849,6 +2880,12 @@ ul.ul li::before {
 .cases--filtered[data-filtered-by=black] .cases__item:not([data-case-category=black]) {
   display: none;
 }
+.cases--filtered[data-filtered-by=orange] .cases__item:not([data-case-category=orange]) {
+  display: none;
+}
+.cases--filtered[data-filtered-by=green] .cases__item:not([data-case-category=green]) {
+  display: none;
+}
 .cases .panel__head {
   --head-height: 52px;
 }
@@ -2960,6 +2997,12 @@ ul.ul li::before {
 .cases-wrapper:nth-child(even) .panel--decoration-black {
   box-shadow: 4px 4px 0px 0px var(--color-black);
 }
+.cases-wrapper:nth-child(even) .panel--decoration-orange {
+  box-shadow: 4px 4px 0px 0px var(--color-orange);
+}
+.cases-wrapper:nth-child(even) .panel--decoration-green {
+  box-shadow: 4px 4px 0px 0px var(--color-green);
+}
 
 .paginator + .button-panel {
   margin-top: 48px;
@@ -3015,6 +3058,12 @@ ul.ul li::before {
   display: none;
 }
 .cases--filtered[data-filtered-by=black] .cases__item:not([data-case-category=black]) {
+  display: none;
+}
+.cases--filtered[data-filtered-by=orange] .cases__item:not([data-case-category=orange]) {
+  display: none;
+}
+.cases--filtered[data-filtered-by=green] .cases__item:not([data-case-category=green]) {
   display: none;
 }
 .cases .panel__head {
@@ -3539,6 +3588,12 @@ ul.ul li::before {
   display: none;
 }
 .cases--filtered[data-filtered-by=black] .cases__item:not([data-case-category=black]) {
+  display: none;
+}
+.cases--filtered[data-filtered-by=orange] .cases__item:not([data-case-category=orange]) {
+  display: none;
+}
+.cases--filtered[data-filtered-by=green] .cases__item:not([data-case-category=green]) {
   display: none;
 }
 .cases .panel__head {

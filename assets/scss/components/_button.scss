@@ -69,11 +69,6 @@
   &--black {
     background: var(--color-black);
     color: #fff;
-    &:hover {
-      background: var(--color-yellow);
-      color: #000;
-      border-color: var(--color-yellow);
-    }
   }
   &--bg {
     padding: 18px 30px;
