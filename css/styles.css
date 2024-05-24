@@ -510,17 +510,32 @@ img {
   height: 100%;
   width: 100%;
 }
-.panel--yellow {
-  background: var(--color-yellow);
-}
 .panel--blue {
   background: var(--color-blue);
+}
+.panel--blue-dark {
+  background: var(--color-blue-dark);
 }
 .panel--red {
   background: var(--color-red);
 }
+.panel--green {
+  background: var(--color-green);
+}
+.panel--yellow {
+  background: var(--color-yellow);
+}
 .panel--grey {
   background: var(--color-grey);
+}
+.panel--black {
+  background: var(--color-black);
+}
+.panel--orange {
+  background: var(--color-orange);
+}
+.panel--green {
+  background: var(--color-green);
 }
 .panel--black {
   background: var(--color-black);

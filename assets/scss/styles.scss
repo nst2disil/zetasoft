@@ -381,10 +381,11 @@ img {
       width: 100%;
     }
   }
-  &--yellow { background: var(--color-yellow) }
-  &--blue { background: var(--color-blue) }
-  &--red { background: var(--color-red) }
-  &--grey { background: var(--color-grey) }
+  @each $val in $color-list {
+    &--#{$val} {
+      background: var(--color-#{$val});
+    }
+  }
   &--black {
     background: var(--color-black);
     color: #fff;
