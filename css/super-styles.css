@@ -3237,6 +3237,10 @@ ul.ul li::before {
   justify-content: space-between;
 }
 
+.cols + .block-group {
+  margin-top: 64px;
+}
+
 .dashboard {
   display: flex;
   gap: 48px;
