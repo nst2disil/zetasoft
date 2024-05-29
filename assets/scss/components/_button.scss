@@ -102,4 +102,9 @@
   &--no-shadow {
     box-shadow: unset !important;
   }
+  &:disabled {
+    background-color: var(--color-grey) !important;
+    box-shadow: none !important;
+    cursor: default !important;
+  }
 }

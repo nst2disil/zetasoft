@@ -175,7 +175,7 @@
         </div>
         <div data-form="true" class="modal__form form">
           <input type="text" name="name" placeholder="Иванов Иван Иванович" class="input" required>
-          <input type="text" name="phone" placeholder="+7 999 112-23-33|" class="input" required>
+          <input type="text" name="phone" placeholder="+7 999 112-23-33" class="input" required>
           <input type="text" name="email" placeholder="info@kiviniemi.ru" class="input" required>
           <input type="submit" value="Сохранить" class="form__submit button  button--bg button--yellow">
           <span class="form__tip">Нажимая на кнопку «Сохранить», я <a class="form__link" href="#">даю согласие</a> на обработку персональных данных</span>

@@ -699,6 +699,11 @@ a:hover > .icon.icon--black,
 .button--no-shadow {
   box-shadow: unset !important;
 }
+.button:disabled {
+  background-color: var(--color-grey) !important;
+  box-shadow: none !important;
+  cursor: default !important;
+}
 
 .checkbox {
   display: inline-block;
@@ -1782,6 +1787,14 @@ a.panel:hover .panel__link {
 .textarea--error::placeholder {
   color: var(--color-red);
   opacity: 0.7;
+}
+
+input:required:-moz-placeholder-shown {
+  border: 1px solid red; /* Red border only if the input is empty */
+}
+
+input:required:placeholder-shown {
+  border: 1px solid red; /* Red border only if the input is empty */
 }
 
 .links {

@@ -585,6 +585,10 @@ a.panel:hover {
   }
 }
 
+input:required:placeholder-shown {
+  border: 1px solid red; /* Red border only if the input is empty */
+}
+
 .links {
   flex: 1;
   display: flex;

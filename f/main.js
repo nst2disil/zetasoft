@@ -1,4 +1,4 @@
-function setupToolToggler() {
+function initToolToggler() {
   const toolTogglers = document.querySelectorAll('.js-tool-toggler');
 
   toolTogglers.forEach(toggler => {
@@ -219,14 +219,40 @@ function initInputsMask() {
   })
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-  setupToolToggler();
-  ininPopups();
-  initSwipers();
-  initCases();
-  initDashboardToggleds();
-  initCustomSelects();
-  initInputsMask();
+function checkFormFields(form) {
+  const requiredFields = form.querySelectorAll('[required]');
+  let isValid = true;
+
+  requiredFields.forEach((field) => {
+    if (!field.value.trim()) {
+      isValid = false;
+    }
+  });
+
+  // Если все поля заполнены, кнопка отправки доступна
+  if (isValid) {
+    form.querySelector('[type="submit"]').disabled = false;
+  } else {
+    form.querySelector('[type="submit"]').disabled = true;
+  }
+}
+
+function initFormValidator() {
+  // Добавляем обработчики событий для форм на странице
+  const forms = document.querySelectorAll('[data-form="true"]');
+
+  forms.forEach((form) => {
+    form.addEventListener('input', () => {
+      checkFormFields(form);
+    });
+    form.addEventListener('change', () => {
+      checkFormFields(form);
+    });
+    checkFormFields(form);
+  });
+}
+
+function initFancybox() {
   Fancybox.bind('[data-fancybox]', {
     Toolbar: {
       display: {
@@ -234,7 +260,19 @@ document.addEventListener('DOMContentLoaded', () => {
         right: ["close"],
       },
     },
-  });  
+  }); 
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  initToolToggler();
+  ininPopups();
+  initSwipers();
+  initCases();
+  initDashboardToggleds();
+  initCustomSelects();
+  initInputsMask();
+  initFormValidator();
+  initFancybox(); 
 });
 
 // function to show alert after 10 seconds after page loaded

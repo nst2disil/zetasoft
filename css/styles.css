@@ -764,6 +764,14 @@ a.panel:hover .panel__link {
   opacity: 0.7;
 }
 
+input:required:-moz-placeholder-shown {
+  border: 1px solid red; /* Red border only if the input is empty */
+}
+
+input:required:placeholder-shown {
+  border: 1px solid red; /* Red border only if the input is empty */
+}
+
 .links {
   flex: 1;
   display: flex;
