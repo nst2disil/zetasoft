@@ -34,7 +34,7 @@
   margin: 40px 0;
 }
 
-@include media-up($screen-md) {
+/*@include media-up($screen-md) {
   .cases-wrapper:nth-child(odd) .cases__item:nth-child(1) {
     width: calc(100%/3*2 - 6px);
   }
@@ -43,7 +43,7 @@
       width: calc(100%/3*2 - 6px);
     }
   }
-}
+}*/
 
 .cases-wrapper:nth-child(even) {
   background-color: var(--color-black);

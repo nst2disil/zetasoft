@@ -23,12 +23,6 @@
         <div class="js-cases">
           <div class="cases-wrapper">
             <div class="wrapper cases">
-
-          
-
-          
-          
-          
               <a href="./case.html" class="cases__item panel panel--decoration-red" data-case-category="red">
                 <div class="panel__head">
                   <img src="./i/panel-1c.svg" alt="1c logo" class="case__image">
@@ -40,7 +34,7 @@
               </a>
               <a href="./case.html" class="cases__item panel panel--decoration-blue" data-case-category="blue">
                 <div class="panel__head">
-                  <img src="./i/panel-1c.svg" alt="1c logo" class="case__image">
+                  <img src="./i/panel-zeta.svg" alt="1c logo" class="case__image">
                 </div>
                 <div class="panel__content case">
                   <div class="case__title">Подсистема учета б/у запчастей в&nbsp;торговой конфигурации 1С</div>
@@ -74,10 +68,18 @@
                   <div class="case__text">Снижение затрат клиента и, в&nbsp;свою очередь, его клиентов. Порядок в&nbsp;документообороте: корректность и своевременность ввода</div>
                 </div>
               </a>
-
+              <a href="./case.html" class="cases__item panel panel--decoration-red" data-case-category="red">
+                <div class="panel__head">
+                  <img src="./i/panel-1c.svg" alt="1c logo" class="case__image">
+                </div>
+                <div class="panel__content case">
+                  <div class="case__title">Оптимизация производительности в&nbsp;УТ 11.1</div>
+                  <div class="case__text">Внедрение APDEX, международного стандарта оценки производительности информационных систем</div>
+                </div>
+              </a>
             </div>
           </div>
-          <div class="cases-wrapper">
+          <!--<div class="cases-wrapper">
             <div class="wrapper cases">
               <a href="./case.html" class="cases__item panel panel--decoration-red" data-case-category="red">
                 <div class="panel__head">
@@ -107,7 +109,7 @@
                 </div>
               </a>
             </div>
-          </div>
+          </div>-->
         </div>
         <div class="wrapper">
           <div class="paginator">
