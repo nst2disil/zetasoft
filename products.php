@@ -27,116 +27,197 @@
           <h2 class="section__title">
             Продукты и сервисы
           </h2>
-          <div class="swiper swiper--m" data-swiper-id="products">
-            <div class="products swiper-wrapper">
-              <a href="#" class="swiper-slide products__item panel products__item--cross panel--shadow-red">
-                <div class="panel__content">
-                  <div class="products__top">
-                    <div class="products__name products__name--red">ЗетаВеб</div>
-                    <div class="products__price hide-md-down">От 132 000 ₽</div>
-                  </div>
-                  <div class="products__text">Уникальный программный комплекс, предназначенный для управления интернет-магазином непосредственно из среды «1С: Предприятие»</div>
-                  <div class="products__bottom">
-                    <div class="bottom__block">
-                      <div class="panel__link">Подробнее</div>
-                      <div class="products__price hide-md-up">От 132 000 ₽</div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-              <a href="#" class="swiper-slide products__item panel products__item--cross panel--shadow-yellow">
-                <div class="panel__content">
-                  <div class="products__top">
-                    <div class="products__name products__name--yellow">Атол</div>
-                    <div class="products__price hide-md-down">От 1000 ₽/месяц</div>
-                  </div>
-                  <div class="products__text">Удобный интерфейс для подбора товаров и создания заказа, используя собственные остатки, прайс-листы и веб-сервисы поставщиков</div>
-                  <div class="products__bottom">
-                    <div class="bottom__block">
-                      <div class="panel__link">Подробнее</div>
-                      <div class="products__price hide-md-up">От 1000 ₽/месяц</div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-              <a href="#" class="swiper-slide products__item panel products__item--cross panel--shadow-yellow">
-                <div class="panel__content">
-                  <div class="products__top">
-                    <div class="products__name products__name--yellow">Виртуальный склад</div>
-                    <div class="products__price hide-md-down">40 000 ₽</div>
-                  </div>
-                  <div class="products__text">Загружайте прайс-листы поставщиков и пользуйтесь ими, как своими собственными товарами.</div>
-                  <div class="products__bottom">
-                    <div class="bottom__block">
-                      <div class="panel__link">Подробнее</div>
-                      <div class="products__price hide-md-up">40 000 ₽</div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-              <a href="#" class="swiper-slide products__item panel products__item--cross panel--shadow-red">
-                <div class="panel__content">
-                  <div class="products__top">
-                    <div class="products__name products__name--blue">Веб-сервисы</div>
-                    <div class="products__price hide-md-down">От 500 ₽/месяц</div>
-                  </div>
-                  <div class="products__text">Подключение множества поставщиков через один общий шлюз по веб-сервису. Простой и понятный интерфейс: очистка недостоверной информации, «эталонные» бренды</div>
-                  <div class="products__bottom">
-                    <div class="bottom__block">
-                      <div class="panel__link">Подробнее</div>
-                      <div class="products__price hide-md-up">От 500 ₽/месяц</div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-              <a href="#" class="swiper-slide products__item panel products__item--cross panel--shadow-red">
-                <div class="panel__content">
-                  <div class="products__top">
-                    <div class="products__name products__name--green">Вендинг</div>
-                    <div class="products__price hide-md-down">От 132 000 ₽</div>
-                  </div>
-                  <div class="products__text">Комплексный программный продукт для автоматизации работы вендинговых компаний</div>
-                  <div class="products__bottom">
-                    <div class="bottom__block">
-                      <div class="panel__link">Подробнее</div>
-                      <div class="products__price hide-md-up">От 132 000 ₽</div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-              <a href="#" class="swiper-slide products__item panel products__item--cross  panel--shadow-red">
-                <div class="panel__content">
-                  <div class="products__top">
-                    <div class="products__name products__name--red">ТекДок</div>
-                    <div class="products__price hide-md-down">От 50 000 ₽</div>
-                  </div>
-                  <div class="products__text">Продукт для&nbsp;повременного учёта работы ваших сотрудников. Для&nbsp;компаний, оказывающих услуги консалтинга, юридические, </div>
-                  <div class="products__bottom">
-                    <div class="bottom__block">
-                      <div class="panel__link">Подробнее</div>
-                      <div class="products__price hide-md-up">От 50 000 ₽</div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-              <a href="#" class="swiper-slide products__item panel products__item--cross  panel--shadow-yellow">
-                <div class="panel__content">
-                  <div class="products__top">
-                    <div class="products__name products__name--red">Универсальный отчет</div>
-                    <div class="products__price hide-md-down">От 132 000 ₽</div>
-                  </div>
-                  <div class="products__text">Уникальный программный комплекс, предназначенный для управления интернет-магазином непосредственно из среды «1С: Предприятие»</div>
-                  <div class="products__bottom">
-                    <div class="bottom__block">
-                      <div class="panel__link">Подробнее</div>
-                      <div class="products__price hide-md-up">От 132 000 ₽</div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="swiper-pagination"></div>
+          <div class="categories">
+            <a href="./cases.html" class="categories__item button  button--dot">Все продукты</a>
+            <a href="./cases.html#filter-by-blue" class="categories__item js-case-category button button--blue  button--dot">Автозапчасти</a>
+            <a href="./cases.html#filter-by-red" class="categories__item js-case-category button button--red  button--dot">Вендинг</a>
+            <a href="./cases.html#filter-by-blue-dark" class="categories__item js-case-category button button--blue-dark  button--dot">Продажа времени</a>
+            <a href="./cases.html#filter-by-green" class="categories__item js-case-category button button--green  button--dot">Универсальный</a>
+            <a href="./cases.html#filter-by-yellow" class="categories__item js-case-category button button--yellow  button--dot">1C</a>
           </div>
+          <div class="cols">
+            <div class="cols__item">
+              <h3 class="section__title">Коробочные решения</h3>
+              <div class="swiper swiper--m" data-swiper-id="products">
+                <div class="products swiper-wrapper">
+                  <a href="#" class="swiper-slide products__item products__item--cross panel panel--decoration-reverse panel--decoration-yellow panel--shadow-yellow">
+                    <div class="panel__head">
+                      <div class="products__top">
+                        <div class="products__name products__name--red">ЗетаВеб</div>
+                        <div class="products__price hide-md-down">От 132 000 ₽</div>
+                      </div>
+                    </div>
+                    <div class="panel__content">
+                      <div class="products__text">Уникальный программный комплекс, предназначенный для управления интернет-магазином непосредственно из среды «1С: Предприятие»</div>
+                      <div class="products__bottom">
+                        <div class="bottom__block">
+                          <div class="panel__link">Подробнее</div>
+                          <div class="products__price hide-md-up">От 132 000 ₽</div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="#" class="swiper-slide products__item products__item--cross panel panel--decoration-reverse panel--decoration-blue panel--shadow-blue">
+                    <div class="panel__head">
+                      <div class="products__top">
+                        <div class="products__name products__name--red">ЗетаВеб</div>
+                        <div class="products__price hide-md-down">От 132 000 ₽</div>
+                      </div>
+                    </div>
+                    <div class="panel__content">
+                      <div class="products__text">Уникальный программный комплекс, предназначенный для управления интернет-магазином непосредственно из среды «1С: Предприятие»</div>
+                      <div class="products__bottom">
+                        <div class="bottom__block">
+                          <div class="panel__link">Подробнее</div>
+                          <div class="products__price hide-md-up">От 132 000 ₽</div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="#" class="swiper-slide products__item panel products__item--cross panel--shadow-yellow">
+                    <div class="panel__content">
+                      <div class="products__top">
+                        <div class="products__name products__name--yellow">Атол</div>
+                        <div class="products__price hide-md-down">От 1000 ₽/месяц</div>
+                      </div>
+                      <div class="products__text">Удобный интерфейс для подбора товаров и создания заказа, используя собственные остатки, прайс-листы и веб-сервисы поставщиков</div>
+                      <div class="products__bottom">
+                        <div class="bottom__block">
+                          <div class="panel__link">Подробнее</div>
+                          <div class="products__price hide-md-up">От 1000 ₽/месяц</div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="#" class="swiper-slide products__item panel products__item--cross panel--shadow-yellow">
+                    <div class="panel__content">
+                      <div class="products__top">
+                        <div class="products__name products__name--yellow">Виртуальный склад</div>
+                        <div class="products__price hide-md-down">40 000 ₽</div>
+                      </div>
+                      <div class="products__text">Загружайте прайс-листы поставщиков и пользуйтесь ими, как своими собственными товарами.</div>
+                      <div class="products__bottom">
+                        <div class="bottom__block">
+                          <div class="panel__link">Подробнее</div>
+                          <div class="products__price hide-md-up">40 000 ₽</div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="#" class="swiper-slide products__item panel products__item--cross panel--shadow-red">
+                    <div class="panel__content">
+                      <div class="products__top">
+                        <div class="products__name products__name--blue">Веб-сервисы</div>
+                        <div class="products__price hide-md-down">От 500 ₽/месяц</div>
+                      </div>
+                      <div class="products__text">Подключение множества поставщиков через один общий шлюз по веб-сервису. Простой и понятный интерфейс: очистка недостоверной информации, «эталонные» бренды</div>
+                      <div class="products__bottom">
+                        <div class="bottom__block">
+                          <div class="panel__link">Подробнее</div>
+                          <div class="products__price hide-md-up">От 500 ₽/месяц</div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="#" class="swiper-slide products__item panel products__item--cross panel--shadow-red">
+                    <div class="panel__content">
+                      <div class="products__top">
+                        <div class="products__name products__name--green">Вендинг</div>
+                        <div class="products__price hide-md-down">От 132 000 ₽</div>
+                      </div>
+                      <div class="products__text">Комплексный программный продукт для автоматизации работы вендинговых компаний</div>
+                      <div class="products__bottom">
+                        <div class="bottom__block">
+                          <div class="panel__link">Подробнее</div>
+                          <div class="products__price hide-md-up">От 132 000 ₽</div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="#" class="swiper-slide products__item panel products__item--cross  panel--shadow-red">
+                    <div class="panel__content">
+                      <div class="products__top">
+                        <div class="products__name products__name--red">ТекДок</div>
+                        <div class="products__price hide-md-down">От 50 000 ₽</div>
+                      </div>
+                      <div class="products__text">Продукт для&nbsp;повременного учёта работы ваших сотрудников. Для&nbsp;компаний, оказывающих услуги консалтинга, юридические, </div>
+                      <div class="products__bottom">
+                        <div class="bottom__block">
+                          <div class="panel__link">Подробнее</div>
+                          <div class="products__price hide-md-up">От 50 000 ₽</div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="#" class="swiper-slide products__item panel products__item--cross  panel--shadow-yellow">
+                    <div class="panel__content">
+                      <div class="products__top">
+                        <div class="products__name products__name--red">Универсальный отчет</div>
+                        <div class="products__price hide-md-down">От 132 000 ₽</div>
+                      </div>
+                      <div class="products__text">Уникальный программный комплекс, предназначенный для управления интернет-магазином непосредственно из среды «1С: Предприятие»</div>
+                      <div class="products__bottom">
+                        <div class="bottom__block">
+                          <div class="panel__link">Подробнее</div>
+                          <div class="products__price hide-md-up">От 132 000 ₽</div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+              </div>
+            <div class="cols__item">
+              <h3 class="section__title">Наработки и методики</h3>
+              <div class="swiper swiper--m" data-swiper-id="systems">
+                <div class="products swiper-wrapper">
+                  <a href="#" class="swiper-slide products__item panel products__item--zeta panel--shadow-yellow">
+                    <div class="panel__content">
+                      <div class="products__top">
+                        <div class="products__name products__name--red">Учёт времени</div>
+                        <div class="products__price">От 50 000 ₽</div>
+                      </div>
+                      <div class="products__text">Продукт для&nbsp;повременного учёта работы ваших сотрудников. Для&nbsp;компаний, оказывающих услуги консалтинга, юридические, бухгалтерские и&nbsp;другие услуги, где&nbsp;принята почасовая оплата.</div>
+                      <div class="products__bottom">
+                        <div class="bottom__block">
+                          <div class="panel__link">Подробнее</div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="#" class="swiper-slide products__item panel products__item--zeta panel--shadow-blue">
+                    <div class="panel__content">
+                      <div class="products__top">
+                        <div class="products__name products__name--blue">Авторазборка</div>
+                        <div class="products__price">От 1000 ₽/месяц</div>
+                      </div>
+                      <div class="products__text">Удобный интерфейс для подбора товаров и создания заказа, используя собственные остатки, прайс-листы и веб-сервисы поставщиков</div>
+                      <div class="products__bottom">
+                        <div class="bottom__block">
+                          <div class="panel__link">Подробнее</div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="#" class="swiper-slide products__item panel products__item--zeta panel--shadow-red">
+                    <div class="panel__content">
+                      <div class="products__top">
+                        <div class="products__name products__name--yellow">Управление ТК</div>
+                        <div class="products__price">40 000 ₽</div>
+                      </div>
+                      <div class="products__text">Загружайте прайс-листы поставщиков и пользуйтесь ими, как своими собственными товарами.</div>
+                      <div class="products__bottom">
+                        <div class="panel__link">Подробнее</div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </section>
       <section class="section section--black">
@@ -144,47 +225,7 @@
           <h2 class="section__title">
             Платформы для решений
           </h2>
-          <div class="swiper swiper--m" data-swiper-id="systems">
-            <div class="products swiper-wrapper">
-              <a href="#" class="swiper-slide products__item panel products__item--zeta panel--shadow-yellow">
-                <div class="panel__content">
-                  <div class="products__top">
-                    <div class="products__name products__name--red">Учёт времени</div>
-                    <div class="products__price">От 50 000 ₽</div>
-                  </div>
-                  <div class="products__text">Продукт для&nbsp;повременного учёта работы ваших сотрудников. Для&nbsp;компаний, оказывающих услуги консалтинга, юридические, бухгалтерские и&nbsp;другие услуги, где&nbsp;принята почасовая оплата.</div>
-                  <div class="products__bottom">
-                    <div class="panel__link">Подробнее</div>
-                  </div>
-                </div>
-              </a>
-              <a href="#" class="swiper-slide products__item panel products__item--zeta panel--shadow-blue">
-                <div class="panel__content">
-                  <div class="products__top">
-                    <div class="products__name products__name--blue">Авторазборка</div>
-                    <div class="products__price">От 1000 ₽/месяц</div>
-                  </div>
-                  <div class="products__text">Удобный интерфейс для подбора товаров и создания заказа, используя собственные остатки, прайс-листы и веб-сервисы поставщиков</div>
-                  <div class="products__bottom">
-                    <div class="panel__link">Подробнее</div>
-                  </div>
-                </div>
-              </a>
-              <a href="#" class="swiper-slide products__item panel products__item--zeta panel--shadow-red">
-                <div class="panel__content">
-                  <div class="products__top">
-                    <div class="products__name products__name--yellow">Управление ТК</div>
-                    <div class="products__price">40 000 ₽</div>
-                  </div>
-                  <div class="products__text">Загружайте прайс-листы поставщиков и пользуйтесь ими, как своими собственными товарами.</div>
-                  <div class="products__bottom">
-                    <div class="panel__link">Подробнее</div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="swiper-pagination"></div>
-          </div>
+
           <div class="button-panel panel panel--yellow panel--no-shadow">
             <div class="button-panel__text">
               <img src="./i/panel-1c.svg" alt="1c logo" class="button-panel__image">

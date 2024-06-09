@@ -200,6 +200,21 @@ img {
       margin-bottom: 20px;
     }
   }
+  h3.section__title {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 130%;
+    border-bottom: 1px solid var(--color-black);
+    padding-bottom: 16px;
+    margin-bottom: 40px;
+    @include media-down($screen-bg) {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    @include media-down($screen-md) {
+      font-size: 18px;
+    }
+  }
   &__subtitle {
     //color: var(--color-black);
     font-size: 32px;
@@ -256,8 +271,48 @@ img {
   @each $val in $color-list {
     &--decoration-#{$val} .panel__head::before { border-top-color: var(--color-#{$val}) }
   }
+  &--decoration-reverse {
+    --tab-width-rev: 165px;
+    overflow: hidden;
+    @include media-up($screen-md) {
+      --tab-width-rev: 205px;
+    }
+    &:hover {
+      .panel__head::before {
+        transform: scale(2, 6) translate(25%, 40%);
+        z-index: 0;
+        @include media-down($screen-md) {
+          transform: scale(3, 12) translate(25%, 40%);
+        }
+
+      }
+      .panel__head::after {
+        opacity: 0;
+        transition-delay: 0s;
+      }
+    }
+    .panel__head {
+      &::before {
+        margin-right: var(--tab-width-rev);
+        margin-left: 0;
+        transition-duration: var(--animation-duration);
+      }
+      &::after {
+        left: 0;
+        right: calc(var(--tab-width-rev) - 1px);
+        transition-delay: var(--animation-duration);
+      }
+      &::after,
+      &::before {
+        border-right: calc(var(--head-height) / 2) solid transparent;
+        border-left: unset;
+      }
+    }
+  }
   &__head {
     height: var(--head-height);
+    --tab-width: 100px;
+
     position: relative;
     @include media-down($screen-lg) {
       --head-height: 40px;
@@ -274,7 +329,7 @@ img {
       height: 0;
     }
     &::before {
-      margin-left: 125px;
+      margin-left: var(--tab-width);
       position: relative;
       z-index: 1;
     }
@@ -282,7 +337,7 @@ img {
       border-top: var(--head-height) solid var(--color-black);
       position: absolute;
       right: 0;
-      left: 124px;
+      left: calc(var(--tab-width) - 1px);
       top: 0;
       z-index: 0;
     }
@@ -733,6 +788,8 @@ ul.ul {
     grid-template-columns: 1fr;
     grid-auto-rows: auto;
     gap: 20px;
+    display: flex;
+    flex-direction: column;
   }
 }
 
