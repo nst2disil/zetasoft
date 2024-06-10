@@ -172,7 +172,7 @@
               <h3 class="section__title">Наработки и методики</h3>
               <div class="swiper swiper--m" data-swiper-id="systems">
                 <div class="products swiper-wrapper">
-                  <a href="#" class="swiper-slide products__item panel products__item--zeta panel--shadow-yellow">
+                  <a href="#" class="swiper-slide products__item panel products__item--zeta panel--shadow-black">
                     <div class="panel__content">
                       <div class="products__top">
                         <div class="products__name products__name--red">Учёт времени</div>
@@ -186,7 +186,7 @@
                       </div>
                     </div>
                   </a>
-                  <a href="#" class="swiper-slide products__item panel products__item--zeta panel--shadow-blue">
+                  <a href="#" class="swiper-slide products__item panel products__item--zeta panel--shadow-black">
                     <div class="panel__content">
                       <div class="products__top">
                         <div class="products__name products__name--blue">Авторазборка</div>
@@ -222,10 +222,6 @@
       </section>
       <section class="section section--black">
         <div class="wrapper">
-          <h2 class="section__title">
-            Платформы для решений
-          </h2>
-
           <div class="button-panel panel panel--yellow panel--no-shadow">
             <div class="button-panel__text">
               <img src="./i/panel-1c.svg" alt="1c logo" class="button-panel__image">

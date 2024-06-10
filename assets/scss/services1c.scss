@@ -8,8 +8,8 @@
 .services1c {
   @include media-up($screen-md) {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    //grid-template-columns: repeat(2, 1fr);
+    //grid-template-rows: repeat(2, 1fr);
     gap: 24px;
   }
   @include media-down($screen-lg) {
@@ -59,7 +59,7 @@
     margin-top: auto;
     width: 100%;
   }
-  &__list,
+  //&__list,
   &__tip {
     @include media-down($screen-md) {
       display: none !important;

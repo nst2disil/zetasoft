@@ -29,7 +29,7 @@
                   </div>
                   <div class="products__text">Полноценная автоматизация бухгалтерского и налогового учета, включая подготовку регламентированной отчетности. Возможна электронная версия поставки</div>
                   <div class="products__bottom hide-md-up">
-                                        <div class="products__price">13 000 ₽</div>
+                    <div class="products__price">13 000 ₽</div>
                   </div>
                 </div>
               </a>

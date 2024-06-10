@@ -43,10 +43,6 @@ img {
   max-height: 100%;
 }
 
-.hidden {
-  display: none;
-}
-
 .wrapper {
   max-width: $screen-lg;
   min-width: $screen-sm;
@@ -274,10 +270,11 @@ img {
   &--decoration-reverse {
     --tab-width-rev: 165px;
     overflow: hidden;
-    @include media-up($screen-md) {
-      --tab-width-rev: 205px;
+    @include media-down($screen-md) {
+      --tab-width-rev: 25px;
     }
-    &:hover {
+    &:hover,
+    &.panel--active {
       .panel__head::before {
         transform: scale(2, 6) translate(25%, 40%);
         z-index: 0;

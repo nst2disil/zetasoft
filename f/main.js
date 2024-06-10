@@ -263,6 +263,51 @@ function initFancybox() {
   }); 
 }
 
+function initServiceTabs() {
+  const togglerElements = document.querySelectorAll('.js-services1c-toggler');
+  const itemElements = document.querySelectorAll('.js-services1c-item');
+  const defaultTab = document.querySelector('.js-services1c-default');
+
+  if (togglerElements.length === 0 || itemElements.length === 0 || !defaultTab) {
+    return;
+  }
+
+  itemElements.forEach(item => item.classList.add('hidden'));
+
+  function showDefaultTab() {
+    itemElements.forEach(item => item.classList.add('hidden'));
+    defaultTab.classList.remove('hidden');
+  }
+
+  showDefaultTab();
+
+  togglerElements.forEach(toggler => {
+    toggler.addEventListener('click', () => {
+      const tabId = toggler.getAttribute('data-tab-id');
+      const isActive = toggler.classList.contains('panel--active');
+
+      togglerElements.forEach(el => el.classList.remove('panel--active'));
+
+      if (isActive) {
+        showDefaultTab();
+        return;
+      }
+
+      toggler.classList.add('panel--active');
+
+      itemElements.forEach(item => {
+        if (item.getAttribute('data-tab-id') === tabId) {
+          item.classList.remove('hidden');
+        } else {
+          item.classList.add('hidden');
+        }
+      });
+
+      defaultTab.classList.add('hidden');
+    });
+  });
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   initToolToggler();
   ininPopups();
@@ -272,7 +317,8 @@ document.addEventListener('DOMContentLoaded', () => {
   initCustomSelects();
   initInputsMask();
   initFormValidator();
-  initFancybox(); 
+  initFancybox();
+  initServiceTabs();
 });
 
 // function to show alert after 10 seconds after page loaded
