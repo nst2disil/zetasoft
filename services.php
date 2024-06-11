@@ -31,7 +31,7 @@
                 </div>
               </div>
             </a>
-            <a href="#big-business" class="anchors__item panel panel--blue">
+            <a href="#big-business" class="anchors__item panel panel--cyan">
               <div class="panel__content">
                 <img src="./i/anchor-bb.svg" alt="" class="anchors__image">
                 <div class="anchors__bottom">
@@ -134,7 +134,7 @@
                   <div class="panel__text">Каждый специалист, будучи экспертом в&nbsp;своей области, гарантирует высокий стандарт результата</div>
                 </div>
               </div>
-              <div class="diffs__item panel panel--blue panel--no-shadow">
+              <div class="diffs__item panel panel--cyan panel--no-shadow">
                 <div class="panel__content">
                   <div class="panel__title">Глубокая отраслевая экспертиза</div>
                   <ul class="ul panel__list">
@@ -187,7 +187,7 @@
                 <img src="./i/panel-business-tip3.svg" alt="" class="panel__image">
               </div>
             </div>
-            <div class="business-tips__item panel panel--no-shadow panel--blue">
+            <div class="business-tips__item panel panel--no-shadow panel--cyan">
               <div class="panel__content">
                 <div class="panel__text">спрогнозируем результат внедрения управленческих решений</div>
                 <img src="./i/panel-business-tip4.svg" alt="" class="panel__image">

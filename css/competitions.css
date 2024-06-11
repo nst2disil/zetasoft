@@ -29,19 +29,31 @@
 .cases__item:visibile:nth-child(n+7) {
   display: none;
 }
-.cases--filtered[data-filtered-by=blue] .cases__item:not([data-case-category=blue]) {
-  display: none;
-}
-.cases--filtered[data-filtered-by=blue-dark] .cases__item:not([data-case-category=blue-dark]) {
-  display: none;
-}
 .cases--filtered[data-filtered-by=red] .cases__item:not([data-case-category=red]) {
+  display: none;
+}
+.cases--filtered[data-filtered-by=orange] .cases__item:not([data-case-category=orange]) {
+  display: none;
+}
+.cases--filtered[data-filtered-by=yellow] .cases__item:not([data-case-category=yellow]) {
   display: none;
 }
 .cases--filtered[data-filtered-by=green] .cases__item:not([data-case-category=green]) {
   display: none;
 }
-.cases--filtered[data-filtered-by=yellow] .cases__item:not([data-case-category=yellow]) {
+.cases--filtered[data-filtered-by=cyan] .cases__item:not([data-case-category=cyan]) {
+  display: none;
+}
+.cases--filtered[data-filtered-by=blue] .cases__item:not([data-case-category=blue]) {
+  display: none;
+}
+.cases--filtered[data-filtered-by=purple] .cases__item:not([data-case-category=purple]) {
+  display: none;
+}
+.cases--filtered[data-filtered-by=pink] .cases__item:not([data-case-category=pink]) {
+  display: none;
+}
+.cases--filtered[data-filtered-by=brown] .cases__item:not([data-case-category=brown]) {
   display: none;
 }
 .cases--filtered[data-filtered-by=grey] .cases__item:not([data-case-category=grey]) {
@@ -50,10 +62,7 @@
 .cases--filtered[data-filtered-by=black] .cases__item:not([data-case-category=black]) {
   display: none;
 }
-.cases--filtered[data-filtered-by=orange] .cases__item:not([data-case-category=orange]) {
-  display: none;
-}
-.cases--filtered[data-filtered-by=green] .cases__item:not([data-case-category=green]) {
+.cases--filtered[data-filtered-by=yellow-ic] .cases__item:not([data-case-category=yellow-ic]) {
   display: none;
 }
 .cases .panel__head {
@@ -198,8 +207,8 @@
 .scroll-top-button--yellow {
   background-color: var(--color-yellow);
 }
-.scroll-top-button--blue {
-  background-color: var(--color-blue);
+.scroll-top-button--cyan {
+  background-color: var(--color-cyan);
 }
 .scroll-top-button--red {
   background-color: var(--color-red);

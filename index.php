@@ -29,7 +29,7 @@
               </div>              
             </div>
             <div class="tools__item js-tool-item">
-              <button class="button  js-tool-toggler button--dot button--blue">Gherkin</button>
+              <button class="button  js-tool-toggler button--dot button--cyan">Gherkin</button>
               <div class="tools__panel js-tool-panel">
                 <div class="panel panel--no-shadow panel--sm panel--decoration-black">
                   <div class="panel__head">
@@ -41,7 +41,7 @@
               
             </div>
             <div class="tools__item js-tool-item">
-              <button class="button  js-tool-toggler button--dot button--blue-dark">CI/CD</button>
+              <button class="button  js-tool-toggler button--dot button--blue">CI/CD</button>
               <div class="tools__panel js-tool-panel">
                 <div class="panel panel--no-shadow panel--sm panel--decoration-black">
                   <div class="panel__head">
@@ -151,7 +151,7 @@
               <div class="panel__content">Систематическая доработка и&nbsp;модернизация архитектуры 1С по&nbsp;мере накопления запросов пользователей</div>
               <img src="./i/016-effective.svg" alt="иллюстрация" class="panel__image">
             </div>
-            <a class="block-group__item panel panel--blue" href="./services.html#big-business">
+            <a class="block-group__item panel panel--cyan" href="./services.html#big-business">
               <div class="panel__content">
                 <div class="">Разработка информационной системы с&nbsp;выделенным ИТ&nbsp;директором от&nbsp;проекта до&nbsp;эффективной рабочей версии. Система масштабируется параллельно с&nbsp;ростом вашего бизнеса</div>
                 <div class="panel__link">Подробнее</div>
@@ -193,9 +193,9 @@
           <h2 class="section__title">Кейсы</h2>
           <div class="categories">
             <a href="./cases.html" class="categories__item button  button--dot">Все продукты</a>
-            <a href="./cases.html#filter-by-blue" class="categories__item js-case-category button button--blue  button--dot">Автозапчасти</a>
+            <a href="./cases.html#filter-by-blue" class="categories__item js-case-category button button--cyan  button--dot">Автозапчасти</a>
             <a href="./cases.html#filter-by-red" class="categories__item js-case-category button button--red  button--dot">Вендинг</a>
-            <a href="./cases.html#filter-by-blue-dark" class="categories__item js-case-category button button--blue-dark  button--dot">Продажа времени</a>
+            <a href="./cases.html#filter-by-blue-dark" class="categories__item js-case-category button button--blue  button--dot">Продажа времени</a>
             <a href="./cases.html#filter-by-green" class="categories__item js-case-category button button--green  button--dot">Универсальный</a>
             <a href="./cases.html#filter-by-yellow" class="categories__item js-case-category button button--yellow  button--dot">1C</a>
           </div>

@@ -137,7 +137,7 @@
   }
   &::after {
     bottom: -8px;
-    background-color: var(--color-blue);
+    background-color: var(--color-cyan);
   }
   &.active {
     background-color: var(--color-black);
@@ -198,7 +198,7 @@
       }
     }
     &__item:hover {
-      color: var(--color-blue);
+      color: var(--color-cyan);
       text-decoration: underline;
     }
   }

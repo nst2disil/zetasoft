@@ -23,4 +23,30 @@ $header-bg: 1240px;
   }
 }
 
-$color-list:('blue', 'blue-dark', 'red', 'green', 'yellow', 'grey', 'black', 'orange', 'green');
+
+$color-list: (
+  'red': #e11d03,
+  'orange': #EC6400,
+  'yellow': #FCCB26,
+  'green': #00B04C,
+  'cyan': #00ABEA,
+  'blue': #008ECB,
+  'purple': #800080,
+  'pink': #FFC0CB,
+  'brown': #A52A2A,
+  'grey': #F2F2F2,
+  'black': #231F20,
+  'yellow-ic': #ffdd00
+);
+
+@function generate-color-variations($color, $darken-amount, $lighten-amount) {
+  @return (
+    'base': $color,
+    'dark': darken($color, $darken-amount),
+    'light': lighten($color, $lighten-amount)
+  );
+}
+
+
+//$color-list:('red', 'orange', 'yellow', 'green', 'cyan', 'blue', 'violet', 'grey', 'black');
+//$color-list:('blue', 'blue-dark', 'red', 'green', 'yellow', 'grey', 'black', 'orange', 'green');

@@ -29,8 +29,8 @@
     display: none;
   }
   &--filtered {
-    @each $val in $color-list {
-      &[data-filtered-by='#{$val}'] .cases__item:not([data-case-category='#{$val}']) {
+    @each $name, $color in $color-list {
+      &[data-filtered-by='#{$name}'] .cases__item:not([data-case-category='#{$name}']) {
         display: none;
       }
     }

@@ -50,7 +50,7 @@
     right: 4px;
   }
   &__input:checked + .checkbox__label::before {
-    background-color: var(--color-blue-dark);
+    background-color: var(--color-blue);
   }
 }
 

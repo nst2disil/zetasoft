@@ -1,5 +1,5 @@
 .footer-wrapper {
-  background-color: var(--color-blue);
+  background-color: var(--color-cyan);
   padding-top: 56px;
   padding-bottom: 56px;
   @include media-down($screen-lg) {
@@ -36,7 +36,7 @@
     padding: 40px 20px;
   }
   &__link:hover {
-    color: var(--color-blue-dark)
+    color: var(--color-blue)
   }
   &__contacts {
     @include media-up($screen-md) {
@@ -111,7 +111,7 @@
     gap: 8px;
   }
   &__link {
-    color: var(--color-blue-dark);
+    color: var(--color-blue);
     &:first-child {
       flex: 1;
     }

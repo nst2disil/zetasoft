@@ -17,7 +17,7 @@
             <img src="./i/tip-arrow.svg" alt="arrow" class="our-products__arrow">
             <div class="our-products__button-container">
               <div class="our-products__button-title">Наши продукты зарегистрированы в&nbsp;реестре ПО</div>
-              <button class="button  button--bg button--mobile-full-width button--blue our-products__button" data-modal="contact-form">подписка на продукты Зетасофт</button>
+              <button class="button  button--bg button--mobile-full-width button--cyan our-products__button" data-modal="contact-form">подписка на продукты Зетасофт</button>
             </div>
           </div>
         </div>
@@ -29,9 +29,9 @@
           </h2>
           <div class="categories">
             <a href="./cases.html" class="categories__item button  button--dot">Все продукты</a>
-            <a href="./cases.html#filter-by-blue" class="categories__item js-case-category button button--blue  button--dot">Автозапчасти</a>
+            <a href="./cases.html#filter-by-blue" class="categories__item js-case-category button button--cyan  button--dot">Автозапчасти</a>
             <a href="./cases.html#filter-by-red" class="categories__item js-case-category button button--red  button--dot">Вендинг</a>
-            <a href="./cases.html#filter-by-blue-dark" class="categories__item js-case-category button button--blue-dark  button--dot">Продажа времени</a>
+            <a href="./cases.html#filter-by-blue-dark" class="categories__item js-case-category button button--blue  button--dot">Продажа времени</a>
             <a href="./cases.html#filter-by-green" class="categories__item js-case-category button button--green  button--dot">Универсальный</a>
             <a href="./cases.html#filter-by-yellow" class="categories__item js-case-category button button--yellow  button--dot">1C</a>
           </div>
@@ -107,7 +107,7 @@
                   <a href="#" class="swiper-slide products__item panel products__item--cross panel--shadow-red">
                     <div class="panel__content">
                       <div class="products__top">
-                        <div class="products__name products__name--blue">Веб-сервисы</div>
+                        <div class="products__name products__name--cyan">Веб-сервисы</div>
                         <div class="products__price hide-md-down">От 500 ₽/месяц</div>
                       </div>
                       <div class="products__text">Подключение множества поставщиков через один общий шлюз по веб-сервису. Простой и понятный интерфейс: очистка недостоверной информации, «эталонные» бренды</div>
@@ -189,7 +189,7 @@
                   <a href="#" class="swiper-slide products__item panel products__item--zeta panel--shadow-black">
                     <div class="panel__content">
                       <div class="products__top">
-                        <div class="products__name products__name--blue">Авторазборка</div>
+                        <div class="products__name products__name--cyan">Авторазборка</div>
                         <div class="products__price">От 1000 ₽/месяц</div>
                       </div>
                       <div class="products__text">Удобный интерфейс для подбора товаров и создания заказа, используя собственные остатки, прайс-листы и веб-сервисы поставщиков</div>

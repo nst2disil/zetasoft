@@ -192,7 +192,7 @@
   flex-wrap: wrap;
 }
 .products__link {
-  color: var(--color-blue);
+  color: var(--color-cyan);
   font-size: 16px;
   font-weight: 500;
   text-decoration: underline;

@@ -30,7 +30,7 @@
                 </div>
               </div>
             </a>
-            <a href="#services" class="anchors__item panel panel--blue">
+            <a href="#services" class="anchors__item panel panel--cyan">
               <div class="panel__content">
                 <img src="./i/anchor-time.svg" alt="" class="anchors__image">
                 <div class="anchors__bottom">
@@ -218,7 +218,7 @@
       <section class="section" id="services">
         <div class="wrapper">
           <h2 class="section__title section__title--with-button">Повременные услуги
-            <a href="#main" class="scroll-top-button scroll-top-button--blue"></a>
+            <a href="#main" class="scroll-top-button scroll-top-button--cyan"></a>
           </h2>
           <div class="cols">
             <div class="cols__item">
@@ -249,7 +249,7 @@
                 <div class="panel__title">Прогноз вашей рабочей нагрузки на&nbsp;месяцы вперёд</div>
               </div>
             </div>
-            <div class="block-group__item panel panel--blue panel--no-shadow">
+            <div class="block-group__item panel panel--cyan panel--no-shadow">
               <div class="panel__content">
                 <div class="panel__top">
                   <div class="panel__title">Создание прозрачного процесса определения себестоимости</div>
@@ -267,7 +267,7 @@
           <div class="swiper" data-swiper-id="competitions-time-services">
             <div class="cases swiper-wrapper">
               <a href="./case.html" class="swiper-slide cases__item panel panel--shadow-blue panel--white">
-                <div class="panel__head panel__head--blue">
+                <div class="panel__head panel__head--cyan">
                 <img src="./i/panel-1c.svg" alt="1c logo" class="case__image">
 
                 </div>
@@ -277,7 +277,7 @@
                 </div>
               </a>
               <a href="./case.html" class="swiper-slide cases__item panel panel--shadow-blue panel--white">
-                <div class="panel__head panel__head--blue">
+                <div class="panel__head panel__head--cyan">
                 <img src="./i/panel-zeta.svg" alt="zeta logo" class="case__image">
 
                 </div>
@@ -287,7 +287,7 @@
                 </div>
               </a>
               <a href="./case.html" class="swiper-slide cases__item panel panel--shadow-blue panel--white">
-                <div class="panel__head panel__head--blue">
+                <div class="panel__head panel__head--cyan">
                 <img src="./i/panel-1c.svg" alt="1c logo" class="case__image">
 
                 </div>

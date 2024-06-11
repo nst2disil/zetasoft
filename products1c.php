@@ -264,7 +264,7 @@
             <div class="swiper-pagination"></div>
           </div>
 
-          <div class="button-panel panel panel--blue">
+          <div class="button-panel panel panel--cyan">
             <div class="button-panel__text">
               <img src="./i/panel-zeta__black.svg" alt="zetasoft logo" class="button-panel__image">
               Продукты Зетасофт

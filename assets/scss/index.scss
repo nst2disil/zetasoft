@@ -185,7 +185,7 @@
     top: -20px;
     mask: url('../i/tip-arrow.svg') center no-repeat;
     mask-size: contain;
-    background-color: var(--color-blue);
+    background-color: var(--color-cyan);
     @include media-down($screen-md) {
       position: initial;
       display: block;

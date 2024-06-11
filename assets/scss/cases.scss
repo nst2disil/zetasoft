@@ -49,9 +49,9 @@
   background-color: var(--color-black);
   padding: 40px 0;
   .panel {
-    @each $val in $color-list {
-      &--decoration-#{$val} {
-        box-shadow: 4px 4px 0px 0px var(--color-#{$val});
+    @each $name, $color in $color-list {
+      &--decoration-#{$name} {
+        box-shadow: 4px 4px 0px 0px var(--color-#{$name});
       }
     }
   }

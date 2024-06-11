@@ -51,15 +51,15 @@
       margin-top: 7px;
     }
   }
-  @each $val in $color-list {
-    &--#{$val} {
-      background: var(--color-#{$val});
+  @each $name, $color in $color-list {
+    &--#{$name} {
+      background: var(--color-#{$name});
     }
   }
-  @each $val in $color-list {
-    &--active-#{$val}.button--active,
-    &--active-#{$val}:hover {
-      background: var(--color-#{$val});
+  @each $name, $color in $color-list {
+    &--active-#{$name}.button--active,
+    &--active-#{$name}:hover {
+      background: var(--color-#{$name});
     }
   }
   &--white {
