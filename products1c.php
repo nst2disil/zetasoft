@@ -19,106 +19,183 @@
               <a class="button button--bg button--mobile-full-width button--yellow our-products__button" href="./services1c.html">подписка на продукты 1С</a>
             </div>
           </div>
-          <div class="swiper swiper--m" data-swiper-id="products-1c">
-            <div class="products swiper-wrapper">
-              <a href="#" class="swiper-slide products__item panel products__item--1с panel--yellow">
-                <div class="panel__content">
-                  <div class="products__top">
-                    <div class="products__title">1С: Бухгалтерия 8 ПРОФ</div>
-                    <div class="products__price hide-md-down">13 000 ₽</div>
-                  </div>
-                  <div class="products__text">Полноценная автоматизация бухгалтерского и налогового учета, включая подготовку регламентированной отчетности. Возможна электронная версия поставки</div>
-                  <div class="products__bottom hide-md-up">
-                    <div class="products__price">13 000 ₽</div>
-                  </div>
+          <div class="cols">
+            <div class="cols__item">
+              <div class="swiper swiper--m" data-swiper-id="products-1c">
+                <div class="products swiper-wrapper">
+                  <a href="#serviceDetail" class="swiper-slide js-services1c-toggler products__item products__item--1с panel panel--decoration-reverse panel--decoration-yellow panel--shadow-black" data-tab-id="service1c1">
+                    <div class="panel__head">
+                      <div class="products__top">
+                        <div class="products__title">1С: Бухгалтерия 8 ПРОФ</div>
+                        <div class="products__price hide-md-down">13 000 ₽</div>
+                      </div>
+                    </div>
+                    <div class="panel__content" style="background-image: url(../i/panel-zeta.svg)">
+                      <div class="products__text">Полноценная автоматизация бухгалтерского и налогового учета, включая подготовку регламентированной отчетности. Возможна электронная версия поставки</div>
+                      <div class="products__bottom">
+                        <div class="bottom__block">
+                          <div class="products__price hide-md-up">13 000 ₽</div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="#serviceDetail" class="swiper-slide js-services1c-toggler products__item products__item--1с panel panel--decoration-reverse panel--decoration-yellow panel--shadow-black" data-tab-id="service1c2">
+                    <div class="panel__head">
+                      <div class="products__top">
+                        <div class="products__title">1С: Бухгалтерия 8 ПРОФ</div>
+                        <div class="products__price hide-md-down">13 000 ₽</div>
+                      </div>
+                    </div>
+                    <div class="panel__content">
+                      <div class="products__text">Полноценная автоматизация бухгалтерского и налогового учета, включая подготовку регламентированной отчетности. Возможна электронная версия поставки</div>
+                      <div class="products__bottom">
+                        <div class="bottom__block">
+                          <div class="products__price hide-md-up">13 000 ₽</div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="#serviceDetail" class="swiper-slide js-services1c-toggler products__item products__item--1с panel panel--decoration-reverse panel--decoration-yellow panel--shadow-black" data-tab-id="service1c3">
+                    <div class="panel__head">
+                      <div class="products__top">
+                        <div class="products__title">1С: Бухгалтерия 8 ПРОФ</div>
+                        <div class="products__price hide-md-down">13 000 ₽</div>
+                      </div>
+                    </div>
+                    <div class="panel__content">
+                      <div class="products__text">Полноценная автоматизация бухгалтерского и налогового учета, включая подготовку регламентированной отчетности. Возможна электронная версия поставки</div>
+                      <div class="products__bottom">
+                        <div class="bottom__block">
+                          <div class="products__price hide-md-up">13 000 ₽</div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="#serviceDetail" class="swiper-slide js-services1c-toggler products__item products__item--1с panel panel--decoration-reverse panel--decoration-yellow panel--shadow-black" data-tab-id="service1c4">
+                    <div class="panel__head">
+                      <div class="products__top">
+                        <div class="products__title">1С: Бухгалтерия 8 ПРОФ</div>
+                        <div class="products__price hide-md-down">13 000 ₽</div>
+                      </div>
+                    </div>
+                    <div class="panel__content">
+                      <div class="products__text">Полноценная автоматизация бухгалтерского и налогового учета, включая подготовку регламентированной отчетности. Возможна электронная версия поставки</div>
+                      <div class="products__bottom">
+                        <div class="bottom__block">
+                          <div class="products__price hide-md-up">13 000 ₽</div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
                 </div>
-              </a>
-              <a href="#" class="swiper-slide products__item panel products__item--1с">
-                <div class="panel__content">
-                  <div class="products__top">
-                    <div class="products__title">1С: Бухгалтерия 8 ПРОФ USB</div>
-                    <div class="products__price hide-md-down">16 200 ₽</div>
-                  </div>
-                  <div class="products__text">Продукт «1С Бухгалтерия 8 ПРОФ» с аппаратным USB-ключом защиты вместо программного</div>
-                  <div class="products__bottom hide-md-up">
-                    <div class="products__price">16 200 ₽</div>
-                  </div>
-                </div>
-              </a>
-              <a href="#" class="swiper-slide products__item panel products__item--1с">
-                <div class="panel__content">
-                  <div class="products__top">
-                    <div class="products__title">1С: Бухгалтерия 8 на 5 пользователей</div>
-                    <div class="products__price hide-md-down">26 000 ₽</div>
-                  </div>
-                  <div class="products__text">Программа 1С: Бухгалтерия 8 ПРОФ для одновременной работы 5 пользователей</div>
-                  <div class="products__bottom hide-md-up">
-                    <div class="products__price">26 000 ₽</div>
-                  </div>
-                </div>
-              </a>
-              <a href="#" class="swiper-slide products__item panel products__item--1с panel--yellow">
-                <div class="panel__content">
-                  <div class="products__top">
-                    <div class="products__title">1С: Бухгалтерия 8 на 5 пользователей USB</div>
-                    <div class="products__price hide-md-down">30 200 ₽</div>
-                  </div>
-                  <div class="products__text">Программа 1С: Бухгалтерия 8 ПРОФ для одновременной работы 5 пользователей с аппаратным USB-ключом защиты</div>
-                  <div class="products__bottom hide-md-up">
-                    <div class="products__price">30 200 ₽</div>
-                  </div>
-                </div>
-              </a>
-              <a href="#" class="swiper-slide products__item panel products__item--1с panel--yellow">
-                <div class="panel__content">
-                  <div class="products__top">
-                    <div class="products__title">1С: зарплата и управление персоналом 8 ПРОФ</div>
-                    <div class="products__price hide-md-down">22 600 ₽</div>
-                  </div>
-                  <div class="products__text">Автоматизация расчета заработной платы и реализации кадровой политики</div>
-                  <div class="products__bottom hide-md-up">
-                    <div class="products__price">22 600 ₽</div>
-                  </div>
-                </div>
-              </a>
-              <a href="#" class="swiper-slide products__item panel products__item--1с">
-                <div class="panel__content">
-                  <div class="products__top">
-                    <div class="products__title">1С: управление торговлей 8 ПРОФ</div>
-                    <div class="products__price hide-md-down">22 600 ₽</div>
-                  </div>
-                  <div class="products__text">Управленческий и оперативный учет, анализ и планирование: автоматизирует торговые, финансовые и складские операции</div>
-                  <div class="products__bottom hide-md-up">
-                    <div class="products__price">22 600 ₽</div>
-                  </div>
-                </div>
-              </a>
-              <a href="#" class="swiper-slide products__item panel products__item--1с">
-                <div class="panel__content">
-                  <div class="products__top">
-                    <div class="products__title">1С: Предприятие 8. Комплект прикладных решений на 5 пользователей</div>
-                    <div class="products__price hide-md-down">17 400 ₽</div>
-                  </div>
-                  <div class="products__text">Поставка из трех учетных систем: «1С: Бухгалтерия 8», «1С: Зарплаты и Управление Персоналом 8" и "1С: Управление Торговлей 8» для одновременного использования 5 пользователями</div>
-                  <div class="products__bottom hide-md-up">
-                    <div class="products__price">17 400 ₽</div>
-                  </div>
-                </div>
-              </a>
-              <a href="#" class="swiper-slide products__item panel products__item--1с panel--yellow">
-                <div class="panel__content">
-                  <div class="products__top">
-                    <div class="products__title">1С: Договоры 8 ПРОФ</div>
-                    <div class="products__price hide-md-down"></div>
-                  </div>
-                  <div class="products__text">Продукт для регулирования операционки договорной работы в&nbsp;любой сфере: от&nbsp;отделов продаж и закупок до торговых, строительных, транспортных организаций, IT-фирм, юридических и консалтинговых компаний</div>
-                  <div class="products__bottom hide-md-up">
-                    <div class="products__price"></div>
-                  </div>
-                </div>
-              </a>
+                <div class="swiper-pagination"></div>
+              </div>
+              <a class="button button--bg button--mobile-full-width button--yellow our-products__button" href="#1cSolutions">Другие решения 1С</a>
             </div>
-            <div class="swiper-pagination"></div>
+            <div class="cols__item">
+            <div class="anchor" id="serviceDetail"></div>
+              <div class="services1c">
+                <div class="services1c__item js-services1c-default panel panel--white">
+                  <div class="panel__content">
+                    <div class="services1c__info">Это дефолтный таб</div>
+                    <button class="services1c__order-button button  button--bg button--yellow" data-modal="contact-form" data-modal-title="Заполните данные на запрос подписки">оставить заявку</button>
+                  </div>
+                </div>
+                <div class="services1c__item js-services1c-item panel panel--white" data-tab-id="service1c1">
+                  <div class="panel__content">
+                    <div class="services1c__top">
+                      <div class="services1c__title">1С:КП Проф</div>
+                      <div class="services1c__price">от 3 381 ₽/месяц</div>
+                    </div>
+                    <div class="services1c__info">Является самым популярным пакетом и включает в&nbsp;себя ряд сервисов и услуг, необходимых для нормального функционирования организации:</div>
+                    <ul class="services1c__list ul">
+                      <li>доступ к Порталу ИТС на сайте portal.1c.ru для получения обновлений программ и конфигураций;</li>
+                      <li>доступ к Порталу ИТС на сайте portal.1c.ru для получения обновлений программ и конфигураций;</li>
+                      <li>доступ информационной системе 1С:ИТС на сайте 1c.ru – без ограничений,</li>
+                      <li>техническая поддержка по Линии консультации 1С и аудиторами – без ограничения количества обращений;</li>
+                      <li>1С ЭДО - 100 пакетов документов;</li>
+                      <li>1С Отчетность - возможность сдать все виды отчетности из 1С на 1 юридическое лицо;</li>
+                      <li>1С:Предприятие 8 через Интернет – «облачная» технология для работы с программами 1С через Интернет (доступное количество информационных баз - 10, количество сеансов – 5);</li>
+                      <li>1С Контрагент - автозаполнение по ИНН 7200 организаций, а также 360 запросов досье на контрагентов;</li>
+                      <li>обновление 1 типовой базы на 1 компьютере сертифицированным специалистом нашей компании;</li>
+                      <li>электронные версии журнала «БУХ.1С» (в формате pdf или epub) в&nbsp;Личном кабинете пользователя на сайте <a href="https://its.1c.ru/personal/souvenir" target="_blank">https://its.1c.ru/personal/souvenir</a>;</li>
+                      <li>ежемесячные сувениры: электронные книги, аудио и видеозаписи (также доступны в&nbsp;Личном кабинете <a href="https://its.1c.ru/personal/souvenir" target="_blank">https://its.1c.ru/personal/souvenir</a>).</li>
+                    </ul>
+                    <button class="services1c__order-button button  button--bg button--yellow" data-modal="contact-form" data-modal-title="Заполните данные на запрос подписки">оставить заявку</button>
+                  </div>
+                </div>
+                <div class="services1c__item js-services1c-item panel panel--white" data-tab-id="service1c2">
+                  <div class="panel__content">
+                    <div class="services1c__top">
+                      <div class="services1c__title">1С-Отчетность</div>
+                      <div class="services1c__price">от 1 800 ₽/год</div>
+                    </div>
+                    <div class="services1c__info">Современный и удобный сервис, применяемый для быстрой отправки электронной отчетности и других видов электронного документооборота между предприятием и контролирующими органами напрямую в&nbsp;один клик из программы 1С.</div>
+                    <div class="services1c__tip">Для пользователей, имеющих действующий договор 1С:ИТС ПРОФ, предусмотрена льгота – сдача отчетности для одного юридического лица или индивидуального предпринимателя предоставляется бесплатно!</div>
+                    <ul class="services1c__list ul">
+                      <li>Основные возможности и преимущества сервиса «1С-Отчетность»:</li>
+                      <li>отправка отчетности в&nbsp;ФНС, ПФР, ФСС, Росстат, Росалкогольрегулирование и Росприроднадзор и ФТС;</li>
+                      <li>неформализованная переписка с ФНС, ПФР и Росстат;</li>
+                      <li>сверки с налоговой и ПФР (запросы ИОН и ИОС);</li>
+                      <li>получение требований и уведомлений из ФНС и пересылка документов в&nbsp;электронном виде в&nbsp;ответ на эти уведомления;</li>
+                      <li>получение юридически значимых выписок из ЕГРЮЛ/ЕГРИП с электронной подписью ФНС;</li>
+                      <li>онлайн-проверка правильности заполнения файлов отчетности перед отправкой в&nbsp;контролирующие органы;</li>
+                      <li>предоставление бесплатной СКЗИ (VipNet CSP);</li>
+                      <li>предоставление электронной подписи и возможность произвести внеплановую дистанционную замену подписи до 2-х раз в&nbsp;год;</li>
+                      <li>круглосуточная профессиональная техническая поддержка компанией «Калуга Астрал».</li>
+                    </ul>
+                    <button class="services1c__order-button button  button--bg button--yellow" data-modal="contact-form" data-modal-title="Заполните данные на запрос подписки">оставить заявку</button>
+                  </div>
+                </div>
+                <div class="services1c__item js-services1c-item panel panel--white" data-tab-id="service1c3">
+                  <div class="panel__content">
+                    <div class="services1c__top">
+                      <div class="services1c__title">1С:КП Проф</div>
+                      <div class="services1c__price">от 3 381 ₽/месяц</div>
+                    </div>
+                    <div class="services1c__info">Является самым популярным пакетом и включает в&nbsp;себя ряд сервисов и услуг, необходимых для нормального функционирования организации:</div>
+                    <ul class="services1c__list ul">
+                      <li>доступ к Порталу ИТС на сайте portal.1c.ru для получения обновлений программ и конфигураций;</li>
+                      <li>доступ к Порталу ИТС на сайте portal.1c.ru для получения обновлений программ и конфигураций;</li>
+                      <li>доступ информационной системе 1С:ИТС на сайте 1c.ru – без ограничений,</li>
+                      <li>техническая поддержка по Линии консультации 1С и аудиторами – без ограничения количества обращений;</li>
+                      <li>1С ЭДО - 100 пакетов документов;</li>
+                      <li>1С Отчетность - возможность сдать все виды отчетности из 1С на 1 юридическое лицо;</li>
+                      <li>1С:Предприятие 8 через Интернет – «облачная» технология для работы с программами 1С через Интернет (доступное количество информационных баз - 10, количество сеансов – 5);</li>
+                      <li>1С Контрагент - автозаполнение по ИНН 7200 организаций, а также 360 запросов досье на контрагентов;</li>
+                      <li>обновление 1 типовой базы на 1 компьютере сертифицированным специалистом нашей компании;</li>
+                      <li>электронные версии журнала «БУХ.1С» (в формате pdf или epub) в&nbsp;Личном кабинете пользователя на сайте https://its.1c.ru/personal/souvenir;</li>
+                      <li>ежемесячные сувениры: электронные книги, аудио и видеозаписи (также доступны в&nbsp;Личном кабинете https://its.1c.ru/personal/souvenir).</li>
+                    </ul>
+                    <button class="services1c__order-button button  button--bg button--yellow" data-modal="contact-form" data-modal-title="Заполните данные на запрос подписки">оставить заявку</button>
+                  </div>
+                </div>
+                <div class="services1c__item js-services1c-item panel panel--white" data-tab-id="service1c4">
+                  <div class="panel__content">
+                    <div class="services1c__top">
+                      <div class="services1c__title">1С-Отчетность</div>
+                      <div class="services1c__price">от 1 800 ₽/год</div>
+                    </div>
+                    <div class="services1c__info">Современный и удобный сервис, применяемый для быстрой отправки электронной отчетности и других видов электронного документооборота между предприятием и контролирующими органами напрямую в&nbsp;один клик из программы 1С.</div>
+                    <div class="services1c__tip">Для пользователей, имеющих действующий договор 1С:ИТС ПРОФ, предусмотрена льгота – сдача отчетности для одного юридического лица или индивидуального предпринимателя предоставляется бесплатно!</div>
+                    <ul class="services1c__list ul">
+                      <li>Основные возможности и преимущества сервиса «1С-Отчетность»:</li>
+                      <li>отправка отчетности в&nbsp;ФНС, ПФР, ФСС, Росстат, Росалкогольрегулирование и Росприроднадзор и ФТС;</li>
+                      <li>неформализованная переписка с ФНС, ПФР и Росстат;</li>
+                      <li>сверки с налоговой и ПФР (запросы ИОН и ИОС);</li>
+                      <li>получение требований и уведомлений из ФНС и пересылка документов в&nbsp;электронном виде в&nbsp;ответ на эти уведомления;</li>
+                      <li>получение юридически значимых выписок из ЕГРЮЛ/ЕГРИП с электронной подписью ФНС;</li>
+                      <li>онлайн-проверка правильности заполнения файлов отчетности перед отправкой в&nbsp;контролирующие органы;</li>
+                      <li>предоставление бесплатной СКЗИ (VipNet CSP);</li>
+                      <li>предоставление электронной подписи и возможность произвести внеплановую дистанционную замену подписи до 2-х раз в&nbsp;год;</li>
+                      <li>круглосуточная профессиональная техническая поддержка компанией «Калуга Астрал».</li>
+                    </ul>
+                    <button class="services1c__order-button button  button--bg button--yellow" data-modal="contact-form" data-modal-title="Заполните данные на запрос подписки">оставить заявку</button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
           </div>
         </div>
       </section>
@@ -199,6 +276,7 @@
           </div>
         </div>
       </section>
+      <div class="achor" id="1cSolutions"></div>
       <section class="section">
         <div class="wrapper">
           <h2 class="section__title">Лицензии на совместные решения 1С и Microsoft</h2>
