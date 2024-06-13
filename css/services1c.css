@@ -18,6 +18,11 @@
   display: flex;
   flex-direction: column;
 }
+@media screen and (min-width: 880px) {
+  .services1c__item {
+    min-height: 828px;
+  }
+}
 .services1c__top {
   display: flex;
   justify-content: space-between;

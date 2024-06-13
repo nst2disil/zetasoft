@@ -18,6 +18,9 @@
   &__item {
     display: flex;
     flex-direction: column;
+    @include media-up($screen-md) {
+      min-height: 828px;
+    }
   }
   &__top {
     display: flex;
