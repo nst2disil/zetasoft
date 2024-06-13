@@ -70,6 +70,9 @@
     display: none !important;
   }
 }
+.services1c__info-panel {
+  height: 100%;
+}
 
 .services {
   margin-top: auto;

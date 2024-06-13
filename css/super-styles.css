@@ -2094,7 +2094,7 @@ ul.ul li::before {
 
 .cols {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 50% 50%;
   gap: 24px;
 }
 @media screen and (max-width: 879px) {
@@ -4319,7 +4319,9 @@ ul.ul li::before {
   justify-content: center;
   text-transform: uppercase;
   width: 100%;
-  margin-top: 64px;
+  height: 118px;
+  line-height: 118px;
+  padding: 0;
 }
 
 .products {
@@ -4358,22 +4360,12 @@ ul.ul li::before {
   }
 }
 .products--small {
-  display: grid;
+  display: flex;
+  flex-direction: column;
 }
 @media screen and (max-width: 879px) {
   .products--small {
-    grid-auto-rows: minmax(157px, auto);
     gap: 12px;
-  }
-}
-@media screen and (min-width: 880px) {
-  .products--small {
-    grid-auto-rows: minmax(168px, auto);
-  }
-}
-@media screen and (min-width: 1440px) {
-  .products--small {
-    grid-auto-rows: minmax(216px, auto);
   }
 }
 .products .panel__content {
@@ -4505,6 +4497,9 @@ ul.ul li::before {
   .products--1c .products__item {
     min-height: unset;
     height: auto;
+  }
+  .products--1c .products__text {
+    padding-right: 50px;
   }
 }
 .button-panel {
@@ -4876,7 +4871,7 @@ ul.ul li::before {
 }
 @media screen and (min-width: 880px) {
   .services1c__item {
-    min-height: 804px;
+    min-height: 828px;
   }
 }
 .services1c__top {
@@ -4925,6 +4920,9 @@ ul.ul li::before {
   .services1c__tip {
     display: none !important;
   }
+}
+.services1c__info-panel {
+  height: 100%;
 }
 
 .services {

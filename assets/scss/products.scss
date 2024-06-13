@@ -76,16 +76,10 @@
     grid-auto-rows: minmax(224px, auto);
   }
   &--small {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     @include media-down($screen-md) {
-      grid-auto-rows: minmax(157px, auto);
       gap: 12px;
-    }
-    @include media-up($screen-md) {
-      grid-auto-rows: minmax(168px, auto);
-    }
-    @include media-up($screen-lg) {
-      grid-auto-rows: minmax(216px, auto);
     }
   }
   .panel__content {

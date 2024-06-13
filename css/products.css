@@ -118,22 +118,12 @@
   }
 }
 .products--small {
-  display: grid;
+  display: flex;
+  flex-direction: column;
 }
 @media screen and (max-width: 879px) {
   .products--small {
-    grid-auto-rows: minmax(157px, auto);
     gap: 12px;
-  }
-}
-@media screen and (min-width: 880px) {
-  .products--small {
-    grid-auto-rows: minmax(168px, auto);
-  }
-}
-@media screen and (min-width: 1440px) {
-  .products--small {
-    grid-auto-rows: minmax(216px, auto);
   }
 }
 .products .panel__content {

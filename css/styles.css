@@ -1051,7 +1051,7 @@ ul.ul li::before {
 
 .cols {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 50% 50%;
   gap: 24px;
 }
 @media screen and (max-width: 879px) {
