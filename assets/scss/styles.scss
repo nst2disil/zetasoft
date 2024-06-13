@@ -267,7 +267,7 @@ img {
     &--decoration-#{$name} .panel__head::before { border-top-color: var(--color-#{$name}) }
   }
   &--decoration-reverse {
-    --tab-width-rev: 165px;
+    --tab-width-rev: 225px;
     overflow: hidden;
     @include media-down($screen-md) {
       --tab-width-rev: 25px;

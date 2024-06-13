@@ -48,12 +48,13 @@
                       </div>
                     </div>
                     <div class="panel__content">
-                      <div class="products__text">Уникальный программный комплекс, предназначенный для управления интернет-магазином непосредственно из среды «1С: Предприятие»</div>
+                      <div class="products__text">Текст решили подгонять таким образом, чтолы он вписывался в карточку, на эскизе было две строки, поэтому тут тоже две</div>
                       <div class="products__bottom">
                         <div class="bottom__block">
                           <div class="panel__link">Подробнее</div>
                           <div class="products__price hide-md-up">От 132 000 ₽</div>
                         </div>
+                        <img src="https://placehold.co/60x40" alt="" class="products__image">
                       </div>
                     </div>
                   </a>
@@ -65,16 +66,35 @@
                       </div>
                     </div>
                     <div class="panel__content">
-                      <div class="products__text">Уникальный программный комплекс, предназначенный для управления интернет-магазином непосредственно из среды «1С: Предприятие»</div>
+                      <div class="products__text">Текст решили подгонять таким образом, чтолы он вписывался в карточку, на эскизе было две строки, поэтому тут тоже две</div>
                       <div class="products__bottom">
                         <div class="bottom__block">
                           <div class="panel__link">Подробнее</div>
                           <div class="products__price hide-md-up">От 132 000 ₽</div>
                         </div>
+                        <img src="https://placehold.co/60x40" alt="" class="products__image">
                       </div>
                     </div>
                   </a>
-                  <a href="#" class="swiper-slide products__item panel products__item--cross panel--shadow-yellow">
+                  <a href="#" class="swiper-slide products__item products__item--cross panel panel--decoration-reverse panel--decoration-red panel--shadow-red">
+                    <div class="panel__head">
+                      <div class="products__top">
+                        <div class="products__name products__name--red">ЗетаВеб</div>
+                        <div class="products__price hide-md-down">От 132 000 ₽</div>
+                      </div>
+                    </div>
+                    <div class="panel__content">
+                      <div class="products__text">Текст решили подгонять таким образом, чтолы он вписывался в карточку, на эскизе было две строки, поэтому тут тоже две</div>
+                      <div class="products__bottom">
+                        <div class="bottom__block">
+                          <div class="panel__link">Подробнее</div>
+                          <div class="products__price hide-md-up">От 132 000 ₽</div>
+                        </div>
+                        <img src="https://placehold.co/60x40" alt="" class="products__image">
+                      </div>
+                    </div>
+                  </a>
+                  <!--<a href="#" class="swiper-slide products__item panel products__item--cross panel--shadow-yellow">
                     <div class="panel__content">
                       <div class="products__top">
                         <div class="products__name products__name--yellow">Атол</div>
@@ -163,7 +183,7 @@
                         </div>
                       </div>
                     </div>
-                  </a>
+                  </a>-->
                 </div>
                 <div class="swiper-pagination"></div>
               </div>
@@ -171,14 +191,14 @@
             <div class="cols__item">
               <h3 class="section__title">Наработки и методики</h3>
               <div class="swiper swiper--m" data-swiper-id="systems">
-                <div class="products swiper-wrapper">
+                <div class="products swiper-wrapper products--medthodics">
                   <a href="#" class="swiper-slide products__item panel products__item--zeta panel--shadow-black">
                     <div class="panel__content">
                       <div class="products__top">
                         <div class="products__name products__name--red">Учёт времени</div>
                         <div class="products__price">От 50 000 ₽</div>
                       </div>
-                      <div class="products__text">Продукт для&nbsp;повременного учёта работы ваших сотрудников. Для&nbsp;компаний, оказывающих услуги консалтинга, юридические, бухгалтерские и&nbsp;другие услуги, где&nbsp;принята почасовая оплата.</div>
+                      <div class="products__text">Текст решили подгонять таким образом, чтолы он вписывался в карточку, на эскизе было две строки, поэтому тут тоже две</div>
                       <div class="products__bottom">
                         <div class="bottom__block">
                           <div class="panel__link">Подробнее</div>
@@ -187,6 +207,48 @@
                     </div>
                   </a>
                   <a href="#" class="swiper-slide products__item panel products__item--zeta panel--shadow-black">
+                    <div class="panel__content">
+                      <div class="products__top">
+                        <div class="products__name products__name--red">Учёт времени</div>
+                        <div class="products__price">От 50 000 ₽</div>
+                      </div>
+                      <div class="products__text">Текст решили подгонять таким образом, чтолы он вписывался в карточку, на эскизе было две строки, поэтому тут тоже две</div>
+                      <div class="products__bottom">
+                        <div class="bottom__block">
+                          <div class="panel__link">Подробнее</div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="#" class="swiper-slide products__item panel products__item--zeta panel--shadow-black">
+                    <div class="panel__content">
+                      <div class="products__top">
+                        <div class="products__name products__name--red">Учёт времени</div>
+                        <div class="products__price">От 50 000 ₽</div>
+                      </div>
+                      <div class="products__text">Текст решили подгонять таким образом, чтолы он вписывался в карточку, на эскизе было две строки, поэтому тут тоже две</div>
+                      <div class="products__bottom">
+                        <div class="bottom__block">
+                          <div class="panel__link">Подробнее</div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="#" class="swiper-slide products__item panel products__item--zeta panel--shadow-black">
+                    <div class="panel__content">
+                      <div class="products__top">
+                        <div class="products__name products__name--red">Учёт времени</div>
+                        <div class="products__price">От 50 000 ₽</div>
+                      </div>
+                      <div class="products__text">Текст решили подгонять таким образом, чтолы он вписывался в карточку, на эскизе было две строки, поэтому тут тоже две</div>
+                      <div class="products__bottom">
+                        <div class="bottom__block">
+                          <div class="panel__link">Подробнее</div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <!--<a href="#" class="swiper-slide products__item panel products__item--zeta panel--shadow-black">
                     <div class="panel__content">
                       <div class="products__top">
                         <div class="products__name products__name--cyan">Авторазборка</div>
@@ -211,7 +273,7 @@
                         <div class="panel__link">Подробнее</div>
                       </div>
                     </div>
-                  </a>
+                  </a>-->
                 </div>
                 <div class="swiper-pagination"></div>
               </div>

@@ -25,7 +25,7 @@ $header-bg: 1240px;
 
 
 $color-list: (
-  'red': #e11d03,
+  'red': #E26655,
   'orange': #EC6400,
   'yellow': #FCCB26,
   'green': #00B04C,
@@ -36,7 +36,7 @@ $color-list: (
   'brown': #A52A2A,
   'grey': #F2F2F2,
   'black': #231F20,
-  'yellow-ic': #ffdd00
+  'yellow-1c': #ffdd00
 );
 
 @function generate-color-variations($color, $darken-amount, $lighten-amount) {

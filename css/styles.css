@@ -22,9 +22,9 @@ body {
 }
 
 :root {
-  --color-red: #e11d03;
-  --color-red-dark: #961302;
-  --color-red-light: #fc4c34;
+  --color-red: #E26655;
+  --color-red-dark: #c83622;
+  --color-red-light: #eda196;
   --color-orange: #EC6400;
   --color-orange-dark: #a04400;
   --color-orange-light: #ff8d3a;
@@ -55,9 +55,9 @@ body {
   --color-black: #231F20;
   --color-black-dark: black;
   --color-black-light: #4c4345;
-  --color-yellow-ic: #ffdd00;
-  --color-yellow-ic-dark: #b39b00;
-  --color-yellow-ic-light: #ffe74d;
+  --color-yellow-1c: #ffdd00;
+  --color-yellow-1c-dark: #b39b00;
+  --color-yellow-1c-light: #ffe74d;
 }
 
 a {
@@ -227,8 +227,8 @@ img {
 .section--black {
   background-color: var(--color-black);
 }
-.section--yellow-ic {
-  background-color: var(--color-yellow-ic);
+.section--yellow-1c {
+  background-color: var(--color-yellow-1c);
 }
 .section--black {
   background-color: var(--color-black);
@@ -400,11 +400,11 @@ img {
 .panel--decoration-black .panel__head::before {
   border-top-color: var(--color-black);
 }
-.panel--decoration-yellow-ic .panel__head::before {
-  border-top-color: var(--color-yellow-ic);
+.panel--decoration-yellow-1c .panel__head::before {
+  border-top-color: var(--color-yellow-1c);
 }
 .panel--decoration-reverse {
-  --tab-width-rev: 165px;
+  --tab-width-rev: 225px;
   overflow: hidden;
 }
 @media screen and (max-width: 879px) {
@@ -507,8 +507,8 @@ img {
 .panel__head--black::before {
   border-top-color: var(--color-black);
 }
-.panel__head--yellow-ic::before {
-  border-top-color: var(--color-yellow-ic);
+.panel__head--yellow-1c::before {
+  border-top-color: var(--color-yellow-1c);
 }
 .panel__head--black::before {
   border-top-color: var(--color-black);
@@ -653,8 +653,8 @@ img {
 .panel--black {
   background: var(--color-black);
 }
-.panel--yellow-ic {
-  background: var(--color-yellow-ic);
+.panel--yellow-1c {
+  background: var(--color-yellow-1c);
 }
 .panel--black {
   background: var(--color-black);

@@ -63,7 +63,7 @@
 .cases--filtered[data-filtered-by=black] .cases__item:not([data-case-category=black]) {
   display: none;
 }
-.cases--filtered[data-filtered-by=yellow-ic] .cases__item:not([data-case-category=yellow-ic]) {
+.cases--filtered[data-filtered-by=yellow-1c] .cases__item:not([data-case-category=yellow-1c]) {
   display: none;
 }
 .cases .panel__head {

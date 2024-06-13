@@ -155,8 +155,6 @@
     align-items: flex-end;
     gap: 16px;
     @include media-down($screen-md) {
-      flex-direction: column;
-      align-items: flex-start;
     }
   }
   &__link-list {

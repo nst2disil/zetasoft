@@ -115,9 +115,6 @@
     }
   }
   &__bottom {
-    align-items: flex-end;
-    overflow: hidden;
-    flex-wrap: wrap;
     .panel__link + .products__price {
       margin-top: 8px;
     }
@@ -131,8 +128,12 @@
     }
   }
   &__title {
-    max-width: 482px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: calc(100% - var(--tab-width-rev));
+    white-space: nowrap;
   }
+  
   &__price {
     font-size: 24px;
     font-weight: 700;
@@ -200,6 +201,12 @@
   }
   .bottom__block {
     width: 100%;
+  }
+}
+
+.products--medthodics {
+  .panel__content {
+    gap: 16px;
   }
 }
 
