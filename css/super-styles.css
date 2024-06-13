@@ -4479,8 +4479,21 @@ ul.ul li::before {
   width: 100%;
 }
 
-.products--medthodics .panel__content {
+.products--methodics {
+  grid-auto-rows: auto;
+}
+.products--methodics .panel__content {
   gap: 16px;
+  padding: 16px var(--panel-content-padding);
+}
+.products--methodics .products__item {
+  height: 150px;
+  min-height: unset;
+}
+
+.products--solutions .products__item {
+  height: 208px;
+  min-height: unset;
 }
 
 .button-panel {

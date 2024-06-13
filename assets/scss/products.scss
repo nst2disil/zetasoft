@@ -204,9 +204,22 @@
   }
 }
 
-.products--medthodics {
+.products--methodics {
+  grid-auto-rows: auto;
   .panel__content {
     gap: 16px;
+    padding: 16px var(--panel-content-padding);
+  }
+  .products__item {
+    height: 150px;
+    min-height: unset;
+  }
+}
+
+.products--solutions {
+  .products__item {
+    height: 208px;
+    min-height: unset;
   }
 }
 
