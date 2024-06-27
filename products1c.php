@@ -30,13 +30,14 @@
                         <div class="products__price hide-md-down">13 000 ₽</div>
                       </div>
                     </div>
-                    <div class="panel__content" style="background-image: url(../i/panel-zeta.svg)">
+                    <div class="panel__content">
                       <div class="products__text">Полноценная автоматизация бухгалтерского и налогового учета, включая подготовку регламентированной отчетности.</div>
-                      <div class="products__bottom hide-md-up">
+                      <div class="products__bottom">
                         <div class="bottom__block">
                           <div class="products__price hide-md-up">13 000 ₽</div>
                         </div>
                       </div>
+                      <img src="https://placehold.co/60x60" alt="" class="products__image">
                     </div>
                   </a>
                   <a href="#serviceDetail" class="swiper-slide js-services1c-toggler products__item products__item--1с panel panel--decoration-reverse panel--decoration-yellow panel--shadow-black" data-tab-id="service1c2">
@@ -46,12 +47,13 @@
                         <div class="products__price hide-md-down">13 000 ₽</div>
                       </div>
                     </div>
-                    <div class="panel__content" style="background-image: url(../i/panel-zeta.svg)">
+                    <div class="panel__content">
                       <div class="products__text">Полноценная автоматизация бухгалтерского и налогового учета, включая подготовку регламентированной отчетности.</div>
-                      <div class="products__bottom hide-md-up">
-                        <div class="bottom__block">
-                          <div class="products__price hide-md-up">13 000 ₽</div>
+                      <div class="products__bottom">
+                        <div class="bottom__block hide-md-up">
+                          <div class="products__price">13 000 ₽</div>
                         </div>
+                        <img src="https://placehold.co/60x60" alt="" class="products__image">
                       </div>
                     </div>
                   </a>
@@ -62,7 +64,7 @@
                         <div class="products__price hide-md-down">13 000 ₽</div>
                       </div>
                     </div>
-                    <div class="panel__content" style="background-image: url(../i/panel-zeta.svg)">
+                    <div class="panel__content">
                       <div class="products__text">Полноценная автоматизация бухгалтерского и налогового учета, включая подготовку регламентированной отчетности.</div>
                       <div class="products__bottom hide-md-up">
                         <div class="bottom__block">
@@ -78,7 +80,7 @@
                         <div class="products__price hide-md-down">13 000 ₽</div>
                       </div>
                     </div>
-                    <div class="panel__content" style="background-image: url(../i/panel-zeta.svg)">
+                    <div class="panel__content">
                       <div class="products__text">Полноценная автоматизация бухгалтерского и налогового учета, включая подготовку регламентированной отчетности.</div>
                       <div class="products__bottom hide-md-up">
                         <div class="bottom__block">
@@ -94,7 +96,7 @@
                         <div class="products__price hide-md-down">13 000 ₽</div>
                       </div>
                     </div>
-                    <div class="panel__content" style="background-image: url(../i/panel-zeta.svg)">
+                    <div class="panel__content">
                       <div class="products__text">Полноценная автоматизация бухгалтерского и налогового учета, включая подготовку регламентированной отчетности.</div>
                       <div class="products__bottom hide-md-up">
                         <div class="bottom__block">
@@ -103,7 +105,7 @@
                       </div>
                     </div>
                   </a>
-                  <a class="button button--bg button--mobile-full-width button--yellow our-products__button" href="#1cSolutions">Другие решения 1С</a>
+                  <a class="button button--bg button--mobile-full-width button--yellow our-products__button our-products__button--big" href="#1cSolutions">Другие решения 1С</a>
                 </div>
                 <div class="swiper-pagination"></div>
               </div>
@@ -132,7 +134,7 @@
                 <div class="services1c__item js-services1c-item panel panel--white" data-tab-id="service1c1">
                   <div class="panel__content">
                     <div class="services1c__top">
-                      <div class="services1c__title">1С:КП Проф</div>
+                      <div class="services1c__title">1С:КП Проф 1</div>
                       <div class="services1c__price">от 3 381 ₽/месяц</div>
                     </div>
                     <div class="services1c__info">Является самым популярным пакетом и включает в&nbsp;себя ряд сервисов и услуг, необходимых для нормального функционирования организации:</div>
@@ -155,7 +157,7 @@
                 <div class="services1c__item js-services1c-item panel panel--white" data-tab-id="service1c2">
                   <div class="panel__content">
                     <div class="services1c__top">
-                      <div class="services1c__title">1С-Отчетность</div>
+                      <div class="services1c__title">1С-Отчетность 2</div>
                       <div class="services1c__price">от 1 800 ₽/год</div>
                     </div>
                     <div class="services1c__info">Современный и удобный сервис, применяемый для быстрой отправки электронной отчетности и других видов электронного документооборота между предприятием и контролирующими органами напрямую в&nbsp;один клик из программы 1С.</div>
@@ -178,7 +180,7 @@
                 <div class="services1c__item js-services1c-item panel panel--white" data-tab-id="service1c3">
                   <div class="panel__content">
                     <div class="services1c__top">
-                      <div class="services1c__title">1С:КП Проф</div>
+                      <div class="services1c__title">1С:КП Проф 3</div>
                       <div class="services1c__price">от 3 381 ₽/месяц</div>
                     </div>
                     <div class="services1c__info">Является самым популярным пакетом и включает в&nbsp;себя ряд сервисов и услуг, необходимых для нормального функционирования организации:</div>
@@ -201,7 +203,7 @@
                 <div class="services1c__item js-services1c-item panel panel--white" data-tab-id="service1c4">
                   <div class="panel__content">
                     <div class="services1c__top">
-                      <div class="services1c__title">1С-Отчетность</div>
+                      <div class="services1c__title">1С-Отчетность 4</div>
                       <div class="services1c__price">от 1 800 ₽/год</div>
                     </div>
                     <div class="services1c__info">Современный и удобный сервис, применяемый для быстрой отправки электронной отчетности и других видов электронного документооборота между предприятием и контролирующими органами напрямую в&nbsp;один клик из программы 1С.</div>

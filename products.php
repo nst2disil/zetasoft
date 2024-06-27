@@ -28,12 +28,12 @@
             Продукты и сервисы
           </h2>
           <div class="categories">
-            <a href="./cases.html" class="categories__item button  button--dot">Все продукты</a>
-            <a href="./cases.html#filter-by-blue" class="categories__item js-case-category button button--cyan  button--dot">Автозапчасти</a>
-            <a href="./cases.html#filter-by-red" class="categories__item js-case-category button button--red  button--dot">Вендинг</a>
-            <a href="./cases.html#filter-by-blue-dark" class="categories__item js-case-category button button--blue  button--dot">Продажа времени</a>
-            <a href="./cases.html#filter-by-green" class="categories__item js-case-category button button--green  button--dot">Универсальный</a>
-            <a href="./cases.html#filter-by-yellow" class="categories__item js-case-category button button--yellow  button--dot">1C</a>
+            <a href="" class="categories__item button  button--dot">Все продукты</a>
+            <a href="#filter-by-blue" class="categories__item js-case-category button button--cyan  button--dot">Автозапчасти</a>
+            <a href="#filter-by-red" class="categories__item js-case-category button button--red  button--dot">Вендинг</a>
+            <a href="#filter-by-blue-dark" class="categories__item js-case-category button button--blue  button--dot">Продажа времени</a>
+            <a href="#filter-by-green" class="categories__item js-case-category button button--green  button--dot">Универсальный</a>
+            <a href="#filter-by-yellow" class="categories__item js-case-category button button--yellow  button--dot">1C</a>
           </div>
           <div class="cols">
             <div class="cols__item">
@@ -54,7 +54,7 @@
                           <div class="panel__link">Подробнее</div>
                           <div class="products__price hide-md-up">От 132 000 ₽</div>
                         </div>
-                        <img src="https://placehold.co/60x40" alt="" class="products__image">
+                        <img src="https://placehold.co/60x60" alt="" class="products__image">
                       </div>
                     </div>
                   </a>
@@ -72,7 +72,7 @@
                           <div class="panel__link">Подробнее</div>
                           <div class="products__price hide-md-up">От 132 000 ₽</div>
                         </div>
-                        <img src="https://placehold.co/60x40" alt="" class="products__image">
+                        <img src="https://placehold.co/60x60" alt="" class="products__image">
                       </div>
                     </div>
                   </a>
@@ -90,7 +90,7 @@
                           <div class="panel__link">Подробнее</div>
                           <div class="products__price hide-md-up">От 132 000 ₽</div>
                         </div>
-                        <img src="https://placehold.co/60x40" alt="" class="products__image">
+                        <img src="https://placehold.co/60x60" alt="" class="products__image">
                       </div>
                     </div>
                   </a>

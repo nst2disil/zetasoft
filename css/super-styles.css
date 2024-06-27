@@ -4319,9 +4319,13 @@ ul.ul li::before {
   justify-content: center;
   text-transform: uppercase;
   width: 100%;
+  margin-top: 64px;
+}
+.our-products__button--big {
   height: 118px;
   line-height: 118px;
   padding: 0;
+  margin-top: 0;
 }
 
 .products {
@@ -4443,13 +4447,9 @@ ul.ul li::before {
     max-height: 39px;
   }
 }
-.products__item.products__item--zeta .panel__content {
-  background: url("../i/panel-zeta.svg") right var(--panel-content-padding) bottom var(--panel-content-padding) no-repeat;
-  background-size: 72px 20px;
-}
-.products__item.products__item--1с .panel__content {
-  background: url("../i/panel-1c.svg") right var(--panel-content-padding) bottom var(--panel-content-padding) no-repeat;
-  background-size: 39px 23px;
+.products__image {
+  max-height: 60px;
+  max-width: 60px;
 }
 .products .panel__head .products__top {
   position: absolute;
@@ -4499,7 +4499,12 @@ ul.ul li::before {
     height: auto;
   }
   .products--1c .products__text {
-    padding-right: 50px;
+    padding-right: 70px;
+  }
+  .products--1c .products__image {
+    position: absolute;
+    right: var(--panel-content-padding);
+    bottom: var(--panel-content-padding);
   }
 }
 .button-panel {
@@ -4858,6 +4863,10 @@ ul.ul li::before {
   .services1c {
     display: grid;
     gap: 24px;
+  }
+  .services1c--two-cols {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
   }
 }
 @media screen and (max-width: 1439px) {

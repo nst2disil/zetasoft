@@ -8,6 +8,10 @@
     display: grid;
     gap: 24px;
   }
+  .services1c--two-cols {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
 }
 @media screen and (max-width: 1439px) {
   .services1c {
