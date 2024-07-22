@@ -58,6 +58,9 @@ body {
   --color-yellow-1c: #ffdd00;
   --color-yellow-1c-dark: #b39b00;
   --color-yellow-1c-light: #ffe74d;
+  --color-white: #ffffff;
+  --color-white-dark: #d9d9d9;
+  --color-white-light: white;
 }
 
 a {
@@ -230,6 +233,9 @@ img {
 .section--yellow-1c {
   background-color: var(--color-yellow-1c);
 }
+.section--white {
+  background-color: var(--color-white);
+}
 .section--black {
   background-color: var(--color-black);
   color: #fff;
@@ -341,7 +347,7 @@ img {
   line-height: normal;
   position: relative;
   --panel-content-padding: 32px;
-  transition: box-shadow var(--animation-duration), opacity var(--animation-duration) !important;
+  transition: box-shadow var(--animation-duration), background-color var(--animation-duration), opacity var(--animation-duration) !important;
 }
 @media screen and (max-width: 1439px) {
   .panel {
@@ -402,6 +408,9 @@ img {
 }
 .panel--decoration-yellow-1c .panel__head::before {
   border-top-color: var(--color-yellow-1c);
+}
+.panel--decoration-white .panel__head::before {
+  border-top-color: var(--color-white);
 }
 .panel--decoration-reverse {
   --tab-width-rev: 225px;
@@ -510,6 +519,9 @@ img {
 .panel__head--yellow-1c::before {
   border-top-color: var(--color-yellow-1c);
 }
+.panel__head--white::before {
+  border-top-color: var(--color-white);
+}
 .panel__head--black::before {
   border-top-color: var(--color-black);
 }
@@ -608,6 +620,9 @@ img {
 .panel__top .panel__image {
   position: initial;
 }
+.panel__bottom:not(:first-child):last-child {
+  margin-top: auto;
+}
 .panel__close {
   position: absolute;
   top: 8px;
@@ -656,6 +671,48 @@ img {
 .panel--yellow-1c {
   background: var(--color-yellow-1c);
 }
+.panel--white {
+  background: var(--color-white);
+}
+.panel--shadow-red {
+  box-shadow: 4px 4px 0px 0px var(--color-red);
+}
+.panel--shadow-orange {
+  box-shadow: 4px 4px 0px 0px var(--color-orange);
+}
+.panel--shadow-yellow {
+  box-shadow: 4px 4px 0px 0px var(--color-yellow);
+}
+.panel--shadow-green {
+  box-shadow: 4px 4px 0px 0px var(--color-green);
+}
+.panel--shadow-cyan {
+  box-shadow: 4px 4px 0px 0px var(--color-cyan);
+}
+.panel--shadow-blue {
+  box-shadow: 4px 4px 0px 0px var(--color-blue);
+}
+.panel--shadow-purple {
+  box-shadow: 4px 4px 0px 0px var(--color-purple);
+}
+.panel--shadow-pink {
+  box-shadow: 4px 4px 0px 0px var(--color-pink);
+}
+.panel--shadow-brown {
+  box-shadow: 4px 4px 0px 0px var(--color-brown);
+}
+.panel--shadow-grey {
+  box-shadow: 4px 4px 0px 0px var(--color-grey);
+}
+.panel--shadow-black {
+  box-shadow: 4px 4px 0px 0px var(--color-black);
+}
+.panel--shadow-yellow-1c {
+  box-shadow: 4px 4px 0px 0px var(--color-yellow-1c);
+}
+.panel--shadow-white {
+  box-shadow: 4px 4px 0px 0px var(--color-white);
+}
 .panel--black {
   background: var(--color-black);
   color: #fff;
@@ -669,15 +726,6 @@ img {
 .panel--sm .panel__content {
   padding: 16px;
   font-size: 14px;
-}
-.panel--shadow-blue {
-  box-shadow: 4px 4px 0px 0px var(--color-cyan);
-}
-.panel--shadow-yellow {
-  box-shadow: 4px 4px 0px 0px var(--color-yellow);
-}
-.panel--shadow-red {
-  box-shadow: 4px 4px 0px 0px var(--color-red);
 }
 
 a.panel:hover {
@@ -799,9 +847,17 @@ a.panel:hover .panel__link {
   background-color: #231F20;
   -webkit-mask: url("../i/modal-cross.svg");
           mask: url("../i/modal-cross.svg");
+  -webkit-mask-size: contain;
+          mask-size: contain;
 }
 .modal__close:hover {
   background-color: var(--color-yellow);
+}
+@media screen and (max-width: 1439px) {
+  .modal__close {
+    width: 24px;
+    height: 24px;
+  }
 }
 .modal__title {
   font-size: 32px;
@@ -814,6 +870,31 @@ a.panel:hover .panel__link {
     padding-right: 32px;
     font-size: 24px;
   }
+}
+.modal__title--small {
+  font-size: 28px;
+}
+@media screen and (max-width: 1439px) {
+  .modal__title--small {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 879px) {
+  .modal__title--small {
+    font-size: 20px;
+  }
+}
+.modal__content {
+  font-size: 20px;
+  line-height: 130%;
+}
+@media screen and (max-width: 1439px) {
+  .modal__content {
+    font-size: 16px;
+  }
+}
+.modal__content p + p {
+  margin-top: 32px;
 }
 .modal .form {
   display: flex;
@@ -1051,11 +1132,24 @@ ul.ul li::before {
 
 .cols {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 1fr 1fr;
   gap: 24px;
 }
 @media screen and (max-width: 879px) {
   .cols {
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+.cols__button {
+  margin-top: 32px;
+}
+
+@media screen and (max-width: 1024px) {
+  .cols--licenses {
     grid-template-columns: 1fr;
     grid-auto-rows: auto;
     gap: 20px;

@@ -65,6 +65,9 @@
 .cases--filtered[data-filtered-by=yellow-1c] .cases__item:not([data-case-category=yellow-1c]) {
   display: none;
 }
+.cases--filtered[data-filtered-by=white] .cases__item:not([data-case-category=white]) {
+  display: none;
+}
 .cases .panel__head {
   --head-height: 52px;
 }
@@ -211,14 +214,15 @@
     width: auto;
   }
 }
-.text-wrapper + .section__title {
-  margin-top: 64px;
-}
 .text-wrapper + .text-wrapper {
   margin-top: 40px;
 }
 .text-wrapper p {
   margin: 1em 0;
+}
+
+* + .section__title {
+  margin-top: 64px;
 }
 
 .case__subtitle {

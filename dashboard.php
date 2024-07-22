@@ -185,27 +185,27 @@
     <div class="container__footer"><?php include './partials/_footer.html'?></div>
   </div>
   <div class="modal" id="subscribe-form">
-  <div class="modal__bg js-modal-exit"></div>
-  <div class="modal__container">
-    <button class="modal__close js-modal-exit"></button>
-    <div class="modal__title js-title">
-      Заполните данные для продления подписки
-    </div>
-    <div data-form="true" class="modal__form form">
-      <div class="select">
-        <select>
-          <option value="option1">Учёт времени</option>
-          <option value="option2">Второй пункт 2</option>
-          <option value="option3">Опция 5</option>
-          <option value="option4">Единая Россия</option>
-        </select>
+    <div class="modal__bg js-modal-exit"></div>
+    <div class="modal__container">
+      <button class="modal__close js-modal-exit"></button>
+      <div class="modal__title js-title">
+        Заполните данные для продления подписки
       </div>
-      <input type="text" name="companyName" placeholder="Имя компании" class="input" value="ООО «Кивиниеми»" required readonly>
-      <input type="submit" value="Отправить" class="form__submit button button--bg button--yellow">
-      <span class="form__tip">Нажимая на кнопку «Отправить», я <a class="form__link" href="#">даю согласие</a> на обработку персональных данных</span>
+      <div data-form="true" class="modal__form form">
+        <div class="select">
+          <select>
+            <option value="option1">Учёт времени</option>
+            <option value="option2">Второй пункт 2</option>
+            <option value="option3">Опция 5</option>
+            <option value="option4">Единая Россия</option>
+          </select>
+        </div>
+        <input type="text" name="companyName" placeholder="Имя компании" class="input" value="ООО «Кивиниеми»" required readonly>
+        <input type="submit" value="Отправить" class="form__submit button button--bg button--yellow">
+        <span class="form__tip">Нажимая на кнопку «Отправить», я <a class="form__link" href="#">даю согласие</a> на обработку персональных данных</span>
+      </div>
     </div>
   </div>
-</div>
 </body>
 </html>
  

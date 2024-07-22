@@ -93,15 +93,16 @@
   @include media-down($screen-md) {
     width: auto;
   }
-  & + .section__title {
-    margin-top: 64px;
-  }
   & + & {
     margin-top: 40px;
   }
   p {
     margin: 1em 0;
   }
+}
+
+* + .section__title {
+  margin-top: 64px;
 }
 
 .case {

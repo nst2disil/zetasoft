@@ -232,7 +232,7 @@
       <section class="section section--black">
         <div class="wrapper">
           <h2 class="section__title">Лицензии 1С</h2>
-          <div class="cols">
+          <div class="cols cols--licenses">
             <div class="cols__item">
               <div class="panel services1c__info-panel panel--white panel--shadow-yellow">
                 <div class="panel__content">

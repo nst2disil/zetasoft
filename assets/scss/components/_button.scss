@@ -99,6 +99,10 @@
       justify-content: center;
     }
   }
+  &--full-width {
+    width: 100%;
+    justify-content: center;
+  }
   &--no-shadow {
     box-shadow: unset !important;
   }

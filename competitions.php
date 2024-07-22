@@ -167,7 +167,7 @@
                 <div class="panel__text">или&nbsp;отдельного сервиса для&nbsp;контроля за&nbsp;определёнными этапами бизнес-процесса</div>
               </div>
             </div>
-        </div>
+          </div>
         </div>
       </section>
       <section class="section section--black">

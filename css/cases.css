@@ -65,6 +65,9 @@
 .cases--filtered[data-filtered-by=yellow-1c] .cases__item:not([data-case-category=yellow-1c]) {
   display: none;
 }
+.cases--filtered[data-filtered-by=white] .cases__item:not([data-case-category=white]) {
+  display: none;
+}
 .cases .panel__head {
   --head-height: 52px;
 }
@@ -193,6 +196,9 @@
 }
 .cases-wrapper:nth-child(even) .panel--decoration-yellow-1c {
   box-shadow: 4px 4px 0px 0px var(--color-yellow-1c);
+}
+.cases-wrapper:nth-child(even) .panel--decoration-white {
+  box-shadow: 4px 4px 0px 0px var(--color-white);
 }
 
 .paginator + .button-panel {
