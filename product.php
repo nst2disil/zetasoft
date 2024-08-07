@@ -17,7 +17,7 @@
             <a href="#" class="panel panel--white panel--no-shadow product-page__tags-item">Описание API</a>
             <a href="#" class="panel panel--white panel--no-shadow product-page__tags-item">База знаний</a>
             <a href="#" class="panel panel--white panel--no-shadow product-page__tags-item">Что&nbsp;нового в&nbsp;версии</a>
-            <a href="#" class="panel panel--white panel--no-shadow product-page__tags-item">Обновление</a>
+            <a href="#" class="product-page__tags-item">Обновление</a>
           </div>
           <div class="product-page__links">
             <a href="#schema" class="panel panel--red panel--shadow-white product-page__links-item">Схема работы</a>

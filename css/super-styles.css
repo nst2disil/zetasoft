@@ -5441,10 +5441,17 @@ ul.ul li::before {
     min-height: unset;
   }
 }
+.product-page a:not(.panel) {
+  color: #fff;
+  transition-duration: var(--animation-duration);
+}
+.product-page a:not(.panel):hover {
+  color: var(--color-yellow);
+}
 .product-page .wrapper {
   display: grid;
   gap: 25px;
-  grid-template-columns: minmax(auto, 836px) 1fr;
+  grid-template-columns: minmax(auto, 706px) 1fr;
   grid-template-rows: auto auto auto;
   grid-template-areas: "title taglist" "subtitle taglist" "linklist linklist";
 }

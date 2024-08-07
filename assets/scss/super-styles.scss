@@ -36,10 +36,17 @@
   @include media-down($screen-md) {
     min-height: unset;
   }
+  a:not(.panel) {
+    color: #fff;
+    transition-duration: var(--animation-duration);
+    &:hover {
+      color: var(--color-yellow);
+    }
+  }
   .wrapper {
     display: grid;
     gap: 25px;
-    grid-template-columns: minmax(auto, 836px) 1fr;
+    grid-template-columns: minmax(auto, 706px) 1fr;
     grid-template-rows: auto auto auto;
     grid-template-areas: 
       "title taglist"
