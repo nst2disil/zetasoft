@@ -157,7 +157,7 @@
   position: fixed;
   z-index: 20;
   width: 0;
-  height: calc(100vh - var(--header-height));
+  height: calc(100dvh - var(--header-height));
   visibility: hidden;
   transition: all 0.3s ease;
   top: var(--header-height);

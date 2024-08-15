@@ -239,6 +239,7 @@ img {
 } 
 
 .panel {
+  --tab-width-rev: 0px;
   display: flex;
   flex-direction: column;
   border: 1px solid var(--color-black);
@@ -500,10 +501,6 @@ a.panel:hover {
   &__button {
     font-size: 16px;
     text-transform: uppercase;
-    //white-space: nowrap;
-    @include media-up($screen-md) {
-      //flex: 0 0 280px;
-    }
     @include media-down($screen-md) {
       width: 100%;
     }
@@ -812,7 +809,7 @@ ul.ul {
 
 .cols {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 24px;
   @include media-down($screen-md) {
     grid-template-columns: 1fr;

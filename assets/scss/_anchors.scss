@@ -22,6 +22,15 @@
     .panel__content {
       --panel-content-padding: 24px;
     }
+    &.panel--red:hover {
+      background-color: var(--color-red-light);
+    }
+    &.panel--yellow:hover {
+      background-color: var(--color-yellow-light);
+    }
+    &.panel--cyan:hover {
+      background-color: var(--color-cyan-light);
+    }
   }
   &__image {
     height: 56px;

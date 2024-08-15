@@ -12,7 +12,7 @@
         <div class="wrapper">
           <h1 class="section__title">Создаём индивидуальную ИТ-платформу для&nbsp;решения задач в&nbsp;разных отраслях бизнеса</h1>
           <div class="anchors">
-            <a href="#autobusiness" class="anchors__item panel panel--yellow">
+            <a href="#autobusiness" class="anchors__item panel panel--yellow panel--no-shadow">
               <div class="panel__content">
                 <img src="./i/anchor-car.svg" alt="" class="anchors__image">
                 <div class="anchors__bottom">
@@ -21,7 +21,7 @@
                 </div>
               </div>
             </a>
-            <a href="#vending" class="anchors__item panel panel--red">
+            <a href="#vending" class="anchors__item panel panel--red panel--no-shadow">
               <div class="panel__content">
                 <img src="./i/anchor-vending.svg" alt="" class="anchors__image">
                 <div class="anchors__bottom">
@@ -30,7 +30,7 @@
                 </div>
               </div>
             </a>
-            <a href="#services" class="anchors__item panel panel--cyan">
+            <a href="#services" class="anchors__item panel panel--cyan panel--no-shadow">
               <div class="panel__content">
                 <img src="./i/anchor-time.svg" alt="" class="anchors__image">
                 <div class="anchors__bottom">

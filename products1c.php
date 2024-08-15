@@ -36,8 +36,8 @@
                         <div class="bottom__block">
                           <div class="products__price hide-md-up">13 000 ₽</div>
                         </div>
+                        <img src="https://placehold.co/60x60" alt="" class="products__image">
                       </div>
-                      <img src="https://placehold.co/60x60" alt="" class="products__image">
                     </div>
                   </a>
                   <a href="#serviceDetail" class="swiper-slide js-services1c-toggler products__item products__item--1с panel panel--decoration-reverse panel--decoration-yellow panel--shadow-black" data-tab-id="service1c2">
@@ -235,9 +235,27 @@
           <div class="cols cols--licenses">
             <div class="cols__item">
               <div class="panel services1c__info-panel panel--white panel--shadow-yellow">
-                <div class="panel__content">
-                  Просто панель со случайным наполнением, напишем сюда текста побольше, чтобы была видимость
-                </div>
+              <div class="panel__content">
+                    <div class="services1c__top">
+                      <div class="services1c__title">1С:КП Проф 1</div>
+                      <div class="services1c__price">от 3 381 ₽/месяц</div>
+                    </div>
+                    <div class="services1c__info">Является самым популярным пакетом и включает в&nbsp;себя ряд сервисов и услуг, необходимых для нормального функционирования организации:</div>
+                    <ul class="services1c__list ul">
+                      <li>доступ к Порталу ИТС на сайте portal.1c.ru для получения обновлений программ и конфигураций;</li>
+                      <li>доступ к Порталу ИТС на сайте portal.1c.ru для получения обновлений программ и конфигураций;</li>
+                      <li>доступ информационной системе 1С:ИТС на сайте 1c.ru – без ограничений,</li>
+                      <li>техническая поддержка по Линии консультации 1С и аудиторами – без ограничения количества обращений;</li>
+                      <li>1С ЭДО - 100 пакетов документов;</li>
+                      <li>1С Отчетность - возможность сдать все виды отчетности из 1С на 1 юридическое лицо;</li>
+                      <li>1С:Предприятие 8 через Интернет – «облачная» технология для работы с программами 1С через Интернет (доступное количество информационных баз - 10, количество сеансов – 5);</li>
+                      <li>1С Контрагент - автозаполнение по ИНН 7200 организаций, а также 360 запросов досье на контрагентов;</li>
+                      <li>обновление 1 типовой базы на 1 компьютере сертифицированным специалистом нашей компании;</li>
+                      <li>электронные версии журнала «БУХ.1С» (в формате pdf или epub) в&nbsp;Личном кабинете пользователя на сайте <a href="https://its.1c.ru/personal/souvenir" target="_blank">https://its.1c.ru/personal/souvenir</a>;</li>
+                      <li>ежемесячные сувениры: электронные книги, аудио и видеозаписи (также доступны в&nbsp;Личном кабинете <a href="https://its.1c.ru/personal/souvenir" target="_blank">https://its.1c.ru/personal/souvenir</a>).</li>
+                    </ul>
+                    <button class="services1c__order-button button  button--bg button--yellow" data-modal="contact-form" data-modal-title="Заполните данные на запрос подписки">оставить заявку</button>
+                  </div>
               </div>
             </div>
             <div class="cols__item">
@@ -245,7 +263,7 @@
                 <a href="#" class="products__item panel panel--white panel--shadow-yellow products__item--1с">
                   <div class="panel__content">
                     <div class="products__top">
-                      <div class="products__title">1С: Предприятие 8.3. Сервер МИНИ на 5 подключений</div>
+                      <div class="products__title products__title--wrap">1С: Предприятие 8.3. Сервер МИНИ на 5 подключений</div>
                     </div>
                     <div class="products__bottom">
                       <div class="products__price">14 400 ₽</div>
@@ -255,7 +273,7 @@
                 <a href="#" class="products__item panel panel--white panel--shadow-yellow products__item--1с">
                   <div class="panel__content">
                     <div class="products__top">
-                      <div class="products__title">1С: Предприятие 8.3. Лицензия на&nbsp;сервер (x86–64)</div>
+                      <div class="products__title products__title--wrap">1С: Предприятие 8.3. Лицензия на&nbsp;сервер (x86–64)</div>
                     </div>
                     <div class="products__bottom">
                       <div class="products__price">86 400 ₽</div>
@@ -265,7 +283,7 @@
                 <a href="#" class="products__item panel panel--white panel--shadow-yellow products__item--1с">
                   <div class="panel__content">
                     <div class="products__top">
-                      <div class="products__title">1С: Предприятие 8.3. Лицензия на сервер (x86-64) (USB)</div>
+                      <div class="products__title products__title--wrap">1С: Предприятие 8.3. Лицензия на сервер (x86-64) (USB)</div>
                     </div>
                     <div class="products__bottom">
                       <div class="products__price">103 700 ₽</div>
@@ -275,7 +293,7 @@
                 <a href="#" class="products__item panel panel--white panel--shadow-yellow products__item--1с">
                   <div class="panel__content">
                     <div class="products__top">
-                      <div class="products__title">1С: Предприятие 8. Клиентская лицензия на 5 рабочих мест</div>
+                      <div class="products__title products__title--wrap">1С: Предприятие 8. Клиентская лицензия на 5 рабочих мест</div>
                     </div>
                     <div class="products__bottom">
                       <div class="products__price">21 600 ₽</div>
@@ -285,7 +303,7 @@
                 <a href="#" class="products__item panel panel--white panel--shadow-yellow products__item--1с">
                   <div class="panel__content">
                     <div class="products__top">
-                      <div class="products__title">1С: Предприятие 8. Клиентская лицензия на 5 рабочих мест (USB)</div>
+                      <div class="products__title products__title--wrap">1С: Предприятие 8. Клиентская лицензия на 5 рабочих мест (USB)</div>
                     </div>
                     <div class="products__bottom">
                       <div class="products__price">28 100 ₽</div>
@@ -295,7 +313,7 @@
                 <a href="#" class="products__item panel panel--white panel--shadow-yellow products__item--1с">
                   <div class="panel__content">
                     <div class="products__top">
-                      <div class="products__title">1С: Предприятие 10. Клиентская лицензия на 10 рабочих мест</div>
+                      <div class="products__title products__title--wrap">1С: Предприятие 10. Клиентская лицензия на 10 рабочих мест</div>
                     </div>
                     <div class="products__bottom">
                       <div class="products__price">41 400 ₽</div>
@@ -305,7 +323,7 @@
                 <a href="#" class="products__item panel panel--white panel--shadow-yellow products__item--1с">
                   <div class="panel__content">
                     <div class="products__top">
-                      <div class="products__title">1С: Предприятие 8. Клиентская лицензия на 10 рабочих мест (USB)</div>
+                      <div class="products__title products__title--wrap">1С: Предприятие 8. Клиентская лицензия на 10 рабочих мест (USB)</div>
                     </div>
                     <div class="products__bottom">
                       <div class="products__price">51 900 ₽</div>
@@ -387,9 +405,27 @@
             </div>
             <div class="cols__item">
               <div class="panel services1c__info-panel panel--white panel--shadow-black">
-                <div class="panel__content">
-                  Просто панель со случайным наполнением, напишем сюда текста побольше, чтобы была видимость
-                </div>
+              <div class="panel__content">
+                    <div class="services1c__top">
+                      <div class="services1c__title">1С:КП Проф 1</div>
+                      <div class="services1c__price">от 3 381 ₽/месяц</div>
+                    </div>
+                    <div class="services1c__info">Является самым популярным пакетом и включает в&nbsp;себя ряд сервисов и услуг, необходимых для нормального функционирования организации:</div>
+                    <ul class="services1c__list ul">
+                      <li>доступ к Порталу ИТС на сайте portal.1c.ru для получения обновлений программ и конфигураций;</li>
+                      <li>доступ к Порталу ИТС на сайте portal.1c.ru для получения обновлений программ и конфигураций;</li>
+                      <li>доступ информационной системе 1С:ИТС на сайте 1c.ru – без ограничений,</li>
+                      <li>техническая поддержка по Линии консультации 1С и аудиторами – без ограничения количества обращений;</li>
+                      <li>1С ЭДО - 100 пакетов документов;</li>
+                      <li>1С Отчетность - возможность сдать все виды отчетности из 1С на 1 юридическое лицо;</li>
+                      <li>1С:Предприятие 8 через Интернет – «облачная» технология для работы с программами 1С через Интернет (доступное количество информационных баз - 10, количество сеансов – 5);</li>
+                      <li>1С Контрагент - автозаполнение по ИНН 7200 организаций, а также 360 запросов досье на контрагентов;</li>
+                      <li>обновление 1 типовой базы на 1 компьютере сертифицированным специалистом нашей компании;</li>
+                      <li>электронные версии журнала «БУХ.1С» (в формате pdf или epub) в&nbsp;Личном кабинете пользователя на сайте <a href="https://its.1c.ru/personal/souvenir" target="_blank">https://its.1c.ru/personal/souvenir</a>;</li>
+                      <li>ежемесячные сувениры: электронные книги, аудио и видеозаписи (также доступны в&nbsp;Личном кабинете <a href="https://its.1c.ru/personal/souvenir" target="_blank">https://its.1c.ru/personal/souvenir</a>).</li>
+                    </ul>
+                    <button class="services1c__order-button button  button--bg button--yellow" data-modal="contact-form" data-modal-title="Заполните данные на запрос подписки">оставить заявку</button>
+                  </div>
               </div>
             </div>
           </div>

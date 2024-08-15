@@ -120,12 +120,10 @@
     grid-auto-rows: minmax(224px, auto);
   }
 }
-.products--small {
-  display: flex;
-  flex-direction: column;
-}
-@media screen and (max-width: 879px) {
+@media screen and (min-width: 880px) {
   .products--small {
+    display: flex;
+    flex-direction: column;
     gap: 12px;
   }
 }
@@ -178,6 +176,9 @@
   text-overflow: ellipsis;
   max-width: calc(100% - var(--tab-width-rev));
   white-space: nowrap;
+}
+.products__title--wrap {
+  white-space: unset;
 }
 .products__price {
   font-size: 24px;

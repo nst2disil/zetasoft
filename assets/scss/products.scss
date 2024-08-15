@@ -80,9 +80,9 @@
     grid-auto-rows: minmax(224px, auto);
   }
   &--small {
-    display: flex;
-    flex-direction: column;
-    @include media-down($screen-md) {
+    @include media-up($screen-md) {
+      display: flex;
+      flex-direction: column;
       gap: 12px;
     }
   }
@@ -131,6 +131,9 @@
     text-overflow: ellipsis;
     max-width: calc(100% - var(--tab-width-rev));
     white-space: nowrap;
+    &--wrap {
+      white-space: unset;
+    }
   }
   
   &__price {

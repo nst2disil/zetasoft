@@ -26,6 +26,15 @@
 .anchors__item .panel__content {
   --panel-content-padding: 24px;
 }
+.anchors__item.panel--red:hover {
+  background-color: var(--color-red-light);
+}
+.anchors__item.panel--yellow:hover {
+  background-color: var(--color-yellow-light);
+}
+.anchors__item.panel--cyan:hover {
+  background-color: var(--color-cyan-light);
+}
 .anchors__image {
   height: 56px;
   width: 56px;
