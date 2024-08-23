@@ -171,8 +171,8 @@ function initCustomSelects() {
 
 const defaultSwiperOptions = {
   direction: 'horizontal',
-  slidesPerView: 'auto',
-  centeredSlides: true,
+  slidesPerView: 1,
+  //centeredSlides: true,
   spaceBetween: 16,
   pagination: {
     el: '.swiper-pagination',
@@ -320,8 +320,6 @@ document.addEventListener('DOMContentLoaded', () => {
   initFancybox();
   initServiceTabs();
 });
-
-// function to show alert after 10 seconds after page loaded
 
 window.addEventListener('resize', () => {
   initSwipers();

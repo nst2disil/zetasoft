@@ -33,18 +33,11 @@
   .swiper.swiper-autoheight {
     padding-bottom: 26px;
   }
-  .swiper--m {
-    height: 372px;
-  }
   .swiper--m .swiper-slide {
     width: 344px;
   }
   .swiper--m .swiper-wrapper {
-    height: 344px;
     margin-left: 0;
-  }
-  .swiper--l {
-    height: 428px;
   }
   .swiper--l .swiper-slide {
     width: 344px;

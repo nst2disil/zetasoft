@@ -422,18 +422,19 @@ img {
     --tab-width-rev: 25px;
   }
 }
-.panel--decoration-reverse:hover .panel__head::before, .panel--decoration-reverse.panel--active .panel__head::before {
-  transform: scale(2, 6) translate(25%, 40%);
-  z-index: 0;
-}
-@media screen and (max-width: 879px) {
-  .panel--decoration-reverse:hover .panel__head::before, .panel--decoration-reverse.panel--active .panel__head::before {
-    transform: scale(3, 12) translate(25%, 40%);
+.panel--decoration-reverse:hover, .panel--decoration-reverse.panel--active {
+  /*.panel__head::before {
+    transform: scale(2.5, 6.5) translate(25%, 40%);
+    z-index: 0;
+    @include media-down($screen-md) {
+      //transform: scale(3, 12) translate(25%, 40%);
+    }
+
   }
-}
-.panel--decoration-reverse:hover .panel__head::after, .panel--decoration-reverse.panel--active .panel__head::after {
-  opacity: 0;
-  transition-delay: 0s;
+  .panel__head::after {
+    opacity: 0;
+    transition-delay: 0s;
+  }*/
 }
 .panel--decoration-reverse .panel__head::before {
   margin-right: var(--tab-width-rev);
@@ -593,7 +594,21 @@ img {
     font-size: 16px;
   }
 }
-.panel__image {
+.panel__link:hover {
+  text-decoration: none;
+}
+@media screen and (max-width: 879px) {
+  .panel a.panel__link::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+}
+a.panel .panel__image {
   --square: 80px;
   width: var(--square);
   position: absolute;
@@ -601,15 +616,15 @@ img {
   bottom: var(--panel-content-padding);
 }
 @media screen and (max-width: 1439px) {
-  .panel__image {
+  a.panel .panel__image {
     --square: 64px;
   }
 }
 @media screen and (max-width: 879px) {
-  .panel__image {
+  a.panel .panel__image {
     --square: 56px;
   }
-  .panel__image--logo {
+  a.panel .panel__image--logo {
     max-height: 40px;
   }
 }
@@ -1159,6 +1174,18 @@ ul.ul li::before {
   }
 }
 
+@media screen and (min-width: 880px) {
+  .cols--products-zeta .cols__item {
+    display: flex;
+    flex-direction: column;
+  }
+  .cols--products-zeta .cols__item .swiper {
+    flex: 1;
+  }
+  .cols--products-zeta .cols__item .swiper .products {
+    height: 100%;
+  }
+}
 .block-group {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

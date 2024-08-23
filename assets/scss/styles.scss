@@ -278,18 +278,18 @@ img {
     }
     &:hover,
     &.panel--active {
-      .panel__head::before {
-        transform: scale(2, 6) translate(25%, 40%);
+      /*.panel__head::before {
+        transform: scale(2.5, 6.5) translate(25%, 40%);
         z-index: 0;
         @include media-down($screen-md) {
-          transform: scale(3, 12) translate(25%, 40%);
+          //transform: scale(3, 12) translate(25%, 40%);
         }
 
       }
       .panel__head::after {
         opacity: 0;
         transition-delay: 0s;
-      }
+      }*/
     }
     .panel__head {
       &::before {
@@ -400,8 +400,25 @@ img {
   &__link {
     margin-top: auto;
     text-decoration: underline;
-    @include media-down($screen-lg) { font-size: 16px; }
+    @include media-down($screen-lg) {
+      font-size: 16px;
+    }
+    &:hover {
+      text-decoration: none;
+    }
   }
+  a.panel__link::after {
+    @include media-down($screen-md) {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+    }
+  }
+  a.panel
   &__image {
     --square: 80px;
     width: var(--square);
@@ -830,6 +847,21 @@ ul.ul {
     gap: 20px;
     display: flex;
     flex-direction: column;
+  }
+}
+
+@include media-up($screen-md) {
+  .cols--products-zeta {
+    .cols__item {
+      display: flex;
+      flex-direction: column;
+      .swiper {
+        flex: 1;
+        .products {
+          height: 100%;
+        }
+      }
+    }
   }
 }
 
