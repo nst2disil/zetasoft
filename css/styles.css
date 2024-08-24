@@ -608,7 +608,7 @@ img {
     bottom: 0;
   }
 }
-a.panel .panel__image {
+.panel__image {
   --square: 80px;
   width: var(--square);
   position: absolute;
@@ -616,15 +616,15 @@ a.panel .panel__image {
   bottom: var(--panel-content-padding);
 }
 @media screen and (max-width: 1439px) {
-  a.panel .panel__image {
+  .panel__image {
     --square: 64px;
   }
 }
 @media screen and (max-width: 879px) {
-  a.panel .panel__image {
+  .panel__image {
     --square: 56px;
   }
-  a.panel .panel__image--logo {
+  .panel__image--logo {
     max-height: 40px;
   }
 }
