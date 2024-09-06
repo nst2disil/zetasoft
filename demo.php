@@ -61,8 +61,8 @@
                 <div class="panel__head panel__head--red"></div>
                 <div class="panel__content">Панель с шапкой</div>
               </div>
-              <div class="panel panel--decoration-reverse">
-                <div class="panel__head panel__head--red"></div>
+              <div class="panel">
+                <div class="panel__head panel__head--red panel__head--reverse"></div>
                 <div class="panel__content">Панель с ревёрснутой шапкой</div>
               </div>
               <div class="panel panel--sm">
@@ -82,13 +82,31 @@
               <div class="panel">
                 <div class="panel__head panel__head--red"></div>
                 <div class="panel__content">
-                  <div class="products__top">
+                  <div class="panel__top">
                     <div class="panel__title">Заголовок панели</div>
                     <img src="./i/anchor-car.svg" alt="" class="panel__image">
                   </div>
                   <div class="panel__text">Текст панели</div>
                 </div>
               </div>
+              <div class="panel panel--shadow-yellow">
+                    <div class="panel__head panel__head--yellow panel__head--reverse">
+                      <div class="panel__top">
+                        <div class="products__name products__name--red">Карточка кейса</div>
+                        <div class="products__price hide-md-down">От 132 000 ₽</div>
+                      </div>
+                    </div>
+                    <div class="panel__content">
+                      <div class="products__text">Текст решили подгонять таким образом, чтолы он вписывался в карточку, на эскизе было две строки, поэтому тут тоже две</div>
+                      <div class="panel__bottom">
+                        <div class="bottom__block">
+                          <a href="#" class="panel__link">Подробнее</a>
+                          <div class="products__price hide-md-up">От 132 000 ₽</div>
+                        </div>
+                        <img src="https://placehold.co/60x60" alt="" class="products__image">
+                      </div>
+                    </div>
+                  </div>
             </div>
             <div class="anchor" id="buttons"><!--Пункт назначения якоря--></div>
             <div class="demo__buttons">

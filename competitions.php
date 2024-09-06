@@ -189,8 +189,7 @@
             <div class="cases swiper-wrapper">
               <a href="./case.html" class="swiper-slide cases__item panel panel--shadow-red panel--white">
                 <div class="panel__head panel__head--red">
-                <img src="./i/panel-1c.svg" alt="1c logo" class="case__image">
-
+                  <img src="./i/panel-1c.svg" alt="1c logo" class="case__image">
                 </div>
                 <div class="panel__content case">
                   <div class="case__title">Проектное решение<br/>«Учёт в&nbsp;вендинговом бизнесе»</div>

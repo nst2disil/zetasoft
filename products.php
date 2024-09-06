@@ -40,16 +40,16 @@
               <h3 class="section__title">Коробочные решения</h3>
               <div class="swiper swiper--m" data-swiper-id="products">
                 <div class="products products--solutions swiper-wrapper">
-                  <div class="swiper-slide products__item products__item--cross panel panel--decoration-reverse panel--decoration-yellow panel--shadow-yellow">
-                    <div class="panel__head">
-                      <div class="products__top">
+                  <div class="swiper-slide products__item products__item--cross panel panel--shadow-yellow">
+                    <div class="panel__head panel__head--yellow panel__head--reverse">
+                      <div class="panel__top">
                         <div class="products__name products__name--red">ЗетаВеб</div>
                         <div class="products__price hide-md-down">От 132 000 ₽</div>
                       </div>
                     </div>
                     <div class="panel__content">
                       <div class="products__text">Текст решили подгонять таким образом, чтолы он вписывался в карточку, на эскизе было две строки, поэтому тут тоже две</div>
-                      <div class="products__bottom">
+                      <div class="panel__bottom">
                         <div class="bottom__block">
                           <a href="#" class="panel__link">Подробнее</a>
                           <div class="products__price hide-md-up">От 132 000 ₽</div>
@@ -58,16 +58,16 @@
                       </div>
                     </div>
                   </div>
-                  <div class="swiper-slide products__item products__item--cross panel panel--decoration-reverse panel--decoration-blue panel--shadow-blue">
-                    <div class="panel__head">
-                      <div class="products__top">
+                  <div class="swiper-slide products__item products__item--cross panel panel--shadow-blue">
+                    <div class="panel__head panel__head--blue panel__head--reverse">
+                      <div class="panel__top">
                         <div class="products__name products__name--red">ЗетаВеб</div>
                         <div class="products__price hide-md-down">От 132 000 ₽</div>
                       </div>
                     </div>
                     <div class="panel__content">
                       <div class="products__text">Текст решили подгонять таким образом, чтолы он вписывался в карточку, на эскизе было две строки, поэтому тут тоже две</div>
-                      <div class="products__bottom">
+                      <div class="panel__bottom">
                         <div class="bottom__block">
                           <a href="#" class="panel__link">Подробнее</a>
                           <div class="products__price hide-md-up">От 132 000 ₽</div>
@@ -76,16 +76,16 @@
                       </div>
                     </div>
                   </div>
-                  <div class="swiper-slide products__item products__item--cross panel panel--decoration-reverse panel--decoration-red panel--shadow-red">
-                    <div class="panel__head">
-                      <div class="products__top">
+                  <div class="swiper-slide products__item products__item--cross panel panel--shadow-red">
+                    <div class="panel__head panel__head--red panel__head--reverse">
+                      <div class="panel__top">
                         <div class="products__name products__name--red">ЗетаВеб</div>
                         <div class="products__price hide-md-down">От 132 000 ₽</div>
                       </div>
                     </div>
                     <div class="panel__content">
                       <div class="products__text">Текст решили подгонять таким образом, чтолы он вписывался в карточку, на эскизе было две строки, поэтому тут тоже две</div>
-                      <div class="products__bottom">
+                      <div class="panel__bottom">
                         <div class="bottom__block">
                           <a href="#" class="panel__link">Подробнее</a>
                           <div class="products__price hide-md-up">От 132 000 ₽</div>
@@ -104,12 +104,12 @@
                 <div class="products swiper-wrapper products--methodics">
                   <div class="swiper-slide products__item panel products__item--zeta panel--shadow-black">
                     <div class="panel__content">
-                      <div class="products__top">
+                      <div class="panel__top">
                         <div class="products__name products__name--red">Учёт времени</div>
                         <div class="products__price hide-md-down">От 50 000 ₽</div>
                       </div>
                       <div class="products__text">Текст решили подгонять таким образом, чтолы он вписывался в карточку, на эскизе было две строки, поэтому тут тоже две</div>
-                      <div class="products__bottom">
+                      <div class="panel__bottom">
                         <div class="bottom__block">
                           <a href="#" class="panel__link">Подробнее</a>
                           <div class="products__price hide-md-up">От 50 000 ₽</div>
@@ -119,12 +119,12 @@
                   </div>
                   <div class="swiper-slide products__item panel products__item--zeta panel--shadow-black">
                     <div class="panel__content">
-                      <div class="products__top">
+                      <div class="panel__top">
                         <div class="products__name products__name--red">Учёт времени</div>
                         <div class="products__price hide-md-down">От 50 000 ₽</div>
                       </div>
                       <div class="products__text">Текст решили подгонять таким образом, чтолы он вписывался в карточку, на эскизе было две строки, поэтому тут тоже две</div>
-                      <div class="products__bottom">
+                      <div class="panel__bottom">
                         <div class="bottom__block">
                           <a href="#" class="panel__link">Подробнее</a>
                           <div class="products__price hide-md-up">От 50 000 ₽</div>
@@ -134,12 +134,12 @@
                   </div>
                   <div class="swiper-slide products__item panel products__item--zeta panel--shadow-black">
                     <div class="panel__content">
-                      <div class="products__top">
+                      <div class="panel__top">
                         <div class="products__name products__name--red">Учёт времени</div>
                         <div class="products__price hide-md-down">От 50 000 ₽</div>
                       </div>
                       <div class="products__text">Текст решили подгонять таким образом, чтолы он вписывался в карточку, на эскизе было две строки, поэтому тут тоже две</div>
-                      <div class="products__bottom">
+                      <div class="panel__bottom">
                         <div class="bottom__block">
                           <a href="#" class="panel__link">Подробнее</a>
                           <div class="products__price hide-md-up">От 50 000 ₽</div>
@@ -149,12 +149,12 @@
                   </div>
                   <div class="swiper-slide products__item panel products__item--zeta panel--shadow-black">
                     <div class="panel__content">
-                      <div class="products__top">
+                      <div class="panel__top">
                         <div class="products__name products__name--red">Учёт времени</div>
                         <div class="products__price hide-md-down">От 50 000 ₽</div>
                       </div>
                       <div class="products__text">Текст решили подгонять таким образом, чтолы он вписывался в карточку, на эскизе было две строки, поэтому тут тоже две</div>
-                      <div class="products__bottom">
+                      <div class="panel__bottom">
                         <div class="bottom__block">
                           <a href="#" class="panel__link">Подробнее</a>
                           <div class="products__price hide-md-up">От 50 000 ₽</div>

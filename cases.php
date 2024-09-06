@@ -23,8 +23,8 @@
         <div class="js-cases">
           <div class="cases-wrapper">
             <div class="wrapper cases">
-              <a href="./case.html" class="cases__item panel panel--decoration-red" data-case-category="red">
-                <div class="panel__head">
+              <a href="./case.html" class="cases__item panel" data-case-category="red">
+                <div class="panel__head panel__head--red">
                   <img src="./i/panel-1c.svg" alt="1c logo" class="case__image">
                 </div>
                 <div class="panel__content case">
@@ -32,8 +32,8 @@
                   <div class="case__text">Для компаний, работающих в&nbsp;1С и использующих онлайн-кассы АТОЛ Онлайн</div>
                 </div>
               </a>
-              <a href="./case.html" class="cases__item panel panel--decoration-blue" data-case-category="blue">
-                <div class="panel__head">
+              <a href="./case.html" class="cases__item panel" data-case-category="blue">
+                <div class="panel__head panel__head--blue">
                   <img src="./i/panel-zeta.svg" alt="1c logo" class="case__image">
                 </div>
                 <div class="panel__content case">
@@ -41,8 +41,8 @@
                   <div class="case__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
                 </div>
               </a>
-              <a href="./case.html" class="cases__item panel panel--decoration-green" data-case-category="green">
-                <div class="panel__head">
+              <a href="./case.html" class="cases__item panel" data-case-category="green">
+                <div class="panel__head panel__head--green">
                   <img src="./i/panel-1c.svg" alt="1c logo" class="case__image">
                 </div>
                 <div class="panel__content case">
@@ -50,8 +50,8 @@
                   <div class="case__text">Определили наименее прибыльные товары и, заменив их на другие, увеличили выручку с автоматов на 25%</div>
                 </div>
               </a>
-              <a href="./case.html" class="cases__item panel panel--decoration-red" data-case-category="red">
-                <div class="panel__head">
+              <a href="./case.html" class="cases__item panel" data-case-category="red">
+                <div class="panel__head panel__head--red">
                   <img src="./i/panel-1c.svg" alt="1c logo" class="case__image">
                 </div>
                 <div class="panel__content case">
@@ -59,8 +59,8 @@
                   <div class="case__text">Бухгалтерское взаимодействие в&nbsp;рамках холдинга или других компаниях со сложной организационной структурой</div>
                 </div>
               </a>
-              <a href="./case.html" class="cases__item panel panel--decoration-blue" data-case-category="blue">
-                <div class="panel__head">
+              <a href="./case.html" class="cases__item panel" data-case-category="blue">
+                <div class="panel__head panel__head--blue">
                   <img src="./i/panel-1c.svg" alt="1c logo" class="case__image">
                 </div>
                 <div class="panel__content case">
@@ -68,8 +68,8 @@
                   <div class="case__text">Снижение затрат клиента и, в&nbsp;свою очередь, его клиентов. Порядок в&nbsp;документообороте: корректность и своевременность ввода</div>
                 </div>
               </a>
-              <a href="./case.html" class="cases__item panel panel--decoration-red" data-case-category="red">
-                <div class="panel__head">
+              <a href="./case.html" class="cases__item panel" data-case-category="red">
+                <div class="panel__head panel__head--red">
                   <img src="./i/panel-1c.svg" alt="1c logo" class="case__image">
                 </div>
                 <div class="panel__content case">
@@ -81,8 +81,8 @@
           </div>
           <!--<div class="cases-wrapper">
             <div class="wrapper cases">
-              <a href="./case.html" class="cases__item panel panel--decoration-red" data-case-category="red">
-                <div class="panel__head">
+              <a href="./case.html" class="cases__item panel" data-case-category="red">
+                <div class="panel__head panel__head--red">
                   <img src="./i/panel-1c.svg" alt="1c logo" class="case__image">
                 </div>
                 <div class="panel__content case">
@@ -90,8 +90,8 @@
                   <div class="case__text">Внедрение APDEX, международного стандарта оценки производительности информационных систем</div>
                 </div>
               </a>
-              <a href="./case.html" class="cases__item panel panel--decoration-yellow" data-case-category="yellow">
-                <div class="panel__head">
+              <a href="./case.html" class="cases__item panel" data-case-category="yellow">
+                <div class="panel__head panel__head--yellow">
                   <img src="./i/panel-1c.svg" alt="1c logo" class="case__image">
                 </div>
                 <div class="panel__content case">
@@ -99,8 +99,8 @@
                   <div class="case__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
                 </div>
               </a>
-              <a href="./case.html" class="cases__item panel panel--decoration-green" data-case-category="green">
-                <div class="panel__head">
+              <a href="./case.html" class="cases__item panel" data-case-category="green">
+                <div class="panel__head panel__head--green">
                   <img src="./i/panel-1c.svg" alt="1c logo" class="case__image">
                 </div>
                 <div class="panel__content case">

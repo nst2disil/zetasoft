@@ -45,18 +45,6 @@
   }
 }*/
 
-.cases-wrapper:nth-child(even) {
-  background-color: var(--color-black);
-  padding: 40px 0;
-  .panel {
-    @each $name, $color in $color-list {
-      &--decoration-#{$name} {
-        box-shadow: 4px 4px 0px 0px var(--color-#{$name});
-      }
-    }
-  }
-}
-
 .paginator + .button-panel {
   margin-top: 48px;
 }

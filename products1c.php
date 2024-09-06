@@ -23,16 +23,16 @@
             <div class="cols__item">
               <div class="swiper swiper--m" data-swiper-id="products-1c">
                 <div class="products products--1c swiper-wrapper">
-                  <a href="#serviceDetail" class="swiper-slide js-services1c-toggler products__item products__item--1с panel panel--decoration-reverse panel--decoration-yellow panel--shadow-black" data-tab-id="service1c1">
-                    <div class="panel__head">
-                      <div class="products__top">
+                  <a href="#serviceDetail" class="swiper-slide js-services1c-toggler products__item products__item--1с panel panel--shadow-black" data-tab-id="service1c1">
+                    <div class="panel__head panel__head--yellow panel__head--revese">
+                      <div class="panel__top">
                         <div class="products__title">1С: Бухгалтерия 8 ПРОФ</div>
                         <div class="products__price hide-md-down">13 000 ₽</div>
                       </div>
                     </div>
                     <div class="panel__content">
                       <div class="products__text">Полноценная автоматизация бухгалтерского и налогового учета, включая подготовку регламентированной отчетности.</div>
-                      <div class="products__bottom">
+                      <div class="panel__bottom">
                         <div class="bottom__block">
                           <div class="products__price hide-md-up">13 000 ₽</div>
                         </div>
@@ -40,16 +40,16 @@
                       </div>
                     </div>
                   </a>
-                  <a href="#serviceDetail" class="swiper-slide js-services1c-toggler products__item products__item--1с panel panel--decoration-reverse panel--decoration-yellow panel--shadow-black" data-tab-id="service1c2">
-                    <div class="panel__head">
-                      <div class="products__top">
+                  <a href="#serviceDetail" class="swiper-slide js-services1c-toggler products__item products__item--1с panel panel--shadow-black" data-tab-id="service1c2">
+                    <div class="panel__head panel__head--yellow panel__head--revese">
+                      <div class="panel__top">
                         <div class="products__title">1С: Бухгалтерия 8 ПРОФ</div>
                         <div class="products__price hide-md-down">13 000 ₽</div>
                       </div>
                     </div>
                     <div class="panel__content">
                       <div class="products__text">Полноценная автоматизация бухгалтерского и налогового учета, включая подготовку регламентированной отчетности.</div>
-                      <div class="products__bottom">
+                      <div class="panel__bottom">
                         <div class="bottom__block hide-md-up">
                           <div class="products__price">13 000 ₽</div>
                         </div>
@@ -57,48 +57,48 @@
                       </div>
                     </div>
                   </a>
-                  <a href="#serviceDetail" class="swiper-slide js-services1c-toggler products__item products__item--1с panel panel--decoration-reverse panel--decoration-yellow panel--shadow-black" data-tab-id="service1c3">
-                    <div class="panel__head">
-                      <div class="products__top">
+                  <a href="#serviceDetail" class="swiper-slide js-services1c-toggler products__item products__item--1с panel panel--shadow-black" data-tab-id="service1c3">
+                    <div class="panel__head panel__head--yellow panel__head--revese">
+                      <div class="panel__top">
                         <div class="products__title">1С: Бухгалтерия 8 ПРОФ</div>
                         <div class="products__price hide-md-down">13 000 ₽</div>
                       </div>
                     </div>
                     <div class="panel__content">
                       <div class="products__text">Полноценная автоматизация бухгалтерского и налогового учета, включая подготовку регламентированной отчетности.</div>
-                      <div class="products__bottom hide-md-up">
+                      <div class="panel__bottom hide-md-up">
                         <div class="bottom__block">
                           <div class="products__price hide-md-up">13 000 ₽</div>
                         </div>
                       </div>
                     </div>
                   </a>
-                  <a href="#serviceDetail" class="swiper-slide js-services1c-toggler products__item products__item--1с panel panel--decoration-reverse panel--decoration-yellow panel--shadow-black" data-tab-id="service1c4">
-                    <div class="panel__head">
-                      <div class="products__top">
+                  <a href="#serviceDetail" class="swiper-slide js-services1c-toggler products__item products__item--1с panel panel--shadow-black" data-tab-id="service1c4">
+                    <div class="panel__head panel__head--yellow panel__head--revese">
+                      <div class="panel__top">
                         <div class="products__title">1С: Бухгалтерия 8 ПРОФ</div>
                         <div class="products__price hide-md-down">13 000 ₽</div>
                       </div>
                     </div>
                     <div class="panel__content">
                       <div class="products__text">Полноценная автоматизация бухгалтерского и налогового учета, включая подготовку регламентированной отчетности.</div>
-                      <div class="products__bottom hide-md-up">
+                      <div class="panel__bottom hide-md-up">
                         <div class="bottom__block">
                           <div class="products__price hide-md-up">13 000 ₽</div>
                         </div>
                       </div>
                     </div>
                   </a>
-                  <a href="#serviceDetail" class="swiper-slide js-services1c-toggler products__item products__item--1с panel panel--decoration-reverse panel--decoration-yellow panel--shadow-black" data-tab-id="service1c2">
-                    <div class="panel__head">
-                      <div class="products__top">
+                  <a href="#serviceDetail" class="swiper-slide js-services1c-toggler products__item products__item--1с panel panel--shadow-black" data-tab-id="service1c2">
+                    <div class="panel__head panel__head--yellow panel__head--revese">
+                      <div class="panel__top">
                         <div class="products__title">1С: Бухгалтерия 8 ПРОФ</div>
                         <div class="products__price hide-md-down">13 000 ₽</div>
                       </div>
                     </div>
                     <div class="panel__content">
                       <div class="products__text">Полноценная автоматизация бухгалтерского и налогового учета, включая подготовку регламентированной отчетности.</div>
-                      <div class="products__bottom hide-md-up">
+                      <div class="panel__bottom hide-md-up">
                         <div class="bottom__block">
                           <div class="products__price hide-md-up">13 000 ₽</div>
                         </div>
@@ -262,70 +262,70 @@
               <div class="products products--small">
                 <a href="#" class="products__item panel panel--white panel--shadow-yellow products__item--1с">
                   <div class="panel__content">
-                    <div class="products__top">
+                    <div class="panel__top">
                       <div class="products__title products__title--wrap">1С: Предприятие 8.3. Сервер МИНИ на 5 подключений</div>
                     </div>
-                    <div class="products__bottom">
+                    <div class="panel__bottom">
                       <div class="products__price">14 400 ₽</div>
                     </div>
                   </div>
                 </a>
                 <a href="#" class="products__item panel panel--white panel--shadow-yellow products__item--1с">
                   <div class="panel__content">
-                    <div class="products__top">
+                    <div class="panel__top">
                       <div class="products__title products__title--wrap">1С: Предприятие 8.3. Лицензия на&nbsp;сервер (x86–64)</div>
                     </div>
-                    <div class="products__bottom">
+                    <div class="panel__bottom">
                       <div class="products__price">86 400 ₽</div>
                     </div>
                   </div>
                 </a>
                 <a href="#" class="products__item panel panel--white panel--shadow-yellow products__item--1с">
                   <div class="panel__content">
-                    <div class="products__top">
+                    <div class="panel__top">
                       <div class="products__title products__title--wrap">1С: Предприятие 8.3. Лицензия на сервер (x86-64) (USB)</div>
                     </div>
-                    <div class="products__bottom">
+                    <div class="panel__bottom">
                       <div class="products__price">103 700 ₽</div>
                     </div>
                   </div>
                 </a>
                 <a href="#" class="products__item panel panel--white panel--shadow-yellow products__item--1с">
                   <div class="panel__content">
-                    <div class="products__top">
+                    <div class="panel__top">
                       <div class="products__title products__title--wrap">1С: Предприятие 8. Клиентская лицензия на 5 рабочих мест</div>
                     </div>
-                    <div class="products__bottom">
+                    <div class="panel__bottom">
                       <div class="products__price">21 600 ₽</div>
                     </div>
                   </div>
                 </a>
                 <a href="#" class="products__item panel panel--white panel--shadow-yellow products__item--1с">
                   <div class="panel__content">
-                    <div class="products__top">
+                    <div class="panel__top">
                       <div class="products__title products__title--wrap">1С: Предприятие 8. Клиентская лицензия на 5 рабочих мест (USB)</div>
                     </div>
-                    <div class="products__bottom">
+                    <div class="panel__bottom">
                       <div class="products__price">28 100 ₽</div>
                     </div>
                   </div>
                 </a>
                 <a href="#" class="products__item panel panel--white panel--shadow-yellow products__item--1с">
                   <div class="panel__content">
-                    <div class="products__top">
+                    <div class="panel__top">
                       <div class="products__title products__title--wrap">1С: Предприятие 10. Клиентская лицензия на 10 рабочих мест</div>
                     </div>
-                    <div class="products__bottom">
+                    <div class="panel__bottom">
                       <div class="products__price">41 400 ₽</div>
                     </div>
                   </div>
                 </a>
                 <a href="#" class="products__item panel panel--white panel--shadow-yellow products__item--1с">
                   <div class="panel__content">
-                    <div class="products__top">
+                    <div class="panel__top">
                       <div class="products__title products__title--wrap">1С: Предприятие 8. Клиентская лицензия на 10 рабочих мест (USB)</div>
                     </div>
-                    <div class="products__bottom">
+                    <div class="panel__bottom">
                       <div class="products__price">51 900 ₽</div>
                     </div>
                   </div>
@@ -345,11 +345,11 @@
                 <div class="products products--small swiper-wrapper">
                   <a href="#" class="swiper-slide products__item panel panel--yellow products__item--1с">
                     <div class="panel__content">
-                      <div class="products__top">
+                      <div class="panel__top">
                         <div class="products__title">Лицензия на сервер MS SQL Server Standard 2019 Runtime для пользователей 1С: Предприятие 8</div>
                         <div class="products__price hide-md-down">18 660 ₽</div>
                       </div>
-                      <div class="products__bottom">
+                      <div class="panel__bottom">
                         <div class="bottom__block">
                           <div class="products__link">Электронная поставка</div>
                                               <div class="products__price hide-md-up">18 660 ₽</div>
@@ -359,11 +359,11 @@
                   </a>
                   <a href="#" class="swiper-slide products__item panel products__item--1с">
                     <div class="panel__content">
-                      <div class="products__top">
+                      <div class="panel__top">
                         <div class="products__title">Клиентский доступ на 1 рабочее место к MS SQL Server 2019 Runtime для 1С: Предприятие 8</div>
                         <div class="products__price hide-md-down">9 450 ₽</div>
                       </div>
-                      <div class="products__bottom">
+                      <div class="panel__bottom">
                         <div class="bottom__block">
                           <div class="products__link">Электронная поставка</div>
                           <div class="products__price hide-md-up">9 450 ₽</div>
@@ -373,11 +373,11 @@
                   </a>
                   <a href="#" class="swiper-slide products__item panel products__item--1с">
                     <div class="panel__content">
-                      <div class="products__top">
+                      <div class="panel__top">
                         <div class="products__title">Клиентский доступ на 5 рабочих мест к MS SQL Server 2019 Runtime для 1С: Предприятие 8</div>
                         <div class="products__price hide-md-down">47 250 ₽</div>
                       </div>
-                      <div class="products__bottom">
+                      <div class="panel__bottom">
                         <div class="bottom__block">
                           <div class="products__link">Электронная поставка</div>
                           <div class="products__price hide-md-up">47 250 ₽</div>
@@ -387,11 +387,11 @@
                   </a>
                   <a href="#" class="swiper-slide products__item panel panel--yellow products__item--1с">
                     <div class="panel__content">
-                      <div class="products__top">
+                      <div class="panel__top">
                         <div class="products__title">Клиентский доступ на 10 рабочих мест к MS SQL Server 2019 Runtime для 1С: Предприятие 8</div>
                         <div class="products__price hide-md-down">94 500 ₽</div>
                       </div>
-                      <div class="products__bottom">
+                      <div class="panel__bottom">
                         <div class="bottom__block">
                           <div class="products__link">Электронная поставка</div>
                           <div class="products__price hide-md-up">94 500 ₽</div>

@@ -267,48 +267,6 @@ img {
       box-shadow: none;
     }
   }
-  @each $name, $color in $color-list {
-    &--decoration-#{$name} .panel__head::before { border-top-color: var(--color-#{$name}) }
-  }
-  &--decoration-reverse {
-    --tab-width-rev: 225px;
-    overflow: hidden;
-    @include media-down($screen-md) {
-      --tab-width-rev: 25px;
-    }
-    &:hover,
-    &.panel--active {
-      /*.panel__head::before {
-        transform: scale(2.5, 6.5) translate(25%, 40%);
-        z-index: 0;
-        @include media-down($screen-md) {
-          //transform: scale(3, 12) translate(25%, 40%);
-        }
-
-      }
-      .panel__head::after {
-        opacity: 0;
-        transition-delay: 0s;
-      }*/
-    }
-    .panel__head {
-      &::before {
-        margin-right: var(--tab-width-rev);
-        margin-left: 0;
-        transition-duration: var(--animation-duration);
-      }
-      &::after {
-        left: 0;
-        right: calc(var(--tab-width-rev) - 1px);
-        transition-delay: var(--animation-duration);
-      }
-      &::after,
-      &::before {
-        border-right: calc(var(--head-height) / 2) solid transparent;
-        border-left: unset;
-      }
-    }
-  }
   &__head {
     height: var(--head-height);
     --tab-width: 100px;
@@ -345,6 +303,27 @@ img {
       &--#{$name}::before { border-top-color: var(--color-#{$name}) }
     }
     &--black::before { border-top-color: var(--color-black) }
+    &--reverse {
+      --tab-width-rev: 225px;
+      @include media-down($screen-md) {
+        --tab-width-rev: 25px;
+      }
+      &::before {
+        margin-right: var(--tab-width-rev);
+        margin-left: 0;
+        transition-duration: var(--animation-duration);
+      }
+      &::after {
+        left: 0;
+        right: calc(var(--tab-width-rev) - 1px);
+        transition-delay: var(--animation-duration);
+      }
+      &::after,
+      &::before {
+        border-right: calc(var(--head-height) / 2) solid transparent;
+        border-left: unset;
+      }
+    }
   }
   &__head-icon {
     position: absolute;
@@ -432,17 +411,40 @@ img {
       }
     }
   }
-  &__top {
+  &__top,
+  &__bottom {
     display: flex;
     justify-content: space-between;
-    gap: 12px;
+    gap: 16px;
+  }
+  &__top {
+    @include media-down($screen-md) {
+      flex-wrap: wrap;
+    }
+    @include media-down($screen-md) {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    & + .panel__bottom {
+      margin-top: auto;
+      @include media-up($screen-md) {
+        flex-wrap: nowrap;
+      }
+    }
     .panel__image {
       position: initial;
     }
   }
   &__bottom {
-    &:not(:first-child):last-child {
-      margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 16px;
+    .panel__link + .products__price {
+      margin-top: 8px;
+      &:not(:first-child):last-child {
+        margin-top: auto;
+      }
     }
   }
   &__close {

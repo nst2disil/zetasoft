@@ -374,82 +374,6 @@ img {
 .panel--clickable:hover {
   box-shadow: none;
 }
-.panel--decoration-red .panel__head::before {
-  border-top-color: var(--color-red);
-}
-.panel--decoration-orange .panel__head::before {
-  border-top-color: var(--color-orange);
-}
-.panel--decoration-yellow .panel__head::before {
-  border-top-color: var(--color-yellow);
-}
-.panel--decoration-green .panel__head::before {
-  border-top-color: var(--color-green);
-}
-.panel--decoration-cyan .panel__head::before {
-  border-top-color: var(--color-cyan);
-}
-.panel--decoration-blue .panel__head::before {
-  border-top-color: var(--color-blue);
-}
-.panel--decoration-purple .panel__head::before {
-  border-top-color: var(--color-purple);
-}
-.panel--decoration-pink .panel__head::before {
-  border-top-color: var(--color-pink);
-}
-.panel--decoration-brown .panel__head::before {
-  border-top-color: var(--color-brown);
-}
-.panel--decoration-grey .panel__head::before {
-  border-top-color: var(--color-grey);
-}
-.panel--decoration-black .panel__head::before {
-  border-top-color: var(--color-black);
-}
-.panel--decoration-yellow-1c .panel__head::before {
-  border-top-color: var(--color-yellow-1c);
-}
-.panel--decoration-white .panel__head::before {
-  border-top-color: var(--color-white);
-}
-.panel--decoration-reverse {
-  --tab-width-rev: 225px;
-  overflow: hidden;
-}
-@media screen and (max-width: 879px) {
-  .panel--decoration-reverse {
-    --tab-width-rev: 25px;
-  }
-}
-.panel--decoration-reverse:hover, .panel--decoration-reverse.panel--active {
-  /*.panel__head::before {
-    transform: scale(2.5, 6.5) translate(25%, 40%);
-    z-index: 0;
-    @include media-down($screen-md) {
-      //transform: scale(3, 12) translate(25%, 40%);
-    }
-
-  }
-  .panel__head::after {
-    opacity: 0;
-    transition-delay: 0s;
-  }*/
-}
-.panel--decoration-reverse .panel__head::before {
-  margin-right: var(--tab-width-rev);
-  margin-left: 0;
-  transition-duration: var(--animation-duration);
-}
-.panel--decoration-reverse .panel__head::after {
-  left: 0;
-  right: calc(var(--tab-width-rev) - 1px);
-  transition-delay: var(--animation-duration);
-}
-.panel--decoration-reverse .panel__head::after, .panel--decoration-reverse .panel__head::before {
-  border-right: calc(var(--head-height) / 2) solid transparent;
-  border-left: unset;
-}
 .panel__head {
   height: var(--head-height);
   --tab-width: 100px;
@@ -526,6 +450,28 @@ img {
 }
 .panel__head--black::before {
   border-top-color: var(--color-black);
+}
+.panel__head--reverse {
+  --tab-width-rev: 225px;
+}
+@media screen and (max-width: 879px) {
+  .panel__head--reverse {
+    --tab-width-rev: 25px;
+  }
+}
+.panel__head--reverse::before {
+  margin-right: var(--tab-width-rev);
+  margin-left: 0;
+  transition-duration: var(--animation-duration);
+}
+.panel__head--reverse::after {
+  left: 0;
+  right: calc(var(--tab-width-rev) - 1px);
+  transition-delay: var(--animation-duration);
+}
+.panel__head--reverse::after, .panel__head--reverse::before {
+  border-right: calc(var(--head-height) / 2) solid transparent;
+  border-left: unset;
 }
 .panel__head-icon {
   position: absolute;
@@ -628,15 +574,43 @@ img {
     max-height: 40px;
   }
 }
-.panel__top {
+.panel__top, .panel__bottom {
   display: flex;
   justify-content: space-between;
-  gap: 12px;
+  gap: 16px;
+}
+@media screen and (max-width: 879px) {
+  .panel__top {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 879px) {
+  .panel__top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+.panel__top + .panel__bottom {
+  margin-top: auto;
+}
+@media screen and (min-width: 880px) {
+  .panel__top + .panel__bottom {
+    flex-wrap: nowrap;
+  }
 }
 .panel__top .panel__image {
   position: initial;
 }
-.panel__bottom:not(:first-child):last-child {
+.panel__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 16px;
+}
+.panel__bottom .panel__link + .products__price {
+  margin-top: 8px;
+}
+.panel__bottom .panel__link + .products__price:not(:first-child):last-child {
   margin-top: auto;
 }
 .panel__close {

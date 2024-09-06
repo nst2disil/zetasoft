@@ -170,12 +170,12 @@
           <div class="tariffs">
             <a href="#" class="products__item panel panel--white panel--no-shadow">
               <div class="panel__content">
-                <div class="products__top">
+                <div class="panel__top">
                   <div class="products__title">Промо</div>
                   <div class="products__price hide-md-down">Бесплатно</div>
                 </div>
                 <div class="products__text">В рамках тарифа «Промо» предоставляется доступ на 2 недели без ограничений.</div>
-                <div class="products__bottom hide-md-up">
+                <div class="panel__bottom hide-md-up">
                   <div class="products__price">Бесплатно</div>
                 </div>
                 <img src="https://placehold.co/58x16" alt="" class="panel__image">
@@ -183,12 +183,12 @@
             </a>
             <a href="#" class="products__item panel panel--white panel--no-shadow">
               <div class="panel__content">
-                <div class="products__top">
+                <div class="panel__top">
                   <div class="products__title">Ежедневный (списание в конце дня за каждый включённый веб-сервис)</div>
                   <div class="products__price hide-md-down">17 ₽/день</div>
                 </div>
                 <div class="products__text">В рамках тарифа предоставляется неограниченное количество запросов</div>
-                <div class="products__bottom hide-md-up">
+                <div class="panel__bottom hide-md-up">
                   <div class="products__price">17 ₽/день</div>
                 </div>
                 <img src="https://placehold.co/58x16" alt="" class="panel__image">
@@ -196,12 +196,12 @@
             </a>
             <a href="#" class="products__item panel panel--white panel--no-shadow">
               <div class="panel__content">
-                <div class="products__top">
+                <div class="panel__top">
                   <div class="products__title">Тариф A (списание раз в месяц в день активации тарифа)</div>
                   <div class="products__price hide-md-down">1 000 ₽/месяц</div>
                 </div>
                 <div class="products__text">В рамках тарифа предоставляется 1 500 запросов</div>
-                <div class="products__bottom hide-md-up">
+                <div class="panel__bottom hide-md-up">
                   <div class="products__price">1 000 ₽/месяц</div>
                 </div>
                 <img src="https://placehold.co/58x16" alt="" class="panel__image">
@@ -209,12 +209,12 @@
             </a>
             <a href="#" class="products__item panel panel--white panel--no-shadow">
               <div class="panel__content">
-                <div class="products__top">
+                <div class="panel__top">
                   <div class="products__title">Тариф B (списание раз в месяц в день активации тарифа)</div>
                   <div class="products__price hide-md-down">2 000 ₽/месяц</div>
                 </div>
                 <div class="products__text">В рамках тарифа предоставляется 5 000 запросов</div>
-                <div class="products__bottom hide-md-up">
+                <div class="panel__bottom hide-md-up">
                   <div class="products__price">2 000 ₽/месяц</div>
                 </div>
                 <img src="https://placehold.co/58x16" alt="" class="panel__image">
@@ -222,12 +222,12 @@
             </a>
             <a href="#" class="products__item panel panel--white panel--no-shadow">
               <div class="panel__content">
-                <div class="products__top">
+                <div class="panel__top">
                   <div class="products__title">Тариф С</div>
                   <div class="products__price hide-md-down">Индивидуальный расчёт</div>
                 </div>
                 <div class="products__text">В рамках тарифа «Промо» предоставляется доступ на 2 недели без ограничений.</div>
-                <div class="products__bottom hide-md-up">
+                <div class="panel__bottom hide-md-up">
                   <div class="products__price">Индивидуальный расчёт</div>
                 </div>
                 <img src="https://placehold.co/58x16" alt="" class="panel__image">

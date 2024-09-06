@@ -92,32 +92,6 @@
       gap: 8px;
     }
   }
-  &__top,
-  &__bottom {
-    display: flex;
-    justify-content: space-between;
-    gap: 16px;
-  }
-  &__top {
-    @include media-down($screen-md) {
-      flex-wrap: wrap;
-    }
-    @include media-down($screen-md) {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-    & + .products__bottom {
-      margin-top: auto;
-      @include media-up($screen-md) {
-        flex-wrap: nowrap;
-      }
-    }
-  }
-  &__bottom {
-    .panel__link + .products__price {
-      margin-top: 8px;
-    }
-  }
   &__title,
   &__name {
     font-size: 24px;
@@ -190,7 +164,7 @@
     //background-size: 39px 23px;
   }
   .panel__head {
-    .products__top {
+    .panel__top {
       position: absolute;
       width: 100%;
       top: 0;

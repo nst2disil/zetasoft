@@ -23,14 +23,14 @@
                 <div class="products__list js-products-list">
                   <div class="products__item panel panel--white">
                     <div class="panel__content">
-                      <div class="products__top">
+                      <div class="panel__top">
                         <div class="products__title">ERP 2.5 (УТ&nbsp;11.5, КА&nbsp;2.5). Модуль отправки чеков в&nbsp;АТОЛ</div>
                         <div class="products__status-info">
                           <div class="products__status products__status--active">Подключён</div>
                           <div class="products__date">Актуальная версия<br>1.3.2.0 от&nbsp;25.03.2023 г.</div>
                         </div>
                       </div>
-                      <div class="products__bottom">
+                      <div class="panel__bottom">
                         <div class="products__link-list">
                           <a href="#" class="products__link">Скачать</a>
                           <a href="#" class="products__link">База знаний</a>
@@ -43,14 +43,14 @@
                   </div>
                   <div class="products__item panel panel--white inactive">
                     <div class="panel__content">
-                      <div class="products__top">
+                      <div class="panel__top">
                         <div class="products__title">УПП 1.3. Модуль отправки чеков в&nbsp;АТОЛ</div>
                         <div class="products__status-info">
                           <div class="products__status products__status--inactive">Не подключен</div>
                         
                         </div>
                       </div>
-                      <div class="products__bottom">
+                      <div class="panel__bottom">
                         <div class="products__link-list">
                           <a href="#" class="products__link">База знаний</a>
                           <a href="#" class="products__link">История версий</a>
@@ -73,14 +73,14 @@
                 <div class="products__list js-products-list">
                   <div class="products__item panel panel--white">
                     <div class="panel__content">
-                      <div class="products__top">
+                      <div class="panel__top">
                         <div class="products__title">ERP 2.5 (УТ&nbsp;11.5, КА&nbsp;2.5). Модуль отправки чеков в&nbsp;АТОЛ</div>
                         <div class="products__status-info">
                           <div class="products__status products__status--active">Подключён</div>
                           <div class="products__date">Актуальная версия<br>1.3.2.0 от&nbsp;25.03.2023 г.</div>
                         </div>
                       </div>
-                      <div class="products__bottom">
+                      <div class="panel__bottom">
                         <div class="products__link-list">
                           <a href="#" class="products__link">Скачать</a>
                           <a href="#" class="products__link">База знаний</a>
@@ -93,14 +93,14 @@
                   </div>
                   <div class="products__item panel panel--white inactive">
                     <div class="panel__content">
-                      <div class="products__top">
+                      <div class="panel__top">
                         <div class="products__title">УПП 1.3. Модуль отправки чеков в&nbsp;АТОЛ</div>
                         <div class="products__status-info">
                           <div class="products__status products__status--inactive">Не подключен</div>
                         
                         </div>
                       </div>
-                      <div class="products__bottom">
+                      <div class="panel__bottom">
                         <div class="products__link-list">
                           <a href="#" class="products__link">База знаний</a>
                           <a href="#" class="products__link">История версий</a>

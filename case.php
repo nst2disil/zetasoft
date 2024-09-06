@@ -107,8 +107,8 @@
           <h2 class="section__title">Посмотрите другие кейсы</h2>
           <div class="swiper" data-swiper-id="cases">
             <div class="cases js-cases swiper-wrapper">
-              <a href="./cases.html" class="swiper-slide cases__item panel panel--decoration-green" data-case-category="green">
-                <div class="panel__head">
+              <a href="./cases.html" class="swiper-slide cases__item panel" data-case-category="green">
+                <div class="panel__head panel__head--green">
                 <img src="./i/panel-zeta.svg" alt="zeta logo" class="case__image">
                 </div>
                 <div class="panel__content case">
@@ -116,8 +116,8 @@
                   <div class="case__text">Подсистема предназначена для компаний, работающих в&nbsp;1С и использующих онлайн-кассы АТОЛ Онлайн</div>
                 </div>
               </a>
-              <a href="./cases.html" class="swiper-slide cases__item panel panel--decoration-blue" data-case-category="blue">
-                <div class="panel__head">
+              <a href="./cases.html" class="swiper-slide cases__item panel" data-case-category="blue">
+                <div class="panel__head panel__head--blue">
                 <img src="./i/panel-zeta.svg" alt="zeta logo" class="case__image">
                 </div>
                 <div class="panel__content case">
@@ -125,8 +125,8 @@
                   <div class="case__text">Подсистема предназначена для компаний, работающих в&nbsp;1С и использующих онлайн-кассы АТОЛ Онлайн</div>
                 </div>
               </a>
-              <a href="./cases.html" class="swiper-slide cases__item panel panel--decoration-blue" data-case-category="blue">
-                <div class="panel__head">
+              <a href="./cases.html" class="swiper-slide cases__item panel" data-case-category="blue">
+                <div class="panel__head panel__head--blue">
                 <img src="./i/panel-1c.svg" alt="zeta logo" class="case__image">
                 </div>
                 <div class="panel__content case">
