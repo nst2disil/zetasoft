@@ -54,9 +54,6 @@
               <div class="panel panel--red">
                 <div class="panel__content">Панель цветная</div>
               </div>
-              <div class="panel panel--black">
-                <div class="panel__content">Панель черная</div>
-              </div>
               <div class="panel">
                 <div class="panel__head panel__head--red"></div>
                 <div class="panel__content">Панель с шапкой</div>
@@ -69,44 +66,45 @@
                 <div class="panel__head panel__head--red"></div>
                 <div class="panel__content">Панель по меньше!!!</div>
               </div>
-              <div class="panel">
-                <div class="panel__head panel__head--red"></div>
-                <div class="panel__content">
-                  <div class="panel__top">
-                    <div class="panel__title">Заголовок панели</div>
-                    <img src="./i/anchor-car.svg" alt="" class="panel__image">
-                  </div>
-                  <div class="panel__text">Текст панели</div>
-                </div>
-              </div>
-              <div class="panel">
-                <div class="panel__head panel__head--red"></div>
-                <div class="panel__content">
-                  <div class="panel__top">
-                    <div class="panel__title">Заголовок панели</div>
-                    <img src="./i/anchor-car.svg" alt="" class="panel__image">
-                  </div>
-                  <div class="panel__text">Текст панели</div>
-                </div>
-              </div>
               <div class="panel panel--shadow-yellow">
-                    <div class="panel__head panel__head--yellow panel__head--reverse">
-                      <div class="panel__top">
-                        <div class="products__name products__name--red">Карточка кейса</div>
-                        <div class="products__price hide-md-down">От 132 000 ₽</div>
-                      </div>
+                <div class="panel__head panel__head--yellow panel__head--reverse">
+                  <div class="panel__top">
+                    <div class="products__name products__name--red">Карточка кейса</div>
+                    <div class="products__price hide-md-down">От 132 000 ₽</div>
+                  </div>
+                </div>
+                <div class="panel__content">
+                  <div class="products__text">Текст решили подгонять таким образом, чтолы он вписывался в карточку, на эскизе было две строки, поэтому тут тоже две</div>
+                  <div class="panel__bottom">
+                    <div class="bottom__block">
+                      <a href="#" class="panel__link">Подробнее</a>
+                      <div class="products__price hide-md-up">От 132 000 ₽</div>
                     </div>
-                    <div class="panel__content">
-                      <div class="products__text">Текст решили подгонять таким образом, чтолы он вписывался в карточку, на эскизе было две строки, поэтому тут тоже две</div>
-                      <div class="panel__bottom">
-                        <div class="bottom__block">
-                          <a href="#" class="panel__link">Подробнее</a>
-                          <div class="products__price hide-md-up">От 132 000 ₽</div>
-                        </div>
-                        <img src="https://placehold.co/60x60" alt="" class="products__image">
-                      </div>
+                    <img src="https://placehold.co/60x60" alt="" class="products__image">
+                  </div>
+                </div>
+              </div>
+              <div class="panel products--methodics">
+                <div class="panel__content">
+                  <div class="panel__top">
+                    <div class="products__name">Панель методики</div>
+                    <div class="products__price hide-md-down">От 50 000 ₽</div>
+                  </div>
+                  <div class="products__text">Текст решили подгонять таким образом, чтолы он вписывался в карточку, на эскизе было две строки, поэтому тут тоже две</div>
+                  <div class="panel__bottom">
+                    <div class="bottom__block">
+                      <a href="#" class="panel__link">Подробнее</a>
+                      <div class="products__price hide-md-up">От 50 000 ₽</div>
                     </div>
                   </div>
+                </div>
+              </div>
+              <div class="panel">
+                <div class="panel__content cols">
+                  <div class="cols__item">Непонятно зачем она вообще существует, но на сайте есть пара мест использования</div>
+                  <div class="cols__item">Встречайте, знаменитая панелька с двумя колонками!</div>
+                </div>
+              </div>
             </div>
             <div class="anchor" id="buttons"><!--Пункт назначения якоря--></div>
             <div class="demo__buttons">
@@ -129,6 +127,53 @@
                   &lt;div class=&quot;modal&quot; id=&quot;contact-form&quot;&gt;&lt;/div&gt;
                 </pre>
               </p>
+            </div>
+            <div class="demo__items">
+              <div class="block-group block-group--2">
+                <div class="block-group__item panel panel--no-shadow">
+                  <div class="panel__content">Блок 1 из 2</div>
+                  <img src="./i/032-data visualization.svg" alt="иллюстрация" class="panel__image">
+                </div>
+                <div class="block-group__item panel panel--black panel--no-shadow">
+                  <div class="panel__content">Блок 2 из 2</div>
+                  <img src="./i/016-effective.svg" alt="иллюстрация" class="panel__image">
+                </div>
+              </div>
+              <div class="block-group block-group--3">
+                <div class="block-group__item panel panel--no-shadow">
+                  <div class="panel__content">Блок 1 из 3</div>
+                  <img src="./i/032-data visualization.svg" alt="иллюстрация" class="panel__image">
+                </div>
+                <div class="block-group__item panel panel--black panel--no-shadow">
+                  <div class="panel__content">Блок 2 из 3</div>
+                  <img src="./i/016-effective.svg" alt="иллюстрация" class="panel__image">
+                </div>
+                <a class="block-group__item panel panel--cyan" href="./services.html#big-business">
+                  <div class="panel__content">
+                    <div class="">Очень большой блок (с сылкой)</div>
+                    <div class="panel__link">Подробнее</div>
+                    <img src="./i/025-structured data.svg" alt="иллюстрация" class="panel__image">
+                  </div>
+                </a>
+              </div>
+              <div class="block-group block-group--4">
+                <div class="block-group__item panel panel--no-shadow">
+                  <div class="panel__content">Аналогичная история, только про 4 блока</div>
+                  <img src="./i/032-data visualization.svg" alt="иллюстрация" class="panel__image">
+                </div>
+                <div class="block-group__item panel panel--green panel--no-shadow">
+                  <div class="panel__content">Блок 2 из 4</div>
+                  <img src="./i/016-effective.svg" alt="иллюстрация" class="panel__image">
+                </div>
+                <div class="block-group__item panel panel--red panel--no-shadow">
+                  <div class="panel__content">Блок 3 из 4</div>
+                  <img src="./i/016-effective.svg" alt="иллюстрация" class="panel__image">
+                </div>
+                <div class="block-group__item panel panel--yellow panel--no-shadow">
+                  <div class="panel__content">Блок 4 из 4</div>
+                  <img src="./i/016-effective.svg" alt="иллюстрация" class="panel__image">
+                </div>
+              </div>
             </div>
           </div>
 

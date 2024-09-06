@@ -324,6 +324,20 @@ img {
         border-left: unset;
       }
     }
+    .panel__top {
+      position: absolute;
+      width: 100%;
+      top: 0;
+      height: calc(var(--head-height) - 1px);
+      z-index: 1;
+      align-items: center;
+      padding-left: var(--panel-content-padding);
+      padding-right: var(--panel-content-padding);
+        @include media-down($screen-md) {
+          justify-content: center;
+          align-items: flex-start;
+        }
+    }
   }
   &__head-icon {
     position: absolute;
@@ -893,6 +907,9 @@ ul.ul {
         grid-row: span 2;
       }
     }
+  }
+  &--4 {
+    grid-template-rows: repeat(2, minmax(128px, auto));
   }
   .block-group__item {
     min-height: 216px;

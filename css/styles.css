@@ -473,6 +473,22 @@ img {
   border-right: calc(var(--head-height) / 2) solid transparent;
   border-left: unset;
 }
+.panel__head .panel__top {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  height: calc(var(--head-height) - 1px);
+  z-index: 1;
+  align-items: center;
+  padding-left: var(--panel-content-padding);
+  padding-right: var(--panel-content-padding);
+}
+@media screen and (max-width: 879px) {
+  .panel__head .panel__top {
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
 .panel__head-icon {
   position: absolute;
   --offset: 24px;
@@ -1188,6 +1204,9 @@ ul.ul li::before {
 }
 .block-group--3 .block-group__item:nth-child(3) {
   grid-row: span 2;
+}
+.block-group--4 {
+  grid-template-rows: repeat(2, minmax(128px, auto));
 }
 .block-group .block-group__item {
   min-height: 216px;

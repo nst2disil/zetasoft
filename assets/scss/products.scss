@@ -163,22 +163,6 @@
     //background: url('../i/panel-1c.svg') right var(--panel-content-padding) bottom var(--panel-content-padding) no-repeat;
     //background-size: 39px 23px;
   }
-  .panel__head {
-    .panel__top {
-      position: absolute;
-      width: 100%;
-      top: 0;
-      height: calc(var(--head-height) - 1px);
-      z-index: 1;
-      align-items: center;
-      padding-left: var(--panel-content-padding);
-      padding-right: var(--panel-content-padding);
-        @include media-down($screen-md) {
-          justify-content: center;
-          align-items: flex-start;
-        }
-    }
-  }
   .bottom__block {
     width: 100%;
     margin-top: 24px;
