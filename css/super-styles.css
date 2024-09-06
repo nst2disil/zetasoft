@@ -488,7 +488,8 @@ a:hover > .icon.icon--black,
 }
 
 .anchors {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   align-items: stretch;
   gap: 22px;
   margin-top: auto;
@@ -3468,7 +3469,8 @@ ul.ul li::before {
 }
 
 .anchors {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   align-items: stretch;
   gap: 22px;
   margin-top: auto;
@@ -4963,7 +4965,8 @@ ul.ul li::before {
 }
 
 .anchors {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   align-items: stretch;
   gap: 22px;
   margin-top: auto;

@@ -1,6 +1,7 @@
 @charset "UTF-8";
 .anchors {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   align-items: stretch;
   gap: 22px;
   margin-top: auto;
