@@ -21,7 +21,7 @@
 }
 
 a:hover > .icon,
-.button--link:hover > .icon,
+.button:hover > .icon,
 .icon:hover {
   background-color: var(--color-yellow);
 }
@@ -31,7 +31,7 @@ a:hover > .icon,
 }
 
 a:hover > .icon.icon--black,
-.button--link:hover > .icon.icon--black,
+.button:hover > .icon.icon--black,
 .icon.icon--black:hover {
   background-color: var(--color-white, #fff);
 }

@@ -6,7 +6,7 @@ function initToolToggler() {
       const toolItem = toggler.closest('.js-tool-item');
       const toolPanel = toolItem.querySelector('.js-tool-panel');
       const isOpen = toolPanel.classList.contains('tools__panel--active');
-      
+
       // Закрываем панель, если она уже открыта, иначе открываем
       if (isOpen) {
         toolPanel.classList.remove('tools__panel--active');
@@ -18,7 +18,7 @@ function initToolToggler() {
         });
         toolPanel.classList.add('tools__panel--active');
       }
-      
+
       event.stopPropagation();
     });
   });
@@ -45,9 +45,9 @@ function initToolToggler() {
 function removeOpenClassFromModals() {
   const modals = document.querySelectorAll('.modal.open');
   if (modals.length > 0) {
-      modals.forEach(modal => {
-          modal.classList.remove('open');
-      });
+    modals.forEach(modal => {
+      modal.classList.remove('open');
+    });
   }
 }
 
@@ -92,7 +92,7 @@ function filterCaseByCategory(categorySlug) {
   const currentFilterButton = document.querySelector(`[data-case-category="${categorySlug}"]`);
   buttons.forEach((button) => {
     if (button !== currentFilterButton) {
-        button.classList.remove('button--active');
+      button.classList.remove('button--active');
     }
   });
   if (currentFilterButton.classList.contains('button--active') || !categorySlug) {
@@ -112,11 +112,11 @@ function filterCaseByCategory(categorySlug) {
 
 function initCases() {
   const handleClick = (event) => {
-      const category = event.target.getAttribute('data-case-category');
-      filterCaseByCategory(category);
+    const category = event.target.getAttribute('data-case-category');
+    filterCaseByCategory(category);
   };
   document.querySelectorAll('.js-case-category').forEach((button) => {
-      button.addEventListener('click', handleClick);
+    button.addEventListener('click', handleClick);
   });
   const hash = window.location.hash;
   if (hash.includes('#filter-by-')) {
@@ -127,7 +127,7 @@ function initCases() {
 
 function initDashboardToggleds() {
   const jsCheckboxes = document.querySelectorAll(".js-toggle-show-active");
-  
+
   jsCheckboxes.forEach(function (checkbox) {
     const productsList = checkbox.closest(".js-products-block").querySelector(".js-products-list");
 
@@ -147,18 +147,18 @@ function initCustomSelect(customSelect) {
   const selectedOption = customSelect.querySelector('.js-custom-select__selected-option');
   const optionsContainer = customSelect.querySelector('.js-custom-select__options-container');
 
-  selectBox.addEventListener('click', function() {
+  selectBox.addEventListener('click', function () {
     customSelect.classList.toggle('custom-select--is-open');
   });
 
-  optionsContainer.addEventListener('click', function(e) {
+  optionsContainer.addEventListener('click', function (e) {
     if (e.target.classList.contains('js-custom-select__option')) {
       selectedOption.textContent = e.target.textContent;
       customSelect.classList.remove('custom-select--is-open');
     }
   });
 
-  document.addEventListener('click', function(e) {
+  document.addEventListener('click', function (e) {
     if (!customSelect.contains(e.target) && !optionsContainer.contains(e.target)) {
       customSelect.classList.remove('custom-select--is-open');
     }
@@ -187,11 +187,11 @@ function initSwiper(slug) {
   if (window.innerWidth <= 880) {
     if (!SWIPERS[slug].init) {
       SWIPERS[slug].init = true;
-      SWIPERS[slug].swiperNativeEl = new Swiper(`[data-swiper-id="${slug}"]`, {...defaultSwiperOptions, ...SWIPERS[slug].config});
+      SWIPERS[slug].swiperNativeEl = new Swiper(`[data-swiper-id="${slug}"]`, { ...defaultSwiperOptions, ...SWIPERS[slug].config });
     }
   } else if (SWIPERS[slug].init) {
     SWIPERS[slug].swiperNativeEl.destroy();
-    SWIPERS[slug].init  = false;
+    SWIPERS[slug].init = false;
   }
 }
 
@@ -260,7 +260,7 @@ function initFancybox() {
         right: ["close"],
       },
     },
-  }); 
+  });
 }
 
 function initServiceTabs() {
@@ -308,6 +308,16 @@ function initServiceTabs() {
   });
 }
 
+function initDemo() {
+    const button = document.querySelector('.js-demo-active-button');
+
+    if (button) {
+      button.addEventListener('click', function () {
+        button.classList.toggle('button--active');
+      });
+    }
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   initToolToggler();
   ininPopups();
@@ -319,6 +329,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initFormValidator();
   initFancybox();
   initServiceTabs();
+  initDemo();
 });
 
 window.addEventListener('resize', () => {

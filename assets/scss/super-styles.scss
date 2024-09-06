@@ -27,3 +27,26 @@
 .hidden {
   display: none;
 }
+
+.demo {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 40px;
+  &__panels {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    align-items: start;
+  }
+  &__items {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  &__buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+  }
+}

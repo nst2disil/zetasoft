@@ -34,10 +34,11 @@
     border: unset !important;
     box-sizing: unset !important;
     box-shadow: none;
-  }
-  &--link {
     color: inherit;
     background: none;
+    &:hover {
+      text-decoration: underline;
+    }
   }
   &--dot {
     &::before {
