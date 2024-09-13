@@ -84,6 +84,34 @@
                   </div>
                 </div>
               </div>
+              <a href="#serviceDetail" class="panel panel--compact panel--shadow-black" data-tab-id="service1c1">
+                <div class="panel__head panel__head--yellow panel__head--reverse">
+                  <div class="panel__top">
+                    <div class="products__title">Длинное название карточки</div>
+                    <div class="products__price hide-md-down">13 000 ₽</div>
+                  </div>
+                </div>
+                <div class="panel__content">
+                  <div class="products__text">Карточка-ссылка без кнопки подробнее, и с картинкой справа. Шапка реверснута, цена на месте и выводится адаптивно</div>
+                  <div class="panel__bottom hide-md-up">
+                    <div class="bottom__block">
+                      <div class="products__price">13 000 ₽</div>
+                    </div>
+                  </div>
+                  <img src="https://placehold.co/60x60" alt="" class="products__image">
+                </div>
+              </a>
+              <a href="#serviceDetail" class="panel panel--compact panel--no-price panel--shadow-black" data-tab-id="service1c1">
+                <div class="panel__head panel__head--yellow panel__head--reverse">
+                  <div class="panel__top">
+                    <div class="products__title">Короткое</div>
+                  </div>
+                </div>
+                <div class="panel__content">
+                  <div class="products__text">Карточка-ссылка без кнопки подробнее и без цены, и с картинкой побольше справа. Шапка реверснута, цена на месте и выводится адаптивно</div>
+                  <img src="https://placehold.co/80x80" alt="" class="products__image">
+                </div>
+              </a>
               <div class="panel products--methodics">
                 <div class="panel__content">
                   <div class="panel__top">
@@ -208,6 +236,10 @@
                 <p class="mt-12 mb-12">Классы <code>.mt-12</code> и <code>.mb-12</code> устанавливают отступы в 12 пикселей сверху и снизу соответственно.</p>
                 <p class="mt-18 mb-18">Классы <code>.mt-18</code> и <code>.mb-18</code> устанавливают отступы в 18 пикселей сверху и снизу соответственно.</p>
                 <p class="mt-24 mb-24">Классы <code>.mt-24</code> и <code>.mb-24</code> устанавливают отступы в 24 пикселя сверху и снизу соответственно.</p>
+                <p class="mt-32 mb-32">Классы <code>.mt-32</code> и <code>.mb-32</code> устанавливают отступы в 32 пикселя сверху и снизу соответственно.</p>
+                <p class="mt-48 mb-48">Классы <code>.mt-48</code> и <code>.mb-48</code> устанавливают отступы в 48 пикселей сверху и снизу соответственно.</p>
+                <p class="mt-64 mb-64">Классы <code>.mt-64</code> и <code>.mb-64</code> устанавливают отступы в 64 пикселя сверху и снизу соответственно.</p>
+              </section>
               </section>
               <h2 class="section__title">
                 Заголовок с ссылкой
@@ -228,6 +260,7 @@
                 <p class="fs-20">Класс <code>.fs-20</code> устанавливает размер шрифта 20 пикселей.</p>
                 <p class="fs-24">Класс <code>.fs-24</code> устанавливает размер шрифта 24 пикселя.</p>
                 <p class="fs-32">Класс <code>.fs-32</code> устанавливает размер шрифта 32 пикселя.</p>
+                
               </section>
             </div>
           </div>

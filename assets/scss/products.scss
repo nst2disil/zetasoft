@@ -191,21 +191,8 @@
 
   .products--1c {
     grid-auto-rows: auto;
-    .panel__content {
-      gap: 16px;
-      padding: 16px var(--panel-content-padding);
-    }
     .products__item {
       min-height: unset;
-      height: auto;
-    }
-    .products__text {
-      padding-right: 70px;
-    }
-    .products__image {
-      position: absolute;
-      right: var(--panel-content-padding);
-      bottom: var(--panel-content-padding);
     }
   }
 }

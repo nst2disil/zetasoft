@@ -495,6 +495,36 @@ img {
     padding: 16px;
     font-size: 14px;
   }
+  &--compact {
+    grid-auto-rows: auto;
+    min-height: unset;
+    .panel__content {
+      gap: 16px;
+      padding: 16px var(--panel-content-padding);
+    }
+    .products__item {
+      min-height: unset;
+      height: auto;
+    }
+    .products__text {
+      padding-right: 70px;
+    }
+    .products__image {
+      position: absolute;
+      right: var(--panel-content-padding);
+      bottom: 16px;
+    }
+  }
+  
+  &--no-price {
+    .products__text {
+      padding-right: 90px;
+    }
+    .products__image {
+      max-height: 80px;
+      max-width: 80px;
+    }
+  }
 }
 
 a.panel:hover {
