@@ -1,5 +1,5 @@
 <?php
-$files = ['reg.php', 'index.php', 'services.php', 'services1c.php', 'products.php', 'product.php', 'products1c.php', 'products1c2.php', 'competitions.php', 'cases.php', 'case.php', 'case-customer.php', 'blog.php', 'blog-item.php', 'contacts.php', 'about.php', 'vacancy.php', 'vacancies.php', 'dashboard.php'];
+$files = ['reg.php', 'demo.php', 'index.php', 'services.php', 'services1c.php', 'products.php', 'product.php', 'products1c.php', 'products1c2.php', 'competitions.php', 'cases.php', 'case.php', 'case-customer.php', 'blog.php', 'blog-item.php', 'contacts.php', 'about.php', 'vacancy.php', 'vacancies.php', 'dashboard.php'];
 
 foreach ($files as $phpFile) {
     if (file_exists($phpFile)) {
