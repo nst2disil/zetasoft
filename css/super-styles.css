@@ -2265,6 +2265,9 @@ ul.ul li::before {
 .block-group--3 .block-group__item:nth-child(3) {
   grid-row: span 2;
 }
+.block-group--4 {
+  grid-template-rows: repeat(2, minmax(128px, auto));
+}
 .block-group .block-group__item {
   min-height: 216px;
 }
@@ -3042,11 +3045,38 @@ ul.ul li::before {
     font-size: 32px;
   }
 }
-.section--case-item .section__title {
+
+.section__title {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 24px;
+}
+
+.section__title[data-counter] {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+.section__title[data-counter]::after {
+  content: attr(data-counter);
+  --square: 64px;
+  line-height: var(--square);
+  width: var(--square);
+  height: var(--square);
+  flex: 0 0 var(--square);
+  text-align: center;
+  font-family: "Quantico", sans-serif;
+  color: var(--color-black);
+  background-color: var(--color-yellow);
+  font-size: 40px;
+}
+@media screen and (max-width: 1439px) {
+  .section__title[data-counter]::after {
+    --square: 48px;
+    font-size: 32px;
+  }
 }
 
 .section--black .section__title::after {
@@ -5650,4 +5680,132 @@ ul.ul li::before {
   display: flex;
   flex-wrap: wrap;
   gap: 18px;
+}
+
+.fl {
+  float: left;
+  margin-right: 10px;
+}
+
+.fr {
+  float: right;
+  margin-left: 10px;
+}
+
+.tal {
+  text-align: left;
+}
+
+.tac {
+  text-align: center;
+}
+
+.tar {
+  text-align: right;
+}
+
+p {
+  margin: 1em 0;
+}
+
+/* Классы для отступов сверху */
+.mt-0 {
+  margin-top: 0;
+}
+
+.mt-6 {
+  margin-top: 6px;
+}
+
+.mt-12 {
+  margin-top: 12px;
+}
+
+.mt-18 {
+  margin-top: 18px;
+}
+
+.mt-24 {
+  margin-top: 24px;
+}
+
+.mt-32 {
+  margin-top: 32px;
+}
+
+.mt-48 {
+  margin-top: 48px;
+}
+
+.mt-64 {
+  margin-top: 64px;
+}
+
+/* Классы для отступов снизу */
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mb-6 {
+  margin-bottom: 6px;
+}
+
+.mb-12 {
+  margin-bottom: 12px;
+}
+
+.mb-18 {
+  margin-bottom: 18px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.mb-32 {
+  margin-bottom: 32px;
+}
+
+.mb-48 {
+  margin-bottom: 48px;
+}
+
+.mb-64 {
+  margin-bottom: 64px;
+}
+
+/* Классы для изменения размера шрифта */
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-24 {
+  font-size: 24px;
+}
+
+.fs-32 {
+  font-size: 32px;
+}
+
+.title-link {
+  text-wrap: nowrap;
+}
+.title-link:hover {
+  text-decoration: underline;
+}
+
+.blog__img {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+code {
+  display: inline-block;
+  background: rgba(0, 19, 255, 0.15);
+  padding: 2px 4px;
+  border-radius: 5px;
 }

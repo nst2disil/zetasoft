@@ -29,11 +29,11 @@
       </section>
       <section class="section section--case-item">
         <div class="wrapper">
-          <h2 class="section__title">Для кого</h2>
+          <h2 class="section__title" data-counter="1">Для кого</h2>
           <div class="text-wrapper">
             Подсистема предназначена для&nbsp;компаний, работающих в&nbsp;1С и&nbsp;использующих онлайн-кассы АТОЛ онлайн
           </div>
-          <h2 class="section__title">Задача</h2>
+          <h2 class="section__title" data-counter="2">Задача</h2>
           <div class="text-wrapper">
             С&nbsp;1&nbsp;июля 2019&nbsp;года необходимо пробивать несколько чеков в&nbsp;тех&nbsp;случаях, когда получение оплаты (предоплаты, аванса) и&nbsp;фактической отгрузки происходят не&nbsp;одновременно.
           </div>
