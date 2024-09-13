@@ -161,6 +161,7 @@ p {
 
 .title-link {
   text-wrap: nowrap;
+  margin-left: auto;
   &:hover {
     text-decoration: underline;
   }

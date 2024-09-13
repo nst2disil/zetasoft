@@ -269,6 +269,14 @@
       <section class="section section--black">
         <div class="wrapper">
           Секция черная
+          <p class="text-wrapper">
+            Блок с акцетом на тексте, имеет ограниченную ширину и спозиционирован по центру. Может быть <code>p</code> или <code>div</code>, разница только в автоматических отступах
+          </p>
+        </div>
+      </section>
+      <section class="section section--grey">
+        <div class="wrapper">
+          Секция серая
         </div>
       </section>
     </div>

@@ -14,7 +14,7 @@
             <h1 class="case-info__title section__title">
               1С и онлайн-кассы АТОЛ Онлайн
             </h1>
-            <div class="case-info__logos">
+            <div class="case-info__meta">
               <div class="case-info__logos-list">
                 <img src="./i/atol_logo.png" alt="atol logo">
                 <img src="./i/panel-1c.svg" alt="online test amico">
