@@ -263,12 +263,17 @@ function initFancybox() {
   });
 }
 
-function initServiceTabs() {
-  const togglerElements = document.querySelectorAll('.js-services1c-toggler');
-  const itemElements = document.querySelectorAll('.js-services1c-item');
-  const defaultTab = document.querySelector('.js-services1c-default');
+function initTabs() {
+  document.querySelectorAll('.js-tabs-wrapper').forEach(item => initTabsInWrapper(item));
+}
+
+function initTabsInWrapper(wrapper) {
+  const togglerElements = wrapper.querySelectorAll('[data-tabs-toggler-id]');
+  const itemElements = wrapper.querySelectorAll('[data-tabs-item-id]');
+  const defaultTab = wrapper.querySelector('[data-tabs-item-id="default"]');
 
   if (togglerElements.length === 0 || itemElements.length === 0 || !defaultTab) {
+    throw new Error(`Не созданы все необходимые элементы для табов в контейнере с классом .${wrapper.getAttribute('class').split(' ').join('.')}`);
     return;
   }
 
@@ -283,20 +288,20 @@ function initServiceTabs() {
 
   togglerElements.forEach(toggler => {
     toggler.addEventListener('click', () => {
-      const tabId = toggler.getAttribute('data-tab-id');
-      const isActive = toggler.classList.contains('panel--active');
+      const tabId = toggler.getAttribute('data-tabs-toggler-id');
+      const isActive = toggler.classList.contains('active');
 
-      togglerElements.forEach(el => el.classList.remove('panel--active'));
+      togglerElements.forEach(el => el.classList.remove('active'));
 
       if (isActive) {
         showDefaultTab();
         return;
       }
 
-      toggler.classList.add('panel--active');
+      toggler.classList.add('active');
 
       itemElements.forEach(item => {
-        if (item.getAttribute('data-tab-id') === tabId) {
+        if (item.getAttribute('data-tabs-item-id') === tabId) {
           item.classList.remove('hidden');
         } else {
           item.classList.add('hidden');
@@ -328,7 +333,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initInputsMask();
   initFormValidator();
   initFancybox();
-  initServiceTabs();
+  initTabs();
   initDemo();
 });
 

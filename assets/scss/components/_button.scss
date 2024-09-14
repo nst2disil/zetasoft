@@ -94,6 +94,9 @@
   &--active {
     box-shadow: none;
   }
+  &.active {
+    box-shadow: none;
+  }
   &--mobile-full-width {
     @include media-down($screen-md) {
       width: 100%;

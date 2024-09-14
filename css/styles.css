@@ -769,6 +769,10 @@ a.panel:hover .panel__link {
   text-decoration: none;
 }
 
+a.active {
+  box-shadow: none;
+}
+
 .button-panel {
   padding: 40px;
   display: flex;

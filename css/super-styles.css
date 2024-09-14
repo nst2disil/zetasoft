@@ -721,6 +721,9 @@ a:hover > .icon.icon--black,
 .button--active {
   box-shadow: none;
 }
+.button.active {
+  box-shadow: none;
+}
 @media screen and (max-width: 879px) {
   .button--mobile-full-width {
     width: 100%;
@@ -1827,6 +1830,10 @@ a.panel:hover {
 }
 a.panel:hover .panel__link {
   text-decoration: none;
+}
+
+a.active {
+  box-shadow: none;
 }
 
 .button-panel {
@@ -5284,7 +5291,7 @@ ul.ul li::before {
 }
 @media screen and (min-width: 880px) {
   .services1c__item {
-    min-height: 828px;
+    min-height: 808px;
   }
 }
 .services1c__top {
@@ -5726,6 +5733,9 @@ ul.ul li::before {
   display: flex;
   flex-wrap: wrap;
   gap: 18px;
+}
+.demo p {
+  line-height: 1.5em;
 }
 
 .fl {

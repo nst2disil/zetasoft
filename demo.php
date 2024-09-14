@@ -276,7 +276,21 @@
       </section>
       <section class="section section--grey">
         <div class="wrapper">
-          Секция серая
+          <h2 class="title">Серая секция с табами</h2>
+          <div class="demo js-tabs-wrapper">
+            <div class="demo__buttons">
+              <button class="button button--red" data-tabs-toggler-id="red">Желтая кнопка</button>
+              <button class="button button--yellow" data-tabs-toggler-id="yellow">Зеленая кнопка</button>
+              <button class="button button--green" data-tabs-toggler-id="green">Красная кнопка</button>
+            </div>
+            <div class="demo__tabs">
+              <div class="panel" data-tabs-item-id="default"><div class="panel__content">Чёрная панель</div></div>
+              <div class="panel panel--red" data-tabs-item-id="red"><div class="panel__content">Желтая панель</div></div>
+              <div class="panel panel--yellow" data-tabs-item-id="yellow"><div class="panel__content">Зеленая панель</div></div>
+              <div class="panel panel--green" data-tabs-item-id="green"><div class="panel__content">Красная панель</div></div>
+            </div>
+            <p>Тут секретов нет. Общему контейнеру с табами даём класс <code>.js-tabs-wrapper</code>, чтобы не мешать разные табы друг с другом. Всем переключателям даём аттрибут <code>data-tabs-toggler-id="айдишник таба"</code>, а всем табам даётм аттрибут <code>data-tabs-item-id="айдишник таба"</code>. Дефолтному табу всегда даём айдишник <code>data-tabs-item-id="default"</code></p>
+          </div>
         </div>
       </section>
     </div>

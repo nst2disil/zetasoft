@@ -189,7 +189,7 @@
 
 
                 <a href="#serviceDetail"
-                  class="swiper-slide js-services1c-toggler products__item products__item--1с panel panel--decoration-reverse panel--decoration-yellow panel--shadow-black"
+                  class="swiper-slide js-tabs-toggler products__item products__item--1с panel panel--decoration-reverse panel--decoration-yellow panel--shadow-black"
                   data-tab-id="service1c1">
                   <div class="panel__head">
                     <div class="products__top">
