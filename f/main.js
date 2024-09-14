@@ -272,7 +272,7 @@ function initTabsInWrapper(wrapper) {
   const itemElements = wrapper.querySelectorAll('[data-tabs-item-id]');
   const defaultTab = wrapper.querySelector('[data-tabs-item-id="default"]');
 
-  if (togglerElements.length === 0 || itemElements.length === 0 || !defaultTab) {
+  if (togglerElements.length === 0 || itemElements.length === 0) {
     throw new Error(`Не созданы все необходимые элементы для табов в контейнере с классом .${wrapper.getAttribute('class').split(' ').join('.')}`);
     return;
   }
@@ -281,7 +281,12 @@ function initTabsInWrapper(wrapper) {
 
   function showDefaultTab() {
     itemElements.forEach(item => item.classList.add('hidden'));
-    defaultTab.classList.remove('hidden');
+    if (!defaultTab) {
+      togglerElements[0].classList.add('active');
+      itemElements[0].classList.remove('hidden');
+    } else {
+      defaultTab.classList.remove('hidden');
+    }
   }
 
   showDefaultTab();
@@ -308,7 +313,7 @@ function initTabsInWrapper(wrapper) {
         }
       });
 
-      defaultTab.classList.add('hidden');
+      defaultTab && defaultTab.classList.add('hidden');
     });
   });
 }

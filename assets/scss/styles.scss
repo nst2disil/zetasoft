@@ -525,7 +525,14 @@ img {
     }
   }
 }
+button.panel {
+  cursor: pointer;
+  align-items: unset;
+  text-align: left;
+  font-family: inherit;
+}
 
+button.panel:hover,
 a.panel:hover {
   box-shadow: none;
   cursor: pointer;
@@ -533,7 +540,7 @@ a.panel:hover {
     text-decoration: none;
   }
 }
-
+button.active,
 a.active {
   box-shadow: none;
 }

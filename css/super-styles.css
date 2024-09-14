@@ -1824,14 +1824,24 @@ img {
   max-width: 80px;
 }
 
+button.panel {
+  cursor: pointer;
+  align-items: unset;
+  text-align: left;
+  font-family: inherit;
+}
+
+button.panel:hover,
 a.panel:hover {
   box-shadow: none;
   cursor: pointer;
 }
+button.panel:hover .panel__link,
 a.panel:hover .panel__link {
   text-decoration: none;
 }
 
+button.active,
 a.active {
   box-shadow: none;
 }
@@ -5291,7 +5301,7 @@ ul.ul li::before {
 }
 @media screen and (min-width: 880px) {
   .services1c__item {
-    min-height: 808px;
+    min-height: 828px;
   }
 }
 .services1c__top {
