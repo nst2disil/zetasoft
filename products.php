@@ -51,7 +51,7 @@
                       <div class="products__text">Текст решили подгонять таким образом, чтолы он вписывался в карточку, на эскизе было две строки, поэтому тут тоже две</div>
                       <div class="panel__bottom">
                         <div class="bottom__block">
-                          <a href="#" class="panel__link">Подробнее</a>
+                          <a href="./product.html" class="panel__link">Подробнее</a>
                           <div class="products__price hide-md-up">От 132 000 ₽</div>
                         </div>
                         <img src="https://placehold.co/60x60" alt="" class="products__image">
@@ -69,7 +69,7 @@
                       <div class="products__text">Текст решили подгонять таким образом, чтолы он вписывался в карточку, на эскизе было две строки, поэтому тут тоже две</div>
                       <div class="panel__bottom">
                         <div class="bottom__block">
-                          <a href="#" class="panel__link">Подробнее</a>
+                          <a href="./product.html" class="panel__link">Подробнее</a>
                           <div class="products__price hide-md-up">От 132 000 ₽</div>
                         </div>
                         <img src="https://placehold.co/60x60" alt="" class="products__image">
@@ -87,7 +87,7 @@
                       <div class="products__text">Текст решили подгонять таким образом, чтолы он вписывался в карточку, на эскизе было две строки, поэтому тут тоже две</div>
                       <div class="panel__bottom">
                         <div class="bottom__block">
-                          <a href="#" class="panel__link">Подробнее</a>
+                          <a href="./product.html" class="panel__link">Подробнее</a>
                           <div class="products__price hide-md-up">От 132 000 ₽</div>
                         </div>
                         <img src="https://placehold.co/60x60" alt="" class="products__image">
@@ -111,7 +111,7 @@
                       <div class="products__text">Текст решили подгонять таким образом, чтолы он вписывался в карточку, на эскизе было две строки, поэтому тут тоже две</div>
                       <div class="panel__bottom">
                         <div class="bottom__block">
-                          <a href="#" class="panel__link">Подробнее</a>
+                          <a href="./product.html" class="panel__link">Подробнее</a>
                           <div class="products__price hide-md-up">От 50 000 ₽</div>
                         </div>
                       </div>
@@ -126,7 +126,7 @@
                       <div class="products__text">Текст решили подгонять таким образом, чтолы он вписывался в карточку, на эскизе было две строки, поэтому тут тоже две</div>
                       <div class="panel__bottom">
                         <div class="bottom__block">
-                          <a href="#" class="panel__link">Подробнее</a>
+                          <a href="./product.html" class="panel__link">Подробнее</a>
                           <div class="products__price hide-md-up">От 50 000 ₽</div>
                         </div>
                       </div>
@@ -141,7 +141,7 @@
                       <div class="products__text">Текст решили подгонять таким образом, чтолы он вписывался в карточку, на эскизе было две строки, поэтому тут тоже две</div>
                       <div class="panel__bottom">
                         <div class="bottom__block">
-                          <a href="#" class="panel__link">Подробнее</a>
+                          <a href="./product.html" class="panel__link">Подробнее</a>
                           <div class="products__price hide-md-up">От 50 000 ₽</div>
                         </div>
                       </div>
@@ -156,7 +156,7 @@
                       <div class="products__text">Текст решили подгонять таким образом, чтолы он вписывался в карточку, на эскизе было две строки, поэтому тут тоже две</div>
                       <div class="panel__bottom">
                         <div class="bottom__block">
-                          <a href="#" class="panel__link">Подробнее</a>
+                          <a href="./product.html" class="panel__link">Подробнее</a>
                           <div class="products__price hide-md-up">От 50 000 ₽</div>
                         </div>
                       </div>

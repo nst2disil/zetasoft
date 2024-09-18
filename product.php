@@ -37,8 +37,15 @@
           <h2 class="section__title section__title--with-button">Общая схема работы:
             <a href="#" class="scroll-top-button scroll-top-button--red"></a>
           </h2>
-          <div class="text-wrapper">
-            Веб-сервис&nbsp;— это&nbsp;механизм, позволяющий взаимодействовать с&nbsp;информационной системой извне, используя заранее определённый набор команд для&nbsp;получения или&nbsp;передачи данных в&nbsp;определённом формате.
+          <div class="text-wrapper text-wrapper--links">
+            <div class="text-wrapper__links link-list">
+              <div class="link-list__header">Полезные ссылки</div>
+              <a href="#api_description.php" class="button button--black button--sm button--no-shadow">Описание API</a>
+              <a href="#knowledge_base.php" class="button button--black button--sm button--no-shadow">База знаний</a>
+              <a href="#whats_new.php" class="button button--black button--sm button--no-shadow">Что нового в версии</a>
+              <a href="#update.php" class="button button--black button--sm button--no-shadow">Обновление</a>
+            </div>
+            <div class="text-wrapper__text">Веб-сервис&nbsp;— это&nbsp;механизм, позволяющий взаимодействовать с&nbsp;информационной системой извне, используя заранее определённый набор команд для&nbsp;получения или&nbsp;передачи данных в&nbsp;определённом формате.</div>
           </div>
           <div class="text-wrapper">
             <a href="./i/menyu-atol-onlain 1.jpg" data-fancybox="screenshots" class="swiper-slide screenshots__item">

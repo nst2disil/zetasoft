@@ -3183,6 +3183,55 @@ ul.ul li::before {
   margin: 1em 0;
 }
 
+.text-wrapper {
+  --wrapper-width: 846px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (max-width: 1439px) {
+  .text-wrapper {
+    --wrapper-width: 696px;
+  }
+}
+@media screen and (max-width: 879px) {
+  .text-wrapper {
+    --wrapper-width: auto;
+  }
+}
+.text-wrapper--links {
+  position: relative;
+  width: 100%;
+  gap: 20px;
+}
+.text-wrapper__links {
+  position: absolute;
+  width: calc((100% - var(--wrapper-width) - 24px) / 2);
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.text-wrapper__links .button {
+  align-self: flex-start;
+}
+@media screen and (max-width: 1024px) {
+  .text-wrapper__links {
+    position: relative;
+    width: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .text-wrapper__links .link-list__header {
+    flex: 1 0 100%;
+  }
+}
+.text-wrapper__text {
+  width: var(--wrapper-width);
+  margin: 0 auto;
+}
+
 * + .section__title {
   margin-top: 64px;
 }
