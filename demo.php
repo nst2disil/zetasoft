@@ -11,7 +11,7 @@
       <section class="section">
         <div class="wrapper">
           <h1 class="section__title">
-            h1 заголовок
+            h1 заголовок 123
           </h1>
           <div class="section__subtitle">
             подзаголовок
