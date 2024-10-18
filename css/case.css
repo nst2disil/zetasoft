@@ -127,6 +127,7 @@
   .case-info {
     grid-template-rows: repeat(2, auto);
     grid-row-gap: 64px;
+    display: inline;
   }
 }
 .case-info__title {
