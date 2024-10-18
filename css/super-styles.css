@@ -5914,7 +5914,6 @@ p {
 }
 
 .title-link {
-  text-wrap: nowrap;
   margin-left: auto;
 }
 .title-link:hover {
