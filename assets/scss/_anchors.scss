@@ -13,7 +13,7 @@
     gap: 16px;
     flex-direction: column;
     margin-top: 56px;
-
+    display: flex;
   }
   &__item {
     flex: 1;
@@ -31,6 +31,9 @@
     }
     &.panel--cyan:hover {
       background-color: var(--color-cyan-light);
+    }
+    &.panel--green:hover {
+      background-color: var(--color-green-light);
     }
   }
   &__image {

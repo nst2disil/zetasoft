@@ -16,6 +16,7 @@
     gap: 16px;
     flex-direction: column;
     margin-top: 56px;
+    display: flex;
   }
 }
 .anchors__item {
@@ -35,6 +36,9 @@
 }
 .anchors__item.panel--cyan:hover {
   background-color: var(--color-cyan-light);
+}
+.anchors__item.panel--green:hover {
+  background-color: var(--color-green-light);
 }
 .anchors__image {
   height: 56px;
@@ -188,18 +192,6 @@
 .stages__item:nth-child(5) {
   grid-column: span 4;
   /* Занимает ширину в две колонки */
-}
-.stages__item:nth-child(5) .stages__item-number {
-  background-color: #fff;
-}
-.stages__item:nth-child(5) .panel {
-  transition: background-color var(--animation-duration);
-}
-.stages__item:nth-child(5) .panel::before {
-  background-color: #fff;
-}
-.stages__item:nth-child(5) .panel:hover {
-  color: var(--color-black);
 }
 @media screen and (max-width: 879px) {
   .stages__item:nth-child(5) .panel {
