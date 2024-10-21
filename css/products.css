@@ -209,10 +209,7 @@
   .products--1c .products__item {
     min-height: unset;
   }
-  .products--1c .products__text {
-    min-height: 100px;
-  }
 }
 .button-panel {
   margin-top: 56px;
-}
+}/*# sourceMappingURL=products.css.map */

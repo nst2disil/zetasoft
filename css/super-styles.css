@@ -1407,7 +1407,6 @@ img {
   display: flex;
   flex-direction: column;
   border: 1px solid var(--color-black);
-  box-shadow: 4px 4px 0px 0px var(--color-black);
   --head-height: 44px;
   color: var(--color-black);
   background: #fff;
@@ -4722,9 +4721,6 @@ ul.ul li::before {
   .products--1c .products__item {
     min-height: unset;
   }
-  .products--1c .products__text {
-    min-height: 100px;
-  }
 }
 .button-panel {
   margin-top: 56px;
@@ -5930,4 +5926,4 @@ code {
   background: rgba(0, 19, 255, 0.15);
   padding: 2px 4px;
   border-radius: 5px;
-}
+}/*# sourceMappingURL=super-styles.css.map */
