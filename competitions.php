@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="ru" xmlns="http://www.w3.org/1999/xhtml" >
+<html lang="ru" xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
   <?php $stylesName = 'competitions'; ?>
   <?php include './partials/_head.php'; ?>
 </head>
+
 <body>
   <div class="container">
     <div class="container__header"><?php include './partials/_header.php'; ?></div>
@@ -42,11 +44,11 @@
                 </div>
               </div>
             </a>
-            <a href="#services" class="anchors__item panel panel--cyan panel--no-shadow">
+            <a href="#integrations" class="anchors__item panel panel--cyan panel--no-shadow">
               <div class="panel__content">
                 <img src="./i/anchor-time.svg" alt="" class="anchors__image">
                 <div class="anchors__bottom">
-                  <div class="anchors__title">Повременные услуги 2</div>
+                  <div class="anchors__title">1С и облачные кассы</div>
                   <div class="anchors__arrow"></div>
                 </div>
               </div>
@@ -94,7 +96,7 @@
                 <div class="panel__text">сбыт в&nbsp;первую очередь чужих остатков, неликвидных позиций, контроль наличия маржинальных и&nbsp;частотных позиций</div>
               </div>
             </div>
-        </div>
+          </div>
         </div>
       </section>
       <section class="section section--black">
@@ -104,7 +106,7 @@
             <div class="cases swiper-wrapper">
               <a href="./case.html" class="swiper-slide cases__item panel panel--shadow-yellow panel--white">
                 <div class="panel__head panel__head--yellow">
-                <img src="./i/panel-1c.svg" alt="1c logo" class="case__image">
+                  <img src="./i/panel-1c.svg" alt="1c logo" class="case__image">
                 </div>
                 <div class="panel__content case">
                   <div class="case__title">АТОЛ онлайн и&nbsp;1С: готовое решение для&nbsp;интеграции</div>
@@ -113,17 +115,17 @@
               </a>
               <a href="./case.html" class="swiper-slide cases__item panel panel--shadow-yellow panel--white">
                 <div class="panel__head panel__head--yellow">
-                <img src="./i/panel-zeta.svg" alt="zeta logo" class="case__image">
+                  <img src="./i/panel-zeta.svg" alt="zeta logo" class="case__image">
 
                 </div>
                 <div class="panel__content case">
-                  <div class="case__title">Проектное решение<br/>«Продажа автозапчастей»</div>
+                  <div class="case__title">Проектное решение<br />«Продажа автозапчастей»</div>
                   <div class="case__text">Подсистема предназначена для компаний, работающих в&nbsp;1С и использующих онлайн-кассы АТОЛ Онлайн</div>
                 </div>
               </a>
               <a href="./case.html" class="swiper-slide cases__item panel panel--shadow-yellow panel--white">
                 <div class="panel__head panel__head--yellow">
-                <img src="./i/panel-1c.svg" alt="1c logo" class="case__image">
+                  <img src="./i/panel-1c.svg" alt="1c logo" class="case__image">
 
                 </div>
                 <div class="panel__content case">
@@ -192,13 +194,13 @@
                   <img src="./i/panel-1c.svg" alt="1c logo" class="case__image">
                 </div>
                 <div class="panel__content case">
-                  <div class="case__title">Проектное решение<br/>«Учёт в&nbsp;вендинговом бизнесе»</div>
+                  <div class="case__title">Проектное решение<br />«Учёт в&nbsp;вендинговом бизнесе»</div>
                   <div class="case__text">Подсистема предназначена для компаний, работающих в&nbsp;1С и использующих онлайн-кассы АТОЛ Онлайн</div>
                 </div>
               </a>
               <a href="./case.html" class="swiper-slide cases__item panel panel--shadow-red panel--white">
                 <div class="panel__head panel__head--red">
-                <img src="./i/panel-zeta.svg" alt="zeta logo" class="case__image">
+                  <img src="./i/panel-zeta.svg" alt="zeta logo" class="case__image">
 
                 </div>
                 <div class="panel__content case">
@@ -208,11 +210,11 @@
               </a>
               <a href="./case.html" class="swiper-slide cases__item panel panel--shadow-red panel--white">
                 <div class="panel__head panel__head--red">
-                <img src="./i/panel-1c.svg" alt="1c logo" class="case__image">
+                  <img src="./i/panel-1c.svg" alt="1c logo" class="case__image">
 
                 </div>
                 <div class="panel__content case">
-                  <div class="case__title">Проектное решение<br/>«Учёт в&nbsp;вендинговом бизнесе»</div>
+                  <div class="case__title">Проектное решение<br />«Учёт в&nbsp;вендинговом бизнесе»</div>
                   <div class="case__text">Подсистема предназначена для компаний, работающих в&nbsp;1С и использующих онлайн-кассы АТОЛ Онлайн</div>
                 </div>
               </a>
@@ -269,7 +271,7 @@
                 <div class="panel__text">а также ценообразования с последующим попаданием в&nbsp;акты оказанных услуг </div>
               </div>
             </div>
-        </div>
+          </div>
         </div>
       </section>
       <section class="section section--black">
@@ -279,7 +281,7 @@
             <div class="cases swiper-wrapper">
               <a href="./case.html" class="swiper-slide cases__item panel panel--shadow-blue panel--white">
                 <div class="panel__head panel__head--cyan">
-                <img src="./i/panel-1c.svg" alt="1c logo" class="case__image">
+                  <img src="./i/panel-1c.svg" alt="1c logo" class="case__image">
 
                 </div>
                 <div class="panel__content case">
@@ -289,7 +291,7 @@
               </a>
               <a href="./case.html" class="swiper-slide cases__item panel panel--shadow-blue panel--white">
                 <div class="panel__head panel__head--cyan">
-                <img src="./i/panel-zeta.svg" alt="zeta logo" class="case__image">
+                  <img src="./i/panel-zeta.svg" alt="zeta logo" class="case__image">
 
                 </div>
                 <div class="panel__content case">
@@ -299,7 +301,7 @@
               </a>
               <a href="./case.html" class="swiper-slide cases__item panel panel--shadow-blue panel--white">
                 <div class="panel__head panel__head--cyan">
-                <img src="./i/panel-1c.svg" alt="1c logo" class="case__image">
+                  <img src="./i/panel-1c.svg" alt="1c logo" class="case__image">
 
                 </div>
                 <div class="panel__content case">
@@ -316,8 +318,107 @@
           </div>
         </div>
       </section>
+      <div class="anchor" id="integrations"></div>
+      <section class="section" id="integrations">
+        <div class="wrapper">
+          <h2 class="section__title section__title--with-button">
+            Интеграции с облачными кассами
+            <a href="#main" class="scroll-top-button scroll-top-button--cyan">
+            </a>
+          </h2>
+          <div class="cols">
+            <div class="cols__item">
+              <div class="section__subtitle">
+                Подключаем 1С к облачным кассам
+              </div>
+            </div>
+            <div class="cols__item">
+              <ul class="ul">
+                <li>
+                  Разрабатываем подсистему интеграции 1С с веб-сервисом онлайн-кассы
+                </li>
+                <li>
+                  Подсистема может быть встроена в&nbsp;любую конфигурацию 1С и настроена в&nbsp;соответствии
+                  с&nbsp;бизнес-процессами компании
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="block-group block-group--2">
+            <a href="#" class="block-group__item panel panel--no-shadow panel--no-shadow">
+              <div class="panel__content">
+                <div class="panel__title">
+                  Список основных конфигураций:
+                </div>
+                <div class="panel__text">
+                  <ul class="ul">
+                    <li>
+                      1С: Управление нашей фирмой (УНФ);
+                    </li>
+                    <li>
+                      1С: Управление торговлей ред. 11.х;
+                    </li>
+                    <li>
+                      1С: Управление торговлей ред. 10.3;
+                    </li>
+                    <li>
+                      1С: Комплексная автоматизация;
+                    </li>
+                    <li>
+                      1С: ERP;
+                    </li>
+                    <li>
+                      1С: Управление производственным предприятием;
+                    </li>
+                    <li>
+                      и другие конфигурации 1С.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </a>
+            <div class="block-group__item panel panel--cyan panel--no-shadow">
+              <div class="panel__content">
+                <div class="panel__top">
+                  <div class="panel__title">
+                    Интеграции
+                  </div>
+                  <img src="./i/anchor-time.svg" alt="" class="panel__image" />
+                </div>
+                <div class="panel__text">
+                  интеграции
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section--black">
+        <div class="wrapper">
+          <h2 class="section__title">Наши кейсы по интеграциям с облачными кассами</h2>
+          <div class="swiper" data-swiper-id="competitions-time-services">
+            <div class="cases swiper-wrapper">
+              <a href="./case.html" class="swiper-slide cases__item panel panel--shadow-blue panel--white">
+                <div class="panel__head panel__head--cyan">
+                  <img src="./i/panel-1c.svg" alt="1c logo" class="case__image">
+                </div>
+                <div class="panel__content case">
+                  <div class="case__title">АТОЛ онлайн и&nbsp;1С: готовое решение для&nbsp;интеграции</div>
+                  <div class="case__text">Подсистема предназначена для компаний, работающих в&nbsp;1С и использующих онлайн-кассы АТОЛ Онлайн</div>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+          <div class="button-panel panel panel--yellow panel--no-shadow">
+            <div class="button-panel__text">Оставьте заявку для&nbsp;бесплатной консультации </div>
+            <button class="button-panel__button button button--white button--bg" data-modal="contact-form">Оставить заявку</button>
+          </div>
+        </div>
+      </section>
     </div>
-    <div class="container__footer"><?php include './partials/_footer.html'?></div>
+    <div class="container__footer"><?php include './partials/_footer.html' ?></div>
   </div>
 </body>
+
 </html>
