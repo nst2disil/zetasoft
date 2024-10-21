@@ -340,7 +340,6 @@ img {
   display: flex;
   flex-direction: column;
   border: 1px solid var(--color-black);
-  box-shadow: 4px 4px 0px 0px var(--color-black);
   --head-height: 44px;
   color: var(--color-black);
   background: #fff;
@@ -1313,4 +1312,4 @@ ul.ul li::before {
 .anchor {
   padding-top: 50px;
   margin-top: -50px;
-}
+}/*# sourceMappingURL=styles.css.map */
