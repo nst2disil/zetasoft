@@ -3288,6 +3288,10 @@ ul.ul li::before {
   }
 }
 
+.screenshots__caption {
+  text-align: center;
+}
+
 .button-panel {
   margin-top: 64px;
 }
