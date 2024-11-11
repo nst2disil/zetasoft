@@ -35,6 +35,9 @@
     &.panel--green:hover {
       background-color: var(--color-green-light);
     }
+    &.panel--orange:hover {
+      background-color: var(--color-orange-light);
+    }
   }
   &__image {
     height: 56px;
