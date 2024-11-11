@@ -113,7 +113,7 @@
     text-align: center;
     font-family: 'Quantico', sans-serif;
     color: var(--color-black);
-    background-color: var(--color-yellow);
+    background-color: var(--color-grey-dark);
     font-size: 40px;
 
     @include media-down($screen-lg) {
@@ -146,7 +146,7 @@
     text-align: center;
     font-family: 'Quantico', sans-serif;
     color: var(--color-black);
-    background-color: var(--color-yellow);
+    background-color: var(--color-grey-dark);
     font-size: 40px;
 
     @include media-down($screen-lg) {

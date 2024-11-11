@@ -210,7 +210,7 @@
   text-align: center;
   font-family: "Quantico", sans-serif;
   color: var(--color-black);
-  background-color: var(--color-yellow);
+  background-color: var(--color-grey-dark);
   font-size: 40px;
 }
 @media screen and (max-width: 1439px) {
@@ -243,7 +243,7 @@
   text-align: center;
   font-family: "Quantico", sans-serif;
   color: var(--color-black);
-  background-color: var(--color-yellow);
+  background-color: var(--color-grey-dark);
   font-size: 40px;
 }
 @media screen and (max-width: 1439px) {
